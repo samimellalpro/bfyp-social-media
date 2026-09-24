@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-01_sec_hack-14810da626.mp4` — 21.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 11.4 MB |
+| Reel (final) | `V2-01_sec_hack-70e4d2b55a.mp4` — 21.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 11.4 MB |
 | Cover | `V2-01_sec_hack_cover-1642fba06e.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · News timeline → real filing list |
+| Format | Directed voice-over over the text-led edit · News timeline → real filing list |
 | Music | Original, synthesized for this reel: cinematic · 90 BPM · D minor (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-F2 · Correspondent** — female, native English (en-gb) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `bf_emma` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “The SEC’s own account posted fake news.” |
 | CTA | Read the filing, not the post. → betterforyourpocket.com |
 
@@ -23,6 +24,29 @@ A post is not a source — even an official account was hijacked. Go to the fili
 5. WHY IT HURTS — 'If an official account can be faked, any post can.'
 6. BFYP — NVDA recent filings, each dated and linked to SEC.gov (spotlight)
 7. CTA — 'Read the filing, not the post.' → betterforyourpocket.com
+
+## Voice direction (FR)
+- **Intention** : Raconter sobrement un fait réel et daté, puis en tirer la leçon : un post n'est pas une source, un dépôt officiel oui.
+- **Interprétation** : Sobre et crédible, presque un bulletin d'info : faits datés et attribués, pas d'adjectifs.
+- **Rythme** : Régulier (environ 3 mots/s), phrases courtes et affirmatives.
+- **Énergie** : Neutre et posée. Un peu plus chaleureuse sur la solution BFYP.
+- **Pauses** : Silences volontaires sous « If an official account can be faked… » et sous « Posts can be faked. Filings are the record. », pour que ces phrases portent seules.
+- **Accents** : « own account », « fifteen minutes », « hack », « next day », « dated », « original »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.10 s | 2.60 s | The SEC's own account posts this. | hook, fake post + FAKE stamp (date is on the card) |
+| 2.84 s | 5.07 s | Bitcoin jumps, then drops two thousand. | +$1,000 then −$2,000 (per U.S. DOJ); 'drops' lands near the 3.8 s reveal |
+| 5.54 s | 7.50 s | Fifteen minutes later: a hack. | Gensler correction |
+| 7.86 s | 9.37 s | Real approval? Next day. | timeline 9 → 10 Jan |
+| 10.90 s | 12.69 s | Here, each filing is dated, | BFYP, zoom DATED (silence under 'any post can' before it) |
+| 12.78 s | 14.23 s | and linked to the original. | zoom LINKED |
+| 16.95 s | 20.36 s | Read the filing, not the post. BetterForYourPocket.com | CTA (silence under 'Posts can be faked.') |
+
+Isolated-voice QC: ASR word match 0.977 (gate ≥ 0.97) · naturalness UTMOS mean 4.32 / min 4.29 (gates ≥ 4.0 / ≥ 3.6) · 3.17 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `b48ff3279d44c789…`
+
+Mix: dynamic ducking (music −12.1 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −9.1 dB, only while the voice speaks) · voice 9.4 LU over the bed (gate ≥ 7) · ASR on the final mix 0.977 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - SEC — SECGov X Account (unauthorized post, 9 Jan 2024) — Jan 2024 — https://www.sec.gov/secgov-x-account
@@ -78,10 +102,13 @@ Sources: SEC — SECGov X Account (unauthorized post, 9 Jan 2024) (Jan 2024) · 
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 21.40 s |
-| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.4 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
+| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 4261 kb/s · 11.4 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 0.977 (gate ≥ 0.95) |
+| Voice over the bed | 9.4 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -94,6 +121,7 @@ Sources: SEC — SECGov X Account (unauthorized post, 9 Jan 2024) (Jan 2024) · 
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (hit×4, swish×3, click×3, impact×2, notif×2, whoosh×2, tick×2, ding×2, stamp×1, subdrop×1, riser×1, scan×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (hit×4, swish×3, click×3, impact×2, notif×2, whoosh×2, tick×2, ding×2, stamp×1, subdrop×1, riser×1, scan×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, female)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**

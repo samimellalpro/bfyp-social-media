@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-04_fake_tweet-d25162ff4a.mp4` — 22.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.98 MB |
+| Reel (final) | `V2-04_fake_tweet-9cd795e4f5.mp4` — 22.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.99 MB |
 | Cover | `V2-04_fake_tweet_cover-def5b94d9d.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · Big-number hook → Today evidence |
+| Format | Directed voice-over over the text-led edit · Big-number hook → Today evidence |
 | Music | Original, synthesized for this reel: dnb · 172 BPM · A minor (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-M3 · Brit** — male, native English (en-gb) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice blend `bm_george 0.6 + bm_fable 0.4` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “One fake tweet erased $136.5B.” |
 | CTA | Check what actually happened. → betterforyourpocket.com |
 
@@ -22,6 +23,29 @@ Headlines move markets before anyone verifies. React to what was observed, not t
 4. WHY IT HURTS — 'Markets react first. Verification comes later.'
 5. BFYP — Today page: 'What was actually observed.' → '330 observations across 10 assets in the last 24h' (spotlight) → BFYP’s own footer, verbatim: “Observed activity, as counted by BFYP. Nothing here is a prediction.”
 6. CTA — 'Check what actually happened.'
+
+## Voice direction (FR)
+- **Intention** : Raconter la panique de 2013 en quelques secondes, puis opposer la réaction du marché à ce qui a été réellement observé.
+- **Interprétation** : Récit serré, presque un flash info, puis un payoff posé.
+- **Rythme** : Rapide et haché jusqu'à « Facts, later », puis ralenti.
+- **Énergie** : Tendue au début, calme et sûre sur BFYP.
+- **Pauses** : Pause nette avant le payoff « Observed. Not predicted. »
+- **Accents** : « hacked », « White House », « recovered », « first », « later », « counted », « Observed »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.12 s | 3.84 s | April 2013. One tweet, from a hacked news account. | hook : 136,5 Md$ effacés (S&P 500, Reuters) |
+| 4.42 s | 6.83 s | It claimed explosions at the White House. | le faux tweet @AP (piraté) |
+| 7.08 s | 9.01 s | Stocks dropped, then recovered. | « ↓ ~140 points, within minutes » / « Then it bounced back. » |
+| 9.92 s | 12.39 s | Markets move first. Facts, later. | « Markets react first. Verification comes later. » |
+| 12.72 s | 14.75 s | Here, activity is counted. | écran réel Today · zoom COUNTED (330 observations · 10 assets · 24h) |
+| 15.00 s | 16.99 s | Observed. Not predicted. | payoff sous la citation verbatim BFYP |
+| 17.70 s | 20.96 s | Check before you react. BetterForYourPocket.com | carte CTA |
+
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.42 / min 4.36 (gates ≥ 4.0 / ≥ 3.6) · 2.53 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `9cf9accbcbd1af79…`
+
+Mix: dynamic ducking (music −11.7 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −8.7 dB, only while the voice speaks) · voice 8.8 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - CNBC — False rumor of explosion at White House causes stocks to briefly plunge (Reuters data: $136.5B) — 23 Apr 2013 — https://www.cnbc.com/2013/04/23/false-rumor-of-explosion-at-white-house-causes-stocks-to-briefly-plunge-ap-confirms-its-twitter-feed-was-hacked.html
@@ -76,10 +100,13 @@ Sources: CNBC — False rumor of explosion at White House causes stocks to brief
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 22.00 s |
-| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.7 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.3 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3629 kb/s · 9.98 MB |
+| Bitrate / size | 3632 kb/s · 9.99 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 8.8 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -92,6 +119,7 @@ Sources: CNBC — False rumor of explosion at White House causes stocks to brief
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (hit×5, glitch×2, impact×2, whoosh×2, notif×1, stamp×1, subdrop×1, riser×1, ding×1, scan×1, swish×1, click×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (hit×5, glitch×2, impact×2, whoosh×2, notif×1, stamp×1, subdrop×1, riser×1, ding×1, scan×1, swish×1, click×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, male)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**

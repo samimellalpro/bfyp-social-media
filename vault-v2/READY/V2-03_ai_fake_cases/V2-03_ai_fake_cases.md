@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-03_ai_fake_cases-9e82293471.mp4` — 20.80 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.54 MB |
+| Reel (final) | `V2-03_ai_fake_cases-f3104adee4.mp4` — 20.80 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.68 MB |
 | Cover | `V2-03_ai_fake_cases_cover-141eb8e6d2.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · Court-record hook → AI Research honesty |
+| Format | Directed voice-over over the text-led edit · Court-record hook → AI Research honesty |
 | Music | Original, synthesized for this reel: minimal · 120 BPM · G dorian (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-F2 · Correspondent** — female, native English (en-gb) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `bf_emma` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “An AI invented 6 court cases. A lawyer filed them.” |
 | CTA | Ask with receipts. → betterforyourpocket.com |
 
@@ -23,6 +24,29 @@ Confident AI can invent sources. In markets a made-up number costs money. BFYP s
 5. BFYP — AI Research: every figure traced to the evidence it came from; 'when we do not have the data, the answer says so.' (spotlight)
 6. BFYP — the page labels AI analyses as automated and able to contain errors
 7. CTA — 'Ask with receipts.'
+
+## Voice direction (FR)
+- **Intention** : Un fait judiciaire réel qui fait froid dans le dos, puis le lien avec la finance : un chiffre inventé coûte cher.
+- **Interprétation** : Pédagogue et nette, avec une pointe d'ironie britannique sur la sanction.
+- **Rythme** : Posé. Silence complet sous « Confident. Fluent. Wrong. » pour laisser frapper les trois mots.
+- **Énergie** : Neutre, puis plus rassurante sur BFYP.
+- **Pauses** : Un vrai silence de 2 s sur les trois mots, un temps avant « In markets ».
+- **Accents** : « None of them real », « five thousand dollars », « costs money », « traced », « tells you »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.12 s | 2.33 s | Six court cases. None of them real. | hook : citation du jugement Mata v. Avianca |
+| 3.15 s | 4.92 s | The price: five thousand dollars. | « The result: $5,000 in sanctions. » |
+| 7.15 s | 8.90 s | In markets, that costs money. | « In markets, a made-up number costs money. » (silence avant, sous « Confident. Fluent. Wrong. ») |
+| 9.55 s | 11.44 s | Every figure, traced to its source. | zoom TRACED |
+| 11.58 s | 13.21 s | No data? It tells you. | zoom HONEST |
+| 13.72 s | 15.50 s | Clearly labelled as automated. | « Automated — and it says so. » |
+| 15.78 s | 18.59 s | Ask with receipts. BetterForYourPocket.com | carte CTA |
+
+Isolated-voice QC: ASR word match 0.976 (gate ≥ 0.97) · naturalness UTMOS mean 4.32 / min 4.2 (gates ≥ 4.0 / ≥ 3.6) · 3.03 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `a7d9ee45f637b6a4…`
+
+Mix: dynamic ducking (music −11.7 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −8.7 dB, only while the voice speaks) · voice 9.4 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - Mata v. Avianca, No. 22-cv-1461 (PKC) (S.D.N.Y.), sanctions opinion — 22 Jun 2023 — https://www.courtlistener.com/opinion/9885417/mata-v-avianca-inc/
@@ -76,10 +100,13 @@ Sources: Mata v. Avianca, No. 22-cv-1461 (PKC) (S.D.N.Y.), sanctions opinion (22
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.80 s |
-| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.8 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−14 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3667 kb/s · 9.54 MB |
+| Bitrate / size | 3723 kb/s · 9.68 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 9.4 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -92,6 +119,7 @@ Sources: Mata v. Avianca, No. 22-cv-1461 (PKC) (S.D.N.Y.), sanctions opinion (22
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (hit×6, impact×2, swish×2, click×2, whoosh×2, ticks×1, glitch×1, riser×1, ding×1, scan×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (hit×6, impact×2, swish×2, click×2, whoosh×2, ticks×1, glitch×1, riser×1, ding×1, scan×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, female)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**

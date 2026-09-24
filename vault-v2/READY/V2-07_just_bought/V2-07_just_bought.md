@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-07_just_bought-c8ffb1c9ee.mp4` — 20.80 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.31 MB |
+| Reel (final) | `V2-07_just_bought-8b2e1509a8.mp4` — 20.80 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.32 MB |
 | Cover | `V2-07_just_bought_cover-bcaa852730.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · Timeline explainer → two dates on a fund page |
+| Format | Directed voice-over over the text-led edit · Timeline explainer → two dates on a fund page |
 | Music | Original, synthesized for this reel: synthwave · 108 BPM · E minor (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-M3 · Brit** — male, native English (en-gb) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice blend `bm_george 0.6 + bm_fable 0.4` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “Big fund just bought $XYZ!” “Just”? |
 | CTA | Check both dates. → betterforyourpocket.com |
 
@@ -22,6 +23,28 @@ Holdings disclosures are lagged. 'Just bought' can mean months ago. Check the pe
 4. RULE — Form 13F: filed within 45 days after quarter end; holdings as of quarter end (Investor.gov)
 5. BFYP — SPY fund page prints two dates: period 2026-06-30 · filed 2026-08-28 (spotlight)
 6. CTA — 'Check both dates.'
+
+## Voice direction (FR)
+- **Intention** : Démonter le « just » : expliquer simplement le calendrier des déclarations et montrer les deux dates sur BFYP.
+- **Interprétation** : Pédagogue et posé, avec un humour britannique discret (« Mind the gap »).
+- **Rythme** : Mesuré, un temps sur « weeks later » et sur « months old ».
+- **Énergie** : Calme, sûre, un clin d'œil sur « Mind the gap ».
+- **Pauses** : Un temps après « By the time you see it ».
+- **Accents** : « Not so fast », « weeks later », « months old », « period », « filed », « gap »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.12 s | 1.95 s | Just bought? Not so fast. | hook : post type « Big fund just bought $XYZ! » (illustration) |
+| 3.05 s | 6.31 s | It's a snapshot from quarter-end, filed weeks later. | frise 1 APR → 30 JUN → ~14 AUG (13F : 45 jours) |
+| 6.85 s | 9.39 s | By the time you see it, it could be months old. | « You see it mid-August. The trade could be from April. » |
+| 11.72 s | 14.93 s | BFYP shows the period, and the filing date. | écran réel SPY · zooms PERIOD (30 Jun) / FILED (28 Aug) |
+| 15.10 s | 16.27 s | Mind the gap. | zoom THE GAP |
+| 16.90 s | 20.30 s | Always check both dates. BetterForYourPocket.com | carte CTA |
+
+Isolated-voice QC: ASR word match 0.980 (gate ≥ 0.97) · naturalness UTMOS mean 4.38 / min 4.32 (gates ≥ 4.0 / ≥ 3.6) · 3.24 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `aa228461058a941e…`
+
+Mix: dynamic ducking (music −10.4 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −7.4 dB, only while the voice speaks) · voice 9.5 LU over the bed (gate ≥ 7) · ASR on the final mix 0.980 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - Investor.gov — Form 13F (filed within 45 days of quarter end) — current — https://www.investor.gov/introduction-investing/investing-basics/glossary/form-13f-reports-filed-institutional-investment
@@ -74,10 +97,13 @@ Sources: Investor.gov — Form 13F (filed within 45 days of quarter end) (curren
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.80 s |
-| Loudness | −14.4 LUFS integrated (target −14) · true peak −1.9 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −2.9 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3581 kb/s · 9.31 MB |
+| Bitrate / size | 3586 kb/s · 9.32 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 0.980 (gate ≥ 0.95) |
+| Voice over the bed | 9.5 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -90,6 +116,7 @@ Sources: Investor.gov — Form 13F (filed within 45 days of quarter end) (curren
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (tick×3, hit×3, swish×3, click×3, impact×2, notif×1, riser×1, ding×1, scan×1, whoosh×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (tick×3, hit×3, swish×3, click×3, impact×2, notif×1, riser×1, ding×1, scan×1, whoosh×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, male)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**
