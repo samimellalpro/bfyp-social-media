@@ -1,0 +1,84 @@
+== v2_11_eleven_tabs  dur 21.00s  bpm 128  CTA at 15.938
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-4.7] POV: 11 tabs
+  0.00  TXT [0.0-4.7] one ticker.
+  0.00  TXT [0.0-4.7] to check
+  0.00  txt [0.0-4.7] Price chart
+  0.00  sfx impact
+  0.50  txt [0.5-4.7] X search: $XYZ
+  0.80  txt [0.8-4.7] Forum thread
+  1.00  txt [1.0-4.7] EDGAR search
+  1.20  txt [1.2-4.7] Block explorer
+  1.50  txt [1.5-4.7] News site
+  1.70  txt [1.7-4.7] AI chatbot
+  1.90  txt [1.9-4.7] Discord
+  2.20  txt [2.2-4.7] Spreadsheet
+  2.40  txt [2.4-4.7] Earnings PDF
+  2.60  txt [2.6-4.7] Another chart
+  3.00  TXT [3.0-4.7] what changed.
+  3.00  TXT [3.0-4.7] …and you still don’t know
+  4.69  --- CUT s2 (zoomIn)
+  4.69  sfx impact
+  4.69  sfx riser
+  4.80  TXT [4.8-5.7] One
+  4.80  TXT [4.8-5.7] workflow.
+  5.62  --- CUT m0 (right)
+  5.62  sfx whoosh
+  5.67  sfx hit
+  5.70  TXT [5.7-7.6] Today
+  5.70  TXT [5.7-7.6] What changed
+  5.70  txt [5.7-7.6] 01 / 05
+  5.70  txt [5.7-7.6] CAPTURED 23 SEP 2026 · 22:14 UTC
+  7.31  --- CUT m1 (left)
+  7.31  sfx whoosh
+  7.36  sfx hit
+  7.40  TXT [7.4-9.3] Whale Activity
+  7.40  TXT [7.4-9.3] Who moved
+  7.40  txt [7.4-9.3] 02 / 05
+  7.40  txt [7.4-9.3] CAPTURED 23 SEP 2026 · 21:38 UTC
+  9.00  --- CUT m2 (right)
+  9.00  sfx whoosh
+  9.05  sfx hit
+  9.10  TXT [9.1-11.0] Smart Money
+  9.10  TXT [9.1-11.0] Who has a record
+  9.10  txt [9.1-11.0] 03 / 05
+  9.10  txt [9.1-11.0] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 10.69  --- CUT m3 (left)
+ 10.69  sfx whoosh
+ 10.70  TXT [10.7-12.7] Stock pages
+ 10.70  TXT [10.7-12.7] What was filed
+ 10.70  txt [10.7-12.6] 04 / 05
+ 10.70  txt [10.7-12.7] CAPTURED 23 SEP 2026 · 21:39 UTC
+ 10.74  sfx hit
+ 12.38  --- CUT m4 (right)
+ 12.38  sfx whoosh
+ 12.40  TXT [12.4-14.3] Ask, with receipts
+ 12.40  txt [12.4-14.3] CAPTURED 23 SEP 2026 · 21:39 UTC
+ 12.43  sfx hit
+ 12.50  TXT [12.5-14.3] AI Research
+ 12.50  txt [12.5-14.3] 05 / 05
+ 14.06  --- CUT s4 (zoomIn)
+ 14.06  sfx hit
+ 14.20  TXT [14.2-16.0] Every step.
+ 14.20  TXT [14.2-16.0] Sources attached.
+ 15.94  --- CUT cta (zoom)
+ 15.94  sfx whoosh
+ 16.10  txt [16.1-21.0] ETTERFORYOURPOCKET
+ 16.20  TXT [16.2-21.0] 10
+ 16.20  TXT [16.2-21.0] Close
+ 16.30  TXT [16.3-21.0] Today,
+ 16.30  TXT [16.3-21.0] tabs.
+ 16.40  TXT [16.4-21.0] whales,
+ 16.50  TXT [16.5-21.0] Money,
+ 16.50  TXT [16.5-21.0] Smart
+ 16.50  txt [16.5-21.0] CAPTURED 23 SEP 2026 · 22:14 UTC
+ 16.60  TXT [16.6-21.0] and
+ 16.60  TXT [16.6-21.0] betterforyourpocket.com
+ 16.60  TXT [16.6-21.0] filings
+ 16.70  TXT [16.7-21.0] AI
+ 16.80  TXT [16.8-21.0] in
+ 16.80  TXT [16.8-21.0] one
+ 16.90  TXT [16.9-21.0] place.
+ 16.90  txt [16.9-21.0] Educational market data. Not financial advice.
+ 17.00  txt [17.0-21.0] Free plan available · screens from 23 Sep 2026
+ 20.86  sfx hit

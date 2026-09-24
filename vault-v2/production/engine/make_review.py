@@ -58,10 +58,11 @@ def main():
     reels = []
     for m in man["reels"]:
         p = plan[m["id"]]
-        voiced = m["format"].startswith("voice")
+        v = m["voice"]
         reels.append({
             "id": m["id"], "title": m["title"], "lot": m["lot"], "lang": m["lang"], "dur": m["duration_s"],
-            "voice": "BFYP-K1" if voiced else "Text-led", "ps": PS[m["id"]], "cta": p["cta"],
+            "voice": f"{'Féminine' if v['gender'] == 'F' else 'Masculine'} · {v['id']}" + (" · karaoké" if m.get("karaoke") else ""),
+            "ps": PS[m["id"]], "cta": p["cta"],
             "video": m["video"], "cover": m["cover"], "sheet": m["sheet"], "sha": m["sha256_video"],
         })
     assert len(reels) == 30 and all(r["ps"] for r in reels)
@@ -225,7 +226,7 @@ footer { color: var(--dim); font-size: 12px; padding-bottom: 30px; }
   <h2 id="recapTitle">Récap à m’envoyer</h2>
   <p class="recap-actions"><button class="btn primary" id="copy2" type="button">Copier le récap</button> <span class="toast" id="toast2" role="status"></span></p>
   <textarea id="recap" readonly aria-label="Récap des verdicts"></textarea>
-  <p>Voix : <b>Text-led</b> = texte à l’écran, musique et sound design, sans voix. <b>BFYP-K1</b> = voix IA de secours (Kokoro, locale), utilisée à la place d’ElevenLabs Adam indisponible. Le carton de fin de ces 7 reels indique « AI voice ».</p>
+  <p>Voix : chaque reel a une voix off anglaise dirigée pour lui (<b>BFYP-K2</b>, TTS local Kokoro, 6 voix, 15 féminines / 15 masculines). Les 7 reels karaoké gardent leurs mots et leurs créneaux ; leur carton de fin indique « AI voice », comme avant.</p>
 </section>
 <footer class="wrap">Vidéos et couvertures lues depuis <span class="mono">READY/</span> à côté de cette page. Ouvre-la depuis un clone local de la branche <span class="mono">claude/bfyp-vault-v2-reels-l883ff</span>.</footer>
 
@@ -288,8 +289,8 @@ for (const r of REELS) {
   $(".c-lot", card).textContent = "Lot " + r.lot;
   $(".c-dur", card).textContent = r.dur.toFixed(1).replace(".", ",") + " s";
   const cv = $(".c-voice", card);
-  cv.textContent = r.voice === "Text-led" ? "Text-led" : "Voix IA · BFYP-K1";
-  cv.classList.add(r.voice === "Text-led" ? "text" : "voice");
+  cv.textContent = r.voice;
+  cv.classList.add("voice");
   $(".c-lang", card).textContent = r.lang;
   $("h3", card).textContent = r.title;
   $(".ps .v", card).textContent = r.ps;

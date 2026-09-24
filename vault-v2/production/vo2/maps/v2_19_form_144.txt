@@ -1,0 +1,71 @@
+== v2_19_form_144  dur 26.77s  bpm 140  CTA at 20.686
+  0.00  --- CUT s1 (cut)
+  0.00  txt [0.0-7.5] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC
+  0.00  sfx impact
+  0.20  TXT [0.2-7.5] Three
+  0.70  TXT [0.7-7.5] Form
+  1.20  TXT [1.2-7.5] 144
+  1.60  TXT [1.6-7.5] filings
+  2.30  TXT [2.3-7.4] on
+  2.60  TXT [2.6-7.5] NVIDIA
+  3.30  TXT [3.3-7.5] in
+  3.60  TXT [3.6-7.5] September.
+  5.36  sfx hit
+  5.40  TXT [5.4-7.5] Insiders dumping?
+  7.19  --- CUT s2 (left)
+  7.50  TXT [7.5-15.1] Form
+  7.90  TXT [7.9-15.1] 144
+  8.20  txt [8.2-15.1] Investor.gov · Form 144
+  8.30  TXT [8.3-15.1] is
+  8.70  TXT [8.7-15.1] notice
+  9.20  TXT [9.2-15.1] of
+  9.70  TXT [9.7-15.1] proposed
+ 10.40  TXT [10.4-15.1] sale.
+ 11.50  TXT [11.5-15.1] does not sell
+ 11.50  TXT [11.5-15.1] no amendment
+ 11.50  TXT [11.5-15.1] reflecting this fact need be filed.”
+ 11.50  TXT [11.5-15.1] the securities referred to therein,
+ 11.50  TXT [11.5-15.1] “If a person who has filed a Form 144
+ 11.50  txt [11.5-15.1] Compliance & Disclosure Interpretations, Section 131
+ 11.50  txt [11.5-15.1] Form 144
+ 11.50  txt [11.5-15.1] SEC staff guidance · Securities Act Forms C&DI
+ 14.90  --- CUT s3 (zoomIn)
+ 15.00  sfx impact
+ 15.10  TXT [15.1-17.2] Filed
+ 15.10  TXT [15.1-17.2] sold.
+ 17.04  --- CUT s4 (zoomIn)
+ 17.14  sfx ding
+ 17.20  txt [17.2-20.8] On
+ 17.30  txt [17.3-20.8] BFYP
+ 17.60  txt [17.6-20.7] Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC
+ 17.60  txt [17.6-20.8] NVDA
+ 17.80  txt [17.8-20.8] insider
+ 18.04  ZOOM [18.04-20.59]  · 
+ 18.10  txt [18.1-20.8] forms
+ 18.30  TXT [18.3-20.8] Completed
+ 18.70  TXT [18.7-20.8] insider
+ 19.00  TXT [19.0-20.8] trades
+ 19.20  TXT [19.2-20.8] show
+ 19.40  TXT [19.4-20.8] up
+ 19.60  TXT [19.6-20.8] on
+ 19.70  TXT [19.7-20.8] Form
+ 19.90  TXT [19.9-20.8] 4.
+ 20.69  --- CUT cta (zoom)
+ 20.69  sfx whoosh
+ 20.90  TXT [20.9-26.8] Read
+ 20.90  txt [20.9-26.8] ETTERFORYOURPOCKET
+ 21.00  TXT [21.0-26.8] was
+ 21.00  TXT [21.0-26.8] what
+ 21.10  TXT [21.1-26.8] actually
+ 21.10  TXT [21.1-26.8] filed.
+ 21.20  TXT [21.2-26.8] Every
+ 21.30  TXT [21.3-26.8] dated
+ 21.30  TXT [21.3-26.8] filing
+ 21.30  txt [21.3-26.8] CAPTURED 23 SEP 2026 · 22:01 UTC
+ 21.40  TXT [21.4-26.8] and
+ 21.40  TXT [21.4-26.8] betterforyourpocket.com
+ 21.40  TXT [21.4-26.8] linked
+ 21.50  TXT [21.5-26.8] to
+ 21.60  TXT [21.6-26.8] SEC.gov.
+ 21.60  txt [21.6-26.8] Educational market data. Not financial advice.
+ 21.70  txt [21.7-26.8] Screens from 23 Sep 2026 · AI voice

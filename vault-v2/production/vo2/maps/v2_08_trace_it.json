@@ -1,0 +1,748 @@
+{
+ "reel": "v2_08_trace_it",
+ "dur": 20,
+ "bpm": 140,
+ "music": {
+  "style": "trap",
+  "bpm": 140,
+  "key": "C",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 8,
+    "type": "tension"
+   },
+   {
+    "beat": 13,
+    "type": "build"
+   },
+   {
+    "beat": 14,
+    "type": "drop"
+   },
+   {
+    "beat": 36,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.429,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 6.0,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s4",
+   "t": 10.714,
+   "kind": "left"
+  },
+  {
+   "shot": "cta",
+   "t": 15.429,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_h",
+   "text": "This is a",
+   "size": 118,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_h",
+   "text": "screenshot.",
+   "size": 118,
+   "y": 350,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_shot",
+   "text": "SCREENSHOT · ILLUSTRATION",
+   "size": 22,
+   "y": 677,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_shot",
+   "text": "🐋 Whale just moved",
+   "size": 64,
+   "y": 720,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_shot",
+   "text": "of LIT!!",
+   "size": 64,
+   "y": 720,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_shot",
+   "text": "$1.09M",
+   "size": 64,
+   "y": 798,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_shot",
+   "text": "no link · no wallet · no time",
+   "size": 30,
+   "y": 871,
+   "headline": false
+  },
+  {
+   "t_in": 1.3,
+   "t_out": 2.0,
+   "host": "s1_w_s0",
+   "text": "Cropped?",
+   "size": 130,
+   "y": 1190,
+   "headline": true
+  },
+  {
+   "t_in": 2.0,
+   "t_out": 2.6,
+   "host": "s1_w_s1",
+   "text": "Old?",
+   "size": 130,
+   "y": 1190,
+   "headline": true
+  },
+  {
+   "t_in": 2.6,
+   "t_out": 3.5,
+   "host": "s1_w_s2",
+   "text": "Edited?",
+   "size": 130,
+   "y": 1190,
+   "headline": true
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 6.1,
+   "host": "s2_a",
+   "text": "You can’t check",
+   "size": 112,
+   "y": 598,
+   "headline": true
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 6.1,
+   "host": "s2_a",
+   "text": "a screenshot.",
+   "size": 112,
+   "y": 598,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.1,
+   "host": "s2_b",
+   "text": "You can check",
+   "size": 112,
+   "y": 880,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.1,
+   "host": "s2_b",
+   "text": "a link.",
+   "size": 112,
+   "y": 973,
+   "headline": true
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 7.0,
+   "host": "s3_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 7.0,
+   "host": "s3_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 266,
+   "headline": false
+  },
+  {
+   "t_in": 6.3,
+   "t_out": 7.0,
+   "host": "s3_h_w3",
+   "text": "Whale",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 6.4,
+   "t_out": 7.0,
+   "host": "s3_h_w4",
+   "text": "Activity",
+   "size": 30,
+   "y": 253,
+   "headline": false
+  },
+  {
+   "t_in": 6.4,
+   "t_out": 7.0,
+   "host": "s3_h_w5",
+   "text": "Every",
+   "size": 92,
+   "y": 318,
+   "headline": true
+  },
+  {
+   "t_in": 6.4,
+   "t_out": 7.0,
+   "host": "s3_h_w6",
+   "text": "large",
+   "size": 92,
+   "y": 324,
+   "headline": true
+  },
+  {
+   "t_in": 6.4,
+   "t_out": 7.0,
+   "host": "s3_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 23,
+   "y": 573,
+   "headline": false
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 7.0,
+   "host": "s3_h_w7",
+   "text": "move,",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 7.0,
+   "host": "s3_h_w8",
+   "text": "linked",
+   "size": 92,
+   "y": 409,
+   "headline": true
+  },
+  {
+   "t_in": 6.6,
+   "t_out": 7.0,
+   "host": "s3_h_w9",
+   "text": "to",
+   "size": 92,
+   "y": 403,
+   "headline": true
+  },
+  {
+   "t_in": 6.6,
+   "t_out": 7.0,
+   "host": "s3_h_w10",
+   "text": "the",
+   "size": 92,
+   "y": 406,
+   "headline": true
+  },
+  {
+   "t_in": 6.6,
+   "t_out": 7.0,
+   "host": "s3_h_w11",
+   "text": "raw",
+   "size": 92,
+   "y": 413,
+   "headline": true
+  },
+  {
+   "t_in": 6.7,
+   "t_out": 7.0,
+   "host": "s3_h_w12",
+   "text": "tx.",
+   "size": 92,
+   "y": 404,
+   "headline": true
+  },
+  {
+   "t_in": 7.0,
+   "t_out": 10.7,
+   "host": "s3_cap",
+   "text": "Real BFYP screen · Whale Activity · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 8.8,
+   "host": "s3_card_co0",
+   "text": "View on explorer ↗",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 8.8,
+   "host": "s3_card_co0",
+   "text": "CLICK THROUGH",
+   "size": 24,
+   "y": 352,
+   "headline": false
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 10.8,
+   "host": "s3_card_co1",
+   "text": "Observed + detected, via etherscan",
+   "size": 44,
+   "y": 336,
+   "headline": true
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 10.8,
+   "host": "s3_card_co1",
+   "text": "SOURCE",
+   "size": 24,
+   "y": 355,
+   "headline": false
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 15.5,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 11.0,
+   "t_out": 15.5,
+   "host": "s4_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 253,
+   "headline": false
+  },
+  {
+   "t_in": 11.0,
+   "t_out": 15.5,
+   "host": "s4_h_w3",
+   "text": "Stocks",
+   "size": 30,
+   "y": 262,
+   "headline": false
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 15.5,
+   "host": "s4_h_w5",
+   "text": "NVDA",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 15.5,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:39 UTC",
+   "size": 23,
+   "y": 573,
+   "headline": false
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 15.5,
+   "host": "s4_h_w6",
+   "text": "Every",
+   "size": 92,
+   "y": 314,
+   "headline": true
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 15.5,
+   "host": "s4_h_w7",
+   "text": "filing,",
+   "size": 92,
+   "y": 317,
+   "headline": true
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 15.5,
+   "host": "s4_h_w8",
+   "text": "linked",
+   "size": 92,
+   "y": 411,
+   "headline": true
+  },
+  {
+   "t_in": 11.3,
+   "t_out": 15.5,
+   "host": "s4_h_w9",
+   "text": "to",
+   "size": 92,
+   "y": 404,
+   "headline": true
+  },
+  {
+   "t_in": 11.3,
+   "t_out": 15.5,
+   "host": "s4_h_w10",
+   "text": "SEC.gov.",
+   "size": 92,
+   "y": 408,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.4,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 21:39 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 12.1,
+   "t_out": 13.7,
+   "host": "s4_card_co0",
+   "text": "Opens the filing on SEC.gov",
+   "size": 44,
+   "y": 334,
+   "headline": true
+  },
+  {
+   "t_in": 12.1,
+   "t_out": 13.7,
+   "host": "s4_card_co0",
+   "text": "ORIGINAL",
+   "size": 24,
+   "y": 354,
+   "headline": false
+  },
+  {
+   "t_in": 13.9,
+   "t_out": 15.5,
+   "host": "s4_sum",
+   "text": "one tap away.",
+   "size": 70,
+   "y": 1328,
+   "headline": true
+  },
+  {
+   "t_in": 13.9,
+   "t_out": 15.5,
+   "host": "s4_sum",
+   "text": "Sources",
+   "size": 70,
+   "y": 1336,
+   "headline": true
+  },
+  {
+   "t_in": 15.6,
+   "t_out": 20.0,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 218,
+   "headline": false
+  },
+  {
+   "t_in": 15.7,
+   "t_out": 20.0,
+   "host": "cta_h_w0",
+   "text": "Don’t",
+   "size": 92,
+   "y": 302,
+   "headline": true
+  },
+  {
+   "t_in": 15.7,
+   "t_out": 20.0,
+   "host": "cta_h_w1",
+   "text": "trust.",
+   "size": 92,
+   "y": 308,
+   "headline": true
+  },
+  {
+   "t_in": 15.8,
+   "t_out": 20.0,
+   "host": "cta_h_w2",
+   "text": "Click",
+   "size": 92,
+   "y": 393,
+   "headline": true
+  },
+  {
+   "t_in": 15.8,
+   "t_out": 20.0,
+   "host": "cta_h_w3",
+   "text": "through.",
+   "size": 92,
+   "y": 402,
+   "headline": true
+  },
+  {
+   "t_in": 15.9,
+   "t_out": 20.0,
+   "host": "cta_h_w4",
+   "text": "Whale",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.0,
+   "host": "cta_h_w5",
+   "text": "moves",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.0,
+   "host": "cta_h_w6",
+   "text": "and",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.0,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.0,
+   "host": "cta_h_w7",
+   "text": "filings,",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.0,
+   "host": "cta_h_w8",
+   "text": "with",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.0,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1242,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.0,
+   "host": "cta_h_w9",
+   "text": "their",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.0,
+   "host": "cta_h_w10",
+   "text": "sources.",
+   "size": 44,
+   "y": 558,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.0,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1377,
+   "headline": false
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.0,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1421,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s3_card",
+   "t0": 6.857,
+   "t1": 8.786,
+   "key": "CLICK THROUGH",
+   "text": "View on explorer ↗"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 8.786,
+   "t1": 10.714,
+   "key": "SOURCE",
+   "text": "Observed + detected, via etherscan"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 11.571,
+   "t1": 13.629,
+   "key": "ORIGINAL",
+   "text": "Opens the filing on SEC.gov"
+  }
+ ],
+ "cta": 15.429,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "shutter"
+  },
+  {
+   "t": 0.02,
+   "type": "impact"
+  },
+  {
+   "t": 1.286,
+   "type": "glitch"
+  },
+  {
+   "t": 1.286,
+   "type": "glitch"
+  },
+  {
+   "t": 1.929,
+   "type": "glitch"
+  },
+  {
+   "t": 2.571,
+   "type": "glitch"
+  },
+  {
+   "t": 3.429,
+   "type": "hit"
+  },
+  {
+   "t": 4.5,
+   "type": "hit"
+  },
+  {
+   "t": 6,
+   "type": "riser"
+  },
+  {
+   "t": 6,
+   "type": "impact"
+  },
+  {
+   "t": 6.05,
+   "type": "ding"
+  },
+  {
+   "t": 6.3,
+   "type": "scan"
+  },
+  {
+   "t": 6.857,
+   "type": "swish"
+  },
+  {
+   "t": 7.214,
+   "type": "click"
+  },
+  {
+   "t": 8.786,
+   "type": "swish"
+  },
+  {
+   "t": 9.143,
+   "type": "click"
+  },
+  {
+   "t": 11.571,
+   "type": "swish"
+  },
+  {
+   "t": 11.928,
+   "type": "click"
+  },
+  {
+   "t": 13.8,
+   "type": "hit"
+  },
+  {
+   "t": 15.429,
+   "type": "whoosh"
+  },
+  {
+   "t": 15.829,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.029,
+   "type": "pop"
+  },
+  {
+   "t": 19.714,
+   "type": "hit"
+  }
+ ]
+}

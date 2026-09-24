@@ -1,0 +1,947 @@
+{
+ "reel": "v2_10_top10_36",
+ "dur": 21,
+ "bpm": 118,
+ "music": {
+  "style": "minimal",
+  "bpm": 118,
+  "key": "E",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 4,
+    "type": "drop"
+   },
+   {
+    "beat": 18,
+    "type": "tension"
+   },
+   {
+    "beat": 23,
+    "type": "build"
+   },
+   {
+    "beat": 24,
+    "type": "drop"
+   },
+   {
+    "beat": 34,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.576,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 9.153,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s4",
+   "t": 12.203,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 17.288,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.8,
+   "host": "s1_h",
+   "text": "You bought",
+   "size": 118,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.8,
+   "host": "s1_h",
+   "text": "500 companies.",
+   "size": 118,
+   "y": 350,
+   "headline": true
+  },
+  {
+   "t_in": 0.9,
+   "t_out": 4.8,
+   "host": "s1_src",
+   "text": "SPY · 504 holdings · N-PORT period 30 Jun 2026",
+   "size": 22,
+   "y": 1213,
+   "headline": false
+  },
+  {
+   "t_in": 2.4,
+   "t_out": 4.8,
+   "host": "s1_t",
+   "text": "36%",
+   "size": 88,
+   "y": 1261,
+   "headline": true
+  },
+  {
+   "t_in": 2.4,
+   "t_out": 4.8,
+   "host": "s1_t",
+   "text": "sits in 10 lines.",
+   "size": 88,
+   "y": 1272,
+   "headline": true
+  },
+  {
+   "t_in": 4.7,
+   "t_out": 9.3,
+   "host": "s2_h",
+   "text": "SPY · top 10 holdings, as filed",
+   "size": 30,
+   "y": 256,
+   "headline": false
+  },
+  {
+   "t_in": 4.7,
+   "t_out": 4.9,
+   "host": "s2_h",
+   "text": "0.0%",
+   "size": 92,
+   "y": 301,
+   "headline": true
+  },
+  {
+   "t_in": 4.7,
+   "t_out": 9.3,
+   "host": "s2_h",
+   "text": "of the fund.",
+   "size": 92,
+   "y": 313,
+   "headline": true
+  },
+  {
+   "t_in": 4.9,
+   "t_out": 5.0,
+   "host": "s2_h",
+   "text": "11.5%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.0,
+   "t_out": 5.1,
+   "host": "s2_h",
+   "text": "22.0%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.0,
+   "t_out": 9.3,
+   "host": "s2_bars_lab0",
+   "text": "NVDA",
+   "size": 40,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 5.1,
+   "t_out": 5.2,
+   "host": "s2_h",
+   "text": "28.0%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.1,
+   "t_out": 9.3,
+   "host": "s2_bars_lab1",
+   "text": "AAPL",
+   "size": 40,
+   "y": 590,
+   "headline": true
+  },
+  {
+   "t_in": 5.2,
+   "t_out": 5.3,
+   "host": "s2_h",
+   "text": "31.5%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.2,
+   "t_out": 9.3,
+   "host": "s2_bars_val0",
+   "text": "$58.72B",
+   "size": 32,
+   "y": 517,
+   "headline": false
+  },
+  {
+   "t_in": 5.2,
+   "t_out": 9.3,
+   "host": "s2_bars_lab2",
+   "text": "MSFT",
+   "size": 40,
+   "y": 674,
+   "headline": true
+  },
+  {
+   "t_in": 5.3,
+   "t_out": 5.4,
+   "host": "s2_h",
+   "text": "33.6%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.3,
+   "t_out": 9.3,
+   "host": "s2_bars_val1",
+   "text": "$51.50B",
+   "size": 32,
+   "y": 601,
+   "headline": false
+  },
+  {
+   "t_in": 5.3,
+   "t_out": 9.3,
+   "host": "s2_bars_lab3",
+   "text": "AMZN",
+   "size": 40,
+   "y": 758,
+   "headline": true
+  },
+  {
+   "t_in": 5.4,
+   "t_out": 5.5,
+   "host": "s2_h",
+   "text": "34.8%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.4,
+   "t_out": 9.3,
+   "host": "s2_bars_val2",
+   "text": "$33.58B",
+   "size": 32,
+   "y": 685,
+   "headline": false
+  },
+  {
+   "t_in": 5.4,
+   "t_out": 9.3,
+   "host": "s2_bars_lab4",
+   "text": "GOOGL",
+   "size": 40,
+   "y": 842,
+   "headline": true
+  },
+  {
+   "t_in": 5.5,
+   "t_out": 5.6,
+   "host": "s2_h",
+   "text": "35.5%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.5,
+   "t_out": 9.3,
+   "host": "s2_bars_val3",
+   "text": "$28.27B",
+   "size": 32,
+   "y": 769,
+   "headline": false
+  },
+  {
+   "t_in": 5.5,
+   "t_out": 9.3,
+   "host": "s2_bars_lab5",
+   "text": "AVGO",
+   "size": 40,
+   "y": 926,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 5.7,
+   "host": "s2_h",
+   "text": "35.9%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 9.3,
+   "host": "s2_bars_val4",
+   "text": "$25.39B",
+   "size": 32,
+   "y": 853,
+   "headline": false
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 9.3,
+   "host": "s2_bars_lab6",
+   "text": "GOOG",
+   "size": 40,
+   "y": 1010,
+   "headline": true
+  },
+  {
+   "t_in": 5.7,
+   "t_out": 5.8,
+   "host": "s2_h",
+   "text": "36.1%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.7,
+   "t_out": 9.3,
+   "host": "s2_bars_val5",
+   "text": "$21.67B",
+   "size": 32,
+   "y": 937,
+   "headline": false
+  },
+  {
+   "t_in": 5.7,
+   "t_out": 9.3,
+   "host": "s2_bars_lab7",
+   "text": "MU",
+   "size": 40,
+   "y": 1094,
+   "headline": true
+  },
+  {
+   "t_in": 5.8,
+   "t_out": 5.9,
+   "host": "s2_h",
+   "text": "36.2%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.8,
+   "t_out": 9.3,
+   "host": "s2_bars_val6",
+   "text": "$20.24B",
+   "size": 32,
+   "y": 1021,
+   "headline": false
+  },
+  {
+   "t_in": 5.8,
+   "t_out": 9.3,
+   "host": "s2_bars_lab8",
+   "text": "META",
+   "size": 40,
+   "y": 1178,
+   "headline": true
+  },
+  {
+   "t_in": 5.9,
+   "t_out": 6.1,
+   "host": "s2_h",
+   "text": "36.3%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 5.9,
+   "t_out": 9.3,
+   "host": "s2_bars_val7",
+   "text": "$15.77B",
+   "size": 32,
+   "y": 1105,
+   "headline": false
+  },
+  {
+   "t_in": 5.9,
+   "t_out": 9.3,
+   "host": "s2_bars_lab9",
+   "text": "TSLA",
+   "size": 40,
+   "y": 1262,
+   "headline": true
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 9.3,
+   "host": "s2_bars_val8",
+   "text": "$14.99B",
+   "size": 32,
+   "y": 1189,
+   "headline": false
+  },
+  {
+   "t_in": 6.1,
+   "t_out": 9.3,
+   "host": "s2_h",
+   "text": "36.4%",
+   "size": 92,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 6.1,
+   "t_out": 9.3,
+   "host": "s2_bars_val9",
+   "text": "$14.35B",
+   "size": 32,
+   "y": 1273,
+   "headline": false
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 7.6,
+   "host": "s2_sum",
+   "text": "$284.48B of $781.19B net assets",
+   "size": 30,
+   "y": 1362,
+   "headline": false
+  },
+  {
+   "t_in": 7.7,
+   "t_out": 9.3,
+   "host": "s2_tw",
+   "text": "twice.",
+   "size": 70,
+   "y": 1361,
+   "headline": true
+  },
+  {
+   "t_in": 7.7,
+   "t_out": 9.3,
+   "host": "s2_tw",
+   "text": "Alphabet shows up",
+   "size": 70,
+   "y": 1369,
+   "headline": true
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 12.3,
+   "host": "s3_t",
+   "text": "10 lines.",
+   "size": 150,
+   "y": 708,
+   "headline": true
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 12.3,
+   "host": "s3_t",
+   "text": "9 companies.",
+   "size": 150,
+   "y": 831,
+   "headline": true
+  },
+  {
+   "t_in": 10.0,
+   "t_out": 12.3,
+   "host": "s3_s",
+   "text": "GOOGL and GOOG are two share classes of Alphabet.",
+   "size": 34,
+   "y": 1082,
+   "headline": false
+  },
+  {
+   "t_in": 12.4,
+   "t_out": 12.8,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 12.5,
+   "t_out": 12.8,
+   "host": "s4_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 12.6,
+   "t_out": 12.8,
+   "host": "s4_h_w3",
+   "text": "ETF",
+   "size": 30,
+   "y": 253,
+   "headline": false
+  },
+  {
+   "t_in": 12.7,
+   "t_out": 12.8,
+   "host": "s4_h_w5",
+   "text": "SPY",
+   "size": 30,
+   "y": 253,
+   "headline": false
+  },
+  {
+   "t_in": 12.7,
+   "t_out": 12.8,
+   "host": "s4_h_w6",
+   "text": "What",
+   "size": 92,
+   "y": 318,
+   "headline": true
+  },
+  {
+   "t_in": 12.7,
+   "t_out": 12.9,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 23,
+   "y": 481,
+   "headline": false
+  },
+  {
+   "t_in": 12.9,
+   "t_out": 17.3,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · ETF · SPY · 23 SEP 2026 · 22:01 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 13.3,
+   "t_out": 14.3,
+   "host": "s4_card_co0",
+   "text": "$781.19B net assets · 30 Jun 2026",
+   "size": 44,
+   "y": 328,
+   "headline": true
+  },
+  {
+   "t_in": 13.3,
+   "t_out": 14.3,
+   "host": "s4_card_co0",
+   "text": "THE FUND",
+   "size": 24,
+   "y": 350,
+   "headline": false
+  },
+  {
+   "t_in": 14.8,
+   "t_out": 15.8,
+   "host": "s4_card_co1",
+   "text": "15 of 504 · % of net assets",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 14.8,
+   "t_out": 15.8,
+   "host": "s4_card_co1",
+   "text": "AS FILED",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 17.2,
+   "host": "s4_card_co2",
+   "text": "Top 5 rows · values as filed",
+   "size": 44,
+   "y": 333,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 17.2,
+   "host": "s4_card_co2",
+   "text": "THE TOP LINES",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 21.0,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 21.0,
+   "host": "cta_h_w0",
+   "text": "See",
+   "size": 92,
+   "y": 306,
+   "headline": true
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 21.0,
+   "host": "cta_h_w1",
+   "text": "what",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 21.0,
+   "host": "cta_h_w2",
+   "text": "your",
+   "size": 92,
+   "y": 313,
+   "headline": true
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 21.0,
+   "host": "cta_h_w3",
+   "text": "fund",
+   "size": 92,
+   "y": 307,
+   "headline": true
+  },
+  {
+   "t_in": 17.8,
+   "t_out": 21.0,
+   "host": "cta_h_w4",
+   "text": "actually",
+   "size": 92,
+   "y": 392,
+   "headline": true
+  },
+  {
+   "t_in": 17.8,
+   "t_out": 21.0,
+   "host": "cta_h_w5",
+   "text": "holds.",
+   "size": 92,
+   "y": 398,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 21.0,
+   "host": "cta_h_w6",
+   "text": "Every",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 21.0,
+   "host": "cta_h_w7",
+   "text": "ETF",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 21.0,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 680,
+   "headline": false
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 21.0,
+   "host": "cta_h_w8",
+   "text": "page,",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 21.0,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1238,
+   "headline": true
+  },
+  {
+   "t_in": 18.1,
+   "t_out": 21.0,
+   "host": "cta_h_w9",
+   "text": "as",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 18.1,
+   "t_out": 21.0,
+   "host": "cta_h_w10",
+   "text": "filed,",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 18.2,
+   "t_out": 21.0,
+   "host": "cta_h_w11",
+   "text": "with",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 18.2,
+   "t_out": 21.0,
+   "host": "cta_h_w12",
+   "text": "its",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 18.2,
+   "t_out": 21.0,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 18.3,
+   "t_out": 21.0,
+   "host": "cta_h_w13",
+   "text": "dates.",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 18.3,
+   "t_out": 21.0,
+   "host": "cta_note",
+   "text": "Filing data changes · screens from 23 Sep 2026",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 12.712,
+   "t1": 14.237,
+   "key": "THE FUND",
+   "text": "$781.19B net assets · 30 Jun 2026"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 14.237,
+   "t1": 15.763,
+   "key": "AS FILED",
+   "text": "15 of 504 · % of net assets"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 15.763,
+   "t1": 17.186,
+   "key": "THE TOP LINES",
+   "text": "Top 5 rows · values as filed"
+  }
+ ],
+ "cta": 17.288,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 2.034,
+   "type": "tick"
+  },
+  {
+   "t": 2.084,
+   "type": "tick"
+  },
+  {
+   "t": 2.134,
+   "type": "tick"
+  },
+  {
+   "t": 2.184,
+   "type": "tick"
+  },
+  {
+   "t": 2.234,
+   "type": "tick"
+  },
+  {
+   "t": 2.237,
+   "type": "hit"
+  },
+  {
+   "t": 2.284,
+   "type": "tick"
+  },
+  {
+   "t": 2.334,
+   "type": "tick"
+  },
+  {
+   "t": 2.384,
+   "type": "tick"
+  },
+  {
+   "t": 2.434,
+   "type": "tick"
+  },
+  {
+   "t": 2.484,
+   "type": "tick"
+  },
+  {
+   "t": 4.831,
+   "type": "ticks"
+  },
+  {
+   "t": 4.881,
+   "type": "tick"
+  },
+  {
+   "t": 4.981,
+   "type": "tick"
+  },
+  {
+   "t": 5.081,
+   "type": "tick"
+  },
+  {
+   "t": 5.181,
+   "type": "tick"
+  },
+  {
+   "t": 5.281,
+   "type": "tick"
+  },
+  {
+   "t": 5.381,
+   "type": "tick"
+  },
+  {
+   "t": 5.481,
+   "type": "tick"
+  },
+  {
+   "t": 5.581,
+   "type": "tick"
+  },
+  {
+   "t": 5.681,
+   "type": "tick"
+  },
+  {
+   "t": 5.781,
+   "type": "tick"
+  },
+  {
+   "t": 7.627,
+   "type": "ding"
+  },
+  {
+   "t": 9.153,
+   "type": "hit"
+  },
+  {
+   "t": 12.203,
+   "type": "riser"
+  },
+  {
+   "t": 12.203,
+   "type": "impact"
+  },
+  {
+   "t": 12.253,
+   "type": "ding"
+  },
+  {
+   "t": 12.712,
+   "type": "swish"
+  },
+  {
+   "t": 13.069,
+   "type": "click"
+  },
+  {
+   "t": 14.237,
+   "type": "swish"
+  },
+  {
+   "t": 14.594,
+   "type": "click"
+  },
+  {
+   "t": 15.763,
+   "type": "swish"
+  },
+  {
+   "t": 16.12,
+   "type": "click"
+  },
+  {
+   "t": 17.288,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.688,
+   "type": "sparkle"
+  },
+  {
+   "t": 17.888,
+   "type": "pop"
+  },
+  {
+   "t": 20.847,
+   "type": "hit"
+  }
+ ]
+}

@@ -1,0 +1,638 @@
+{
+ "reel": "v2_09_fiscal_2026",
+ "dur": 20.4,
+ "bpm": 126,
+ "music": {
+  "style": "techhouse",
+  "bpm": 126,
+  "key": "B",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 4,
+    "type": "tension"
+   },
+   {
+    "beat": 8,
+    "type": "drop"
+   },
+   {
+    "beat": 18,
+    "type": "tension"
+   },
+   {
+    "beat": 25,
+    "type": "build"
+   },
+   {
+    "beat": 26,
+    "type": "drop"
+   },
+   {
+    "beat": 35,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 5.714,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 8.571,
+   "kind": "up"
+  },
+  {
+   "shot": "s4",
+   "t": 12.381,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.667,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 6.0,
+   "host": "s1_h",
+   "text": "Quick quiz",
+   "size": 30,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 6.0,
+   "host": "s1_h",
+   "text": "When did NVIDIA’s",
+   "size": 104,
+   "y": 314,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 6.0,
+   "host": "s1_h",
+   "text": "end?",
+   "size": 104,
+   "y": 314,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 5.9,
+   "host": "s1_h",
+   "text": "fiscal 2026",
+   "size": 104,
+   "y": 401,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.0,
+   "host": "s1_cd",
+   "text": "Pick one.",
+   "size": 70,
+   "y": 1250,
+   "headline": true
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 4.1,
+   "host": "s1_o_0",
+   "text": "Dec 31, 2026",
+   "size": 50,
+   "y": 736,
+   "headline": true
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 4.1,
+   "host": "s1_o_1",
+   "text": "Dec 31, 2025",
+   "size": 50,
+   "y": 906,
+   "headline": true
+  },
+  {
+   "t_in": 0.2,
+   "t_out": 5.9,
+   "host": "s1_o_2",
+   "text": "Jan 25, 2026",
+   "size": 50,
+   "y": 1076,
+   "headline": true
+  },
+  {
+   "t_in": 2.0,
+   "t_out": 2.6,
+   "host": "s1_cd",
+   "text": "Answer in 3…",
+   "size": 70,
+   "y": 1250,
+   "headline": true
+  },
+  {
+   "t_in": 2.6,
+   "t_out": 3.2,
+   "host": "s1_cd",
+   "text": "Answer in 2…",
+   "size": 70,
+   "y": 1250,
+   "headline": true
+  },
+  {
+   "t_in": 3.2,
+   "t_out": 3.9,
+   "host": "s1_cd",
+   "text": "Answer in 1…",
+   "size": 70,
+   "y": 1250,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 6.0,
+   "host": "s1_ans",
+   "text": "January 25, 2026.",
+   "size": 92,
+   "y": 1245,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 6.0,
+   "host": "s1_ans",
+   "text": "C.",
+   "size": 92,
+   "y": 1257,
+   "headline": true
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 8.8,
+   "host": "s2_card",
+   "text": "NVIDIA · Q4 & fiscal 2026 results",
+   "size": 25,
+   "y": 569,
+   "headline": false
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 8.8,
+   "host": "s2_card",
+   "text": "25 Feb 2026",
+   "size": 25,
+   "y": 569,
+   "headline": false
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 8.8,
+   "host": "s2_card",
+   "text": "“For fiscal 2026, revenue was $215.9 billion, up 65% from a year ago.”",
+   "size": 54,
+   "y": 623,
+   "headline": true
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 8.8,
+   "host": "s2_card",
+   "text": "Fiscal year ended January 25, 2026.",
+   "size": 36,
+   "y": 830,
+   "headline": false
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 8.8,
+   "host": "s2_card",
+   "text": "nvidianews.nvidia.com · Form 10-K on SEC EDGAR",
+   "size": 24,
+   "y": 907,
+   "headline": false
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 12.5,
+   "host": "s3_a",
+   "text": "Fiscal years don’t",
+   "size": 108,
+   "y": 638,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 12.5,
+   "host": "s3_a",
+   "text": "follow",
+   "size": 108,
+   "y": 638,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 12.5,
+   "host": "s3_a",
+   "text": "the calendar.",
+   "size": 108,
+   "y": 726,
+   "headline": true
+  },
+  {
+   "t_in": 10.1,
+   "t_out": 12.5,
+   "host": "s3_b",
+   "text": "Compare the wrong",
+   "size": 108,
+   "y": 870,
+   "headline": true
+  },
+  {
+   "t_in": 10.1,
+   "t_out": 12.5,
+   "host": "s3_b",
+   "text": "periods, get the",
+   "size": 108,
+   "y": 870,
+   "headline": true
+  },
+  {
+   "t_in": 10.1,
+   "t_out": 12.5,
+   "host": "s3_b",
+   "text": "wrong story.",
+   "size": 108,
+   "y": 1171,
+   "headline": true
+  },
+  {
+   "t_in": 12.6,
+   "t_out": 13.0,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 257,
+   "headline": false
+  },
+  {
+   "t_in": 12.6,
+   "t_out": 13.0,
+   "host": "s4_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 264,
+   "headline": false
+  },
+  {
+   "t_in": 12.7,
+   "t_out": 13.0,
+   "host": "s4_h_w3",
+   "text": "NVDA",
+   "size": 30,
+   "y": 262,
+   "headline": false
+  },
+  {
+   "t_in": 12.8,
+   "t_out": 13.0,
+   "host": "s4_h_w5",
+   "text": "fundamentals",
+   "size": 30,
+   "y": 261,
+   "headline": false
+  },
+  {
+   "t_in": 12.8,
+   "t_out": 13.0,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 23,
+   "y": 562,
+   "headline": false
+  },
+  {
+   "t_in": 12.9,
+   "t_out": 13.0,
+   "host": "s4_h_w6",
+   "text": "Every",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 13.0,
+   "t_out": 16.7,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 13.4,
+   "t_out": 14.8,
+   "host": "s4_card_co0",
+   "text": "Revenue $215.9B",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 13.4,
+   "t_out": 14.8,
+   "host": "s4_card_co0",
+   "text": "AS FILED",
+   "size": 24,
+   "y": 352,
+   "headline": false
+  },
+  {
+   "t_in": 15.3,
+   "t_out": 16.6,
+   "host": "s4_card_co1",
+   "text": "FY2026 · ended 2026-01-25 · 10-K",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 15.3,
+   "t_out": 16.6,
+   "host": "s4_card_co1",
+   "text": "THE PERIOD",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 220,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Every",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "number",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "with",
+   "size": 92,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "its",
+   "size": 92,
+   "y": 393,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "period.",
+   "size": 92,
+   "y": 402,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "Straight",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "from",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 19,
+   "y": 673,
+   "headline": false
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "the",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.4,
+   "host": "cta_h_w8",
+   "text": "10-K",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.4,
+   "host": "cta_h_w9",
+   "text": "on",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1236,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 20.4,
+   "host": "cta_h_w10",
+   "text": "SEC",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 20.4,
+   "host": "cta_h_w11",
+   "text": "EDGAR.",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 12.857,
+   "t1": 14.762,
+   "key": "AS FILED",
+   "text": "Revenue $215.9B"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 14.762,
+   "t1": 16.571,
+   "key": "THE PERIOD",
+   "text": "FY2026 · ended 2026-01-25 · 10-K"
+  }
+ ],
+ "cta": 16.667,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 1.905,
+   "type": "tick"
+  },
+  {
+   "t": 2.538,
+   "type": "tick"
+  },
+  {
+   "t": 3.171,
+   "type": "tick"
+  },
+  {
+   "t": 3.81,
+   "type": "chime"
+  },
+  {
+   "t": 5.857,
+   "type": "pop"
+  },
+  {
+   "t": 8.571,
+   "type": "hit"
+  },
+  {
+   "t": 10,
+   "type": "hit"
+  },
+  {
+   "t": 12.381,
+   "type": "riser"
+  },
+  {
+   "t": 12.381,
+   "type": "impact"
+  },
+  {
+   "t": 12.431,
+   "type": "ding"
+  },
+  {
+   "t": 12.681,
+   "type": "scan"
+  },
+  {
+   "t": 12.857,
+   "type": "swish"
+  },
+  {
+   "t": 13.214,
+   "type": "click"
+  },
+  {
+   "t": 14.762,
+   "type": "swish"
+  },
+  {
+   "t": 15.119,
+   "type": "click"
+  },
+  {
+   "t": 16.667,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.067,
+   "type": "sparkle"
+  },
+  {
+   "t": 17.267,
+   "type": "pop"
+  },
+  {
+   "t": 20,
+   "type": "hit"
+  }
+ ]
+}

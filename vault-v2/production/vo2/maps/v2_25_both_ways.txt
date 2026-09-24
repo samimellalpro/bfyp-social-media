@@ -1,0 +1,51 @@
+== v2_25_both_ways  dur 20.40s  bpm 118  CTA at 16.271
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-4.2] On USDC, the data
+  0.00  TXT [0.0-4.2] both
+  0.00  TXT [0.0-4.2] pointed
+  0.00  TXT [0.0-4.2] ways.
+  0.00  sfx impact
+  0.05  sfx whoosh
+  4.07  --- CUT s2 (zoomIn)
+  4.07  sfx hit
+  4.20  TXT [4.2-8.2] A feed that always
+  4.20  TXT [4.2-8.2] picks a side is
+  4.20  TXT [4.2-8.2] telling you a story.
+  8.14  --- CUT s3 (zoomIn)
+  8.14  sfx impact
+  8.14  sfx riser
+  8.19  sfx ding
+  8.30  txt [8.3-9.3] On
+  8.40  txt [8.4-9.3] BFYP
+  8.50  TXT [8.5-9.3] BFYP
+  8.50  txt [8.5-9.3] Today
+  8.60  TXT [8.6-9.3] it
+  8.60  TXT [8.6-9.3] says
+  8.60  txt [8.6-9.3] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC
+  8.70  TXT [8.7-9.3] plainly.
+  9.15  ZOOM [9.15-12.71] MIXED, SAID PLAINLY · Both directions · from one group
+  9.30  txt [9.3-16.3] Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC
+  9.70  TXT [9.7-12.8] Both directions · from one group
+  9.70  txt [9.7-12.8] MIXED, SAID PLAINLY
+ 12.71  ZOOM [12.71-16.17] NO SPIN · Computed from observations, not a model
+ 13.30  TXT [13.3-16.2] Computed from observations, not a model
+ 13.30  txt [13.3-16.2] NO SPIN
+ 16.27  --- CUT cta (zoom)
+ 16.27  sfx whoosh
+ 16.50  TXT [16.5-20.4] Mixed
+ 16.50  txt [16.5-20.4] ETTERFORYOURPOCKET
+ 16.60  TXT [16.6-20.4] information
+ 16.60  TXT [16.6-20.4] is
+ 16.70  TXT [16.7-20.4] See
+ 16.70  TXT [16.7-20.4] too.
+ 16.80  TXT [16.8-20.4] both
+ 16.80  txt [16.8-20.4] CAPTURED 23 SEP 2026 · 21:28 UTC
+ 16.90  TXT [16.9-20.4] on
+ 16.90  TXT [16.9-20.4] sides
+ 17.00  TXT [17.0-20.4] Today
+ 17.00  TXT [17.0-20.4] betterforyourpocket.com
+ 17.00  TXT [17.0-20.4] the
+ 17.10  TXT [17.1-20.4] page.
+ 17.20  txt [17.2-20.4] Educational market data. Not financial advice.
+ 17.30  txt [17.3-20.4] Screen from 23 Sep 2026 · live data changes
+ 20.34  sfx hit

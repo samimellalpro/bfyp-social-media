@@ -1,0 +1,737 @@
+{
+ "reel": "v2_05_fake_reviews",
+ "dur": 20.4,
+ "bpm": 113,
+ "music": {
+  "style": "amapiano",
+  "bpm": 113,
+  "key": "Bb",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 7,
+    "type": "tension"
+   },
+   {
+    "beat": 13,
+    "type": "build"
+   },
+   {
+    "beat": 15,
+    "type": "drop"
+   },
+   {
+    "beat": 30,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.717,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 6.372,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s4",
+   "t": 7.965,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 15.929,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_h",
+   "text": "The FTC",
+   "size": 118,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_h",
+   "text": "had to ban",
+   "size": 118,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_h",
+   "text": "fake reviews.",
+   "size": 118,
+   "y": 446,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.9,
+   "host": "s1_stars",
+   "text": "★★★★★",
+   "size": 96,
+   "y": 600,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_card",
+   "text": "Federal Trade Commission · press release",
+   "size": 25,
+   "y": 840,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_card",
+   "text": "14 Aug 2024",
+   "size": 25,
+   "y": 840,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_card",
+   "text": "Federal Trade Commission Announces Final Rule Banning Fake Reviews and Testimonials",
+   "size": 56,
+   "y": 923,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_card",
+   "text": "ftc.gov · rule effective 21 Oct 2024",
+   "size": 24,
+   "y": 1114,
+   "headline": false
+  },
+  {
+   "t_in": 3.9,
+   "t_out": 6.5,
+   "host": "s2_q_w0",
+   "text": "“Fake",
+   "size": 92,
+   "y": 478,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 6.5,
+   "host": "s2_q_w1",
+   "text": "reviews",
+   "size": 92,
+   "y": 473,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 6.5,
+   "host": "s2_q_w2",
+   "text": "not",
+   "size": 92,
+   "y": 476,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 6.5,
+   "host": "s2_q_w3",
+   "text": "only",
+   "size": 92,
+   "y": 574,
+   "headline": true
+  },
+  {
+   "t_in": 4.1,
+   "t_out": 6.5,
+   "host": "s2_q_w4",
+   "text": "waste",
+   "size": 92,
+   "y": 567,
+   "headline": true
+  },
+  {
+   "t_in": 4.1,
+   "t_out": 6.5,
+   "host": "s2_q_w5",
+   "text": "people’s",
+   "size": 92,
+   "y": 571,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 6.5,
+   "host": "s2_q_w6",
+   "text": "time",
+   "size": 92,
+   "y": 658,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 6.5,
+   "host": "s2_q_w7",
+   "text": "and",
+   "size": 92,
+   "y": 661,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 6.5,
+   "host": "s2_q_w8",
+   "text": "money,",
+   "size": 92,
+   "y": 667,
+   "headline": true
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.5,
+   "host": "s2_q_w9",
+   "text": "but",
+   "size": 92,
+   "y": 659,
+   "headline": true
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.5,
+   "host": "s2_q_w10",
+   "text": "also",
+   "size": 92,
+   "y": 756,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 6.5,
+   "host": "s2_q_w11",
+   "text": "pollute",
+   "size": 92,
+   "y": 751,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 6.5,
+   "host": "s2_q_w12",
+   "text": "the",
+   "size": 92,
+   "y": 754,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 6.5,
+   "host": "s2_q_w13",
+   "text": "marketplace",
+   "size": 92,
+   "y": 852,
+   "headline": true
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 6.5,
+   "host": "s2_q_w14",
+   "text": "…”",
+   "size": 92,
+   "y": 845,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.5,
+   "host": "s2_src",
+   "text": "Lina M. Khan, FTC Chair",
+   "size": 24,
+   "y": 1082,
+   "headline": false
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.5,
+   "host": "s2_src",
+   "text": "FTC press release · 14 Aug 2024",
+   "size": 24,
+   "y": 1082,
+   "headline": false
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 8.0,
+   "host": "s3_t",
+   "text": "So here’s what",
+   "size": 104,
+   "y": 733,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 8.0,
+   "host": "s3_t",
+   "text": "pricing page says.",
+   "size": 104,
+   "y": 733,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 8.0,
+   "host": "s3_t",
+   "text": "our",
+   "size": 104,
+   "y": 818,
+   "headline": true
+  },
+  {
+   "t_in": 8.2,
+   "t_out": 13.8,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 255,
+   "headline": false
+  },
+  {
+   "t_in": 8.2,
+   "t_out": 13.8,
+   "host": "s4_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 13.8,
+   "host": "s4_h_w3",
+   "text": "pricing",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 13.8,
+   "host": "s4_h_w4",
+   "text": "page",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 13.8,
+   "host": "s4_h_w5",
+   "text": "No",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 16.0,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 23,
+   "y": 642,
+   "headline": false
+  },
+  {
+   "t_in": 8.5,
+   "t_out": 13.8,
+   "host": "s4_h_w6",
+   "text": "made-up",
+   "size": 92,
+   "y": 315,
+   "headline": true
+  },
+  {
+   "t_in": 8.5,
+   "t_out": 13.8,
+   "host": "s4_h_w7",
+   "text": "praise.",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 8.6,
+   "t_out": 13.8,
+   "host": "s4_h_w8",
+   "text": "An",
+   "size": 92,
+   "y": 403,
+   "headline": true
+  },
+  {
+   "t_in": 8.6,
+   "t_out": 13.8,
+   "host": "s4_h_w9",
+   "text": "audit",
+   "size": 92,
+   "y": 408,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 13.8,
+   "host": "s4_h_w10",
+   "text": "invite.",
+   "size": 92,
+   "y": 403,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 13.8,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Pricing · 23 SEP 2026 · 22:09 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 11.2,
+   "host": "s4_card_co0",
+   "text": "Zero testimonials. None made up.",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 11.2,
+   "host": "s4_card_co0",
+   "text": "IN OUR OWN WORDS",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 11.8,
+   "t_out": 13.8,
+   "host": "s4_a",
+   "text": "Don’t trust us.",
+   "size": 104,
+   "y": 1150,
+   "headline": true
+  },
+  {
+   "t_in": 12.6,
+   "t_out": 13.8,
+   "host": "s4_b",
+   "text": "Audit us.",
+   "size": 104,
+   "y": 1270,
+   "headline": true
+  },
+  {
+   "t_in": 13.9,
+   "t_out": 16.0,
+   "host": "s4_c",
+   "text": "$0.",
+   "size": 118,
+   "y": 390,
+   "headline": true
+  },
+  {
+   "t_in": 13.9,
+   "t_out": 16.0,
+   "host": "s4_c",
+   "text": "Start at",
+   "size": 118,
+   "y": 406,
+   "headline": true
+  },
+  {
+   "t_in": 14.2,
+   "t_out": 16.0,
+   "host": "s4_fstamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 23,
+   "y": 641,
+   "headline": false
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 218,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Don’t",
+   "size": 92,
+   "y": 302,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "trust",
+   "size": 92,
+   "y": 308,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "us.",
+   "size": 92,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "Audit",
+   "size": 92,
+   "y": 402,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "us.",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "Public",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "pages",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 19,
+   "y": 828,
+   "headline": false
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "that",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w8",
+   "text": "have",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1242,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_h_w9",
+   "text": "to",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w10",
+   "text": "agree",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w11",
+   "text": "with",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1377,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w12",
+   "text": "each",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w13",
+   "text": "other.",
+   "size": 44,
+   "y": 569,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · pricing may change",
+   "size": 22,
+   "y": 1421,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 8.761,
+   "t1": 11.15,
+   "key": "IN OUR OWN WORDS",
+   "text": "Zero testimonials. None made up."
+  }
+ ],
+ "cta": 15.929,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.637,
+   "type": "swish"
+  },
+  {
+   "t": 6.372,
+   "type": "hit"
+  },
+  {
+   "t": 7.965,
+   "type": "riser"
+  },
+  {
+   "t": 7.965,
+   "type": "impact"
+  },
+  {
+   "t": 8.015,
+   "type": "ding"
+  },
+  {
+   "t": 8.265,
+   "type": "scan"
+  },
+  {
+   "t": 8.761,
+   "type": "swish"
+  },
+  {
+   "t": 9.118,
+   "type": "click"
+  },
+  {
+   "t": 11.681,
+   "type": "hit"
+  },
+  {
+   "t": 12.478,
+   "type": "hit"
+  },
+  {
+   "t": 13.805,
+   "type": "pop"
+  },
+  {
+   "t": 13.912,
+   "type": "whoosh"
+  },
+  {
+   "t": 15.929,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.329,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.529,
+   "type": "pop"
+  },
+  {
+   "t": 20.177,
+   "type": "hit"
+  }
+ ]
+}

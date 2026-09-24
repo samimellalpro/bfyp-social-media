@@ -1,0 +1,72 @@
+== v2_12_what_changed  dur 20.40s  bpm 122  CTA at 15.738
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-0.5] GREEN.
+  0.00  TXT [0.0-4.0] Your dashboard,
+  0.00  TXT [0.0-4.0] all day:
+  0.00  txt [0.0-4.0] ▲ ▼ ▲ ▲ ▼ ▲ ▼ ▼ ▲ ▲ ▼ ▲ ▼ ▲ ▲ ▼ ▲ ▼ ▼ ▲ ▲ ▼ ▲ ▼ ▲ ▲ ▼ ▲
+  0.00  sfx impact
+  0.50  TXT [0.5-1.0] RED.
+  1.00  TXT [1.0-1.5] GREEN.
+  1.50  TXT [1.5-2.0] RED.
+  1.97  sfx hit
+  2.10  TXT [2.1-4.0] It shows
+  2.10  TXT [2.1-4.0] Not
+  2.10  TXT [2.1-4.0] prices.
+  2.10  TXT [2.1-4.0] what changed.
+  3.93  --- CUT s2 (zoomIn)
+  3.93  sfx hit
+  4.00  TXT [4.0-7.9] Price tells you
+  4.00  TXT [4.0-7.9] THAT.
+  5.16  sfx hit
+  5.20  TXT [5.2-7.9] Not
+  5.20  TXT [5.2-7.9] WHAT.
+  7.87  --- CUT s3 (zoomIn)
+  7.87  sfx impact
+  7.87  sfx riser
+  7.92  sfx ding
+  8.00  TXT [8.0-8.1] 64
+  8.00  txt [8.0-15.8] On BFYP · Today · last 24h
+  8.10  TXT [8.1-8.2] 197
+  8.20  TXT [8.2-8.3] 269
+  8.30  TXT [8.3-8.4] 308
+  8.40  TXT [8.4-8.5] 329
+  8.50  TXT [8.5-8.6] 340
+  8.60  TXT [8.6-8.7] 347
+  8.70  TXT [8.7-15.8] 10 assets.
+  8.70  TXT [8.7-15.8] observations.
+  8.70  TXT [8.7-8.8] 350
+  8.80  TXT [8.8-8.9] 352
+  8.90  TXT [8.9-9.1] 353
+  9.10  TXT [9.1-15.8] 354
+  9.10  txt [9.1-15.8] BFYP TODAY DATA · CAPTURED 23 SEP 2026 · 22:14 UTC
+ 10.00  txt [10.0-15.7] BFYP Today data · 23 SEP 2026 · 22:14 UTC
+ 10.33  ZOOM [10.33-11.56] ON-CHAIN · 234 observations
+ 10.90  TXT [10.9-11.6] 234 observations
+ 10.90  txt [10.9-11.6] ON-CHAIN
+ 11.56  ZOOM [11.56-12.79] COMPANIES & THEMES · 101 observations
+ 12.10  TXT [12.1-12.8] 101 observations
+ 12.10  txt [12.1-12.8] COMPANIES & THEMES
+ 12.79  ZOOM [12.79-14.02] CRYPTO · MACRO · STOCKS & ETFs · 11 · 5 · 3
+ 13.30  TXT [13.3-14.1] 11 · 5 · 3
+ 13.30  txt [13.3-14.1] CRYPTO · MACRO · STOCKS & ETFs
+ 14.02  ZOOM [14.02-15.54] COUNTS, NOT PRICES · Not price movement. Not size.
+ 14.60  TXT [14.6-15.6] Not price movement. Not size.
+ 14.60  txt [14.6-15.6] COUNTS, NOT PRICES
+ 15.74  --- CUT cta (zoom)
+ 15.74  sfx whoosh
+ 15.90  txt [15.9-20.4] ETTERFORYOURPOCKET
+ 16.00  TXT [16.0-20.4] Start
+ 16.00  TXT [16.0-20.4] with
+ 16.10  TXT [16.1-20.4] changed.
+ 16.10  TXT [16.1-20.4] what
+ 16.20  TXT [16.2-20.4] Observed
+ 16.30  TXT [16.3-20.4] Nothing
+ 16.30  TXT [16.3-20.4] activity.
+ 16.30  txt [16.3-20.4] CAPTURED 23 SEP 2026 · 22:14 UTC
+ 16.40  TXT [16.4-20.4] betterforyourpocket.com
+ 16.40  TXT [16.4-20.4] here
+ 16.40  TXT [16.4-20.4] is
+ 16.60  TXT [16.6-20.4] prediction.
+ 16.70  txt [16.7-20.4] Educational market data. Not financial advice.
+ 16.80  txt [16.8-20.4] BFYP Today data from 23 Sep 2026 · live data changes
+ 20.16  sfx hit

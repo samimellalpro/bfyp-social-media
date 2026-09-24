@@ -1,0 +1,56 @@
+== v2_27_prove_it  dur 23.60s  bpm 92  CTA at 17.509
+  0.00  --- CUT s1 (cut)
+  0.00  sfx impact
+  0.20  TXT [0.2-3.7] If
+  0.40  TXT [0.4-3.7] it
+  0.50  TXT [0.5-3.7] can’t
+  0.80  TXT [0.8-3.7] be
+  1.00  TXT [1.0-3.7] proven
+  1.40  TXT [1.4-3.7] wrong,
+  1.70  TXT [1.7-3.7] it’s
+  1.90  TXT [1.9-3.7] just
+  2.30  TXT [2.3-3.7] vibe.
+  3.49  --- CUT s2 (zoomIn)
+  3.60  TXT [3.6-5.3] “It’ll pump eventually.”
+  4.00  txt [4.0-9.3] Typical claims · illustration
+  5.50  TXT [5.5-7.0] “Smart money knows.”
+  7.50  TXT [7.5-8.7] “Trust me.”
+  9.03  --- CUT s3 (left)
+  9.20  TXT [9.2-13.1] None
+  9.40  TXT [9.4-13.1] of
+  9.60  TXT [9.6-13.1] these
+  9.90  TXT [9.9-13.1] can
+ 10.10  TXT [10.1-13.1] ever
+ 10.40  TXT [10.4-13.1] be
+ 10.60  TXT [10.6-13.1] wrong.
+ 10.90  TXT [10.9-13.1] So
+ 11.10  TXT [11.1-13.1] they
+ 11.30  TXT [11.3-13.1] tell
+ 11.60  TXT [11.6-13.1] you
+ 11.80  TXT [11.8-13.1] nothing.
+ 12.13  sfx hit
+ 12.94  --- CUT s4 (zoomIn)
+ 13.04  sfx impact
+ 13.04  sfx riser
+ 13.09  sfx ding
+ 13.10  TXT [13.1-17.0] On BFYP, every line names
+ 13.10  TXT [13.1-17.0] what would prove it.
+ 13.10  txt [13.1-13.4] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC
+ 13.24  ZOOM [13.24-17.46] ON BFYP · TODAY · Every line names what would prove it
+ 13.50  txt [13.5-17.5] Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC
+ 13.70  TXT [13.7-17.5] Every line names what would prove it
+ 13.70  txt [13.7-17.5] ON BFYP · TODAY
+ 17.51  --- CUT cta (zoom)
+ 17.51  sfx whoosh
+ 17.70  TXT [17.7-23.6] Trade
+ 17.70  txt [17.7-23.6] ETTERFORYOURPOCKET
+ 17.80  TXT [17.8-23.6] vibes
+ 17.90  TXT [17.9-23.6] evidence.
+ 17.90  TXT [17.9-23.6] for
+ 18.00  TXT [18.0-23.6] Free
+ 18.00  TXT [18.0-23.6] at
+ 18.10  TXT [18.1-23.6] betterforyourpocket.com
+ 18.10  txt [18.1-23.6] CAPTURED 23 SEP 2026 · 21:28 UTC
+ 18.20  TXT [18.2-23.6] betterforyourpocket.com
+ 18.40  txt [18.4-23.6] Educational market data. Not financial advice.
+ 18.50  txt [18.5-23.6] Screen from 23 Sep 2026 · AI voice

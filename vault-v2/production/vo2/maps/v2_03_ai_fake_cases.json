@@ -1,0 +1,684 @@
+{
+ "reel": "v2_03_ai_fake_cases",
+ "dur": 20.8,
+ "bpm": 120,
+ "music": {
+  "style": "minimal",
+  "bpm": 120,
+  "key": "G",
+  "mode": "dorian",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 10,
+    "type": "tension"
+   },
+   {
+    "beat": 16,
+    "type": "build"
+   },
+   {
+    "beat": 18,
+    "type": "drop"
+   },
+   {
+    "beat": 31,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.0,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 5.0,
+   "kind": "up"
+  },
+  {
+   "shot": "s4",
+   "t": 7.0,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s5",
+   "t": 9.0,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 15.5,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_h",
+   "text": "An AI invented",
+   "size": 118,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_h",
+   "text": "6 court cases.",
+   "size": 118,
+   "y": 350,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_card",
+   "text": "U.S. District Court · S.D.N.Y.",
+   "size": 25,
+   "y": 672,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_card",
+   "text": "Mata v. Avianca · 2023",
+   "size": 25,
+   "y": 672,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_card",
+   "text": "non-existent judicial opinions",
+   "size": 52,
+   "y": 755,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_card",
+   "text": "“…",
+   "size": 52,
+   "y": 756,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_card",
+   "text": "with fake quotes and citations created by the artificial intelligence tool ChatGPT…”",
+   "size": 52,
+   "y": 756,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.2,
+   "host": "s1_card",
+   "text": "Sanctions opinion · 22 Jun 2023",
+   "size": 24,
+   "y": 1023,
+   "headline": false
+  },
+  {
+   "t_in": 1.3,
+   "t_out": 3.2,
+   "host": "s1_b",
+   "text": "filed them.",
+   "size": 92,
+   "y": 1242,
+   "headline": true
+  },
+  {
+   "t_in": 1.3,
+   "t_out": 3.2,
+   "host": "s1_b",
+   "text": "A lawyer",
+   "size": 92,
+   "y": 1257,
+   "headline": true
+  },
+  {
+   "t_in": 3.1,
+   "t_out": 3.2,
+   "host": "s2_n",
+   "text": "$0",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.2,
+   "t_out": 5.2,
+   "host": "s2_eb",
+   "text": "The result:",
+   "size": 70,
+   "y": 432,
+   "headline": true
+  },
+  {
+   "t_in": 3.2,
+   "t_out": 3.3,
+   "host": "s2_n",
+   "text": "$1,674",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.3,
+   "t_out": 3.4,
+   "host": "s2_n",
+   "text": "$3,529",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.4,
+   "t_out": 3.5,
+   "host": "s2_n",
+   "text": "$4,349",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 3.6,
+   "host": "s2_n",
+   "text": "$4,712",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 3.7,
+   "host": "s2_n",
+   "text": "$4,873",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.7,
+   "t_out": 3.8,
+   "host": "s2_n",
+   "text": "$4,944",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 3.9,
+   "host": "s2_n",
+   "text": "$4,975",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.9,
+   "t_out": 4.0,
+   "host": "s2_n",
+   "text": "$4,989",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 3.9,
+   "t_out": 5.2,
+   "host": "s2_t",
+   "text": "in sanctions.",
+   "size": 92,
+   "y": 863,
+   "headline": true
+  },
+  {
+   "t_in": 3.9,
+   "t_out": 5.2,
+   "host": "s2_t",
+   "text": "Judge P. Kevin Castel · S.D.N.Y. · 22 June 2023",
+   "size": 24,
+   "y": 977,
+   "headline": false
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 5.2,
+   "host": "s2_n",
+   "text": "$5,000",
+   "size": 250,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 5.1,
+   "t_out": 7.1,
+   "host": "s3_l_l0",
+   "text": "Confident.",
+   "size": 150,
+   "y": 709,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.1,
+   "host": "s3_l_l1",
+   "text": "Fluent.",
+   "size": 150,
+   "y": 669,
+   "headline": true
+  },
+  {
+   "t_in": 6.1,
+   "t_out": 7.1,
+   "host": "s3_l_l2",
+   "text": "Wrong.",
+   "size": 150,
+   "y": 800,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 9.1,
+   "host": "s4_t",
+   "text": "In markets, a made-up",
+   "size": 108,
+   "y": 724,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 9.1,
+   "host": "s4_t",
+   "text": "number",
+   "size": 108,
+   "y": 724,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 9.1,
+   "host": "s4_t",
+   "text": "costs money.",
+   "size": 108,
+   "y": 927,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 9.6,
+   "host": "s5_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 9.6,
+   "host": "s5_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 253,
+   "headline": false
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 9.6,
+   "host": "s5_h_w3",
+   "text": "AI",
+   "size": 30,
+   "y": 253,
+   "headline": false
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 9.6,
+   "host": "s5_h_w4",
+   "text": "Research",
+   "size": 30,
+   "y": 257,
+   "headline": false
+  },
+  {
+   "t_in": 9.5,
+   "t_out": 9.6,
+   "host": "s5_h_w5",
+   "text": "AI",
+   "size": 92,
+   "y": 314,
+   "headline": true
+  },
+  {
+   "t_in": 9.5,
+   "t_out": 9.6,
+   "host": "s5_h_w6",
+   "text": "answers",
+   "size": 92,
+   "y": 318,
+   "headline": true
+  },
+  {
+   "t_in": 9.5,
+   "t_out": 9.7,
+   "host": "s5_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:39 UTC",
+   "size": 23,
+   "y": 561,
+   "headline": false
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 13.5,
+   "host": "s5_cap",
+   "text": "Real BFYP screen · AI Research · 23 SEP 2026 · 21:39 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 10.0,
+   "t_out": 11.6,
+   "host": "s5_card_co0",
+   "text": "Every figure → the evidence it came from",
+   "size": 44,
+   "y": 338,
+   "headline": true
+  },
+  {
+   "t_in": 10.0,
+   "t_out": 11.6,
+   "host": "s5_card_co0",
+   "text": "TRACED",
+   "size": 24,
+   "y": 357,
+   "headline": false
+  },
+  {
+   "t_in": 12.0,
+   "t_out": 13.6,
+   "host": "s5_card_co1",
+   "text": "No data? The answer says so.",
+   "size": 44,
+   "y": 338,
+   "headline": true
+  },
+  {
+   "t_in": 12.0,
+   "t_out": 13.6,
+   "host": "s5_card_co1",
+   "text": "HONEST",
+   "size": 24,
+   "y": 357,
+   "headline": false
+  },
+  {
+   "t_in": 13.7,
+   "t_out": 15.6,
+   "host": "s5_lt",
+   "text": "Automated —",
+   "size": 92,
+   "y": 476,
+   "headline": true
+  },
+  {
+   "t_in": 13.7,
+   "t_out": 15.6,
+   "host": "s5_lt",
+   "text": "and it says so.",
+   "size": 92,
+   "y": 552,
+   "headline": true
+  },
+  {
+   "t_in": 15.7,
+   "t_out": 20.8,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 15.7,
+   "t_out": 20.8,
+   "host": "cta_h_w0",
+   "text": "Ask",
+   "size": 92,
+   "y": 307,
+   "headline": true
+  },
+  {
+   "t_in": 15.8,
+   "t_out": 20.8,
+   "host": "cta_h_w1",
+   "text": "with",
+   "size": 92,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 15.8,
+   "t_out": 20.8,
+   "host": "cta_h_w2",
+   "text": "receipts.",
+   "size": 92,
+   "y": 404,
+   "headline": true
+  },
+  {
+   "t_in": 15.9,
+   "t_out": 20.8,
+   "host": "cta_h_w3",
+   "text": "Free",
+   "size": 44,
+   "y": 509,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.8,
+   "host": "cta_h_w4",
+   "text": "plan:",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.8,
+   "host": "cta_h_w5",
+   "text": "52",
+   "size": 44,
+   "y": 513,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.8,
+   "host": "cta_h_w6",
+   "text": "AI",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.8,
+   "host": "cta_h_w7",
+   "text": "credits",
+   "size": 44,
+   "y": 518,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.8,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:39 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.8,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1239,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.8,
+   "host": "cta_h_w9",
+   "text": "month.",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.8,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.8,
+   "host": "cta_note",
+   "text": "Live product may differ · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s5_card",
+   "t0": 9.5,
+   "t1": 11.5,
+   "key": "TRACED",
+   "text": "Every figure → the evidence it came from"
+  },
+  {
+   "screen": "s5_card",
+   "t0": 11.5,
+   "t1": 13.5,
+   "key": "HONEST",
+   "text": "No data? The answer says so."
+  }
+ ],
+ "cta": 15.5,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 1.25,
+   "type": "hit"
+  },
+  {
+   "t": 3.15,
+   "type": "ticks"
+  },
+  {
+   "t": 5,
+   "type": "hit"
+  },
+  {
+   "t": 5.5,
+   "type": "hit"
+  },
+  {
+   "t": 6,
+   "type": "hit"
+  },
+  {
+   "t": 6,
+   "type": "glitch"
+  },
+  {
+   "t": 7,
+   "type": "hit"
+  },
+  {
+   "t": 9,
+   "type": "riser"
+  },
+  {
+   "t": 9,
+   "type": "impact"
+  },
+  {
+   "t": 9.05,
+   "type": "ding"
+  },
+  {
+   "t": 9.3,
+   "type": "scan"
+  },
+  {
+   "t": 9.5,
+   "type": "swish"
+  },
+  {
+   "t": 9.857,
+   "type": "click"
+  },
+  {
+   "t": 11.5,
+   "type": "swish"
+  },
+  {
+   "t": 11.857,
+   "type": "click"
+  },
+  {
+   "t": 13.6,
+   "type": "whoosh"
+  },
+  {
+   "t": 15.5,
+   "type": "whoosh"
+  },
+  {
+   "t": 15.9,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.1,
+   "type": "pop"
+  },
+  {
+   "t": 20.5,
+   "type": "hit"
+  }
+ ]
+}

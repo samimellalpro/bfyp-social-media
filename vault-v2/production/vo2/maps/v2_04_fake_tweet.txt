@@ -1,0 +1,78 @@
+== v2_04_fake_tweet  dur 22.00s  bpm 172  CTA at 17.442
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-4.4] $136.5B
+  0.00  TXT [0.0-4.4] 3-minute
+  0.00  TXT [0.0-4.4] One fake tweet
+  0.00  TXT [0.0-4.4] erased
+  0.00  TXT [0.0-4.4] in a
+  0.00  TXT [0.0-4.4] plunge.
+  0.00  txt [0.0-4.4] S&P 500 value, per Reuters data · 23 Apr 2013
+  0.00  sfx glitch
+  0.00  sfx impact
+  0.02  sfx glitch
+  4.19  --- CUT s2 (left)
+  4.36  sfx notif
+  4.40  TXT [4.4-7.1] The tweet, from a
+  4.40  TXT [4.4-7.1] hacked
+  4.40  TXT [4.4-7.1] news account:
+  4.50  TXT [4.5-7.2] “Breaking: Two Explosions in the White House and Barack Obama is injured”
+  4.50  txt [4.5-7.2] 23 Apr 2013
+  4.50  txt [4.5-7.2] False. Debunked within minutes.
+  4.50  txt [4.5-7.2] Hacked @AP account · fake post
+  5.30  TXT [5.3-7.2] FAKE
+  5.35  sfx stamp
+  6.98  --- CUT s3 (up)
+  6.98  sfx hit
+  6.98  sfx subdrop
+  7.10  TXT [7.1-9.9] Dow
+  7.10  TXT [7.1-9.9] points, within minutes
+  7.10  TXT [7.1-9.9] ↓ ~140
+  8.02  sfx whoosh
+  8.10  TXT [8.1-9.9] Then it
+  8.10  TXT [8.1-9.9] bounced back.
+  8.30  txt [8.3-9.9] Sources: CNBC · Reuters data · 23–24 Apr 2013
+  9.77  --- CUT s4 (zoomIn)
+  9.77  sfx hit
+  9.90  TXT [9.9-12.6] Markets react
+  9.90  TXT [9.9-12.6] first.
+ 10.46  sfx hit
+ 10.50  TXT [10.5-12.6] Verification
+ 10.50  TXT [10.5-12.6] comes
+ 10.50  TXT [10.5-12.6] later.
+ 12.56  --- CUT s5 (zoomIn)
+ 12.56  sfx impact
+ 12.56  sfx riser
+ 12.61  sfx ding
+ 12.80  txt [12.8-13.4] BFYP
+ 12.80  txt [12.8-13.4] On
+ 12.90  TXT [12.9-13.4] What
+ 12.90  txt [12.9-13.4] Today
+ 13.00  TXT [13.0-13.4] actually
+ 13.00  TXT [13.0-13.4] observed.
+ 13.00  TXT [13.0-13.4] was
+ 13.00  txt [13.0-13.4] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC
+ 13.26  ZOOM [13.26-14.72] COUNTED · 330 observations · 10 assets · 24h
+ 13.40  txt [13.4-14.8] Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC
+ 13.80  TXT [13.8-14.8] 330 observations · 10 assets · 24h
+ 13.80  txt [13.8-14.8] COUNTED
+ 14.79  sfx hit
+ 14.90  TXT [14.9-17.5] Nothing here is
+ 14.90  TXT [14.9-17.5] a prediction.”
+ 14.90  TXT [14.9-17.5] as counted by BFYP.
+ 14.90  TXT [14.9-17.5] “Observed activity,
+ 15.10  txt [15.1-17.5] Verbatim · BFYP Today · 23 Sep 2026 · 22:14 UTC
+ 17.44  --- CUT cta (zoom)
+ 17.44  sfx whoosh
+ 17.60  txt [17.6-22.0] ETTERFORYOURPOCKET
+ 17.70  TXT [17.7-22.0] Check
+ 17.70  TXT [17.7-22.0] what
+ 17.80  TXT [17.8-22.0] actually
+ 17.80  TXT [17.8-22.0] happened.
+ 17.90  TXT [17.9-22.0] Before
+ 18.00  TXT [18.0-22.0] react.
+ 18.00  TXT [18.0-22.0] you
+ 18.00  txt [18.0-22.0] CAPTURED 23 SEP 2026 · 21:28 UTC
+ 18.10  TXT [18.1-22.0] betterforyourpocket.com
+ 18.40  txt [18.4-22.0] Educational market data. Not financial advice.
+ 18.50  txt [18.5-22.0] Live data changes · screen from 23 Sep 2026
+ 21.63  sfx hit

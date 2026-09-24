@@ -1,0 +1,96 @@
+== v2_10_top10_36  dur 21.00s  bpm 118  CTA at 17.288
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-4.8] 500 companies.
+  0.00  TXT [0.0-4.8] You bought
+  0.00  sfx impact
+  0.90  txt [0.9-4.8] SPY · 504 holdings · N-PORT period 30 Jun 2026
+  2.24  sfx hit
+  2.40  TXT [2.4-4.8] 36%
+  2.40  TXT [2.4-4.8] sits in 10 lines.
+  4.58  --- CUT s2 (left)
+  4.70  TXT [4.7-4.9] 0.0%
+  4.70  TXT [4.7-9.3] of the fund.
+  4.70  txt [4.7-9.3] SPY · top 10 holdings, as filed
+  4.90  TXT [4.9-5.0] 11.5%
+  5.00  TXT [5.0-5.1] 22.0%
+  5.00  TXT [5.0-9.3] NVDA
+  5.10  TXT [5.1-5.2] 28.0%
+  5.10  TXT [5.1-9.3] AAPL
+  5.20  TXT [5.2-5.3] 31.5%
+  5.20  TXT [5.2-9.3] MSFT
+  5.20  txt [5.2-9.3] $58.72B
+  5.30  TXT [5.3-5.4] 33.6%
+  5.30  TXT [5.3-9.3] AMZN
+  5.30  txt [5.3-9.3] $51.50B
+  5.40  TXT [5.4-5.5] 34.8%
+  5.40  TXT [5.4-9.3] GOOGL
+  5.40  txt [5.4-9.3] $33.58B
+  5.50  TXT [5.5-5.6] 35.5%
+  5.50  TXT [5.5-9.3] AVGO
+  5.50  txt [5.5-9.3] $28.27B
+  5.60  TXT [5.6-5.7] 35.9%
+  5.60  TXT [5.6-9.3] GOOG
+  5.60  txt [5.6-9.3] $25.39B
+  5.70  TXT [5.7-5.8] 36.1%
+  5.70  TXT [5.7-9.3] MU
+  5.70  txt [5.7-9.3] $21.67B
+  5.80  TXT [5.8-5.9] 36.2%
+  5.80  TXT [5.8-9.3] META
+  5.80  txt [5.8-9.3] $20.24B
+  5.90  TXT [5.9-6.1] 36.3%
+  5.90  TXT [5.9-9.3] TSLA
+  5.90  txt [5.9-9.3] $15.77B
+  6.00  txt [6.0-9.3] $14.99B
+  6.10  TXT [6.1-9.3] 36.4%
+  6.10  txt [6.1-9.3] $14.35B
+  6.20  txt [6.2-7.6] $284.48B of $781.19B net assets
+  7.63  sfx ding
+  7.70  TXT [7.7-9.3] Alphabet shows up
+  7.70  TXT [7.7-9.3] twice.
+  9.15  --- CUT s3 (zoomIn)
+  9.15  sfx hit
+  9.30  TXT [9.3-12.3] 10 lines.
+  9.30  TXT [9.3-12.3] 9 companies.
+ 10.00  txt [10.0-12.3] GOOGL and GOOG are two share classes of Alphabet.
+ 12.20  --- CUT s4 (zoomIn)
+ 12.20  sfx impact
+ 12.20  sfx riser
+ 12.25  sfx ding
+ 12.40  txt [12.4-12.8] On
+ 12.50  txt [12.5-12.8] BFYP
+ 12.60  txt [12.6-12.8] ETF
+ 12.70  TXT [12.7-12.8] What
+ 12.70  txt [12.7-12.8] SPY
+ 12.70  txt [12.7-12.9] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC
+ 12.71  ZOOM [12.71-14.24] THE FUND · $781.19B net assets · 30 Jun 2026
+ 12.90  txt [12.9-17.3] Real BFYP screen · ETF · SPY · 23 SEP 2026 · 22:01 UTC
+ 13.30  TXT [13.3-14.3] $781.19B net assets · 30 Jun 2026
+ 13.30  txt [13.3-14.3] THE FUND
+ 14.24  ZOOM [14.24-15.76] AS FILED · 15 of 504 · % of net assets
+ 14.80  TXT [14.8-15.8] 15 of 504 · % of net assets
+ 14.80  txt [14.8-15.8] AS FILED
+ 15.76  ZOOM [15.76-17.19] THE TOP LINES · Top 5 rows · values as filed
+ 16.30  TXT [16.3-17.2] Top 5 rows · values as filed
+ 16.30  txt [16.3-17.2] THE TOP LINES
+ 17.29  --- CUT cta (zoom)
+ 17.29  sfx whoosh
+ 17.50  TXT [17.5-21.0] See
+ 17.50  txt [17.5-21.0] ETTERFORYOURPOCKET
+ 17.60  TXT [17.6-21.0] what
+ 17.60  TXT [17.6-21.0] your
+ 17.70  TXT [17.7-21.0] fund
+ 17.80  TXT [17.8-21.0] actually
+ 17.80  TXT [17.8-21.0] holds.
+ 17.90  TXT [17.9-21.0] ETF
+ 17.90  TXT [17.9-21.0] Every
+ 17.90  txt [17.9-21.0] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 18.00  TXT [18.0-21.0] betterforyourpocket.com
+ 18.00  TXT [18.0-21.0] page,
+ 18.10  TXT [18.1-21.0] as
+ 18.10  TXT [18.1-21.0] filed,
+ 18.20  TXT [18.2-21.0] its
+ 18.20  TXT [18.2-21.0] with
+ 18.20  txt [18.2-21.0] Educational market data. Not financial advice.
+ 18.30  TXT [18.3-21.0] dates.
+ 18.30  txt [18.3-21.0] Filing data changes · screens from 23 Sep 2026
+ 20.85  sfx hit

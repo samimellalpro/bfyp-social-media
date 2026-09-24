@@ -1,0 +1,815 @@
+{
+ "reel": "v2_14_whale_alert",
+ "dur": 20,
+ "bpm": 124,
+ "music": {
+  "style": "techhouse",
+  "bpm": 124,
+  "key": "A",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 8,
+    "type": "tension"
+   },
+   {
+    "beat": 12,
+    "type": "drop"
+   },
+   {
+    "beat": 28,
+    "type": "break"
+   },
+   {
+    "beat": 32,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.871,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 5.806,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 15.484,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_h",
+   "text": "This whale alert",
+   "size": 118,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_h",
+   "text": "tells you",
+   "size": 118,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_h",
+   "text": "nothing.",
+   "size": 118,
+   "y": 350,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_alert",
+   "text": "Alert Feed",
+   "size": 38,
+   "y": 704,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_alert",
+   "text": "@example_alerts · illustration",
+   "size": 30,
+   "y": 748,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_alert",
+   "text": "🚨🐋",
+   "size": 62,
+   "y": 794,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_alert",
+   "text": "just moved!",
+   "size": 62,
+   "y": 794,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_alert",
+   "text": "$1.09M $LIT",
+   "size": 62,
+   "y": 803,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.1,
+   "host": "s1_alert",
+   "text": "TYPICAL ALERT · ILLUSTRATION · NOT A REAL ACCOUNT",
+   "size": 22,
+   "y": 949,
+   "headline": false
+  },
+  {
+   "t_in": 1.5,
+   "t_out": 4.1,
+   "host": "s1_q_l0",
+   "text": "wallet?",
+   "size": 78,
+   "y": 1121,
+   "headline": true
+  },
+  {
+   "t_in": 1.5,
+   "t_out": 4.1,
+   "host": "s1_q_l0",
+   "text": "Who is the",
+   "size": 78,
+   "y": 1132,
+   "headline": true
+  },
+  {
+   "t_in": 2.3,
+   "t_out": 4.1,
+   "host": "s1_q_l1",
+   "text": "many?",
+   "size": 78,
+   "y": 1215,
+   "headline": true
+  },
+  {
+   "t_in": 2.3,
+   "t_out": 4.1,
+   "host": "s1_q_l1",
+   "text": "One transfer or",
+   "size": 78,
+   "y": 1226,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 4.1,
+   "host": "s1_q_l2",
+   "text": "proof?",
+   "size": 78,
+   "y": 1312,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 4.1,
+   "host": "s1_q_l2",
+   "text": "Where is the",
+   "size": 78,
+   "y": 1323,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 5.9,
+   "host": "s2_t",
+   "text": "Size without",
+   "size": 132,
+   "y": 575,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 5.9,
+   "host": "s2_t",
+   "text": "context is",
+   "size": 132,
+   "y": 575,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 5.9,
+   "host": "s2_t",
+   "text": "just",
+   "size": 132,
+   "y": 575,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 5.9,
+   "host": "s2_t",
+   "text": "noise.",
+   "size": 132,
+   "y": 815,
+   "headline": true
+  },
+  {
+   "t_in": 5.0,
+   "t_out": 5.9,
+   "host": "s2_sub",
+   "text": "on BFYP",
+   "size": 70,
+   "y": 1084,
+   "headline": true
+  },
+  {
+   "t_in": 5.0,
+   "t_out": 5.9,
+   "host": "s2_sub",
+   "text": "Same move,",
+   "size": 70,
+   "y": 1092,
+   "headline": true
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 15.5,
+   "host": "s3_h_w0",
+   "text": "Same",
+   "size": 30,
+   "y": 245,
+   "headline": false
+  },
+  {
+   "t_in": 6.1,
+   "t_out": 15.5,
+   "host": "s3_h_w1",
+   "text": "move",
+   "size": 30,
+   "y": 240,
+   "headline": false
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 15.5,
+   "host": "s3_h_w3",
+   "text": "on",
+   "size": 30,
+   "y": 239,
+   "headline": false
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 15.5,
+   "host": "s3_h_w4",
+   "text": "BFYP",
+   "size": 30,
+   "y": 244,
+   "headline": false
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 15.5,
+   "host": "s3_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 23,
+   "y": 564,
+   "headline": false
+  },
+  {
+   "t_in": 6.3,
+   "t_out": 15.5,
+   "host": "s3_h_w5",
+   "text": "Every",
+   "size": 70,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 6.3,
+   "t_out": 15.5,
+   "host": "s3_h_w6",
+   "text": "large",
+   "size": 70,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 15.4,
+   "host": "s3_cap",
+   "text": "Real BFYP screen · Whale Activity · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 6.8,
+   "t_out": 7.3,
+   "host": "s3_card_co0",
+   "text": "Large transfer · $1.09M LIT",
+   "size": 44,
+   "y": 337,
+   "headline": true
+  },
+  {
+   "t_in": 6.8,
+   "t_out": 7.3,
+   "host": "s3_card_co0",
+   "text": "TYPED + SIZED",
+   "size": 24,
+   "y": 356,
+   "headline": false
+  },
+  {
+   "t_in": 7.8,
+   "t_out": 8.3,
+   "host": "s3_card_co1",
+   "text": "2 similar transfers",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 7.8,
+   "t_out": 8.3,
+   "host": "s3_card_co1",
+   "text": "GROUPED",
+   "size": 24,
+   "y": 352,
+   "headline": false
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 9.2,
+   "host": "s3_card_co2",
+   "text": "The wallet + its chain",
+   "size": 44,
+   "y": 329,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 9.2,
+   "host": "s3_card_co2",
+   "text": "WHO + WHERE",
+   "size": 24,
+   "y": 350,
+   "headline": false
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 10.2,
+   "host": "s3_card_co3",
+   "text": "Wallet score · ROI",
+   "size": 44,
+   "y": 337,
+   "headline": true
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 10.2,
+   "host": "s3_card_co3",
+   "text": "TRACK RECORD",
+   "size": 24,
+   "y": 356,
+   "headline": false
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 11.2,
+   "host": "s3_card_co4",
+   "text": "Raw transaction, 1 click",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 11.2,
+   "host": "s3_card_co4",
+   "text": "PROOF",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 11.7,
+   "t_out": 12.1,
+   "host": "s3_card_co5",
+   "text": "Observed · detected · via",
+   "size": 44,
+   "y": 329,
+   "headline": true
+  },
+  {
+   "t_in": 11.7,
+   "t_out": 12.1,
+   "host": "s3_card_co5",
+   "text": "WHEN + SOURCE",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 15.5,
+   "host": "s3_h_w7",
+   "text": "move,",
+   "size": 70,
+   "y": 297,
+   "headline": true
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 15.5,
+   "host": "s3_h_w8",
+   "text": "typed",
+   "size": 70,
+   "y": 367,
+   "headline": true
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 15.5,
+   "host": "s3_h_w9",
+   "text": "and",
+   "size": 70,
+   "y": 367,
+   "headline": true
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 15.5,
+   "host": "s3_h_w10",
+   "text": "sourced.",
+   "size": 70,
+   "y": 367,
+   "headline": true
+  },
+  {
+   "t_in": 12.7,
+   "t_out": 15.5,
+   "host": "s3_sum",
+   "text": "Not an alert.",
+   "size": 92,
+   "y": 1309,
+   "headline": true
+  },
+  {
+   "t_in": 12.7,
+   "t_out": 15.5,
+   "host": "s3_sum",
+   "text": "Evidence.",
+   "size": 92,
+   "y": 1385,
+   "headline": true
+  },
+  {
+   "t_in": 15.7,
+   "t_out": 20.0,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 15.7,
+   "t_out": 20.0,
+   "host": "cta_h_w0",
+   "text": "Read",
+   "size": 92,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 15.8,
+   "t_out": 20.0,
+   "host": "cta_h_w1",
+   "text": "the",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 15.8,
+   "t_out": 20.0,
+   "host": "cta_h_w2",
+   "text": "evidence,",
+   "size": 92,
+   "y": 312,
+   "headline": true
+  },
+  {
+   "t_in": 15.9,
+   "t_out": 20.0,
+   "host": "cta_h_w3",
+   "text": "not",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 15.9,
+   "t_out": 20.0,
+   "host": "cta_h_w4",
+   "text": "the",
+   "size": 92,
+   "y": 407,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.0,
+   "host": "cta_h_w5",
+   "text": "alert.",
+   "size": 92,
+   "y": 398,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.0,
+   "host": "cta_h_w6",
+   "text": "The",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.0,
+   "host": "cta_h_w7",
+   "text": "whale",
+   "size": 44,
+   "y": 514,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.0,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.0,
+   "host": "cta_h_w8",
+   "text": "feed",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.0,
+   "host": "cta_h_w9",
+   "text": "is",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.0,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1237,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.0,
+   "host": "cta_h_w10",
+   "text": "on",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.0,
+   "host": "cta_h_w11",
+   "text": "the",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.0,
+   "host": "cta_h_w12",
+   "text": "free",
+   "size": 44,
+   "y": 514,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.0,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.0,
+   "host": "cta_h_w13",
+   "text": "plan.",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.0,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s3_card",
+   "t0": 6.29,
+   "t1": 7.238,
+   "key": "TYPED + SIZED",
+   "text": "Large transfer · $1.09M LIT"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 7.258,
+   "t1": 8.206,
+   "key": "GROUPED",
+   "text": "2 similar transfers"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 8.226,
+   "t1": 9.174,
+   "key": "WHO + WHERE",
+   "text": "The wallet + its chain"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 9.194,
+   "t1": 10.141,
+   "key": "TRACK RECORD",
+   "text": "Wallet score · ROI"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 10.161,
+   "t1": 11.109,
+   "key": "PROOF",
+   "text": "Raw transaction, 1 click"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 11.129,
+   "t1": 12.077,
+   "key": "WHEN + SOURCE",
+   "text": "Observed · detected · via"
+  }
+ ],
+ "cta": 15.484,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "notif"
+  },
+  {
+   "t": 1.452,
+   "type": "pop"
+  },
+  {
+   "t": 2.177,
+   "type": "pop"
+  },
+  {
+   "t": 2.903,
+   "type": "pop"
+  },
+  {
+   "t": 3.871,
+   "type": "hit"
+  },
+  {
+   "t": 3.871,
+   "type": "whoosh"
+  },
+  {
+   "t": 5.081,
+   "type": "reverse"
+  },
+  {
+   "t": 5.806,
+   "type": "riser"
+  },
+  {
+   "t": 5.806,
+   "type": "impact"
+  },
+  {
+   "t": 5.856,
+   "type": "ding"
+  },
+  {
+   "t": 6.156,
+   "type": "scan"
+  },
+  {
+   "t": 6.29,
+   "type": "swish"
+  },
+  {
+   "t": 6.647,
+   "type": "click"
+  },
+  {
+   "t": 7.258,
+   "type": "swish"
+  },
+  {
+   "t": 7.615,
+   "type": "click"
+  },
+  {
+   "t": 8.226,
+   "type": "swish"
+  },
+  {
+   "t": 8.583,
+   "type": "click"
+  },
+  {
+   "t": 9.194,
+   "type": "swish"
+  },
+  {
+   "t": 9.551,
+   "type": "click"
+  },
+  {
+   "t": 10.161,
+   "type": "swish"
+  },
+  {
+   "t": 10.518,
+   "type": "click"
+  },
+  {
+   "t": 11.129,
+   "type": "swish"
+  },
+  {
+   "t": 11.486,
+   "type": "click"
+  },
+  {
+   "t": 12.581,
+   "type": "hit"
+  },
+  {
+   "t": 15.484,
+   "type": "whoosh"
+  },
+  {
+   "t": 15.884,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.084,
+   "type": "pop"
+  },
+  {
+   "t": 19.355,
+   "type": "hit"
+  }
+ ]
+}

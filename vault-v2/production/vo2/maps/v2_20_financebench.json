@@ -1,0 +1,664 @@
+{
+ "reel": "v2_20_financebench",
+ "dur": 21,
+ "bpm": 170,
+ "music": {
+  "style": "dnb",
+  "bpm": 170,
+  "key": "E",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 16,
+    "type": "tension"
+   },
+   {
+    "beat": 30,
+    "type": "build"
+   },
+   {
+    "beat": 32,
+    "type": "drop"
+   },
+   {
+    "beat": 48,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.235,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 7.059,
+   "kind": "up"
+  },
+  {
+   "shot": "s4",
+   "t": 11.294,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.941,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.5,
+   "host": "s1_n",
+   "text": "81%",
+   "size": 400,
+   "y": 260,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.5,
+   "host": "s1_t",
+   "text": "of questions on",
+   "size": 100,
+   "y": 700,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.5,
+   "host": "s1_t",
+   "text": "SEC filings:",
+   "size": 100,
+   "y": 700,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.5,
+   "host": "s1_t",
+   "text": "wrong or refused.",
+   "size": 100,
+   "y": 874,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_src",
+   "text": "GPT-4-Turbo + retrieval · one test setup",
+   "size": 23,
+   "y": 1060,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_src",
+   "text": "FinanceBench · Patronus AI · Nov 2023",
+   "size": 23,
+   "y": 1060,
+   "headline": false
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.2,
+   "host": "s2_card",
+   "text": "Research paper · arXiv 2311.11944",
+   "size": 25,
+   "y": 578,
+   "headline": false
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.2,
+   "host": "s2_card",
+   "text": "Nov 2023",
+   "size": 25,
+   "y": 578,
+   "headline": false
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.3,
+   "host": "s2_card",
+   "text": "“GPT-4-Turbo used with a retrieval system",
+   "size": 54,
+   "y": 630,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.3,
+   "host": "s2_card",
+   "text": "incorrectly answered or refused to answer 81% of questions.",
+   "size": 54,
+   "y": 689,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.3,
+   "host": "s2_card",
+   "text": "FinanceBench · Patronus AI · 150-question sample",
+   "size": 24,
+   "y": 895,
+   "headline": false
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 11.4,
+   "host": "s3_l_l0",
+   "text": "Fast.",
+   "size": 160,
+   "y": 1205,
+   "headline": true
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 11.4,
+   "host": "s3_l_l1",
+   "text": "Fluent.",
+   "size": 160,
+   "y": 676,
+   "headline": true
+  },
+  {
+   "t_in": 8.6,
+   "t_out": 11.4,
+   "host": "s3_l_l2",
+   "text": "Unchecked.",
+   "size": 160,
+   "y": 810,
+   "headline": true
+  },
+  {
+   "t_in": 9.6,
+   "t_out": 11.4,
+   "host": "s3_b",
+   "text": "Finance needs",
+   "size": 92,
+   "y": 1169,
+   "headline": true
+  },
+  {
+   "t_in": 9.6,
+   "t_out": 11.4,
+   "host": "s3_b",
+   "text": "receipts.",
+   "size": 92,
+   "y": 1246,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 12.1,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 12.1,
+   "host": "s4_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 267,
+   "headline": false
+  },
+  {
+   "t_in": 11.6,
+   "t_out": 12.1,
+   "host": "s4_h_w3",
+   "text": "NVDA",
+   "size": 30,
+   "y": 265,
+   "headline": false
+  },
+  {
+   "t_in": 11.7,
+   "t_out": 12.1,
+   "host": "s4_h_w5",
+   "text": "as",
+   "size": 30,
+   "y": 264,
+   "headline": false
+  },
+  {
+   "t_in": 11.7,
+   "t_out": 12.1,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 23,
+   "y": 562,
+   "headline": false
+  },
+  {
+   "t_in": 11.8,
+   "t_out": 12.1,
+   "host": "s4_h_w6",
+   "text": "filed",
+   "size": 30,
+   "y": 256,
+   "headline": false
+  },
+  {
+   "t_in": 11.8,
+   "t_out": 12.1,
+   "host": "s4_h_w7",
+   "text": "Start",
+   "size": 92,
+   "y": 325,
+   "headline": true
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.1,
+   "host": "s4_h_w8",
+   "text": "from",
+   "size": 92,
+   "y": 317,
+   "headline": true
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.1,
+   "host": "s4_h_w9",
+   "text": "the",
+   "size": 92,
+   "y": 414,
+   "headline": true
+  },
+  {
+   "t_in": 12.0,
+   "t_out": 12.1,
+   "host": "s4_h_w10",
+   "text": "filing.",
+   "size": 92,
+   "y": 405,
+   "headline": true
+  },
+  {
+   "t_in": 12.2,
+   "t_out": 16.9,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 12.5,
+   "t_out": 13.0,
+   "host": "s4_card_co0",
+   "text": "$215.9B · 10-K ✓",
+   "size": 44,
+   "y": 338,
+   "headline": true
+  },
+  {
+   "t_in": 12.5,
+   "t_out": 13.0,
+   "host": "s4_card_co0",
+   "text": "REVENUE · FY2026",
+   "size": 24,
+   "y": 357,
+   "headline": false
+  },
+  {
+   "t_in": 13.5,
+   "t_out": 14.0,
+   "host": "s4_card_co1",
+   "text": "$120.1B · 10-K ✓",
+   "size": 44,
+   "y": 334,
+   "headline": true
+  },
+  {
+   "t_in": 13.5,
+   "t_out": 14.0,
+   "host": "s4_card_co1",
+   "text": "NET INCOME · FY2026",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 14.5,
+   "t_out": 15.0,
+   "host": "s4_card_co2",
+   "text": "$206.8B · 10-K ✓",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 14.5,
+   "t_out": 15.0,
+   "host": "s4_card_co2",
+   "text": "TOTAL ASSETS",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 15.5,
+   "t_out": 15.9,
+   "host": "s4_card_co3",
+   "text": "$49.5B · 10-K ✓",
+   "size": 44,
+   "y": 328,
+   "headline": true
+  },
+  {
+   "t_in": 15.5,
+   "t_out": 15.9,
+   "host": "s4_card_co3",
+   "text": "TOTAL LIABILITIES",
+   "size": 24,
+   "y": 350,
+   "headline": false
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 17.0,
+   "host": "s4_sum",
+   "text": "Four figures.",
+   "size": 124,
+   "y": 800,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 17.0,
+   "host": "s4_sum",
+   "text": "Four receipts.",
+   "size": 124,
+   "y": 902,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 21.0,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 217,
+   "headline": false
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 21.0,
+   "host": "cta_h_w0",
+   "text": "Answers",
+   "size": 92,
+   "y": 302,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 21.0,
+   "host": "cta_h_w1",
+   "text": "you",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 21.0,
+   "host": "cta_h_w2",
+   "text": "can",
+   "size": 92,
+   "y": 394,
+   "headline": true
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 21.0,
+   "host": "cta_h_w3",
+   "text": "audit.",
+   "size": 92,
+   "y": 406,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 21.0,
+   "host": "cta_h_w4",
+   "text": "Filings",
+   "size": 44,
+   "y": 509,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 21.0,
+   "host": "cta_h_w5",
+   "text": "first.",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 21.0,
+   "host": "cta_h_w6",
+   "text": "AI",
+   "size": 44,
+   "y": 513,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 21.0,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 19,
+   "y": 672,
+   "headline": false
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 21.0,
+   "host": "cta_h_w7",
+   "text": "second.",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 21.0,
+   "host": "cta_h_w8",
+   "text": "Receipts",
+   "size": 44,
+   "y": 519,
+   "headline": true
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 21.0,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1243,
+   "headline": true
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 21.0,
+   "host": "cta_h_w9",
+   "text": "always.",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 21.0,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 21.0,
+   "host": "cta_note",
+   "text": "Screens from 23 Sep 2026 · live data changes",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 12.0,
+   "t1": 12.971,
+   "key": "REVENUE · FY2026",
+   "text": "$215.9B · 10-K ✓"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 12.971,
+   "t1": 13.941,
+   "key": "NET INCOME · FY2026",
+   "text": "$120.1B · 10-K ✓"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 13.941,
+   "t1": 14.912,
+   "key": "TOTAL ASSETS",
+   "text": "$206.8B · 10-K ✓"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 14.912,
+   "t1": 15.882,
+   "key": "TOTAL LIABILITIES",
+   "text": "$49.5B · 10-K ✓"
+  }
+ ],
+ "cta": 16.941,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "glitch"
+  },
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.02,
+   "type": "glitch"
+  },
+  {
+   "t": 4.341,
+   "type": "pop"
+  },
+  {
+   "t": 7.059,
+   "type": "hit"
+  },
+  {
+   "t": 7.765,
+   "type": "hit"
+  },
+  {
+   "t": 8.471,
+   "type": "hit"
+  },
+  {
+   "t": 9.529,
+   "type": "ding"
+  },
+  {
+   "t": 11.294,
+   "type": "riser"
+  },
+  {
+   "t": 11.294,
+   "type": "impact"
+  },
+  {
+   "t": 11.344,
+   "type": "ding"
+  },
+  {
+   "t": 11.594,
+   "type": "scan"
+  },
+  {
+   "t": 12,
+   "type": "swish"
+  },
+  {
+   "t": 12.357,
+   "type": "click"
+  },
+  {
+   "t": 12.971,
+   "type": "swish"
+  },
+  {
+   "t": 13.328,
+   "type": "click"
+  },
+  {
+   "t": 13.941,
+   "type": "swish"
+  },
+  {
+   "t": 14.298,
+   "type": "click"
+  },
+  {
+   "t": 14.912,
+   "type": "swish"
+  },
+  {
+   "t": 15.269,
+   "type": "click"
+  },
+  {
+   "t": 15.988,
+   "type": "hit"
+  },
+  {
+   "t": 16.941,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.341,
+   "type": "sparkle"
+  },
+  {
+   "t": 17.541,
+   "type": "pop"
+  },
+  {
+   "t": 20.824,
+   "type": "hit"
+  }
+ ]
+}

@@ -1,0 +1,650 @@
+{
+ "reel": "v2_04_fake_tweet",
+ "dur": 22,
+ "bpm": 172,
+ "music": {
+  "style": "dnb",
+  "bpm": 172,
+  "key": "A",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 24,
+    "type": "tension"
+   },
+   {
+    "beat": 32,
+    "type": "build"
+   },
+   {
+    "beat": 36,
+    "type": "drop"
+   },
+   {
+    "beat": 50,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.186,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 6.977,
+   "kind": "up"
+  },
+  {
+   "shot": "s4",
+   "t": 9.767,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s5",
+   "t": 12.558,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 17.442,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_h",
+   "text": "One fake tweet",
+   "size": 118,
+   "y": 264,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_h",
+   "text": "erased",
+   "size": 118,
+   "y": 264,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_n",
+   "text": "$136.5B",
+   "size": 250,
+   "y": 534,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_t",
+   "text": "3-minute",
+   "size": 92,
+   "y": 802,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_t",
+   "text": "in a",
+   "size": 92,
+   "y": 814,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_t",
+   "text": "plunge.",
+   "size": 92,
+   "y": 814,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.4,
+   "host": "s1_t",
+   "text": "S&P 500 value, per Reuters data · 23 Apr 2013",
+   "size": 24,
+   "y": 931,
+   "headline": false
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.1,
+   "host": "s2_eb",
+   "text": "hacked",
+   "size": 70,
+   "y": 323,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.1,
+   "host": "s2_eb",
+   "text": "The tweet, from a",
+   "size": 70,
+   "y": 331,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 7.1,
+   "host": "s2_eb",
+   "text": "news account:",
+   "size": 70,
+   "y": 331,
+   "headline": true
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 7.2,
+   "host": "s2_card",
+   "text": "Hacked @AP account · fake post",
+   "size": 25,
+   "y": 609,
+   "headline": false
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 7.2,
+   "host": "s2_card",
+   "text": "23 Apr 2013",
+   "size": 25,
+   "y": 609,
+   "headline": false
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 7.2,
+   "host": "s2_card",
+   "text": "“Breaking: Two Explosions in the White House and Barack Obama is injured”",
+   "size": 60,
+   "y": 662,
+   "headline": true
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 7.2,
+   "host": "s2_card",
+   "text": "False. Debunked within minutes.",
+   "size": 24,
+   "y": 893,
+   "headline": false
+  },
+  {
+   "t_in": 5.3,
+   "t_out": 7.2,
+   "host": "s2_fake",
+   "text": "FAKE",
+   "size": 84,
+   "y": 474,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 9.9,
+   "host": "s3_a",
+   "text": "↓ ~140",
+   "size": 150,
+   "y": 651,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 9.9,
+   "host": "s3_a",
+   "text": "Dow",
+   "size": 150,
+   "y": 671,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 9.9,
+   "host": "s3_a",
+   "text": "points, within minutes",
+   "size": 70,
+   "y": 825,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 9.9,
+   "host": "s3_b",
+   "text": "bounced back.",
+   "size": 92,
+   "y": 929,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 9.9,
+   "host": "s3_b",
+   "text": "Then it",
+   "size": 92,
+   "y": 941,
+   "headline": true
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 9.9,
+   "host": "s3_src",
+   "text": "Sources: CNBC · Reuters data · 23–24 Apr 2013",
+   "size": 22,
+   "y": 1152,
+   "headline": false
+  },
+  {
+   "t_in": 9.9,
+   "t_out": 12.6,
+   "host": "s4_a",
+   "text": "Markets react",
+   "size": 120,
+   "y": 650,
+   "headline": true
+  },
+  {
+   "t_in": 9.9,
+   "t_out": 12.6,
+   "host": "s4_a",
+   "text": "first.",
+   "size": 120,
+   "y": 749,
+   "headline": true
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 12.6,
+   "host": "s4_b",
+   "text": "Verification",
+   "size": 120,
+   "y": 960,
+   "headline": true
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 12.6,
+   "host": "s4_b",
+   "text": "comes",
+   "size": 120,
+   "y": 960,
+   "headline": true
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 12.6,
+   "host": "s4_b",
+   "text": "later.",
+   "size": 120,
+   "y": 1077,
+   "headline": true
+  },
+  {
+   "t_in": 12.8,
+   "t_out": 13.4,
+   "host": "s5_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 255,
+   "headline": false
+  },
+  {
+   "t_in": 12.8,
+   "t_out": 13.4,
+   "host": "s5_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 258,
+   "headline": false
+  },
+  {
+   "t_in": 12.9,
+   "t_out": 13.4,
+   "host": "s5_h_w3",
+   "text": "Today",
+   "size": 30,
+   "y": 255,
+   "headline": false
+  },
+  {
+   "t_in": 12.9,
+   "t_out": 13.4,
+   "host": "s5_h_w4",
+   "text": "What",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 13.0,
+   "t_out": 13.4,
+   "host": "s5_h_w5",
+   "text": "was",
+   "size": 92,
+   "y": 314,
+   "headline": true
+  },
+  {
+   "t_in": 13.0,
+   "t_out": 13.4,
+   "host": "s5_h_w6",
+   "text": "actually",
+   "size": 92,
+   "y": 406,
+   "headline": true
+  },
+  {
+   "t_in": 13.0,
+   "t_out": 13.4,
+   "host": "s5_h_w7",
+   "text": "observed.",
+   "size": 92,
+   "y": 412,
+   "headline": true
+  },
+  {
+   "t_in": 13.0,
+   "t_out": 13.4,
+   "host": "s5_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 23,
+   "y": 561,
+   "headline": false
+  },
+  {
+   "t_in": 13.4,
+   "t_out": 14.8,
+   "host": "s5_cap",
+   "text": "Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 13.8,
+   "t_out": 14.8,
+   "host": "s5_card_co0",
+   "text": "330 observations · 10 assets · 24h",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 13.8,
+   "t_out": 14.8,
+   "host": "s5_card_co0",
+   "text": "COUNTED",
+   "size": 24,
+   "y": 352,
+   "headline": false
+  },
+  {
+   "t_in": 14.9,
+   "t_out": 17.5,
+   "host": "s5_q",
+   "text": "“Observed activity,",
+   "size": 88,
+   "y": 700,
+   "headline": true
+  },
+  {
+   "t_in": 14.9,
+   "t_out": 17.5,
+   "host": "s5_q",
+   "text": "as counted by BFYP.",
+   "size": 88,
+   "y": 700,
+   "headline": true
+  },
+  {
+   "t_in": 14.9,
+   "t_out": 17.5,
+   "host": "s5_q",
+   "text": "Nothing here is",
+   "size": 88,
+   "y": 872,
+   "headline": true
+  },
+  {
+   "t_in": 14.9,
+   "t_out": 17.5,
+   "host": "s5_q",
+   "text": "a prediction.”",
+   "size": 88,
+   "y": 872,
+   "headline": true
+  },
+  {
+   "t_in": 15.1,
+   "t_out": 17.5,
+   "host": "s5_qs",
+   "text": "Verbatim · BFYP Today · 23 Sep 2026 · 22:14 UTC",
+   "size": 20,
+   "y": 1122,
+   "headline": false
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 22.0,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 217,
+   "headline": false
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 22.0,
+   "host": "cta_h_w0",
+   "text": "Check",
+   "size": 92,
+   "y": 302,
+   "headline": true
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 22.0,
+   "host": "cta_h_w1",
+   "text": "what",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 17.8,
+   "t_out": 22.0,
+   "host": "cta_h_w2",
+   "text": "actually",
+   "size": 92,
+   "y": 394,
+   "headline": true
+  },
+  {
+   "t_in": 17.8,
+   "t_out": 22.0,
+   "host": "cta_h_w3",
+   "text": "happened.",
+   "size": 92,
+   "y": 406,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 22.0,
+   "host": "cta_h_w4",
+   "text": "Before",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 22.0,
+   "host": "cta_h_w5",
+   "text": "you",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 22.0,
+   "host": "cta_h_w6",
+   "text": "react.",
+   "size": 44,
+   "y": 514,
+   "headline": true
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 22.0,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 19,
+   "y": 672,
+   "headline": false
+  },
+  {
+   "t_in": 18.1,
+   "t_out": 22.0,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1243,
+   "headline": true
+  },
+  {
+   "t_in": 18.4,
+   "t_out": 22.0,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 18.5,
+   "t_out": 22.0,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s5_card",
+   "t0": 13.256,
+   "t1": 14.721,
+   "key": "COUNTED",
+   "text": "330 observations · 10 assets · 24h"
+  }
+ ],
+ "cta": 17.442,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "glitch"
+  },
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.02,
+   "type": "glitch"
+  },
+  {
+   "t": 4.36,
+   "type": "notif"
+  },
+  {
+   "t": 5.353,
+   "type": "stamp"
+  },
+  {
+   "t": 6.977,
+   "type": "subdrop"
+  },
+  {
+   "t": 6.977,
+   "type": "hit"
+  },
+  {
+   "t": 8.023,
+   "type": "whoosh"
+  },
+  {
+   "t": 9.767,
+   "type": "hit"
+  },
+  {
+   "t": 10.465,
+   "type": "hit"
+  },
+  {
+   "t": 12.558,
+   "type": "riser"
+  },
+  {
+   "t": 12.558,
+   "type": "impact"
+  },
+  {
+   "t": 12.608,
+   "type": "ding"
+  },
+  {
+   "t": 12.858,
+   "type": "scan"
+  },
+  {
+   "t": 13.256,
+   "type": "swish"
+  },
+  {
+   "t": 13.613,
+   "type": "click"
+  },
+  {
+   "t": 14.791,
+   "type": "hit"
+  },
+  {
+   "t": 17.442,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.842,
+   "type": "sparkle"
+  },
+  {
+   "t": 18.042,
+   "type": "pop"
+  },
+  {
+   "t": 21.628,
+   "type": "hit"
+  }
+ ]
+}

@@ -12,6 +12,8 @@ REPO = "/home/user/bfyp-social-media"
 VAULT = os.path.join(REPO, "vault-v2")
 READY = os.path.join(VAULT, "READY")
 OUT = "/opt/bfyp/out/final"
+VO2_FINAL = "/opt/bfyp/vo2/final"   # validated edit + directed VO (video stream copied bit for bit)
+VO2_OUT = "/opt/bfyp/vo2/out"
 REELS_DIR = "/opt/bfyp/reels"
 CAT = json.load(open("/opt/bfyp/assets/screens/catalog.json"))
 
@@ -51,7 +53,7 @@ ILLUS = {
     "V2-27": ["Three typical claims labelled “Typical claims · illustration”, struck through"],
     "V2-28": ["Empty-state box (graphic)", "An invented “87% consensus” card stamped MADE UP and labelled “Invented number · illustration of what not to do”"],
     "V2-29": ["Animated “age” counter", "330 → 354 counter using the two real captures"],
-    "V2-30": ["Evidence ladder graphic (FR)"],
+    "V2-30": ["Evidence ladder graphic (Rumor → Screenshot → Headline → Official filing)"],
 }
 
 
@@ -94,16 +96,23 @@ def main(lots=None):
         rid, slug = r["id"], r["slug"]
         name = f"v2_{rid[3:]}_{slug}"
         d = os.path.join(OUT, name)
-        mp4 = os.path.join(d, f"{name}.mp4")
+        edit_mp4 = os.path.join(d, f"{name}.mp4")
         cov = os.path.join(d, f"{name}_cover.png")
-        qc = json.load(open(os.path.join(d, "qc.json")))
-        if not qc["pass"] or os.path.getmtime(os.path.join(d, "qc.json")) < os.path.getmtime(mp4):
-            sys.exit(f"{rid}: QC missing, failed or older than the render; run engine/qc.py {name} first")
+        edit_qc = json.load(open(os.path.join(d, "qc.json")))
+        if not edit_qc["pass"] or os.path.getmtime(os.path.join(d, "qc.json")) < os.path.getmtime(edit_mp4):
+            sys.exit(f"{rid}: edit QC missing, failed or older than the render; run engine/qc.py {name} first")
+        # the deliverable is the validated edit with its directed VO (BFYP-K2)
+        mp4 = os.path.join(VO2_FINAL, name, f"{name}_VO.mp4")
+        vo2 = json.load(open(os.path.join(VO2_OUT, name, f"{name}.vo2.json")))
+        if not os.path.exists(mp4 + ".qc.json") or os.path.getmtime(mp4 + ".qc.json") < os.path.getmtime(mp4):
+            sys.exit(f"{rid}: VO mix QC missing or older than the mix; run engine/vo2.py qc {name} {mp4}")
+        qc = json.load(open(mp4 + ".qc.json"))
+        if not qc["pass"] or not vo2["qc"]["pass"]:
+            sys.exit(f"{rid}: VO build or mix QC failed")
         log = json.load(open(mp4 + ".log.json"))
-        vo = None
-        vj = os.path.join(REELS_DIR, f"{name}.vo.json")
-        if os.path.exists(vj):
-            vo = json.load(open(vj))
+        if (log["log"].get("vo2") or {}).get("vo_sha256") != vo2["sha256"]:
+            sys.exit(f"{rid}: the mix does not carry the current VO build; re-run engine/vo2.py mix")
+        karaoke = os.path.exists(os.path.join(REELS_DIR, f"{name}.vo.json"))  # captions timed to the original voice slots
         folder = os.path.join(READY, f"{rid}_{slug}")
         if os.path.isdir(folder):
             shutil.rmtree(folder)
@@ -117,10 +126,14 @@ def main(lots=None):
         cues = collections.Counter(c["type"] for c in (log.get("cues") or []))
         sfx = ", ".join(f"{k}×{v}" for k, v in sorted(cues.items(), key=lambda kv: -kv[1]))
         lang = r.get("lang", "EN")
-        voice = ("Fallback synthetic voice **BFYP-K1** (Kokoro-82M, local, blend am_michael 0.60 + am_onyx 0.25 + am_puck 0.15, speed 0.92). "
-                 "Replace with ElevenLabs Adam when the account is back; timings in `production/reels/" + name + ".vo.json`.") if vo else "None (text-led; on-screen text + original music + sound design)"
-        fmt_line = ("Voice-led" if vo else "Text-led") + f" · {r['format']}"
+        V2 = vo2["voice"]
+        kok = V2["kokoro"] if isinstance(V2["kokoro"], str) else " + ".join(f"{k} {w:.1f}" for k, w in V2["kokoro"].items())
+        gender = {"F": "female", "M": "male"}[V2["gender"]]
+        voice = (f"**BFYP-K2 · {V2['id']}** — {gender}, native English ({V2['lang']}) · Kokoro-82M v1.0, local and free (Apache-2.0), "
+                 f"stock voice {'blend ' if not isinstance(V2['kokoro'], str) else ''}`{kok}` · no cloning · directed for this reel (see Voice direction)")
+        fmt_line = ("Voice-led, karaoke captions" if karaoke else "Directed voice-over over the text-led edit") + f" · {r['format']}"
         tech = qc
+        mx = log["log"]["vo2"]
         g = qc["gates"]
         # ---------------------------------------------------------------- sheet
         L = []
@@ -132,6 +145,7 @@ def main(lots=None):
         L.append(f"| Format | {fmt_line} |")
         L.append(f"| Music | Original, synthesized for this reel: {music.get('style', '?')} · {music.get('bpm', '?')} BPM · {music.get('key', '?')} {music.get('mode', '')} (no samples, no licensed audio) |")
         L.append(f"| Voice | {voice} |")
+        L.append(f"| On-screen “AI voice” label | {'Yes — kept from the validated karaoke edit' if karaoke else 'No — visual edit frozen, unchanged'} |")
         qh = r["hook"] if "“" in r["hook"] else f"“{r['hook']}”"
         L.append(f"| Opening hook (from 0 s) | {qh} |")
         L.append(f"| CTA | {r['cta']} → betterforyourpocket.com |\n")
@@ -140,14 +154,22 @@ def main(lots=None):
         for i, bt in enumerate(r["script"], 1):
             L.append(f"{i}. {bt}")
         L.append("")
-        if vo:
-            L.append("## Voice-over (as rendered)")
-            L.append("| start | end | line |\n|---:|---:|---|")
-            for ln in vo["lines"]:
-                L.append(f"| {ln['t0']:.2f} s | {ln['t1']:.2f} s | {ln['text']} |")
-            q = vo["qc"]
-            L.append(f"\nIsolated-voice QC: word match {q['word_match']:.3f} · {q['words_per_s']} words/s · median F0 {q['f0_median_hz']} Hz · "
-                     f"F0 spread {q['f0_spread_st']} st · min pause {q['min_gap_s']} s · no clipping → **PASS**. VO file sha256 `{vo['sha256'][:16]}…`\n")
+        D = vo2.get("direction") or {}
+        L.append("## Voice direction (FR)")
+        for k, lab in (("intent", "Intention"), ("delivery", "Interprétation"), ("pace", "Rythme"), ("energy", "Énergie"), ("pauses", "Pauses"), ("emphasis", "Accents")):
+            if D.get(k):
+                L.append(f"- **{lab}** : {D[k]}")
+        L.append("")
+        L.append("## Voice-over (as rendered)" + (" — same words and same slots as the karaoke captions" if karaoke else " — narration anchored to the edit (cuts, zooms, reveals, CTA)"))
+        L.append("| start | end | line | lands on (note, FR) |\n|---:|---:|---|---|")
+        for ln in vo2["lines"]:
+            L.append(f"| {ln['t0']:.2f} s | {ln['t1']:.2f} s | {ln['text']} | {ln.get('note', '')} |")
+        q = vo2["qc"]
+        L.append(f"\nIsolated-voice QC: ASR word match {q['word_match']:.3f} (gate ≥ 0.97) · naturalness UTMOS mean {q['utmos_mean']} / min {q['utmos_min']} "
+                 f"(gates ≥ 4.0 / ≥ 3.6) · {q['wps']} words/s while speaking · every line inside its window"
+                 + (" · every line within ±4 % of its karaoke slot" if karaoke else "") + f" → **PASS**. VO file sha256 `{vo2['sha256'][:16]}…`")
+        L.append(f"\nMix: dynamic ducking (music −{mx['music_duck_db']} dB, extra −{mx['carve_db']} dB carve at 1–4.5 kHz, SFX −{mx['sfx_duck_db']} dB, "
+                 f"only while the voice speaks) · voice {mx['vo_over_bed_lu']} LU over the bed (gate ≥ 7) · ASR on the final mix {qc['vo_word_match_final_mix']:.3f} (gate ≥ 0.95)\n")
         L.append("## Sources used (external, verified)")
         if r["sources"]:
             for sid in r["sources"]:
@@ -185,8 +207,9 @@ def main(lots=None):
         L.append(f"| Hook audio | sound from frame 0 ({tech['rms_first_300ms_db']:.0f} dB RMS in the first 300 ms) |".replace("-", "−"))
         L.append(f"| Tail | clean fade (last sample {tech['last_sample_abs']}) |")
         L.append(f"| Bitrate / size | {tech['bitrate_kbps']} kb/s · {tech['size_mb']} MB |")
-        if "vo" in tech:
-            L.append(f"| Voice intelligibility on the final mix | ASR word match {tech['vo']['word_match_final_mix']:.3f} (gate ≥ 0.95) |")
+        L.append(f"| Video stream | bit-identical to the validated edit (stream MD5 compared) — {'yes' if qc['video_identical'] else 'NO'} |")
+        L.append(f"| Voice intelligibility on the final mix | ASR word match {qc['vo_word_match_final_mix']:.3f} (gate ≥ 0.95) |")
+        L.append(f"| Voice over the bed | {qc['vo_over_bed_lu']} LU (gate ≥ 7) |")
         L.append("| All gates | " + ("**PASS**" if qc["pass"] else "FAIL: " + ", ".join(k for k, v in g.items() if not v)) + " |\n")
         L.append("### Editorial")
         L.append(f"- [x] Hook on screen from frame 0, first line readable within 1.5 s: {qh}")
@@ -199,12 +222,18 @@ def main(lots=None):
                  + (f" (only {TAPE[rid]} bleeds off the edge, by design)" if rid in TAPE else ""))
         L.append("- [x] Distinct angle and distinct BFYP payoff within the vault")
         L.append("- [x] End card: CTA + “Educational market data. Not financial advice.”")
-        L.append(f"- [x] Sound: original music + sound design ({sfx})")
+        L.append(f"- [x] Sound: original music + sound design ({sfx}) + directed voice-over (BFYP-K2, {gender})")
+        L.append("- [x] Voice-over complements the picture instead of reading the on-screen text" if not karaoke else
+                 "- [x] Karaoke captions unchanged: the voice keeps the same words in the same slots")
         L.append("\n**Verdict: READY**\n")
         open(os.path.join(folder, f"{rid}_{slug}.md"), "w").write("\n".join(L))
         manifest.append({
             "id": rid, "slug": slug, "title": r["title"], "lot": r["lot"], "lang": lang,
-            "format": "voice-led (fallback voice BFYP-K1)" if vo else "text-led",
+            "format": "voice-led, karaoke captions (BFYP-K2)" if karaoke else "text-led edit + directed voice-over (BFYP-K2)",
+            "voice": {"system": "BFYP-K2", "id": V2["id"], "gender": V2["gender"], "kokoro": V2["kokoro"], "lang": V2["lang"], "speed": V2.get("speed"),
+                      "engine": "Kokoro-82M v1.0 (local, kokoro-onnx, Apache-2.0)", "direction": D, "vo_sha256": vo2["sha256"],
+                      "utmos_mean": vo2["qc"]["utmos_mean"], "asr_final_mix": qc["vo_word_match_final_mix"], "vo_over_bed_lu": qc["vo_over_bed_lu"]},
+            "karaoke": karaoke, "ai_voice_label_on_screen": karaoke, "video_identical_to_validated_edit": qc["video_identical"],
             "duration_s": tech["duration_s"], "lufs_i": tech["lufs_i"], "true_peak_dbtp": tech["true_peak_dbtp"],
             "size_mb": tech["size_mb"], "video": f"READY/{rid}_{slug}/{f_mp4}", "cover": f"READY/{rid}_{slug}/{f_cov}",
             "sheet": f"READY/{rid}_{slug}/{rid}_{slug}.md", "sha256_video": h_mp4, "sha256_cover": h_cov,

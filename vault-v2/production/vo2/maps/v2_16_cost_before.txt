@@ -1,0 +1,79 @@
+== v2_16_cost_before  dur 20.40s  bpm 110  CTA at 16.364
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.5] AI answer
+  0.00  TXT [0.0-3.5] TOTAL
+  0.00  TXT [0.0-3.5] What did that
+  0.00  TXT [0.0-3.5] actually cost?
+  0.00  txt [0.0-3.5] 1 × AI answer
+  0.00  txt [0.0-3.5] ???
+  0.00  txt [0.0-3.5] RECEIPT · ILLUSTRATION
+  0.00  txt [0.0-3.5] context
+  0.00  txt [0.0-3.5] follow-ups
+  0.00  sfx impact
+  3.27  --- CUT s2 (left)
+  3.27  sfx hit
+  3.40  TXT [3.4-6.6] You shouldn’t
+  3.40  TXT [3.4-6.6] after.
+  3.40  TXT [3.4-6.6] find out
+  6.54  --- CUT s3 (zoomIn)
+  6.54  sfx impact
+  6.54  sfx riser
+  6.59  sfx ding
+  6.70  txt [6.7-7.5] On
+  6.80  txt [6.8-7.5] BFYP
+  6.90  txt [6.9-7.5] AI
+  6.90  txt [6.9-7.5] Research
+  7.00  TXT [7.0-7.5] The
+  7.00  TXT [7.0-7.5] cost
+  7.00  txt [7.0-7.5] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:39 UTC
+  7.10  TXT [7.1-7.5] is
+  7.10  TXT [7.1-7.5] on
+  7.20  TXT [7.2-7.5] before
+  7.20  TXT [7.2-7.5] screen
+  7.30  TXT [7.3-7.5] ask.
+  7.30  TXT [7.3-7.5] you
+  7.36  ZOOM [7.36-9.71] PRICE TAG · 36 credits per question
+  7.50  txt [7.5-9.8] Real BFYP screen · AI Research · 23 SEP 2026 · 21:39 UTC
+  7.90  TXT [7.9-9.8] 36 credits per question
+  7.90  txt [7.9-9.8] PRICE TAG
+  9.82  --- CUT s4 (left)
+ 10.00  txt [10.0-16.4] On
+ 10.10  txt [10.1-16.4] BFYP
+ 10.20  TXT [10.2-16.4] Free
+ 10.20  txt [10.2-16.4] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC
+ 10.20  txt [10.2-16.4] pricing
+ 10.30  TXT [10.3-16.4] 52
+ 10.30  TXT [10.3-16.4] plan:
+ 10.40  TXT [10.4-16.4] AI
+ 10.40  TXT [10.4-16.4] credits
+ 10.50  TXT [10.5-16.4] month.
+ 10.64  ZOOM [10.64-12.54] INCLUDED · ≈ 7 reports a month
+ 10.80  txt [10.8-16.3] Real BFYP screen · Pricing · 23 SEP 2026 · 22:09 UTC
+ 11.20  TXT [11.2-12.6] ≈ 7 reports a month
+ 11.20  txt [11.2-12.6] INCLUDED
+ 12.54  ZOOM [12.54-14.73] BY DEPTH · 2 to 172 credits per question
+ 13.10  TXT [13.1-14.8] 2 to 172 credits per question
+ 13.10  txt [13.1-14.8] BY DEPTH
+ 16.36  --- CUT cta (zoom)
+ 16.36  sfx whoosh
+ 16.60  TXT [16.6-20.4] 52
+ 16.60  TXT [16.6-20.4] free
+ 16.60  txt [16.6-20.4] ETTERFORYOURPOCKET
+ 16.70  TXT [16.7-20.4] AI
+ 16.80  TXT [16.8-20.4] credits
+ 16.80  TXT [16.8-20.4] every
+ 16.90  TXT [16.9-20.4] And
+ 16.90  TXT [16.9-20.4] month.
+ 16.90  txt [16.9-20.4] CAPTURED 23 SEP 2026 · 22:09 UTC
+ 17.00  TXT [17.0-20.4] the
+ 17.10  TXT [17.1-20.4] betterforyourpocket.com
+ 17.10  TXT [17.1-20.4] cost
+ 17.10  TXT [17.1-20.4] is
+ 17.20  TXT [17.2-20.4] on
+ 17.20  TXT [17.2-20.4] screen
+ 17.30  TXT [17.3-20.4] before
+ 17.30  txt [17.3-20.4] Educational market data. Not financial advice.
+ 17.40  TXT [17.4-20.4] ask.
+ 17.40  TXT [17.4-20.4] you
+ 17.40  txt [17.4-20.4] Plan details as of 23 Sep 2026 · may change
+ 20.18  sfx hit

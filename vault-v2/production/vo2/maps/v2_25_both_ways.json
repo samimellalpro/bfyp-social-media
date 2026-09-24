@@ -1,0 +1,461 @@
+{
+ "reel": "v2_25_both_ways",
+ "dur": 20.4,
+ "bpm": 118,
+ "music": {
+  "style": "minimal",
+  "bpm": 118,
+  "key": "B",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 8,
+    "type": "tension"
+   },
+   {
+    "beat": 15,
+    "type": "build"
+   },
+   {
+    "beat": 16,
+    "type": "drop"
+   },
+   {
+    "beat": 32,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.068,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 8.136,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.271,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.2,
+   "host": "s1_t",
+   "text": "On USDC, the data",
+   "size": 112,
+   "y": 920,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.2,
+   "host": "s1_t",
+   "text": "pointed",
+   "size": 112,
+   "y": 920,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.2,
+   "host": "s1_t",
+   "text": "both",
+   "size": 112,
+   "y": 1014,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.2,
+   "host": "s1_t",
+   "text": "ways.",
+   "size": 112,
+   "y": 1124,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 8.2,
+   "host": "s2_a",
+   "text": "A feed that always",
+   "size": 112,
+   "y": 610,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 8.2,
+   "host": "s2_a",
+   "text": "picks a side is",
+   "size": 112,
+   "y": 610,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 8.2,
+   "host": "s2_a",
+   "text": "telling you a story.",
+   "size": 112,
+   "y": 810,
+   "headline": true
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 9.3,
+   "host": "s3_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 268,
+   "headline": false
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 9.3,
+   "host": "s3_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 256,
+   "headline": false
+  },
+  {
+   "t_in": 8.5,
+   "t_out": 9.3,
+   "host": "s3_h_w3",
+   "text": "Today",
+   "size": 30,
+   "y": 255,
+   "headline": false
+  },
+  {
+   "t_in": 8.5,
+   "t_out": 9.3,
+   "host": "s3_h_w4",
+   "text": "BFYP",
+   "size": 92,
+   "y": 324,
+   "headline": true
+  },
+  {
+   "t_in": 8.6,
+   "t_out": 9.3,
+   "host": "s3_h_w5",
+   "text": "says",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 8.6,
+   "t_out": 9.3,
+   "host": "s3_h_w6",
+   "text": "it",
+   "size": 92,
+   "y": 323,
+   "headline": true
+  },
+  {
+   "t_in": 8.6,
+   "t_out": 9.3,
+   "host": "s3_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 23,
+   "y": 561,
+   "headline": false
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 9.3,
+   "host": "s3_h_w7",
+   "text": "plainly.",
+   "size": 92,
+   "y": 405,
+   "headline": true
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 16.3,
+   "host": "s3_cap",
+   "text": "Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 12.8,
+   "host": "s3_card_co0",
+   "text": "Both directions · from one group",
+   "size": 44,
+   "y": 331,
+   "headline": true
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 12.8,
+   "host": "s3_card_co0",
+   "text": "MIXED, SAID PLAINLY",
+   "size": 24,
+   "y": 352,
+   "headline": false
+  },
+  {
+   "t_in": 13.3,
+   "t_out": 16.2,
+   "host": "s3_card_co1",
+   "text": "Computed from observations, not a model",
+   "size": 44,
+   "y": 328,
+   "headline": true
+  },
+  {
+   "t_in": 13.3,
+   "t_out": 16.2,
+   "host": "s3_card_co1",
+   "text": "NO SPIN",
+   "size": 24,
+   "y": 350,
+   "headline": false
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Mixed",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "is",
+   "size": 92,
+   "y": 303,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "information",
+   "size": 92,
+   "y": 398,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "too.",
+   "size": 92,
+   "y": 393,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "See",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "both",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 19,
+   "y": 673,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "sides",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "on",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_h_w8",
+   "text": "the",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_h_w9",
+   "text": "Today",
+   "size": 44,
+   "y": 516,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1237,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_h_w10",
+   "text": "page.",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · live data changes",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s3_card",
+   "t0": 9.153,
+   "t1": 12.712,
+   "key": "MIXED, SAID PLAINLY",
+   "text": "Both directions · from one group"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 12.712,
+   "t1": 16.169,
+   "key": "NO SPIN",
+   "text": "Computed from observations, not a model"
+  }
+ ],
+ "cta": 16.271,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "whoosh"
+  },
+  {
+   "t": 4.068,
+   "type": "hit"
+  },
+  {
+   "t": 8.136,
+   "type": "riser"
+  },
+  {
+   "t": 8.136,
+   "type": "impact"
+  },
+  {
+   "t": 8.186,
+   "type": "ding"
+  },
+  {
+   "t": 8.436,
+   "type": "scan"
+  },
+  {
+   "t": 9.153,
+   "type": "swish"
+  },
+  {
+   "t": 9.51,
+   "type": "click"
+  },
+  {
+   "t": 12.712,
+   "type": "swish"
+  },
+  {
+   "t": 13.069,
+   "type": "click"
+  },
+  {
+   "t": 16.271,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.671,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.871,
+   "type": "pop"
+  },
+  {
+   "t": 20.339,
+   "type": "hit"
+  }
+ ]
+}

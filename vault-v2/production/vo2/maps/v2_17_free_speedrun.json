@@ -1,0 +1,569 @@
+{
+ "reel": "v2_17_free_speedrun",
+ "dur": 20.4,
+ "bpm": 150,
+ "music": {
+  "style": "futurebass",
+  "bpm": 150,
+  "key": "E",
+  "mode": "major",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 6,
+    "type": "drop"
+   },
+   {
+    "beat": 30,
+    "type": "tension"
+   },
+   {
+    "beat": 39,
+    "type": "build"
+   },
+   {
+    "beat": 40,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 2.4,
+   "kind": "up"
+  },
+  {
+   "shot": "s3",
+   "t": 12.0,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.0,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 2.6,
+   "host": "s1_n",
+   "text": "$0",
+   "size": 520,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.6,
+   "host": "s1_t",
+   "text": "Here’s everything",
+   "size": 108,
+   "y": 900,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.6,
+   "host": "s1_t",
+   "text": "it gets you.",
+   "size": 108,
+   "y": 900,
+   "headline": true
+  },
+  {
+   "t_in": 2.5,
+   "t_out": 2.7,
+   "host": "s2_ct",
+   "text": "00/10",
+   "size": 44,
+   "y": 426,
+   "headline": true
+  },
+  {
+   "t_in": 2.5,
+   "t_out": 12.1,
+   "host": "s2_eb",
+   "text": "BFYP free plan · $0/month",
+   "size": 30,
+   "y": 440,
+   "headline": false
+  },
+  {
+   "t_in": 2.7,
+   "t_out": 3.6,
+   "host": "s2_ct",
+   "text": "01/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 2.7,
+   "t_out": 7.0,
+   "host": "it0",
+   "text": "Dashboard & live market overview",
+   "size": 58,
+   "y": 380,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 4.4,
+   "host": "s2_ct",
+   "text": "02/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 7.0,
+   "host": "it1",
+   "text": "Whale activity feed",
+   "size": 58,
+   "y": 576,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 5.3,
+   "host": "s2_ct",
+   "text": "03/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 7.0,
+   "host": "it2",
+   "text": "Smart Money leaderboard",
+   "size": 58,
+   "y": 772,
+   "headline": true
+  },
+  {
+   "t_in": 5.3,
+   "t_out": 6.2,
+   "host": "s2_ct",
+   "text": "04/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 5.4,
+   "t_out": 7.0,
+   "host": "it3",
+   "text": "Token, stock & ETF research pages",
+   "size": 58,
+   "y": 968,
+   "headline": true
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 7.1,
+   "host": "s2_ct",
+   "text": "05/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 7.0,
+   "host": "it4",
+   "text": "3 watchlist entries",
+   "size": 58,
+   "y": 1164,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 8.0,
+   "host": "s2_ct",
+   "text": "06/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 12.1,
+   "host": "it5",
+   "text": "3 alert rules · 10 whale alerts/month",
+   "size": 58,
+   "y": 380,
+   "headline": true
+  },
+  {
+   "t_in": 8.0,
+   "t_out": 8.8,
+   "host": "s2_ct",
+   "text": "07/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 8.0,
+   "t_out": 12.1,
+   "host": "it6",
+   "text": "52 AI credits/month (= 7 reports)",
+   "size": 58,
+   "y": 576,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 9.7,
+   "host": "s2_ct",
+   "text": "08/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 8.9,
+   "t_out": 12.1,
+   "host": "it7",
+   "text": "AI Research: 2–172 credits/question by depth",
+   "size": 58,
+   "y": 772,
+   "headline": true
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 10.6,
+   "host": "s2_ct",
+   "text": "09/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 9.8,
+   "t_out": 12.1,
+   "host": "it8",
+   "text": "CSV export preview (100 rows)",
+   "size": 58,
+   "y": 968,
+   "headline": true
+  },
+  {
+   "t_in": 10.6,
+   "t_out": 12.1,
+   "host": "s2_ct",
+   "text": "10/10",
+   "size": 44,
+   "y": 236,
+   "headline": true
+  },
+  {
+   "t_in": 10.6,
+   "t_out": 12.1,
+   "host": "it9",
+   "text": "Community support",
+   "size": 58,
+   "y": 1164,
+   "headline": true
+  },
+  {
+   "t_in": 12.2,
+   "t_out": 16.1,
+   "host": "s3_h_w0",
+   "text": "Straight",
+   "size": 92,
+   "y": 255,
+   "headline": true
+  },
+  {
+   "t_in": 12.2,
+   "t_out": 16.1,
+   "host": "s3_h_w1",
+   "text": "from",
+   "size": 92,
+   "y": 258,
+   "headline": true
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 16.1,
+   "host": "s3_h_w2",
+   "text": "the",
+   "size": 92,
+   "y": 341,
+   "headline": true
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 16.1,
+   "host": "s3_h_w3",
+   "text": "pricing",
+   "size": 92,
+   "y": 345,
+   "headline": true
+  },
+  {
+   "t_in": 12.4,
+   "t_out": 16.1,
+   "host": "s3_h_w4",
+   "text": "page.",
+   "size": 92,
+   "y": 341,
+   "headline": true
+  },
+  {
+   "t_in": 12.5,
+   "t_out": 16.1,
+   "host": "s3_st",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 23,
+   "y": 562,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Create",
+   "size": 92,
+   "y": 307,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "free",
+   "size": 92,
+   "y": 404,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "account.",
+   "size": 92,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "Ten",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "things.",
+   "size": 44,
+   "y": 513,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "Zero",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "dollars.",
+   "size": 44,
+   "y": 518,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 19,
+   "y": 773,
+   "headline": false
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1239,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Plan details as of 23 Sep 2026 · may change",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [],
+ "cta": 16.0,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "sparkle"
+  },
+  {
+   "t": 2.64,
+   "type": "tick"
+  },
+  {
+   "t": 2.66,
+   "type": "pop"
+  },
+  {
+   "t": 3.52,
+   "type": "tick"
+  },
+  {
+   "t": 3.54,
+   "type": "pop"
+  },
+  {
+   "t": 4.4,
+   "type": "tick"
+  },
+  {
+   "t": 4.42,
+   "type": "pop"
+  },
+  {
+   "t": 5.28,
+   "type": "tick"
+  },
+  {
+   "t": 5.3,
+   "type": "pop"
+  },
+  {
+   "t": 6.16,
+   "type": "tick"
+  },
+  {
+   "t": 6.18,
+   "type": "pop"
+  },
+  {
+   "t": 6.84,
+   "type": "whoosh"
+  },
+  {
+   "t": 7.04,
+   "type": "tick"
+  },
+  {
+   "t": 7.06,
+   "type": "pop"
+  },
+  {
+   "t": 7.92,
+   "type": "tick"
+  },
+  {
+   "t": 7.94,
+   "type": "pop"
+  },
+  {
+   "t": 8.8,
+   "type": "tick"
+  },
+  {
+   "t": 8.82,
+   "type": "pop"
+  },
+  {
+   "t": 9.68,
+   "type": "tick"
+  },
+  {
+   "t": 9.7,
+   "type": "pop"
+  },
+  {
+   "t": 10.56,
+   "type": "tick"
+  },
+  {
+   "t": 10.58,
+   "type": "pop"
+  },
+  {
+   "t": 12.2,
+   "type": "whoosh"
+  },
+  {
+   "t": 12.6,
+   "type": "whoosh"
+  },
+  {
+   "t": 16,
+   "type": "riser"
+  },
+  {
+   "t": 16,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.4,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.6,
+   "type": "pop"
+  },
+  {
+   "t": 20.4,
+   "type": "hit"
+  }
+ ]
+}

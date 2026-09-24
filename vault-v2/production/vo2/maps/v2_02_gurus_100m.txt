@@ -1,0 +1,89 @@
+== v2_02_gurus_100m  dur 20.60s  bpm 132  CTA at 15.909
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.8] $100M.
+  0.00  TXT [0.0-3.9] 8 “trading gurus.”
+  0.00  TXT [0.0-3.9] SEC Charges Eight Social Media Influencers in $100 Million Stock Manipulation Scheme Promo
+  0.00  TXT [0.0-3.9] SEC charges.
+  0.00  txt [0.0-3.9] 14 Dec 2022
+  0.00  txt [0.0-3.9] SEC · Press release 2022-221
+  0.00  txt [0.0-3.9] sec.gov/newsroom/press-releases/2022-221
+  0.00  sfx impact
+  1.00  txt [1.0-3.9] Allegations · related criminal case pending
+  3.64  --- CUT s2 (left)
+  3.80  TXT [3.8-6.5] The playbook,
+  3.80  TXT [3.8-6.5] per the SEC:
+  4.20  TXT [4.2-6.6] price
+  4.20  TXT [4.2-6.6] “…posting
+  4.30  TXT [4.3-6.6] indicating
+  4.30  TXT [4.3-6.6] or
+  4.30  TXT [4.3-6.6] targets
+  4.40  TXT [4.4-6.6] buying,
+  4.40  TXT [4.4-6.6] they
+  4.40  TXT [4.4-6.6] were
+  4.50  TXT [4.5-6.6] adding
+  4.50  TXT [4.5-6.6] holding,
+  4.50  TXT [4.5-6.6] or
+  4.60  TXT [4.6-6.6] stock
+  4.60  TXT [4.6-6.6] their
+  4.60  TXT [4.6-6.6] to
+  4.70  TXT [4.7-6.6] positions.”
+  4.70  txt [4.7-6.6] SEC press release 2022-221 · 14 Dec 2022
+  6.36  --- CUT s3 (up)
+  6.36  sfx hit
+  6.36  sfx subdrop
+  6.40  TXT [6.4-8.3] Without telling
+  6.40  TXT [6.4-8.3] their followers.
+  6.40  TXT [6.4-8.3] …then sold.
+  6.90  txt [6.9-8.3] As alleged by the SEC. Allegations are unproven; the criminal case is pending.
+  8.18  --- CUT s4 (zoomIn)
+  8.18  sfx hit
+  8.30  TXT [8.3-10.5] A post can say
+  8.30  TXT [8.3-10.5] “I’m buying.”
+  9.09  sfx hit
+  9.20  TXT [9.2-10.5] It can’t
+  9.20  TXT [9.2-10.5] prove it.
+ 10.46  --- CUT s5 (zoomIn)
+ 10.46  sfx impact
+ 10.46  sfx riser
+ 10.51  sfx ding
+ 10.70  txt [10.7-16.0] BFYP
+ 10.70  txt [10.7-16.0] On
+ 10.80  txt [10.8-16.0] NVDA
+ 10.90  txt [10.9-16.0] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC
+ 10.90  txt [10.9-16.0] insider
+ 10.91  ZOOM [10.91-12.27] WHO FILES · Officers, directors, 10%+ owners
+ 11.10  txt [11.1-15.9] Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC
+ 11.50  TXT [11.5-12.3] Officers, directors, 10%+ owners
+ 11.50  txt [11.5-12.3] WHO FILES
+ 12.27  ZOOM [12.27-13.64] FORM 4 · Due within 2 business days of the trade
+ 12.50  txt [12.5-13.6] Form 4 deadline: SEC Form 4 general instructions
+ 12.80  TXT [12.8-13.7] Due within 2 business days of the trade
+ 12.80  txt [12.8-13.7] FORM 4
+ 13.64  ZOOM [13.64-15.00] NO HYPE · A reported change, not a signal
+ 14.20  TXT [14.2-15.1] A reported change, not a signal
+ 14.20  txt [14.2-15.1] NO HYPE
+ 15.20  TXT [15.2-16.0] Dated.
+ 15.20  TXT [15.2-16.0] Insider
+ 15.20  TXT [15.2-16.0] Linked.
+ 15.20  TXT [15.2-16.0] filed.
+ 15.20  TXT [15.2-16.0] get
+ 15.20  TXT [15.2-16.0] trades
+ 15.20  txt [15.2-16.0] forms
+ 15.91  --- CUT cta (zoom)
+ 15.91  sfx whoosh
+ 16.10  TXT [16.1-20.6] Follow
+ 16.10  txt [16.1-20.6] ETTERFORYOURPOCKET
+ 16.20  TXT [16.2-20.6] filings,
+ 16.30  TXT [16.3-20.6] followers.
+ 16.30  TXT [16.3-20.6] not
+ 16.40  TXT [16.4-20.6] Insider
+ 16.40  TXT [16.4-20.6] forms
+ 16.50  TXT [16.5-20.6] on
+ 16.50  txt [16.5-20.6] CAPTURED 23 SEP 2026 · 22:01 UTC
+ 16.60  TXT [16.6-20.6] betterforyourpocket.com
+ 16.60  TXT [16.6-20.6] every
+ 16.60  TXT [16.6-20.6] stock
+ 16.70  TXT [16.7-20.6] page.
+ 16.80  txt [16.8-20.6] Educational market data. Not financial advice.
+ 16.90  txt [16.9-20.6] Live data changes · screen from 23 Sep 2026
+ 20.45  sfx hit

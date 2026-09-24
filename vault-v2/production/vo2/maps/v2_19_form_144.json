@@ -1,0 +1,674 @@
+{
+ "reel": "v2_19_form_144",
+ "dur": 26.766666666666666,
+ "bpm": 140,
+ "music": {
+  "style": "trap",
+  "bpm": 140,
+  "key": "G",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "tension"
+   },
+   {
+    "beat": 16,
+    "type": "drop"
+   },
+   {
+    "beat": 35,
+    "type": "break"
+   },
+   {
+    "beat": 40,
+    "type": "drop"
+   },
+   {
+    "beat": 48,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 7.186,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 14.9,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s4",
+   "t": 17.043,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 20.686,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 7.5,
+   "host": "s1_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 23,
+   "y": 565,
+   "headline": false
+  },
+  {
+   "t_in": 0.2,
+   "t_out": 7.5,
+   "host": "s1_t_w0",
+   "text": "Three",
+   "size": 92,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.7,
+   "t_out": 7.5,
+   "host": "s1_t_w1",
+   "text": "Form",
+   "size": 92,
+   "y": 229,
+   "headline": true
+  },
+  {
+   "t_in": 1.2,
+   "t_out": 7.5,
+   "host": "s1_t_w2",
+   "text": "144",
+   "size": 92,
+   "y": 229,
+   "headline": true
+  },
+  {
+   "t_in": 1.6,
+   "t_out": 7.5,
+   "host": "s1_t_w3",
+   "text": "filings",
+   "size": 92,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 2.3,
+   "t_out": 7.4,
+   "host": "s1_t_w4",
+   "text": "on",
+   "size": 92,
+   "y": 317,
+   "headline": true
+  },
+  {
+   "t_in": 2.6,
+   "t_out": 7.5,
+   "host": "s1_t_w5",
+   "text": "NVIDIA",
+   "size": 92,
+   "y": 317,
+   "headline": true
+  },
+  {
+   "t_in": 3.3,
+   "t_out": 7.5,
+   "host": "s1_t_w6",
+   "text": "in",
+   "size": 92,
+   "y": 318,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 7.5,
+   "host": "s1_t_w7",
+   "text": "September.",
+   "size": 92,
+   "y": 406,
+   "headline": true
+  },
+  {
+   "t_in": 5.4,
+   "t_out": 7.5,
+   "host": "s1_q",
+   "text": "Insiders dumping?",
+   "size": 104,
+   "y": 1216,
+   "headline": true
+  },
+  {
+   "t_in": 7.5,
+   "t_out": 15.1,
+   "host": "s2_t_w1",
+   "text": "Form",
+   "size": 118,
+   "y": 280,
+   "headline": true
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 15.1,
+   "host": "s2_t_w2",
+   "text": "144",
+   "size": 118,
+   "y": 280,
+   "headline": true
+  },
+  {
+   "t_in": 8.2,
+   "t_out": 15.1,
+   "host": "s2_src",
+   "text": "Investor.gov · Form 144",
+   "size": 22,
+   "y": 702,
+   "headline": false
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 15.1,
+   "host": "s2_t_w3",
+   "text": "is",
+   "size": 118,
+   "y": 280,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 15.1,
+   "host": "s2_t_w5",
+   "text": "notice",
+   "size": 118,
+   "y": 391,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 15.1,
+   "host": "s2_t_w6",
+   "text": "of",
+   "size": 118,
+   "y": 392,
+   "headline": true
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 15.1,
+   "host": "s2_t_w8",
+   "text": "proposed",
+   "size": 118,
+   "y": 502,
+   "headline": true
+  },
+  {
+   "t_in": 10.4,
+   "t_out": 15.1,
+   "host": "s2_t_w9",
+   "text": "sale.",
+   "size": 118,
+   "y": 502,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "SEC staff guidance · Securities Act Forms C&DI",
+   "size": 25,
+   "y": 876,
+   "headline": false
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "Form 144",
+   "size": 25,
+   "y": 876,
+   "headline": false
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "“If a person who has filed a Form 144",
+   "size": 46,
+   "y": 959,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "the securities referred to therein,",
+   "size": 46,
+   "y": 959,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "reflecting this fact need be filed.”",
+   "size": 46,
+   "y": 959,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "does not sell",
+   "size": 46,
+   "y": 1013,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "no amendment",
+   "size": 46,
+   "y": 1067,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 15.1,
+   "host": "s2_card",
+   "text": "Compliance & Disclosure Interpretations, Section 131",
+   "size": 24,
+   "y": 1201,
+   "headline": false
+  },
+  {
+   "t_in": 15.1,
+   "t_out": 17.2,
+   "host": "s3_t",
+   "text": "Filed",
+   "size": 190,
+   "y": 702,
+   "headline": true
+  },
+  {
+   "t_in": 15.1,
+   "t_out": 17.2,
+   "host": "s3_t",
+   "text": "sold.",
+   "size": 190,
+   "y": 702,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.8,
+   "host": "s4_t_w0",
+   "text": "On",
+   "size": 30,
+   "y": 256,
+   "headline": false
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 20.8,
+   "host": "s4_t_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 252,
+   "headline": false
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 20.8,
+   "host": "s4_t_w3",
+   "text": "NVDA",
+   "size": 30,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 20.7,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 17.8,
+   "t_out": 20.8,
+   "host": "s4_t_w5",
+   "text": "insider",
+   "size": 30,
+   "y": 252,
+   "headline": false
+  },
+  {
+   "t_in": 18.1,
+   "t_out": 20.8,
+   "host": "s4_t_w6",
+   "text": "forms",
+   "size": 30,
+   "y": 251,
+   "headline": false
+  },
+  {
+   "t_in": 18.3,
+   "t_out": 20.8,
+   "host": "s4_t_w7",
+   "text": "Completed",
+   "size": 92,
+   "y": 309,
+   "headline": true
+  },
+  {
+   "t_in": 18.7,
+   "t_out": 20.8,
+   "host": "s4_t_w8",
+   "text": "insider",
+   "size": 92,
+   "y": 307,
+   "headline": true
+  },
+  {
+   "t_in": 19.0,
+   "t_out": 20.8,
+   "host": "s4_t_w9",
+   "text": "trades",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 19.2,
+   "t_out": 20.8,
+   "host": "s4_t_w10",
+   "text": "show",
+   "size": 92,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 19.4,
+   "t_out": 20.8,
+   "host": "s4_t_w11",
+   "text": "up",
+   "size": 92,
+   "y": 396,
+   "headline": true
+  },
+  {
+   "t_in": 19.6,
+   "t_out": 20.8,
+   "host": "s4_t_w12",
+   "text": "on",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 19.7,
+   "t_out": 20.8,
+   "host": "s4_t_w13",
+   "text": "Form",
+   "size": 92,
+   "y": 484,
+   "headline": true
+  },
+  {
+   "t_in": 19.9,
+   "t_out": 20.8,
+   "host": "s4_t_w14",
+   "text": "4.",
+   "size": 92,
+   "y": 484,
+   "headline": true
+  },
+  {
+   "t_in": 20.9,
+   "t_out": 26.8,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 20.9,
+   "t_out": 26.8,
+   "host": "cta_h_w0",
+   "text": "Read",
+   "size": 92,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 21.0,
+   "t_out": 26.8,
+   "host": "cta_h_w1",
+   "text": "what",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 21.0,
+   "t_out": 26.8,
+   "host": "cta_h_w2",
+   "text": "was",
+   "size": 92,
+   "y": 313,
+   "headline": true
+  },
+  {
+   "t_in": 21.1,
+   "t_out": 26.8,
+   "host": "cta_h_w3",
+   "text": "actually",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 21.1,
+   "t_out": 26.8,
+   "host": "cta_h_w4",
+   "text": "filed.",
+   "size": 92,
+   "y": 407,
+   "headline": true
+  },
+  {
+   "t_in": 21.2,
+   "t_out": 26.8,
+   "host": "cta_h_w5",
+   "text": "Every",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 21.3,
+   "t_out": 26.8,
+   "host": "cta_h_w6",
+   "text": "filing",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 21.3,
+   "t_out": 26.8,
+   "host": "cta_h_w7",
+   "text": "dated",
+   "size": 44,
+   "y": 514,
+   "headline": true
+  },
+  {
+   "t_in": 21.3,
+   "t_out": 26.8,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 21.4,
+   "t_out": 26.8,
+   "host": "cta_h_w8",
+   "text": "and",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 21.4,
+   "t_out": 26.8,
+   "host": "cta_h_w9",
+   "text": "linked",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 21.4,
+   "t_out": 26.8,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1238,
+   "headline": true
+  },
+  {
+   "t_in": 21.5,
+   "t_out": 26.8,
+   "host": "cta_h_w10",
+   "text": "to",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 21.6,
+   "t_out": 26.8,
+   "host": "cta_h_w11",
+   "text": "SEC.gov.",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 21.6,
+   "t_out": 26.8,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 21.7,
+   "t_out": 26.8,
+   "host": "cta_note",
+   "text": "Screens from 23 Sep 2026 · AI voice",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 18.043,
+   "t1": 20.586,
+   "key": "",
+   "text": ""
+  }
+ ],
+ "cta": 20.686,
+ "karaoke": [
+  {
+   "id": "s1_t",
+   "t0": 0.15,
+   "t1": 4.799
+  },
+  {
+   "id": "s2_t",
+   "t0": 7.286,
+   "t1": 11.025
+  },
+  {
+   "id": "s4_t",
+   "t0": 17.143,
+   "t1": 20.13
+  }
+ ],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 1.35,
+   "type": "click"
+  },
+  {
+   "t": 1.8,
+   "type": "click"
+  },
+  {
+   "t": 2.25,
+   "type": "click"
+  },
+  {
+   "t": 5.357,
+   "type": "hit"
+  },
+  {
+   "t": 11.421,
+   "type": "pop"
+  },
+  {
+   "t": 15,
+   "type": "impact"
+  },
+  {
+   "t": 17.143,
+   "type": "ding"
+  },
+  {
+   "t": 18.043,
+   "type": "swish"
+  },
+  {
+   "t": 18.298,
+   "type": "click"
+  },
+  {
+   "t": 20.686,
+   "type": "whoosh"
+  },
+  {
+   "t": 21.086,
+   "type": "sparkle"
+  },
+  {
+   "t": 21.286,
+   "type": "pop"
+  }
+ ]
+}

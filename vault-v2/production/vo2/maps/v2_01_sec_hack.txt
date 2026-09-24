@@ -1,0 +1,96 @@
+== v2_01_sec_hack  dur 21.40s  bpm 90  CTA at 16.667
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-2.9] The SEC's own account
+  0.00  TXT [0.0-2.9] fake news.
+  0.00  TXT [0.0-2.9] posted
+  0.00  TXT [0.0-2.9] “Today the SEC grants approval for #Bitcoin ETFs for listing on all registered national se
+  0.00  txt [0.0-2.9] 9 Jan 2024 · 4:11 pm ET
+  0.00  txt [0.0-2.9] Source: sec.gov/secgov-x-account
+  0.00  txt [0.0-2.9] X post · @SECGov · unauthorized
+  0.00  sfx impact
+  0.05  sfx notif
+  1.10  TXT [1.1-2.9] FAKE
+  1.12  sfx stamp
+  2.67  --- CUT s2 (left)
+  2.67  sfx whoosh
+  2.80  TXT [2.8-5.5] +$1,000
+  2.80  TXT [2.8-5.5] Bitcoin
+  3.73  sfx hit
+  3.73  sfx subdrop
+  3.80  TXT [3.8-5.6] then
+  3.80  TXT [3.8-5.6] ↓ −$2,000
+  4.10  txt [4.1-5.6] Per BTC · per U.S. Department of Justice
+  5.33  --- CUT s3 (up)
+  5.48  sfx notif
+  5.50  TXT [5.5-7.8] 15 minutes later…
+  5.60  TXT [5.6-7.8] The SEC has not approved
+  5.60  TXT [5.6-7.8] the listing and trading of spot bitcoin exchange-traded products.”
+  5.60  TXT [5.6-7.8] “The @SECGov twitter account was compromised, and an unauthorized tweet was posted.
+  5.60  txt [5.6-7.8] 9 Jan 2024 · 4:26 pm ET
+  5.60  txt [5.6-7.8] Source: x.com/GenslerArchive
+  5.60  txt [5.6-7.8] X post · SEC Chair Gary Gensler
+  7.67  --- CUT s4 (zoom)
+  7.80  TXT [7.8-9.4] The
+  7.90  TXT [7.9-9.4] approval
+  7.90  TXT [7.9-9.4] real
+  8.00  TXT [8.0-9.4] came
+  8.00  TXT [8.0-9.4] the
+  8.10  TXT [8.1-9.4] day.
+  8.10  TXT [8.1-9.4] next
+  8.40  txt [8.4-9.4] 9 JAN 2024
+  8.40  txt [8.4-9.4] Fake post
+  8.73  sfx ding
+  9.10  txt [9.1-9.4] 10 JAN 2024
+  9.10  txt [9.1-9.4] Official SEC order
+  9.33  --- CUT s5 (zoomIn)
+  9.33  sfx hit
+  9.40  TXT [9.4-10.8] If an official account
+  9.40  TXT [9.4-10.8] any post can.
+  9.40  TXT [9.4-10.8] can be faked,
+ 10.67  --- CUT s6 (zoomIn)
+ 10.67  sfx impact
+ 10.67  sfx riser
+ 10.72  sfx ding
+ 10.90  txt [10.9-16.7] The
+ 10.90  txt [10.9-16.7] source
+ 11.00  txt [11.0-16.7] on
+ 11.10  TXT [11.1-16.7] The
+ 11.10  txt [11.1-16.7] BFYP
+ 11.10  txt [11.1-16.7] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC
+ 11.20  TXT [11.2-16.7] filing
+ 11.20  TXT [11.2-16.7] itself.
+ 11.30  TXT [11.3-16.7] Dated.
+ 11.30  TXT [11.3-16.7] Linked.
+ 11.33  ZOOM [11.33-12.67] DATED · Every filing shows its date
+ 11.50  txt [11.5-16.6] Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC
+ 11.90  TXT [11.9-12.7] Every filing shows its date
+ 11.90  txt [11.9-12.7] DATED
+ 12.67  ZOOM [12.67-14.00] LINKED · Opens the original on SEC.gov
+ 13.20  TXT [13.2-14.1] Opens the original on SEC.gov
+ 13.20  txt [13.2-14.1] LINKED
+ 14.00  ZOOM [14.00-15.33] BOTH DATES · Event period + filing date
+ 14.50  TXT [14.5-15.4] Event period + filing date
+ 14.50  txt [14.5-15.4] BOTH DATES
+ 15.47  sfx hit
+ 15.60  TXT [15.6-16.7] Filings are the record.
+ 15.60  TXT [15.6-16.7] Posts can be faked.
+ 16.67  --- CUT cta (zoom)
+ 16.67  sfx whoosh
+ 16.90  TXT [16.9-21.4] Read
+ 16.90  TXT [16.9-21.4] the
+ 16.90  txt [16.9-21.4] ETTERFORYOURPOCKET
+ 17.00  TXT [17.0-21.4] filing,
+ 17.10  TXT [17.1-21.4] not
+ 17.10  TXT [17.1-21.4] the
+ 17.20  TXT [17.2-21.4] Every
+ 17.20  TXT [17.2-21.4] post.
+ 17.20  txt [17.2-21.4] CAPTURED 23 SEP 2026 · 22:01 UTC
+ 17.30  TXT [17.3-21.4] NVIDIA
+ 17.40  TXT [17.4-21.4] betterforyourpocket.com
+ 17.40  TXT [17.4-21.4] dated
+ 17.40  TXT [17.4-21.4] filing,
+ 17.50  TXT [17.5-21.4] and
+ 17.50  TXT [17.5-21.4] linked.
+ 17.60  txt [17.6-21.4] Educational market data. Not financial advice.
+ 17.70  txt [17.7-21.4] Live data changes · screen from 23 Sep 2026
+ 21.33  sfx hit

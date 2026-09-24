@@ -1,0 +1,553 @@
+{
+ "reel": "v2_26_together",
+ "dur": 20.6,
+ "bpm": 125,
+ "music": {
+  "style": "techhouse",
+  "bpm": 125,
+  "key": "D",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "tension"
+   },
+   {
+    "beat": 6,
+    "type": "hook"
+   },
+   {
+    "beat": 15,
+    "type": "build"
+   },
+   {
+    "beat": 16,
+    "type": "drop"
+   },
+   {
+    "beat": 34,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 7.68,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 13.44,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.32,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 2.8,
+   "host": "s1_t",
+   "text": "One signal",
+   "size": 130,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.8,
+   "host": "s1_t",
+   "text": "alone?",
+   "size": 130,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.8,
+   "host": "s1_t",
+   "text": "Noise.",
+   "size": 130,
+   "y": 359,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.8,
+   "host": "s1_lbl",
+   "text": "1 observation",
+   "size": 28,
+   "y": 1285,
+   "headline": false
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 7.8,
+   "host": "s1_t2",
+   "text": "Different kinds.",
+   "size": 96,
+   "y": 254,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 7.8,
+   "host": "s1_t2",
+   "text": "Same wallet.",
+   "size": 96,
+   "y": 254,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 7.8,
+   "host": "s1_t2",
+   "text": "Same time?",
+   "size": 96,
+   "y": 426,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 7.8,
+   "host": "s1_w",
+   "text": "wallet 0xe1ad…1691",
+   "size": 26,
+   "y": 1137,
+   "headline": false
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 7.8,
+   "host": "s1_a",
+   "text": "kind A",
+   "size": 26,
+   "y": 860,
+   "headline": false
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 7.8,
+   "host": "s1_ill",
+   "text": "Illustration",
+   "size": 21,
+   "y": 1501,
+   "headline": false
+  },
+  {
+   "t_in": 3.7,
+   "t_out": 7.8,
+   "host": "s1_b",
+   "text": "kind B",
+   "size": 26,
+   "y": 855,
+   "headline": false
+  },
+  {
+   "t_in": 3.9,
+   "t_out": 7.8,
+   "host": "s1_c",
+   "text": "kind A",
+   "size": 26,
+   "y": 1367,
+   "headline": false
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 7.8,
+   "host": "s1_d",
+   "text": "kind B",
+   "size": 26,
+   "y": 1378,
+   "headline": false
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 8.8,
+   "host": "s2_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 257,
+   "headline": false
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 8.8,
+   "host": "s2_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 263,
+   "headline": false
+  },
+  {
+   "t_in": 8.0,
+   "t_out": 8.8,
+   "host": "s2_h_w3",
+   "text": "Today",
+   "size": 30,
+   "y": 262,
+   "headline": false
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 8.8,
+   "host": "s2_h_w4",
+   "text": "BFYP",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 8.8,
+   "host": "s2_h_w5",
+   "text": "flags",
+   "size": 92,
+   "y": 322,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 8.8,
+   "host": "s2_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 23,
+   "y": 562,
+   "headline": false
+  },
+  {
+   "t_in": 8.2,
+   "t_out": 8.8,
+   "host": "s2_h_w6",
+   "text": "what’s",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 8.2,
+   "t_out": 8.8,
+   "host": "s2_h_w7",
+   "text": "happening",
+   "size": 92,
+   "y": 411,
+   "headline": true
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 8.8,
+   "host": "s2_h_w8",
+   "text": "together.",
+   "size": 92,
+   "y": 404,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 13.4,
+   "host": "s2_cap",
+   "text": "Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 13.4,
+   "host": "s2_card_co0",
+   "text": "4 observations · 2 kinds · 1 wallet",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 13.4,
+   "host": "s2_card_co0",
+   "text": "OCCURRING TOGETHER",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 13.6,
+   "t_out": 16.4,
+   "host": "s3_a",
+   "text": "Not a trade signal.",
+   "size": 112,
+   "y": 605,
+   "headline": true
+  },
+  {
+   "t_in": 13.6,
+   "t_out": 16.4,
+   "host": "s3_a",
+   "text": "A lead you can check.",
+   "size": 112,
+   "y": 695,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.6,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 218,
+   "headline": false
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.6,
+   "host": "cta_h_w0",
+   "text": "See",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.6,
+   "host": "cta_h_w1",
+   "text": "what’s",
+   "size": 92,
+   "y": 307,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.6,
+   "host": "cta_h_w2",
+   "text": "happening",
+   "size": 92,
+   "y": 392,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.6,
+   "host": "cta_h_w3",
+   "text": "together.",
+   "size": 92,
+   "y": 400,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.6,
+   "host": "cta_h_w4",
+   "text": "Grouped",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.6,
+   "host": "cta_h_w5",
+   "text": "observations,",
+   "size": 44,
+   "y": 518,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.6,
+   "host": "cta_h_w6",
+   "text": "each",
+   "size": 44,
+   "y": 509,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.6,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.6,
+   "host": "cta_h_w7",
+   "text": "linked",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.6,
+   "host": "cta_h_w8",
+   "text": "to",
+   "size": 44,
+   "y": 513,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.6,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1241,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.6,
+   "host": "cta_h_w9",
+   "text": "its",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.6,
+   "host": "cta_h_w10",
+   "text": "evidence.",
+   "size": 44,
+   "y": 572,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.6,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1377,
+   "headline": false
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 20.6,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · live data changes",
+   "size": 22,
+   "y": 1421,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s2_card",
+   "t0": 8.64,
+   "t1": 13.344,
+   "key": "OCCURRING TOGETHER",
+   "text": "4 observations · 2 kinds · 1 wallet"
+  }
+ ],
+ "cta": 16.32,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.1,
+   "type": "heartbeat"
+  },
+  {
+   "t": 0.96,
+   "type": "heartbeat"
+  },
+  {
+   "t": 1.92,
+   "type": "heartbeat"
+  },
+  {
+   "t": 2.88,
+   "type": "pop"
+  },
+  {
+   "t": 3.36,
+   "type": "pop"
+  },
+  {
+   "t": 3.6,
+   "type": "pop"
+  },
+  {
+   "t": 3.84,
+   "type": "pop"
+  },
+  {
+   "t": 4.08,
+   "type": "pop"
+  },
+  {
+   "t": 4.32,
+   "type": "tick"
+  },
+  {
+   "t": 4.56,
+   "type": "tick"
+  },
+  {
+   "t": 4.8,
+   "type": "tick"
+  },
+  {
+   "t": 5.04,
+   "type": "tick"
+  },
+  {
+   "t": 7.68,
+   "type": "riser"
+  },
+  {
+   "t": 7.68,
+   "type": "impact"
+  },
+  {
+   "t": 7.73,
+   "type": "ding"
+  },
+  {
+   "t": 7.98,
+   "type": "scan"
+  },
+  {
+   "t": 8.64,
+   "type": "swish"
+  },
+  {
+   "t": 8.997,
+   "type": "click"
+  },
+  {
+   "t": 13.44,
+   "type": "hit"
+  },
+  {
+   "t": 16.32,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.72,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.92,
+   "type": "pop"
+  },
+  {
+   "t": 20.4,
+   "type": "hit"
+  }
+ ]
+}

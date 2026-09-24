@@ -1,0 +1,70 @@
+== v2_06_feed_48  dur 20.40s  bpm 150  CTA at 16.0
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.4] 48%
+  0.00  TXT [0.0-3.4] learn investing on
+  0.00  TXT [0.0-3.4] of Gen Z investors
+  0.00  TXT [0.0-3.4] social media.
+  0.00  txt [0.0-3.4] FINRA Foundation & CFA Institute
+  0.00  txt [0.0-3.4] Gen Z and Investing · 2023
+  0.00  sfx impact
+  3.20  --- CUT s2 (left)
+  3.40  TXT [3.4-6.6] Where they learn:
+  3.60  TXT [3.6-6.6] Social media
+  3.80  TXT [3.8-6.6] 48%
+  3.80  TXT [3.8-6.6] Internet searches
+  4.00  TXT [4.0-6.6] 47%
+  4.10  TXT [4.1-6.6] Parents / family
+  4.10  txt [4.1-6.6] FINRA Foundation & CFA Institute (2023)
+  4.10  txt [4.1-6.6] U.S. Gen Z investors
+  4.30  TXT [4.3-6.6] 45%
+  6.40  --- CUT s3 (up)
+  6.40  sfx hit
+  6.50  TXT [6.5-8.9] Feeds reward
+  6.50  TXT [6.5-8.9] engaging.
+  6.50  TXT [6.5-8.9] what’s
+  7.40  sfx hit
+  7.50  TXT [7.5-8.9] Not what’s
+  7.50  TXT [7.5-8.9] verified.
+  8.80  --- CUT s3b (zoomIn)
+  8.90  TXT [8.9-11.7] So ask one thing:
+  9.60  sfx hit
+  9.70  TXT [9.7-11.7] What is this
+  9.70  TXT [9.7-11.7] built on?
+ 11.60  --- CUT s4 (zoomIn)
+ 11.60  sfx impact
+ 11.60  sfx riser
+ 11.65  sfx ding
+ 11.80  TXT [11.8-12.2] BFYP,
+ 11.80  TXT [11.8-12.2] On
+ 11.90  TXT [11.9-12.2] see
+ 11.90  TXT [11.9-12.2] you
+ 12.00  TXT [12.0-12.2] built
+ 12.00  TXT [12.0-12.2] it’s
+ 12.00  TXT [12.0-12.2] what
+ 12.10  TXT [12.1-12.2] on.
+ 12.20  sfx whoosh
+ 12.30  txt [12.3-16.0] Real BFYP screens · 23 Sep 2026 · 21:28–22:01 UTC
+ 12.40  txt [12.4-16.1] 330 observations
+ 12.40  txt [12.4-16.1] TODAY · BUILT ON
+ 13.20  sfx whoosh
+ 13.40  txt [13.4-16.1] WHALES · BUILT ON
+ 13.40  txt [13.4-16.1] the raw transaction
+ 14.20  sfx whoosh
+ 14.40  txt [14.4-16.1] STOCKS · BUILT ON
+ 14.40  txt [14.4-16.1] the 10-K on SEC EDGAR
+ 16.00  --- CUT cta (zoom)
+ 16.00  sfx whoosh
+ 16.20  TXT [16.2-20.4] Learn
+ 16.20  txt [16.2-20.4] ETTERFORYOURPOCKET
+ 16.30  TXT [16.3-20.4] evidence.
+ 16.30  TXT [16.3-20.4] from
+ 16.40  TXT [16.4-20.4] Not
+ 16.50  TXT [16.5-20.4] from
+ 16.50  TXT [16.5-20.4] the
+ 16.60  TXT [16.6-20.4] loudest
+ 16.60  TXT [16.6-20.4] post.
+ 16.60  txt [16.6-20.4] CAPTURED 23 SEP 2026 · 21:28 UTC
+ 16.70  TXT [16.7-20.4] betterforyourpocket.com
+ 16.90  txt [16.9-20.4] Educational market data. Not financial advice.
+ 17.00  txt [17.0-20.4] Live data changes · screen from 23 Sep 2026
+ 20.00  sfx hit

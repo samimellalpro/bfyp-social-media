@@ -1,0 +1,62 @@
+== v2_22_market_maker  dur 20.40s  bpm 112  CTA at 16.071
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-4.5] That
+  0.00  TXT [0.0-4.5] “whale”?
+  0.00  sfx impact
+  1.61  sfx hit
+  1.70  TXT [1.7-4.5] Might be a
+  1.70  TXT [1.7-4.5] market maker.
+  2.30  TXT [2.3-4.5] ⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄
+  4.29  --- CUT s2 (left)
+  4.29  sfx hit
+  4.40  TXT [4.4-8.6] Market makers move size
+  4.40  TXT [4.4-8.6] all day.
+  5.89  sfx hit
+  6.00  TXT [6.0-8.6] It’s their job —
+  6.00  TXT [6.0-8.6] not a conviction bet.
+  8.57  --- CUT s3 (zoomIn)
+  8.57  sfx impact
+  8.57  sfx riser
+  8.62  sfx ding
+  8.80  txt [8.8-16.1] BFYP
+  8.80  txt [8.8-16.1] On
+  8.90  txt [8.9-16.1] Smart
+  9.00  txt [9.0-16.1] Money
+  9.00  txt [9.0-16.1] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC
+  9.00  txt [9.0-16.1] leaderboard
+  9.10  TXT [9.1-16.1] Labelled
+  9.10  TXT [9.1-16.1] by
+  9.20  TXT [9.2-16.1] they
+  9.20  TXT [9.2-16.1] what
+  9.30  TXT [9.3-16.1] do.
+  9.64  ZOOM [9.64-11.79] WALLET #6 · Market maker
+  9.80  txt [9.8-16.1] Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC
+ 10.20  TXT [10.2-11.8] Market maker
+ 10.20  txt [10.2-11.8] WALLET #6
+ 11.79  ZOOM [11.79-13.82] WALLET #8 · Whale accumulator
+ 12.30  TXT [12.3-13.9] Whale accumulator
+ 12.30  txt [12.3-13.9] WALLET #8
+ 14.04  sfx hit
+ 14.20  TXT [14.2-16.1] Different behavior.
+ 14.20  TXT [14.2-16.1] Same leaderboard.
+ 16.07  --- CUT cta (zoom)
+ 16.07  sfx whoosh
+ 16.30  TXT [16.3-20.4] Know
+ 16.30  txt [16.3-20.4] ETTERFORYOURPOCKET
+ 16.40  TXT [16.4-20.4] who
+ 16.40  TXT [16.4-20.4] you’re
+ 16.50  TXT [16.5-20.4] Every
+ 16.50  TXT [16.5-20.4] watching.
+ 16.60  TXT [16.6-20.4] wallet
+ 16.60  txt [16.6-20.4] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 16.70  TXT [16.7-20.4] with
+ 16.80  TXT [16.8-20.4] behavior
+ 16.80  TXT [16.8-20.4] betterforyourpocket.com
+ 16.80  TXT [16.8-20.4] label,
+ 17.00  TXT [17.0-20.4] and
+ 17.00  TXT [17.0-20.4] score
+ 17.00  txt [17.0-20.4] Educational market data. Not financial advice.
+ 17.10  TXT [17.1-20.4] confidence
+ 17.10  txt [17.1-20.4] Screen from 23 Sep 2026 · live data changes
+ 17.20  TXT [17.2-20.4] badge.
+ 20.09  sfx hit

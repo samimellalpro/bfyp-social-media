@@ -1,0 +1,615 @@
+{
+ "reel": "v2_06_feed_48",
+ "dur": 20.4,
+ "bpm": 150,
+ "music": {
+  "style": "futurebass",
+  "bpm": 150,
+  "key": "D",
+  "mode": "major",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 8,
+    "type": "drop"
+   },
+   {
+    "beat": 16,
+    "type": "tension"
+   },
+   {
+    "beat": 27,
+    "type": "build"
+   },
+   {
+    "beat": 29,
+    "type": "drop"
+   },
+   {
+    "beat": 40,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.2,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 6.4,
+   "kind": "up"
+  },
+  {
+   "shot": "s3b",
+   "t": 8.8,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s4",
+   "t": 11.6,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.0,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 3.4,
+   "host": "s1_n",
+   "text": "48%",
+   "size": 380,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.4,
+   "host": "s1_t",
+   "text": "of Gen Z investors",
+   "size": 100,
+   "y": 700,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.4,
+   "host": "s1_t",
+   "text": "learn investing on",
+   "size": 100,
+   "y": 700,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.4,
+   "host": "s1_t",
+   "text": "social media.",
+   "size": 100,
+   "y": 874,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.4,
+   "host": "s1_src",
+   "text": "FINRA Foundation & CFA Institute",
+   "size": 24,
+   "y": 1080,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.4,
+   "host": "s1_src",
+   "text": "Gen Z and Investing · 2023",
+   "size": 24,
+   "y": 1080,
+   "headline": false
+  },
+  {
+   "t_in": 3.4,
+   "t_out": 6.6,
+   "host": "s2_h",
+   "text": "Where they learn:",
+   "size": 92,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 6.6,
+   "host": "s2_bars_lab0",
+   "text": "Social media",
+   "size": 50,
+   "y": 533,
+   "headline": true
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 6.6,
+   "host": "s2_bars_val0",
+   "text": "48%",
+   "size": 60,
+   "y": 619,
+   "headline": true
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 6.6,
+   "host": "s2_bars_lab1",
+   "text": "Internet searches",
+   "size": 50,
+   "y": 743,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 6.6,
+   "host": "s2_bars_val1",
+   "text": "47%",
+   "size": 60,
+   "y": 829,
+   "headline": true
+  },
+  {
+   "t_in": 4.1,
+   "t_out": 6.6,
+   "host": "s2_bars_lab2",
+   "text": "Parents / family",
+   "size": 50,
+   "y": 953,
+   "headline": true
+  },
+  {
+   "t_in": 4.1,
+   "t_out": 6.6,
+   "host": "s2_src",
+   "text": "U.S. Gen Z investors",
+   "size": 22,
+   "y": 1242,
+   "headline": false
+  },
+  {
+   "t_in": 4.1,
+   "t_out": 6.6,
+   "host": "s2_src",
+   "text": "FINRA Foundation & CFA Institute (2023)",
+   "size": 22,
+   "y": 1242,
+   "headline": false
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.6,
+   "host": "s2_bars_val2",
+   "text": "45%",
+   "size": 60,
+   "y": 1039,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 8.9,
+   "host": "s3_a",
+   "text": "Feeds reward",
+   "size": 118,
+   "y": 750,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 8.9,
+   "host": "s3_a",
+   "text": "what’s",
+   "size": 118,
+   "y": 750,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 8.9,
+   "host": "s3_a",
+   "text": "engaging.",
+   "size": 118,
+   "y": 849,
+   "headline": true
+  },
+  {
+   "t_in": 7.5,
+   "t_out": 8.9,
+   "host": "s3_b",
+   "text": "Not what’s",
+   "size": 118,
+   "y": 890,
+   "headline": true
+  },
+  {
+   "t_in": 7.5,
+   "t_out": 8.9,
+   "host": "s3_b",
+   "text": "verified.",
+   "size": 118,
+   "y": 989,
+   "headline": true
+  },
+  {
+   "t_in": 8.9,
+   "t_out": 11.7,
+   "host": "s3b_a",
+   "text": "So ask one thing:",
+   "size": 92,
+   "y": 627,
+   "headline": true
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 11.7,
+   "host": "s3b_b",
+   "text": "What is this",
+   "size": 128,
+   "y": 730,
+   "headline": true
+  },
+  {
+   "t_in": 9.7,
+   "t_out": 11.7,
+   "host": "s3b_b",
+   "text": "built on?",
+   "size": 128,
+   "y": 836,
+   "headline": true
+  },
+  {
+   "t_in": 11.8,
+   "t_out": 12.2,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 92,
+   "y": 260,
+   "headline": true
+  },
+  {
+   "t_in": 11.8,
+   "t_out": 12.2,
+   "host": "s4_h_w1",
+   "text": "BFYP,",
+   "size": 92,
+   "y": 266,
+   "headline": true
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.2,
+   "host": "s4_h_w2",
+   "text": "you",
+   "size": 92,
+   "y": 255,
+   "headline": true
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.2,
+   "host": "s4_h_w3",
+   "text": "see",
+   "size": 92,
+   "y": 260,
+   "headline": true
+  },
+  {
+   "t_in": 12.0,
+   "t_out": 12.2,
+   "host": "s4_h_w4",
+   "text": "what",
+   "size": 92,
+   "y": 342,
+   "headline": true
+  },
+  {
+   "t_in": 12.0,
+   "t_out": 12.2,
+   "host": "s4_h_w5",
+   "text": "it’s",
+   "size": 92,
+   "y": 345,
+   "headline": true
+  },
+  {
+   "t_in": 12.0,
+   "t_out": 12.2,
+   "host": "s4_h_w6",
+   "text": "built",
+   "size": 92,
+   "y": 352,
+   "headline": true
+  },
+  {
+   "t_in": 12.1,
+   "t_out": 12.2,
+   "host": "s4_h_w7",
+   "text": "on.",
+   "size": 92,
+   "y": 343,
+   "headline": true
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 16.0,
+   "host": "s4_cap",
+   "text": "Real BFYP screens · 23 Sep 2026 · 21:28–22:01 UTC",
+   "size": 20,
+   "y": 1400,
+   "headline": false
+  },
+  {
+   "t_in": 12.4,
+   "t_out": 16.1,
+   "host": "s4_p0_k",
+   "text": "TODAY · BUILT ON",
+   "size": 22,
+   "y": 477,
+   "headline": false
+  },
+  {
+   "t_in": 12.4,
+   "t_out": 16.1,
+   "host": "s4_p0_k",
+   "text": "330 observations",
+   "size": 22,
+   "y": 488,
+   "headline": false
+  },
+  {
+   "t_in": 13.4,
+   "t_out": 16.1,
+   "host": "s4_p1_k",
+   "text": "WHALES · BUILT ON",
+   "size": 22,
+   "y": 717,
+   "headline": false
+  },
+  {
+   "t_in": 13.4,
+   "t_out": 16.1,
+   "host": "s4_p1_k",
+   "text": "the raw transaction",
+   "size": 22,
+   "y": 728,
+   "headline": false
+  },
+  {
+   "t_in": 14.4,
+   "t_out": 16.1,
+   "host": "s4_p2_k",
+   "text": "STOCKS · BUILT ON",
+   "size": 22,
+   "y": 1007,
+   "headline": false
+  },
+  {
+   "t_in": 14.4,
+   "t_out": 16.1,
+   "host": "s4_p2_k",
+   "text": "the 10-K on SEC EDGAR",
+   "size": 22,
+   "y": 1018,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Learn",
+   "size": 92,
+   "y": 307,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "from",
+   "size": 92,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "evidence.",
+   "size": 92,
+   "y": 404,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "Not",
+   "size": 44,
+   "y": 509,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "from",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "the",
+   "size": 44,
+   "y": 513,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "loudest",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "post.",
+   "size": 44,
+   "y": 518,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1239,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [],
+ "cta": 16.0,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 3.44,
+   "type": "tick"
+  },
+  {
+   "t": 3.69,
+   "type": "tick"
+  },
+  {
+   "t": 3.94,
+   "type": "tick"
+  },
+  {
+   "t": 6.4,
+   "type": "hit"
+  },
+  {
+   "t": 7.4,
+   "type": "hit"
+  },
+  {
+   "t": 9.6,
+   "type": "hit"
+  },
+  {
+   "t": 11.6,
+   "type": "riser"
+  },
+  {
+   "t": 11.6,
+   "type": "impact"
+  },
+  {
+   "t": 11.65,
+   "type": "ding"
+  },
+  {
+   "t": 12.2,
+   "type": "whoosh"
+  },
+  {
+   "t": 12.32,
+   "type": "click"
+  },
+  {
+   "t": 13.2,
+   "type": "whoosh"
+  },
+  {
+   "t": 13.32,
+   "type": "click"
+  },
+  {
+   "t": 14.2,
+   "type": "whoosh"
+  },
+  {
+   "t": 14.32,
+   "type": "click"
+  },
+  {
+   "t": 16,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.4,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.6,
+   "type": "pop"
+  },
+  {
+   "t": 20,
+   "type": "hit"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+== v2_03_ai_fake_cases  dur 20.80s  bpm 120  CTA at 15.5
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.2] 6 court cases.
+  0.00  TXT [0.0-3.2] An AI invented
+  0.00  TXT [0.0-3.2] non-existent judicial opinions
+  0.00  TXT [0.0-3.2] with fake quotes and citations created by the artificial intelligence tool ChatGPT…”
+  0.00  TXT [0.0-3.2] “…
+  0.00  txt [0.0-3.2] Mata v. Avianca · 2023
+  0.00  txt [0.0-3.2] Sanctions opinion · 22 Jun 2023
+  0.00  txt [0.0-3.2] U.S. District Court · S.D.N.Y.
+  0.00  sfx impact
+  1.25  sfx hit
+  1.30  TXT [1.3-3.2] A lawyer
+  1.30  TXT [1.3-3.2] filed them.
+  3.00  --- CUT s2 (left)
+  3.10  TXT [3.1-3.2] $0
+  3.20  TXT [3.2-3.3] $1,674
+  3.20  TXT [3.2-5.2] The result:
+  3.30  TXT [3.3-3.4] $3,529
+  3.40  TXT [3.4-3.5] $4,349
+  3.50  TXT [3.5-3.6] $4,712
+  3.60  TXT [3.6-3.7] $4,873
+  3.70  TXT [3.7-3.8] $4,944
+  3.80  TXT [3.8-3.9] $4,975
+  3.90  TXT [3.9-4.0] $4,989
+  3.90  TXT [3.9-5.2] in sanctions.
+  3.90  txt [3.9-5.2] Judge P. Kevin Castel · S.D.N.Y. · 22 June 2023
+  4.00  TXT [4.0-5.2] $5,000
+  5.00  --- CUT s3 (up)
+  5.00  sfx hit
+  5.10  TXT [5.1-7.1] Confident.
+  5.50  sfx hit
+  5.60  TXT [5.6-7.1] Fluent.
+  6.00  sfx glitch
+  6.00  sfx hit
+  6.10  TXT [6.1-7.1] Wrong.
+  7.00  --- CUT s4 (zoomIn)
+  7.00  sfx hit
+  7.10  TXT [7.1-9.1] In markets, a made-up
+  7.10  TXT [7.1-9.1] costs money.
+  7.10  TXT [7.1-9.1] number
+  9.00  --- CUT s5 (zoomIn)
+  9.00  sfx impact
+  9.00  sfx riser
+  9.05  sfx ding
+  9.20  txt [9.2-9.6] On
+  9.30  txt [9.3-9.6] BFYP
+  9.40  txt [9.4-9.6] AI
+  9.40  txt [9.4-9.6] Research
+  9.50  TXT [9.5-9.6] AI
+  9.50  TXT [9.5-9.6] answers
+  9.50  txt [9.5-9.7] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:39 UTC
+  9.50  ZOOM [9.50-11.50] TRACED · Every figure → the evidence it came from
+  9.70  txt [9.7-13.5] Real BFYP screen · AI Research · 23 SEP 2026 · 21:39 UTC
+ 10.00  TXT [10.0-11.6] Every figure → the evidence it came from
+ 10.00  txt [10.0-11.6] TRACED
+ 11.50  ZOOM [11.50-13.50] HONEST · No data? The answer says so.
+ 12.00  TXT [12.0-13.6] No data? The answer says so.
+ 12.00  txt [12.0-13.6] HONEST
+ 13.60  sfx whoosh
+ 13.70  TXT [13.7-15.6] Automated —
+ 13.70  TXT [13.7-15.6] and it says so.
+ 15.50  --- CUT cta (zoom)
+ 15.50  sfx whoosh
+ 15.70  TXT [15.7-20.8] Ask
+ 15.70  txt [15.7-20.8] ETTERFORYOURPOCKET
+ 15.80  TXT [15.8-20.8] receipts.
+ 15.80  TXT [15.8-20.8] with
+ 15.90  TXT [15.9-20.8] Free
+ 16.00  TXT [16.0-20.8] 52
+ 16.00  TXT [16.0-20.8] plan:
+ 16.10  TXT [16.1-20.8] AI
+ 16.10  TXT [16.1-20.8] credits
+ 16.10  txt [16.1-20.8] CAPTURED 23 SEP 2026 · 21:39 UTC
+ 16.20  TXT [16.2-20.8] betterforyourpocket.com
+ 16.30  TXT [16.3-20.8] month.
+ 16.40  txt [16.4-20.8] Educational market data. Not financial advice.
+ 16.50  txt [16.5-20.8] Live product may differ · screen from 23 Sep 2026
+ 20.50  sfx hit

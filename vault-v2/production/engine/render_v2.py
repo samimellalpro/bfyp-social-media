@@ -146,7 +146,9 @@ def render_audio(meta, dur, out_wav, log):
     n_all = min(music.shape[1], sfx.x.shape[1])
     music_s, sfx_s = music[:, :n_all], sfx.x[:, :n_all]
     vo_path = meta.get("vo_wav")
-    if vo_path and os.path.exists(vo_path):
+    if meta.get("vo2"):
+        mix = mix_vo2(meta["vo2"], music_s, sfx_s, n_all, log)
+    elif vo_path and os.path.exists(vo_path):
         sr_vo, vo = wf.read(vo_path)
         vo = vo.astype(np.float64) / 32768.0
         if vo.ndim > 1:
@@ -188,6 +190,75 @@ def render_audio(meta, dur, out_wav, log):
     wf.write(out_wav, SR, (np.clip(out.T, -1, 1) * 32767).astype(np.int16))
     log["audio"] = {"lufs": round(float(info["lufs"]), 2), "true_peak_db": round(float(info["tp"]), 2)}
     return log
+
+
+def mix_vo2(vo2_json, music_s, sfx_s, n_all, log):
+    """Directed VO (vo2.py) over the reel's own music and SFX, with dynamic ducking.
+
+    The music ducks ahead of each phrase (~100 ms), holds through it, and breathes back up in the pauses.
+    The 1-4.5 kHz band of the music, where the voice lives, is carved a little deeper than the rest.
+    SFX duck only lightly so cuts still land.
+    """
+    import soundfile as _sf
+    from scipy.ndimage import maximum_filter1d as _mf
+    J = json.load(open(vo2_json))
+    vo, sr_vo = _sf.read(J["wav"], dtype="float64")
+    if vo.ndim > 1:
+        vo = vo.mean(axis=1)
+    assert sr_vo == SR
+    pad = np.zeros(n_all)
+    m = min(n_all, len(vo))
+    pad[:m] = vo[:m]
+    mixcfg = J.get("mix") or {}
+    duck_db = float(mixcfg.get("music_duck_db", 10.0))
+    carve_db = float(mixcfg.get("carve_db", 4.0))
+    sfx_db = float(mixcfg.get("sfx_duck_db", 7.0))
+    cr = 1000
+    hop = SR // cr
+    nfr = n_all // hop
+    rms = np.sqrt(np.mean(pad[: nfr * hop].reshape(nfr, hop) ** 2, axis=1) + 1e-12)
+    act = np.clip((20 * np.log10(rms) + 50.0) / 18.0, 0.0, 1.0)
+    act = _mf(act, size=int(0.20 * cr), mode="nearest")          # ~100 ms pre-duck, ~100 ms hold
+    a_att, a_rel = np.exp(-1.0 / (0.04 * cr)), np.exp(-1.0 / (0.38 * cr))
+    sm = np.empty_like(act)
+    y = 0.0
+    for i, v in enumerate(act):
+        c = a_att if v > y else a_rel
+        y = c * y + (1.0 - c) * v
+        sm[i] = y
+    g = np.interp(np.arange(n_all) / hop, np.arange(nfr), sm)
+    sos = signal.butter(2, [1000.0, 4500.0], btype="bandpass", fs=SR, output="sos")
+    mband = signal.sosfiltfilt(sos, music_s, axis=-1)
+    sp = g > 0.6
+    target = mixcfg.get("vo_over_bed_target", 9.0)
+    vob = None
+    for _ in range(3):  # adapt the duck depth so the voice sits `target` LU over the bed while it speaks
+        music_d = (music_s - mband) * db(-duck_db * g) + mband * db(-(duck_db + carve_db) * g)
+        sfx_d = sfx_s * db(-sfx_db * g)
+        bed = music_d + sfx_d
+        if sp.sum() <= SR:
+            break
+        vob = round(float(lufs(np.vstack([pad[sp], pad[sp]])) - lufs(bed[:, sp])), 1)
+        if target is None or abs(vob - target) < 0.4:
+            break
+        step = float(np.clip(target - vob, -3.0, 3.0))
+        new_duck = float(np.clip(duck_db + step, 8.0, 14.0))
+        sfx_db = float(np.clip(sfx_db + step, 5.0, 11.0))
+        if abs(new_duck - duck_db) < 0.05:
+            break
+        duck_db = new_duck
+    def _l(z):
+        try:
+            return round(float(lufs(z)), 1)
+        except Exception:
+            return None
+    dbg = {"vo": _l(np.vstack([pad[sp], pad[sp]])), "music_all": _l(music_s), "sfx_all": _l(sfx_s),
+           "music_ducked_speech": _l(music_d[:, sp]), "sfx_ducked_speech": _l(sfx_d[:, sp]), "music_raw_speech": _l(music_s[:, sp]),
+           "g_mean_speech": round(float(g[sp].mean()), 2), "speech_share": round(float(sp.mean()), 2)}
+    log["vo2_debug"] = dbg
+    log["vo2"] = {"voice": J["voice"]["id"], "kokoro": J["voice"]["kokoro"], "lines": len(J["lines"]), "music_duck_db": duck_db,
+                  "carve_db": carve_db, "sfx_duck_db": sfx_db, "vo_over_bed_lu": vob, "vo_sha256": J["sha256"]}
+    return bed + np.vstack([pad, pad])
 
 
 # ------------------------------------------------------------------ video
@@ -286,23 +357,58 @@ async def render_video(html, out_mp4, log, cover_png=None, preview_dir=None, onl
         return meta
 
 
-def encode_aac_guarded(wav, m4a, log=None, target_tp=-1.05, tries=5):
-    """Encode AAC, decode it back, and trim gain until the ENCODED true peak <= target_tp."""
-    tp = None
+def aac_overshoot_db(src, dec):
+    """Worst 10 ms window where the decoded AAC peaks above its source (dB): catches encoder bursts, not just the overall true peak.
+    Only audible windows count (decoded peak > -30 dBFS), against a -40 dBFS floor, so codec noise in digital silence is ignored."""
+    fs = 32768.0 if np.max(np.abs(src)) > 2.0 else 1.0
+    n = min(len(src), len(dec)) // 480 * 480
+    a = np.abs(src[:n]).max(axis=1).reshape(-1, 480).max(axis=1) / fs
+    b = np.abs(dec[:n]).max(axis=1).reshape(-1, 480).max(axis=1) / fs
+    loud = b > 10 ** (-30 / 20)
+    if not np.any(loud):
+        return 0.0
+    return float(np.max(20 * np.log10(b[loud] / np.maximum(a[loud], 10 ** (-40 / 20)))))
+
+
+AAC_CANDIDATES = (  # tried in order; the native encoder can burst on some mixes, so each take is decoded and checked
+    ["-b:a", "256k", "-aac_pns", "0"],
+    ["-b:a", "320k", "-aac_pns", "0"],
+    ["-b:a", "256k", "-aac_pns", "0", "-aac_tns", "0", "-cutoff", "19500"],
+    ["-b:a", "320k", "-aac_pns", "0", "-aac_tns", "0", "-cutoff", "19500"],
+)
+
+
+def _aac_take(wav, m4a, args):
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-c:a", "aac"] + args + ["-ar", "48000", "-ac", "2", m4a], check=True)
+    dec = m4a + ".dec.wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", m4a, "-ac", "2", "-ar", "48000", dec], check=True)
+    _, y = wf.read(dec)
+    os.remove(dec)
+    _, x = wf.read(wav)
+    return float(true_peak_db(y.T.astype(np.float64) / 32768.0)), aac_overshoot_db(x.astype(np.float64), y.astype(np.float64))
+
+
+def encode_aac_guarded(wav, m4a, log=None, target_tp=-1.05, tries=5, max_burst=1.5):
+    """Encode AAC and decode it back. Keep the first setting whose decode has no burst (no 10 ms window > 1.5 dB above
+    the source) and a true peak <= target_tp; else the cleanest one. Then trim gain until the ENCODED true peak <= target_tp."""
+    takes = []
+    for args in AAC_CANDIDATES:
+        tp, over = _aac_take(wav, m4a, args)
+        takes.append((over > max_burst, tp > target_tp, over, args))
+        if over <= max_burst and tp <= target_tp:
+            break
+    bad_burst, _, over, args = min(takes, key=lambda t: (t[0], t[1], t[2]))
+    tp, over = _aac_take(wav, m4a, args)
     for i in range(tries):
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-ac", "2", m4a], check=True)
-        dec = m4a + ".dec.wav"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", m4a, "-ac", "2", "-ar", "48000", dec], check=True)
-        _, y = wf.read(dec)
-        os.remove(dec)
-        tp = float(true_peak_db(y.T.astype(np.float64) / 32768.0))
         if tp <= target_tp:
             break
         sr, x = wf.read(wav)
         x = x.astype(np.float64) / 32768.0 * db(target_tp - 0.2 - tp)
         wf.write(wav, sr, (np.clip(x, -1, 1) * 32767).astype(np.int16))
+        tp, over = _aac_take(wav, m4a, args)
     if log is not None:
-        log.setdefault("audio", {})["true_peak_aac_dbtp"] = round(tp, 2)
+        log.setdefault("audio", {}).update({"true_peak_aac_dbtp": round(tp, 2), "aac": "aac " + " ".join(args), "aac_worst_overshoot_db": round(over, 2),
+                                            "aac_takes": [{"args": " ".join(t[3]), "burst_db": round(t[2], 2)} for t in takes]})
     return tp
 
 
@@ -349,7 +455,9 @@ def main():
     if a.audio_only:
         meta = asyncio.run(render_video(html, os.path.abspath(a.out), log, only_cover=True))
         vo = load_vo(os.path.abspath(a.reel_js))
-        if vo:
+        if os.environ.get("BFYP_VO2"):
+            meta["vo2"] = os.environ["BFYP_VO2"]  # directed VO replaces any earlier VO; video untouched
+        elif vo:
             meta["vo_wav"] = json.load(open(os.path.abspath(a.reel_js)[:-3] + ".vo.json"))["wav"]
         outp = os.path.abspath(a.out)
         nfr = video_frames(outp) or int(round(meta["dur"] * meta["fps"]))
@@ -367,6 +475,7 @@ def main():
         if os.path.exists(lj):
             L = json.load(open(lj)); L["log"]["audio"] = log["audio"]
             if "vo" in log: L["log"]["vo"] = log["vo"]
+            if "vo2" in log: L["log"]["vo2"] = log["vo2"]
             json.dump(L, open(lj, "w"), indent=1)
         print(json.dumps(log))
         return

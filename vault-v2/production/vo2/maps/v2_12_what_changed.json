@@ -1,0 +1,673 @@
+{
+ "reel": "v2_12_what_changed",
+ "dur": 20.4,
+ "bpm": 122,
+ "music": {
+  "style": "minimal",
+  "bpm": 122,
+  "key": "F#",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 8,
+    "type": "tension"
+   },
+   {
+    "beat": 15,
+    "type": "build"
+   },
+   {
+    "beat": 16,
+    "type": "drop"
+   },
+   {
+    "beat": 32,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.934,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 7.869,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 15.738,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_top",
+   "text": "Your dashboard,",
+   "size": 92,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_top",
+   "text": "all day:",
+   "size": 92,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.0,
+   "host": "s1_tape",
+   "text": "▲ ▼ ▲ ▲ ▼ ▲ ▼ ▼ ▲ ▲ ▼ ▲ ▼ ▲ ▲ ▼ ▲ ▼ ▼ ▲ ▲ ▼ ▲ ▼ ▲ ▲ ▼ ▲",
+   "size": 34,
+   "y": 540,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 0.5,
+   "host": "s1_w_s0",
+   "text": "GREEN.",
+   "size": 210,
+   "y": 608,
+   "headline": true
+  },
+  {
+   "t_in": 0.5,
+   "t_out": 1.0,
+   "host": "s1_w_s1",
+   "text": "RED.",
+   "size": 210,
+   "y": 608,
+   "headline": true
+  },
+  {
+   "t_in": 1.0,
+   "t_out": 1.5,
+   "host": "s1_w_s2",
+   "text": "GREEN.",
+   "size": 210,
+   "y": 608,
+   "headline": true
+  },
+  {
+   "t_in": 1.5,
+   "t_out": 2.0,
+   "host": "s1_w_s3",
+   "text": "RED.",
+   "size": 210,
+   "y": 609,
+   "headline": true
+  },
+  {
+   "t_in": 2.1,
+   "t_out": 4.0,
+   "host": "s1_t",
+   "text": "prices.",
+   "size": 92,
+   "y": 952,
+   "headline": true
+  },
+  {
+   "t_in": 2.1,
+   "t_out": 4.0,
+   "host": "s1_t",
+   "text": "It shows",
+   "size": 92,
+   "y": 964,
+   "headline": true
+  },
+  {
+   "t_in": 2.1,
+   "t_out": 4.0,
+   "host": "s1_t",
+   "text": "Not",
+   "size": 92,
+   "y": 964,
+   "headline": true
+  },
+  {
+   "t_in": 2.1,
+   "t_out": 4.0,
+   "host": "s1_t",
+   "text": "what changed.",
+   "size": 92,
+   "y": 1041,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 7.9,
+   "host": "s2_a",
+   "text": "Price tells you",
+   "size": 120,
+   "y": 646,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 7.9,
+   "host": "s2_a",
+   "text": "THAT.",
+   "size": 120,
+   "y": 761,
+   "headline": true
+  },
+  {
+   "t_in": 5.2,
+   "t_out": 7.9,
+   "host": "s2_b",
+   "text": "WHAT.",
+   "size": 120,
+   "y": 909,
+   "headline": true
+  },
+  {
+   "t_in": 5.2,
+   "t_out": 7.9,
+   "host": "s2_b",
+   "text": "Not",
+   "size": 120,
+   "y": 930,
+   "headline": true
+  },
+  {
+   "t_in": 8.0,
+   "t_out": 15.8,
+   "host": "s3_eb",
+   "text": "On BFYP · Today · last 24h",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 8.0,
+   "t_out": 8.1,
+   "host": "s3_n",
+   "text": "64",
+   "size": 210,
+   "y": 311,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 8.2,
+   "host": "s3_n",
+   "text": "197",
+   "size": 210,
+   "y": 302,
+   "headline": true
+  },
+  {
+   "t_in": 8.2,
+   "t_out": 8.3,
+   "host": "s3_n",
+   "text": "269",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 8.4,
+   "host": "s3_n",
+   "text": "308",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 8.5,
+   "host": "s3_n",
+   "text": "329",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 8.5,
+   "t_out": 8.6,
+   "host": "s3_n",
+   "text": "340",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 8.6,
+   "t_out": 8.7,
+   "host": "s3_n",
+   "text": "347",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 8.8,
+   "host": "s3_n",
+   "text": "350",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 15.8,
+   "host": "s3_l",
+   "text": "10 assets.",
+   "size": 70,
+   "y": 516,
+   "headline": true
+  },
+  {
+   "t_in": 8.7,
+   "t_out": 15.8,
+   "host": "s3_l",
+   "text": "observations.",
+   "size": 70,
+   "y": 524,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 8.9,
+   "host": "s3_n",
+   "text": "352",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 8.9,
+   "t_out": 9.1,
+   "host": "s3_n",
+   "text": "353",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 15.8,
+   "host": "s3_n",
+   "text": "354",
+   "size": 210,
+   "y": 300,
+   "headline": true
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 15.8,
+   "host": "s3_stamp",
+   "text": "BFYP TODAY DATA · CAPTURED 23 SEP 2026 · 22:14 UTC",
+   "size": 20,
+   "y": 612,
+   "headline": false
+  },
+  {
+   "t_in": 10.0,
+   "t_out": 15.7,
+   "host": "s3_cap",
+   "text": "BFYP Today data · 23 SEP 2026 · 22:14 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 11.6,
+   "host": "s3_card_co0",
+   "text": "234 observations",
+   "size": 44,
+   "y": 329,
+   "headline": true
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 11.6,
+   "host": "s3_card_co0",
+   "text": "ON-CHAIN",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 12.1,
+   "t_out": 12.8,
+   "host": "s3_card_co1",
+   "text": "101 observations",
+   "size": 44,
+   "y": 332,
+   "headline": true
+  },
+  {
+   "t_in": 12.1,
+   "t_out": 12.8,
+   "host": "s3_card_co1",
+   "text": "COMPANIES & THEMES",
+   "size": 24,
+   "y": 352,
+   "headline": false
+  },
+  {
+   "t_in": 13.3,
+   "t_out": 14.1,
+   "host": "s3_card_co2",
+   "text": "11 · 5 · 3",
+   "size": 44,
+   "y": 336,
+   "headline": true
+  },
+  {
+   "t_in": 13.3,
+   "t_out": 14.1,
+   "host": "s3_card_co2",
+   "text": "CRYPTO · MACRO · STOCKS & ETFs",
+   "size": 24,
+   "y": 355,
+   "headline": false
+  },
+  {
+   "t_in": 14.6,
+   "t_out": 15.6,
+   "host": "s3_card_co3",
+   "text": "Not price movement. Not size.",
+   "size": 44,
+   "y": 329,
+   "headline": true
+  },
+  {
+   "t_in": 14.6,
+   "t_out": 15.6,
+   "host": "s3_card_co3",
+   "text": "COUNTS, NOT PRICES",
+   "size": 24,
+   "y": 350,
+   "headline": false
+  },
+  {
+   "t_in": 15.9,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 218,
+   "headline": false
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Start",
+   "size": 92,
+   "y": 302,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "with",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "what",
+   "size": 92,
+   "y": 394,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "changed.",
+   "size": 92,
+   "y": 405,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "Observed",
+   "size": 44,
+   "y": 509,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "activity.",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "Nothing",
+   "size": 44,
+   "y": 513,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:14 UTC",
+   "size": 19,
+   "y": 672,
+   "headline": false
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "here",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w8",
+   "text": "is",
+   "size": 44,
+   "y": 518,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1243,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w10",
+   "text": "prediction.",
+   "size": 44,
+   "y": 559,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "BFYP Today data from 23 Sep 2026 · live data changes",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s3_card",
+   "t0": 10.328,
+   "t1": 11.557,
+   "key": "ON-CHAIN",
+   "text": "234 observations"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 11.557,
+   "t1": 12.787,
+   "key": "COMPANIES & THEMES",
+   "text": "101 observations"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 12.787,
+   "t1": 14.016,
+   "key": "CRYPTO · MACRO · STOCKS & ETFs",
+   "text": "11 · 5 · 3"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 14.016,
+   "t1": 15.541,
+   "key": "COUNTS, NOT PRICES",
+   "text": "Not price movement. Not size."
+  }
+ ],
+ "cta": 15.738,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "tick"
+  },
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.492,
+   "type": "tick"
+  },
+  {
+   "t": 0.984,
+   "type": "tick"
+  },
+  {
+   "t": 1.475,
+   "type": "tick"
+  },
+  {
+   "t": 1.967,
+   "type": "hit"
+  },
+  {
+   "t": 3.934,
+   "type": "hit"
+  },
+  {
+   "t": 5.164,
+   "type": "hit"
+  },
+  {
+   "t": 7.869,
+   "type": "riser"
+  },
+  {
+   "t": 7.869,
+   "type": "impact"
+  },
+  {
+   "t": 7.919,
+   "type": "ding"
+  },
+  {
+   "t": 7.967,
+   "type": "ticks"
+  },
+  {
+   "t": 10.328,
+   "type": "swish"
+  },
+  {
+   "t": 10.685,
+   "type": "click"
+  },
+  {
+   "t": 11.557,
+   "type": "swish"
+  },
+  {
+   "t": 11.914,
+   "type": "click"
+  },
+  {
+   "t": 12.787,
+   "type": "swish"
+  },
+  {
+   "t": 13.144,
+   "type": "click"
+  },
+  {
+   "t": 14.016,
+   "type": "swish"
+  },
+  {
+   "t": 14.373,
+   "type": "click"
+  },
+  {
+   "t": 15.738,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.138,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.338,
+   "type": "pop"
+  },
+  {
+   "t": 20.164,
+   "type": "hit"
+  }
+ ]
+}

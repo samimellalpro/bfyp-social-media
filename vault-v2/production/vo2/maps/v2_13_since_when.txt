@@ -1,0 +1,81 @@
+== v2_13_since_when  dur 25.17s  bpm 130  CTA at 19.285
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.5] buying!
+  0.00  TXT [0.0-3.5] 🐋 Whales are
+  0.00  TXT [0.0-3.5] 🚀
+  0.00  txt [0.0-3.5] @example · illustration
+  0.00  txt [0.0-3.5] Crypto Buzz
+  0.00  txt [0.0-3.5] TYPICAL POST · ILLUSTRATION · NOT A REAL ACCOUNT
+  0.00  sfx impact
+  0.05  sfx notif
+  1.85  sfx hit
+  1.90  TXT [1.9-3.5] Since
+  2.40  TXT [2.4-3.5] when?
+  3.36  --- CUT s2 (zoomIn)
+  3.60  TXT [3.6-6.8] number
+  4.00  TXT [4.0-6.8] without
+  4.60  TXT [4.6-6.8] timeframe
+  5.20  TXT [5.2-6.8] is
+  5.30  TXT [5.3-6.8] just
+  5.60  TXT [5.6-6.8] noise.
+  5.78  sfx glitch
+  5.78  sfx glitch
+  6.59  --- CUT s3 (zoomIn)
+  6.69  sfx impact
+  6.74  sfx ding
+  6.80  txt [6.8-10.8] On
+  7.00  txt [7.0-10.8] BFYP
+  7.30  txt [7.3-10.8] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC
+  7.40  TXT [7.4-10.8] Every
+  7.90  TXT [7.9-10.8] number
+  8.50  TXT [8.5-10.8] carries
+  9.10  TXT [9.1-10.8] its
+  9.40  TXT [9.4-10.8] window.
+ 10.79  --- CUT w0 (cut)
+ 10.79  ZOOM [10.79-11.88]  · 
+ 10.79  sfx hit
+ 10.80  TXT [10.8-11.9] 24 HOURS
+ 10.80  txt [10.8-11.9] Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC
+ 10.80  txt [10.8-11.9] TODAY
+ 10.90  TXT [10.9-14.0] Twenty-four hours. Seven days. Thirty days.
+ 11.90  --- CUT w1 (cut)
+ 11.90  ZOOM [11.90-12.81]  · 
+ 11.90  sfx hit
+ 11.90  TXT [11.9-12.9] 7 DAYS
+ 11.90  txt [11.9-12.9] Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC
+ 11.90  txt [11.9-12.9] SMART MONEY
+ 12.83  --- CUT w2 (cut)
+ 12.83  ZOOM [12.83-14.23]  · 
+ 12.83  sfx hit
+ 12.90  TXT [12.9-14.3] 30 DAYS
+ 12.90  txt [12.9-14.3] Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC
+ 12.90  txt [12.9-14.3] SMART MONEY
+ 14.25  --- CUT w3 (cut)
+ 14.25  ZOOM [14.25-16.48]  · 
+ 14.25  sfx hit
+ 14.30  TXT [14.3-16.2] Observed, two hours ago.
+ 14.30  TXT [14.3-16.5] 2 HOURS AGO
+ 14.30  txt [14.3-16.5] Real BFYP screen · Whale Activity · 23 SEP 2026 · 21:38 UTC
+ 14.30  txt [14.3-16.5] WHALE ACTIVITY
+ 16.52  --- CUT s5 (zoomIn)
+ 16.70  TXT [16.7-19.5] If
+ 16.90  TXT [16.9-19.5] it
+ 17.00  TXT [17.0-19.5] has
+ 17.30  TXT [17.3-19.5] no
+ 17.50  TXT [17.5-19.5] window,
+ 17.90  TXT [17.9-19.5] it’s
+ 18.30  TXT [18.3-19.5] vibe.
+ 18.48  sfx hit
+ 19.29  --- CUT cta (zoom)
+ 19.29  sfx whoosh
+ 19.50  TXT [19.5-25.2] Numbers
+ 19.50  txt [19.5-25.2] ETTERFORYOURPOCKET
+ 19.60  TXT [19.6-25.2] with
+ 19.70  TXT [19.7-25.2] Free
+ 19.70  TXT [19.7-25.2] timeframe.
+ 19.80  TXT [19.8-25.2] at
+ 19.90  TXT [19.9-25.2] betterforyourpocket.com
+ 19.90  txt [19.9-25.2] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 20.00  TXT [20.0-25.2] betterforyourpocket.com
+ 20.20  txt [20.2-25.2] Educational market data. Not financial advice.
+ 20.30  txt [20.3-25.2] Screens from 23 Sep 2026 · AI voice

@@ -1,0 +1,791 @@
+{
+ "reel": "v2_02_gurus_100m",
+ "dur": 20.6,
+ "bpm": 132,
+ "music": {
+  "style": "garage",
+  "bpm": 132,
+  "key": "F",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 8,
+    "type": "tension"
+   },
+   {
+    "beat": 20,
+    "type": "build"
+   },
+   {
+    "beat": 23,
+    "type": "drop"
+   },
+   {
+    "beat": 35,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.636,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 6.364,
+   "kind": "up"
+  },
+  {
+   "shot": "s4",
+   "t": 8.182,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s5",
+   "t": 10.455,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 15.909,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 3.9,
+   "host": "s1_h",
+   "text": "8 “trading gurus.”",
+   "size": 112,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.9,
+   "host": "s1_h",
+   "text": "SEC charges.",
+   "size": 112,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.8,
+   "host": "s1_h",
+   "text": "$100M.",
+   "size": 112,
+   "y": 324,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.9,
+   "host": "s1_card",
+   "text": "SEC · Press release 2022-221",
+   "size": 25,
+   "y": 693,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.9,
+   "host": "s1_card",
+   "text": "14 Dec 2022",
+   "size": 25,
+   "y": 693,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.9,
+   "host": "s1_card",
+   "text": "SEC Charges Eight Social Media Influencers in $100 Million Stock Manipulation Scheme Promo",
+   "size": 54,
+   "y": 744,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.9,
+   "host": "s1_card",
+   "text": "sec.gov/newsroom/press-releases/2022-221",
+   "size": 24,
+   "y": 983,
+   "headline": false
+  },
+  {
+   "t_in": 1.0,
+   "t_out": 3.9,
+   "host": "s1_note",
+   "text": "Allegations · related criminal case pending",
+   "size": 24,
+   "y": 1122,
+   "headline": false
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 6.5,
+   "host": "s2_eb",
+   "text": "per the SEC:",
+   "size": 70,
+   "y": 295,
+   "headline": true
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 6.5,
+   "host": "s2_eb",
+   "text": "The playbook,",
+   "size": 70,
+   "y": 303,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 6.6,
+   "host": "s2_q_w0",
+   "text": "“…posting",
+   "size": 92,
+   "y": 485,
+   "headline": true
+  },
+  {
+   "t_in": 4.2,
+   "t_out": 6.6,
+   "host": "s2_q_w1",
+   "text": "price",
+   "size": 92,
+   "y": 488,
+   "headline": true
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.6,
+   "host": "s2_q_w2",
+   "text": "targets",
+   "size": 92,
+   "y": 574,
+   "headline": true
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.6,
+   "host": "s2_q_w3",
+   "text": "or",
+   "size": 92,
+   "y": 576,
+   "headline": true
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.6,
+   "host": "s2_q_w4",
+   "text": "indicating",
+   "size": 92,
+   "y": 580,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 6.6,
+   "host": "s2_q_w5",
+   "text": "they",
+   "size": 92,
+   "y": 666,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 6.6,
+   "host": "s2_q_w6",
+   "text": "were",
+   "size": 92,
+   "y": 668,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 6.6,
+   "host": "s2_q_w7",
+   "text": "buying,",
+   "size": 92,
+   "y": 673,
+   "headline": true
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 6.6,
+   "host": "s2_q_w8",
+   "text": "holding,",
+   "size": 92,
+   "y": 757,
+   "headline": true
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 6.6,
+   "host": "s2_q_w9",
+   "text": "or",
+   "size": 92,
+   "y": 760,
+   "headline": true
+  },
+  {
+   "t_in": 4.5,
+   "t_out": 6.6,
+   "host": "s2_q_w10",
+   "text": "adding",
+   "size": 92,
+   "y": 765,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.6,
+   "host": "s2_q_w11",
+   "text": "to",
+   "size": 92,
+   "y": 758,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.6,
+   "host": "s2_q_w12",
+   "text": "their",
+   "size": 92,
+   "y": 852,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.6,
+   "host": "s2_q_w13",
+   "text": "stock",
+   "size": 92,
+   "y": 857,
+   "headline": true
+  },
+  {
+   "t_in": 4.7,
+   "t_out": 6.6,
+   "host": "s2_q_w14",
+   "text": "positions.”",
+   "size": 92,
+   "y": 849,
+   "headline": true
+  },
+  {
+   "t_in": 4.7,
+   "t_out": 6.6,
+   "host": "s2_src",
+   "text": "SEC press release 2022-221 · 14 Dec 2022",
+   "size": 24,
+   "y": 1181,
+   "headline": false
+  },
+  {
+   "t_in": 6.4,
+   "t_out": 8.3,
+   "host": "s3_t",
+   "text": "…then sold.",
+   "size": 112,
+   "y": 1534,
+   "headline": true
+  },
+  {
+   "t_in": 6.4,
+   "t_out": 8.3,
+   "host": "s3_t",
+   "text": "Without telling",
+   "size": 112,
+   "y": 1643,
+   "headline": true
+  },
+  {
+   "t_in": 6.4,
+   "t_out": 8.3,
+   "host": "s3_t",
+   "text": "their followers.",
+   "size": 112,
+   "y": 1643,
+   "headline": true
+  },
+  {
+   "t_in": 6.9,
+   "t_out": 8.3,
+   "host": "s3_n",
+   "text": "As alleged by the SEC. Allegations are unproven; the criminal case is pending.",
+   "size": 34,
+   "y": 1073,
+   "headline": false
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 10.5,
+   "host": "s4_a",
+   "text": "A post can say",
+   "size": 112,
+   "y": 614,
+   "headline": true
+  },
+  {
+   "t_in": 8.3,
+   "t_out": 10.5,
+   "host": "s4_a",
+   "text": "“I’m buying.”",
+   "size": 112,
+   "y": 707,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 10.5,
+   "host": "s4_b",
+   "text": "prove it.",
+   "size": 112,
+   "y": 884,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 10.5,
+   "host": "s4_b",
+   "text": "It can’t",
+   "size": 112,
+   "y": 900,
+   "headline": true
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 16.0,
+   "host": "s5_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 16.0,
+   "host": "s5_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 16.0,
+   "host": "s5_h_w3",
+   "text": "NVDA",
+   "size": 30,
+   "y": 258,
+   "headline": false
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 16.0,
+   "host": "s5_h_w5",
+   "text": "insider",
+   "size": 30,
+   "y": 257,
+   "headline": false
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 16.0,
+   "host": "s5_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 23,
+   "y": 601,
+   "headline": false
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 15.9,
+   "host": "s5_cap",
+   "text": "Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 12.3,
+   "host": "s5_card_co0",
+   "text": "Officers, directors, 10%+ owners",
+   "size": 44,
+   "y": 328,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 12.3,
+   "host": "s5_card_co0",
+   "text": "WHO FILES",
+   "size": 24,
+   "y": 350,
+   "headline": false
+  },
+  {
+   "t_in": 12.5,
+   "t_out": 13.6,
+   "host": "s5_src",
+   "text": "Form 4 deadline: SEC Form 4 general instructions",
+   "size": 21,
+   "y": 1420,
+   "headline": false
+  },
+  {
+   "t_in": 12.8,
+   "t_out": 13.7,
+   "host": "s5_card_co1",
+   "text": "Due within 2 business days of the trade",
+   "size": 44,
+   "y": 334,
+   "headline": true
+  },
+  {
+   "t_in": 12.8,
+   "t_out": 13.7,
+   "host": "s5_card_co1",
+   "text": "FORM 4",
+   "size": 24,
+   "y": 354,
+   "headline": false
+  },
+  {
+   "t_in": 14.2,
+   "t_out": 15.1,
+   "host": "s5_card_co2",
+   "text": "A reported change, not a signal",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 14.2,
+   "t_out": 15.1,
+   "host": "s5_card_co2",
+   "text": "NO HYPE",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 16.0,
+   "host": "s5_h_w6",
+   "text": "forms",
+   "size": 30,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 16.0,
+   "host": "s5_h_w7",
+   "text": "Insider",
+   "size": 92,
+   "y": 311,
+   "headline": true
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 16.0,
+   "host": "s5_h_w8",
+   "text": "trades",
+   "size": 92,
+   "y": 311,
+   "headline": true
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 16.0,
+   "host": "s5_h_w9",
+   "text": "get",
+   "size": 92,
+   "y": 311,
+   "headline": true
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 16.0,
+   "host": "s5_h_w10",
+   "text": "filed.",
+   "size": 92,
+   "y": 399,
+   "headline": true
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 16.0,
+   "host": "s5_h_w11",
+   "text": "Dated.",
+   "size": 92,
+   "y": 399,
+   "headline": true
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 16.0,
+   "host": "s5_h_w12",
+   "text": "Linked.",
+   "size": 92,
+   "y": 399,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.6,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.6,
+   "host": "cta_h_w0",
+   "text": "Follow",
+   "size": 92,
+   "y": 308,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.6,
+   "host": "cta_h_w1",
+   "text": "filings,",
+   "size": 92,
+   "y": 306,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.6,
+   "host": "cta_h_w2",
+   "text": "not",
+   "size": 92,
+   "y": 392,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.6,
+   "host": "cta_h_w3",
+   "text": "followers.",
+   "size": 92,
+   "y": 398,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.6,
+   "host": "cta_h_w4",
+   "text": "Insider",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.6,
+   "host": "cta_h_w5",
+   "text": "forms",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.6,
+   "host": "cta_h_w6",
+   "text": "on",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.6,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.6,
+   "host": "cta_h_w7",
+   "text": "every",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.6,
+   "host": "cta_h_w8",
+   "text": "stock",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.6,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1239,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.6,
+   "host": "cta_h_w9",
+   "text": "page.",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.6,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.6,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s5_card",
+   "t0": 10.909,
+   "t1": 12.273,
+   "key": "WHO FILES",
+   "text": "Officers, directors, 10%+ owners"
+  },
+  {
+   "screen": "s5_card",
+   "t0": 12.273,
+   "t1": 13.636,
+   "key": "FORM 4",
+   "text": "Due within 2 business days of the trade"
+  },
+  {
+   "screen": "s5_card",
+   "t0": 13.636,
+   "t1": 15.0,
+   "key": "NO HYPE",
+   "text": "A reported change, not a signal"
+  }
+ ],
+ "cta": 15.909,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 6.364,
+   "type": "hit"
+  },
+  {
+   "t": 6.364,
+   "type": "subdrop"
+  },
+  {
+   "t": 8.182,
+   "type": "hit"
+  },
+  {
+   "t": 9.091,
+   "type": "hit"
+  },
+  {
+   "t": 10.455,
+   "type": "riser"
+  },
+  {
+   "t": 10.455,
+   "type": "impact"
+  },
+  {
+   "t": 10.505,
+   "type": "ding"
+  },
+  {
+   "t": 10.755,
+   "type": "scan"
+  },
+  {
+   "t": 10.909,
+   "type": "swish"
+  },
+  {
+   "t": 11.266,
+   "type": "click"
+  },
+  {
+   "t": 12.273,
+   "type": "swish"
+  },
+  {
+   "t": 12.63,
+   "type": "click"
+  },
+  {
+   "t": 13.636,
+   "type": "swish"
+  },
+  {
+   "t": 13.993,
+   "type": "click"
+  },
+  {
+   "t": 15.909,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.309,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.509,
+   "type": "pop"
+  },
+  {
+   "t": 20.455,
+   "type": "hit"
+  }
+ ]
+}

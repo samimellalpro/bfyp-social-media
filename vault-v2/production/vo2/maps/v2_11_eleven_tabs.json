@@ -1,0 +1,725 @@
+{
+ "reel": "v2_11_eleven_tabs",
+ "dur": 21,
+ "bpm": 128,
+ "music": {
+  "style": "techhouse",
+  "bpm": 128,
+  "key": "G",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "tension"
+   },
+   {
+    "beat": 6,
+    "type": "build"
+   },
+   {
+    "beat": 10,
+    "type": "drop"
+   },
+   {
+    "beat": 30,
+    "type": "break"
+   },
+   {
+    "beat": 34,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.688,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "m0",
+   "t": 5.625,
+   "kind": "right"
+  },
+  {
+   "shot": "m1",
+   "t": 7.312,
+   "kind": "left"
+  },
+  {
+   "shot": "m2",
+   "t": 9.0,
+   "kind": "right"
+  },
+  {
+   "shot": "m3",
+   "t": 10.688,
+   "kind": "left"
+  },
+  {
+   "shot": "m4",
+   "t": 12.375,
+   "kind": "right"
+  },
+  {
+   "shot": "s4",
+   "t": 14.062,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 15.938,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.7,
+   "host": "s1_h",
+   "text": "POV: 11 tabs",
+   "size": 112,
+   "y": 210,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.7,
+   "host": "s1_h",
+   "text": "to check",
+   "size": 112,
+   "y": 210,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.7,
+   "host": "s1_h",
+   "text": "one ticker.",
+   "size": 112,
+   "y": 414,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.7,
+   "host": "tab0",
+   "text": "Price chart",
+   "size": 30,
+   "y": 613,
+   "headline": false
+  },
+  {
+   "t_in": 0.5,
+   "t_out": 4.7,
+   "host": "tab1",
+   "text": "X search: $XYZ",
+   "size": 30,
+   "y": 687,
+   "headline": false
+  },
+  {
+   "t_in": 0.8,
+   "t_out": 4.7,
+   "host": "tab2",
+   "text": "Forum thread",
+   "size": 30,
+   "y": 728,
+   "headline": false
+  },
+  {
+   "t_in": 1.0,
+   "t_out": 4.7,
+   "host": "tab3",
+   "text": "EDGAR search",
+   "size": 30,
+   "y": 817,
+   "headline": false
+  },
+  {
+   "t_in": 1.2,
+   "t_out": 4.7,
+   "host": "tab4",
+   "text": "Block explorer",
+   "size": 30,
+   "y": 875,
+   "headline": false
+  },
+  {
+   "t_in": 1.5,
+   "t_out": 4.7,
+   "host": "tab5",
+   "text": "News site",
+   "size": 30,
+   "y": 953,
+   "headline": false
+  },
+  {
+   "t_in": 1.7,
+   "t_out": 4.7,
+   "host": "tab6",
+   "text": "AI chatbot",
+   "size": 30,
+   "y": 1011,
+   "headline": false
+  },
+  {
+   "t_in": 1.9,
+   "t_out": 4.7,
+   "host": "tab7",
+   "text": "Discord",
+   "size": 30,
+   "y": 1110,
+   "headline": false
+  },
+  {
+   "t_in": 2.2,
+   "t_out": 4.7,
+   "host": "tab8",
+   "text": "Spreadsheet",
+   "size": 30,
+   "y": 1160,
+   "headline": false
+  },
+  {
+   "t_in": 2.4,
+   "t_out": 4.7,
+   "host": "tab9",
+   "text": "Earnings PDF",
+   "size": 30,
+   "y": 1238,
+   "headline": false
+  },
+  {
+   "t_in": 2.6,
+   "t_out": 4.7,
+   "host": "tab10",
+   "text": "Another chart",
+   "size": 30,
+   "y": 1290,
+   "headline": false
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 4.7,
+   "host": "s1_q",
+   "text": "…and you still don’t know",
+   "size": 70,
+   "y": 1407,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 4.7,
+   "host": "s1_q",
+   "text": "what changed.",
+   "size": 70,
+   "y": 1469,
+   "headline": true
+  },
+  {
+   "t_in": 4.8,
+   "t_out": 5.7,
+   "host": "s2_t",
+   "text": "One",
+   "size": 170,
+   "y": 718,
+   "headline": true
+  },
+  {
+   "t_in": 4.8,
+   "t_out": 5.7,
+   "host": "s2_t",
+   "text": "workflow.",
+   "size": 170,
+   "y": 861,
+   "headline": true
+  },
+  {
+   "t_in": 5.7,
+   "t_out": 7.6,
+   "host": "m0_n",
+   "text": "01 / 05",
+   "size": 34,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 5.7,
+   "t_out": 7.6,
+   "host": "m0_k",
+   "text": "What changed",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 5.7,
+   "t_out": 7.6,
+   "host": "m0_p",
+   "text": "Today",
+   "size": 56,
+   "y": 420,
+   "headline": true
+  },
+  {
+   "t_in": 5.7,
+   "t_out": 7.6,
+   "host": "m0_s",
+   "text": "CAPTURED 23 SEP 2026 · 22:14 UTC",
+   "size": 20,
+   "y": 530,
+   "headline": false
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 9.3,
+   "host": "m1_n",
+   "text": "02 / 05",
+   "size": 34,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 9.3,
+   "host": "m1_k",
+   "text": "Who moved",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 9.3,
+   "host": "m1_p",
+   "text": "Whale Activity",
+   "size": 56,
+   "y": 420,
+   "headline": true
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 9.3,
+   "host": "m1_s",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 530,
+   "headline": false
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 11.0,
+   "host": "m2_n",
+   "text": "03 / 05",
+   "size": 34,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 11.0,
+   "host": "m2_k",
+   "text": "Who has a record",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 11.0,
+   "host": "m2_p",
+   "text": "Smart Money",
+   "size": 56,
+   "y": 420,
+   "headline": true
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 11.0,
+   "host": "m2_s",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 530,
+   "headline": false
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 12.6,
+   "host": "m3_n",
+   "text": "04 / 05",
+   "size": 34,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 12.7,
+   "host": "m3_k",
+   "text": "What was filed",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 12.7,
+   "host": "m3_p",
+   "text": "Stock pages",
+   "size": 56,
+   "y": 420,
+   "headline": true
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 12.7,
+   "host": "m3_s",
+   "text": "CAPTURED 23 SEP 2026 · 21:39 UTC",
+   "size": 20,
+   "y": 530,
+   "headline": false
+  },
+  {
+   "t_in": 12.4,
+   "t_out": 14.3,
+   "host": "m4_k",
+   "text": "Ask, with receipts",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 12.4,
+   "t_out": 14.3,
+   "host": "m4_s",
+   "text": "CAPTURED 23 SEP 2026 · 21:39 UTC",
+   "size": 20,
+   "y": 530,
+   "headline": false
+  },
+  {
+   "t_in": 12.5,
+   "t_out": 14.3,
+   "host": "m4_n",
+   "text": "05 / 05",
+   "size": 34,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 12.5,
+   "t_out": 14.3,
+   "host": "m4_p",
+   "text": "AI Research",
+   "size": 56,
+   "y": 420,
+   "headline": true
+  },
+  {
+   "t_in": 14.2,
+   "t_out": 16.0,
+   "host": "s4_t",
+   "text": "Sources attached.",
+   "size": 118,
+   "y": 751,
+   "headline": true
+  },
+  {
+   "t_in": 14.2,
+   "t_out": 16.0,
+   "host": "s4_t",
+   "text": "Every step.",
+   "size": 118,
+   "y": 961,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 21.0,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 218,
+   "headline": false
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 21.0,
+   "host": "cta_h_w0",
+   "text": "Close",
+   "size": 92,
+   "y": 302,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 21.0,
+   "host": "cta_h_w1",
+   "text": "10",
+   "size": 92,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 21.0,
+   "host": "cta_h_w2",
+   "text": "tabs.",
+   "size": 92,
+   "y": 394,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 21.0,
+   "host": "cta_h_w3",
+   "text": "Today,",
+   "size": 44,
+   "y": 517,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 21.0,
+   "host": "cta_h_w4",
+   "text": "whales,",
+   "size": 44,
+   "y": 509,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 21.0,
+   "host": "cta_h_w5",
+   "text": "Smart",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 21.0,
+   "host": "cta_h_w6",
+   "text": "Money,",
+   "size": 44,
+   "y": 513,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 21.0,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:14 UTC",
+   "size": 19,
+   "y": 672,
+   "headline": false
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 21.0,
+   "host": "cta_h_w7",
+   "text": "filings",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 21.0,
+   "host": "cta_h_w8",
+   "text": "and",
+   "size": 44,
+   "y": 518,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 21.0,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1243,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 21.0,
+   "host": "cta_h_w9",
+   "text": "AI",
+   "size": 44,
+   "y": 509,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 21.0,
+   "host": "cta_h_w10",
+   "text": "in",
+   "size": 44,
+   "y": 559,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 21.0,
+   "host": "cta_h_w11",
+   "text": "one",
+   "size": 44,
+   "y": 566,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 21.0,
+   "host": "cta_h_w12",
+   "text": "place.",
+   "size": 44,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 21.0,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 21.0,
+   "host": "cta_note",
+   "text": "Free plan available · screens from 23 Sep 2026",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [],
+ "cta": 15.938,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.469,
+   "type": "click"
+  },
+  {
+   "t": 0.703,
+   "type": "click"
+  },
+  {
+   "t": 0.938,
+   "type": "click"
+  },
+  {
+   "t": 1.172,
+   "type": "click"
+  },
+  {
+   "t": 1.406,
+   "type": "click"
+  },
+  {
+   "t": 1.641,
+   "type": "click"
+  },
+  {
+   "t": 1.875,
+   "type": "click"
+  },
+  {
+   "t": 2.109,
+   "type": "click"
+  },
+  {
+   "t": 2.344,
+   "type": "click"
+  },
+  {
+   "t": 2.578,
+   "type": "click"
+  },
+  {
+   "t": 2.906,
+   "type": "wrong"
+  },
+  {
+   "t": 4.688,
+   "type": "riser"
+  },
+  {
+   "t": 4.688,
+   "type": "impact"
+  },
+  {
+   "t": 5.625,
+   "type": "whoosh"
+  },
+  {
+   "t": 5.675,
+   "type": "hit"
+  },
+  {
+   "t": 7.312,
+   "type": "whoosh"
+  },
+  {
+   "t": 7.362,
+   "type": "hit"
+  },
+  {
+   "t": 9,
+   "type": "whoosh"
+  },
+  {
+   "t": 9.05,
+   "type": "hit"
+  },
+  {
+   "t": 10.688,
+   "type": "whoosh"
+  },
+  {
+   "t": 10.738,
+   "type": "hit"
+  },
+  {
+   "t": 12.375,
+   "type": "whoosh"
+  },
+  {
+   "t": 12.425,
+   "type": "hit"
+  },
+  {
+   "t": 14.062,
+   "type": "hit"
+  },
+  {
+   "t": 15.938,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.337,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.538,
+   "type": "pop"
+  },
+  {
+   "t": 20.859,
+   "type": "hit"
+  }
+ ]
+}

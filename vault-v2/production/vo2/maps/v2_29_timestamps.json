@@ -1,0 +1,1267 @@
+{
+ "reel": "v2_29_timestamps",
+ "dur": 27.433333333333334,
+ "bpm": 144,
+ "music": {
+  "style": "trap",
+  "bpm": 144,
+  "key": "D",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "tension"
+   },
+   {
+    "beat": 9,
+    "type": "drop"
+   },
+   {
+    "beat": 42,
+    "type": "break"
+   },
+   {
+    "beat": 52,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.858,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 8.65,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s4",
+   "t": 13.858,
+   "kind": "left"
+  },
+  {
+   "shot": "s5",
+   "t": 17.608,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 21.567,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 0.1,
+   "host": "s1_clock",
+   "text": "age: 00:00",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 0.2,
+   "host": "s1_clock",
+   "text": "age: 00:01",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.2,
+   "t_out": 4.1,
+   "host": "s1_t_w0",
+   "text": "Every",
+   "size": 118,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.2,
+   "t_out": 0.3,
+   "host": "s1_clock",
+   "text": "age: 00:03",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.3,
+   "t_out": 0.4,
+   "host": "s1_clock",
+   "text": "age: 00:05",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.4,
+   "t_out": 0.5,
+   "host": "s1_clock",
+   "text": "age: 00:06",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.5,
+   "t_out": 4.1,
+   "host": "s1_t_w1",
+   "text": "screenshot",
+   "size": 118,
+   "y": 340,
+   "headline": true
+  },
+  {
+   "t_in": 0.5,
+   "t_out": 0.6,
+   "host": "s1_clock",
+   "text": "age: 00:08",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.6,
+   "t_out": 0.7,
+   "host": "s1_clock",
+   "text": "age: 00:10",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.7,
+   "t_out": 0.8,
+   "host": "s1_clock",
+   "text": "age: 00:11",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.8,
+   "t_out": 0.9,
+   "host": "s1_clock",
+   "text": "age: 00:13",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 0.9,
+   "t_out": 1.0,
+   "host": "s1_clock",
+   "text": "age: 00:15",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.0,
+   "t_out": 1.1,
+   "host": "s1_clock",
+   "text": "age: 00:17",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.1,
+   "t_out": 4.1,
+   "host": "s1_t_w2",
+   "text": "starts",
+   "size": 118,
+   "y": 451,
+   "headline": true
+  },
+  {
+   "t_in": 1.1,
+   "t_out": 1.2,
+   "host": "s1_clock",
+   "text": "age: 00:18",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.2,
+   "t_out": 1.3,
+   "host": "s1_clock",
+   "text": "age: 00:20",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.3,
+   "t_out": 1.4,
+   "host": "s1_clock",
+   "text": "age: 00:22",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.4,
+   "t_out": 1.5,
+   "host": "s1_clock",
+   "text": "age: 00:23",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.5,
+   "t_out": 4.2,
+   "host": "s1_t_w3",
+   "text": "aging",
+   "size": 118,
+   "y": 451,
+   "headline": true
+  },
+  {
+   "t_in": 1.5,
+   "t_out": 1.6,
+   "host": "s1_clock",
+   "text": "age: 00:25",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.6,
+   "t_out": 1.7,
+   "host": "s1_clock",
+   "text": "age: 00:27",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.7,
+   "t_out": 1.8,
+   "host": "s1_clock",
+   "text": "age: 00:28",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.8,
+   "t_out": 1.9,
+   "host": "s1_clock",
+   "text": "age: 00:30",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 1.9,
+   "t_out": 4.2,
+   "host": "s1_t_w4",
+   "text": "the",
+   "size": 118,
+   "y": 452,
+   "headline": true
+  },
+  {
+   "t_in": 1.9,
+   "t_out": 2.0,
+   "host": "s1_clock",
+   "text": "age: 00:32",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.0,
+   "t_out": 2.1,
+   "host": "s1_clock",
+   "text": "age: 00:34",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.1,
+   "t_out": 4.1,
+   "host": "s1_t_w5",
+   "text": "second",
+   "size": 118,
+   "y": 562,
+   "headline": true
+  },
+  {
+   "t_in": 2.1,
+   "t_out": 2.2,
+   "host": "s1_clock",
+   "text": "age: 00:35",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.2,
+   "t_out": 2.3,
+   "host": "s1_clock",
+   "text": "age: 00:37",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.3,
+   "t_out": 2.4,
+   "host": "s1_clock",
+   "text": "age: 00:39",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.4,
+   "t_out": 2.5,
+   "host": "s1_clock",
+   "text": "age: 00:40",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.5,
+   "t_out": 4.1,
+   "host": "s1_t_w6",
+   "text": "it’s",
+   "size": 118,
+   "y": 562,
+   "headline": true
+  },
+  {
+   "t_in": 2.5,
+   "t_out": 2.6,
+   "host": "s1_clock",
+   "text": "age: 00:42",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.6,
+   "t_out": 2.7,
+   "host": "s1_clock",
+   "text": "age: 00:44",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.7,
+   "t_out": 4.2,
+   "host": "s1_t_w7",
+   "text": "taken.",
+   "size": 118,
+   "y": 562,
+   "headline": true
+  },
+  {
+   "t_in": 2.7,
+   "t_out": 2.8,
+   "host": "s1_clock",
+   "text": "age: 00:45",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.8,
+   "t_out": 2.9,
+   "host": "s1_clock",
+   "text": "age: 00:47",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 2.9,
+   "t_out": 3.0,
+   "host": "s1_clock",
+   "text": "age: 00:49",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 3.1,
+   "host": "s1_clock",
+   "text": "age: 00:51",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.1,
+   "t_out": 3.2,
+   "host": "s1_clock",
+   "text": "age: 00:52",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.2,
+   "t_out": 3.3,
+   "host": "s1_clock",
+   "text": "age: 00:54",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.3,
+   "t_out": 3.4,
+   "host": "s1_clock",
+   "text": "age: 00:56",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.4,
+   "t_out": 3.5,
+   "host": "s1_clock",
+   "text": "age: 00:57",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 3.6,
+   "host": "s1_clock",
+   "text": "age: 00:59",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 3.7,
+   "host": "s1_clock",
+   "text": "age: 01:01",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.7,
+   "t_out": 3.8,
+   "host": "s1_clock",
+   "text": "age: 01:02",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 3.9,
+   "host": "s1_clock",
+   "text": "age: 01:04",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 3.9,
+   "t_out": 4.0,
+   "host": "s1_clock",
+   "text": "age: 01:06",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 8.8,
+   "host": "s2_t_w0",
+   "text": "Same",
+   "size": 92,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 4.1,
+   "host": "s1_clock",
+   "text": "age: 01:08",
+   "size": 40,
+   "y": 1360,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 8.8,
+   "host": "s2_t_w1",
+   "text": "BFYP",
+   "size": 92,
+   "y": 233,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 8.8,
+   "host": "s2_pa",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 22,
+   "y": 501,
+   "headline": false
+  },
+  {
+   "t_in": 4.9,
+   "t_out": 8.8,
+   "host": "s2_t_w2",
+   "text": "Today",
+   "size": 92,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 5.4,
+   "t_out": 8.8,
+   "host": "s2_t_w3",
+   "text": "page.",
+   "size": 92,
+   "y": 319,
+   "headline": true
+  },
+  {
+   "t_in": 5.4,
+   "t_out": 8.8,
+   "host": "s2_pb",
+   "text": "BFYP TODAY DATA · CAPTURED 23 SEP 2026 · 22:14 UTC",
+   "size": 22,
+   "y": 901,
+   "headline": false
+  },
+  {
+   "t_in": 5.8,
+   "t_out": 8.8,
+   "host": "s2_t_w4",
+   "text": "Forty-six",
+   "size": 92,
+   "y": 321,
+   "headline": true
+  },
+  {
+   "t_in": 6.1,
+   "t_out": 8.8,
+   "host": "s2_d",
+   "text": "+46 min",
+   "size": 44,
+   "y": 839,
+   "headline": true
+  },
+  {
+   "t_in": 6.1,
+   "t_out": 8.8,
+   "host": "s2_d",
+   "text": "Δ TIME",
+   "size": 24,
+   "y": 860,
+   "headline": false
+  },
+  {
+   "t_in": 6.6,
+   "t_out": 8.8,
+   "host": "s2_t_w5",
+   "text": "minutes",
+   "size": 92,
+   "y": 407,
+   "headline": true
+  },
+  {
+   "t_in": 7.3,
+   "t_out": 8.8,
+   "host": "s2_t_w6",
+   "text": "apart.",
+   "size": 92,
+   "y": 407,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 14.2,
+   "host": "s3_eb",
+   "text": "Observations · last 24h · 10 assets",
+   "size": 30,
+   "y": 334,
+   "headline": false
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 14.1,
+   "host": "s3_a",
+   "text": "330",
+   "size": 230,
+   "y": 465,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 14.1,
+   "host": "s3_a",
+   "text": "21:28 UTC",
+   "size": 30,
+   "y": 674,
+   "headline": false
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 14.2,
+   "host": "s3_src",
+   "text": "BFYP Today · 23 Sep 2026 · rolling 24h window",
+   "size": 21,
+   "y": 1193,
+   "headline": false
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 13.5,
+   "host": "sub_0",
+   "text": "330 observations. Then",
+   "size": 46,
+   "y": 1290,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 13.5,
+   "host": "sub_0",
+   "text": "354.",
+   "size": 46,
+   "y": 1303,
+   "headline": true
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 10.6,
+   "host": "s3_b",
+   "text": "330",
+   "size": 230,
+   "y": 463,
+   "headline": true
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 14.2,
+   "host": "s3_b",
+   "text": "22:14 UTC",
+   "size": 30,
+   "y": 670,
+   "headline": false
+  },
+  {
+   "t_in": 10.6,
+   "t_out": 10.7,
+   "host": "s3_b",
+   "text": "333",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 10.7,
+   "t_out": 10.8,
+   "host": "s3_b",
+   "text": "338",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 10.9,
+   "host": "s3_b",
+   "text": "341",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 11.0,
+   "host": "s3_b",
+   "text": "344",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 11.0,
+   "t_out": 11.1,
+   "host": "s3_b",
+   "text": "346",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 11.2,
+   "host": "s3_b",
+   "text": "348",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 11.3,
+   "host": "s3_b",
+   "text": "349",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 11.3,
+   "t_out": 11.4,
+   "host": "s3_b",
+   "text": "350",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 11.4,
+   "t_out": 11.5,
+   "host": "s3_b",
+   "text": "351",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 11.7,
+   "host": "s3_b",
+   "text": "352",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 11.7,
+   "t_out": 12.1,
+   "host": "s3_b",
+   "text": "353",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 12.1,
+   "t_out": 14.2,
+   "host": "s3_b",
+   "text": "354",
+   "size": 230,
+   "y": 460,
+   "headline": true
+  },
+  {
+   "t_in": 13.2,
+   "t_out": 14.2,
+   "host": "s3_n",
+   "text": "Same page. Same day.",
+   "size": 70,
+   "y": 903,
+   "headline": true
+  },
+  {
+   "t_in": 13.2,
+   "t_out": 14.1,
+   "host": "s3_n",
+   "text": "Different number.",
+   "size": 70,
+   "y": 965,
+   "headline": true
+  },
+  {
+   "t_in": 14.0,
+   "t_out": 17.8,
+   "host": "s4_t_w0",
+   "text": "That’s",
+   "size": 92,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 14.3,
+   "t_out": 17.8,
+   "host": "s4_t_w1",
+   "text": "why",
+   "size": 92,
+   "y": 231,
+   "headline": true
+  },
+  {
+   "t_in": 14.4,
+   "t_out": 17.8,
+   "host": "s4_p0",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 21,
+   "y": 640,
+   "headline": false
+  },
+  {
+   "t_in": 14.5,
+   "t_out": 17.8,
+   "host": "s4_t_w2",
+   "text": "every",
+   "size": 92,
+   "y": 232,
+   "headline": true
+  },
+  {
+   "t_in": 14.7,
+   "t_out": 17.8,
+   "host": "s4_p1",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 21,
+   "y": 758,
+   "headline": false
+  },
+  {
+   "t_in": 14.9,
+   "t_out": 17.8,
+   "host": "s4_t_w3",
+   "text": "screen",
+   "size": 92,
+   "y": 318,
+   "headline": true
+  },
+  {
+   "t_in": 15.0,
+   "t_out": 17.8,
+   "host": "s4_p2",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:39 UTC",
+   "size": 21,
+   "y": 876,
+   "headline": false
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 17.8,
+   "host": "s4_t_w4",
+   "text": "we",
+   "size": 92,
+   "y": 319,
+   "headline": true
+  },
+  {
+   "t_in": 15.3,
+   "t_out": 17.8,
+   "host": "s4_p3",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 21,
+   "y": 994,
+   "headline": false
+  },
+  {
+   "t_in": 15.4,
+   "t_out": 17.8,
+   "host": "s4_t_w5",
+   "text": "post",
+   "size": 92,
+   "y": 318,
+   "headline": true
+  },
+  {
+   "t_in": 15.6,
+   "t_out": 17.8,
+   "host": "s4_t_w6",
+   "text": "carries",
+   "size": 92,
+   "y": 409,
+   "headline": true
+  },
+  {
+   "t_in": 15.6,
+   "t_out": 17.8,
+   "host": "s4_p4",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 21,
+   "y": 1112,
+   "headline": false
+  },
+  {
+   "t_in": 15.9,
+   "t_out": 17.8,
+   "host": "s4_p5",
+   "text": "BFYP TODAY DATA · CAPTURED 23 SEP 2026 · 22:14 UTC",
+   "size": 21,
+   "y": 1230,
+   "headline": false
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 17.8,
+   "host": "s4_t_w7",
+   "text": "its",
+   "size": 92,
+   "y": 407,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 17.8,
+   "host": "s4_t_w8",
+   "text": "capture",
+   "size": 92,
+   "y": 407,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 17.8,
+   "host": "s4_t_w9",
+   "text": "time.",
+   "size": 92,
+   "y": 495,
+   "headline": true
+  },
+  {
+   "t_in": 17.8,
+   "t_out": 21.7,
+   "host": "s5_t_w0",
+   "text": "By",
+   "size": 118,
+   "y": 562,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 21.7,
+   "host": "s5_t_w1",
+   "text": "the",
+   "size": 118,
+   "y": 561,
+   "headline": true
+  },
+  {
+   "t_in": 18.2,
+   "t_out": 21.7,
+   "host": "s5_t_w2",
+   "text": "time",
+   "size": 118,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 18.5,
+   "t_out": 21.7,
+   "host": "s5_t_w3",
+   "text": "you",
+   "size": 118,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 18.7,
+   "t_out": 21.7,
+   "host": "s5_t_w4",
+   "text": "watch",
+   "size": 118,
+   "y": 671,
+   "headline": true
+  },
+  {
+   "t_in": 19.0,
+   "t_out": 21.7,
+   "host": "s5_t_w5",
+   "text": "this,",
+   "size": 118,
+   "y": 671,
+   "headline": true
+  },
+  {
+   "t_in": 19.3,
+   "t_out": 21.7,
+   "host": "s5_t_w6",
+   "text": "the",
+   "size": 118,
+   "y": 671,
+   "headline": true
+  },
+  {
+   "t_in": 19.5,
+   "t_out": 21.7,
+   "host": "s5_t_w7",
+   "text": "live",
+   "size": 118,
+   "y": 783,
+   "headline": true
+  },
+  {
+   "t_in": 19.8,
+   "t_out": 21.7,
+   "host": "s5_t_w8",
+   "text": "page",
+   "size": 118,
+   "y": 782,
+   "headline": true
+  },
+  {
+   "t_in": 20.1,
+   "t_out": 21.7,
+   "host": "s5_t_w9",
+   "text": "has",
+   "size": 118,
+   "y": 782,
+   "headline": true
+  },
+  {
+   "t_in": 20.3,
+   "t_out": 21.7,
+   "host": "s5_t_w10",
+   "text": "moved",
+   "size": 118,
+   "y": 894,
+   "headline": true
+  },
+  {
+   "t_in": 20.7,
+   "t_out": 21.7,
+   "host": "s5_t_w11",
+   "text": "on.",
+   "size": 118,
+   "y": 893,
+   "headline": true
+  },
+  {
+   "t_in": 21.8,
+   "t_out": 27.5,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 220,
+   "headline": false
+  },
+  {
+   "t_in": 21.8,
+   "t_out": 27.5,
+   "host": "cta_h_w0",
+   "text": "Check",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 21.8,
+   "t_out": 27.5,
+   "host": "cta_h_w1",
+   "text": "the",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 21.9,
+   "t_out": 27.5,
+   "host": "cta_h_w2",
+   "text": "live",
+   "size": 92,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 22.0,
+   "t_out": 27.5,
+   "host": "cta_h_w3",
+   "text": "page.",
+   "size": 92,
+   "y": 393,
+   "headline": true
+  },
+  {
+   "t_in": 22.0,
+   "t_out": 27.5,
+   "host": "cta_h_w4",
+   "text": "Free",
+   "size": 44,
+   "y": 514,
+   "headline": true
+  },
+  {
+   "t_in": 22.1,
+   "t_out": 27.5,
+   "host": "cta_h_w5",
+   "text": "at",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 22.1,
+   "t_out": 27.5,
+   "host": "cta_h_w6",
+   "text": "betterforyourpocket.com",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 22.1,
+   "t_out": 27.5,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 19,
+   "y": 673,
+   "headline": false
+  },
+  {
+   "t_in": 22.3,
+   "t_out": 27.5,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1236,
+   "headline": true
+  },
+  {
+   "t_in": 22.5,
+   "t_out": 27.5,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 22.6,
+   "t_out": 27.5,
+   "host": "cta_note",
+   "text": "Screens from 23 Sep 2026 · AI voice",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [],
+ "cta": 21.567,
+ "karaoke": [
+  {
+   "id": "s1_t",
+   "t0": 0.15,
+   "t1": 3.265
+  },
+  {
+   "id": "s2_t",
+   "t0": 3.958,
+   "t1": 8.084
+  },
+  {
+   "id": "s4_t",
+   "t0": 13.958,
+   "t1": 17.149
+  },
+  {
+   "id": "s5_t",
+   "t0": 17.708,
+   "t1": 21.068
+  }
+ ],
+ "cues": [
+  {
+   "t": 0,
+   "type": "shutter"
+  },
+  {
+   "t": 0.2,
+   "type": "tick"
+  },
+  {
+   "t": 0.7,
+   "type": "tick"
+  },
+  {
+   "t": 1.2,
+   "type": "tick"
+  },
+  {
+   "t": 1.7,
+   "type": "tick"
+  },
+  {
+   "t": 2.2,
+   "type": "tick"
+  },
+  {
+   "t": 2.7,
+   "type": "tick"
+  },
+  {
+   "t": 4.158,
+   "type": "whoosh"
+  },
+  {
+   "t": 5.158,
+   "type": "whoosh"
+  },
+  {
+   "t": 5.958,
+   "type": "ding"
+  },
+  {
+   "t": 10.55,
+   "type": "ticks"
+  },
+  {
+   "t": 14.308,
+   "type": "click"
+  },
+  {
+   "t": 14.608,
+   "type": "click"
+  },
+  {
+   "t": 14.908,
+   "type": "click"
+  },
+  {
+   "t": 15.208,
+   "type": "click"
+  },
+  {
+   "t": 15.508,
+   "type": "click"
+  },
+  {
+   "t": 15.808,
+   "type": "click"
+  },
+  {
+   "t": 21.567,
+   "type": "whoosh"
+  },
+  {
+   "t": 21.967,
+   "type": "sparkle"
+  },
+  {
+   "t": 22.167,
+   "type": "pop"
+  }
+ ]
+}

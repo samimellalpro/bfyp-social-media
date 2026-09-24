@@ -1,0 +1,550 @@
+{
+ "reel": "v2_22_market_maker",
+ "dur": 20.4,
+ "bpm": 112,
+ "music": {
+  "style": "amapiano",
+  "bpm": 112,
+  "key": "A",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 8,
+    "type": "tension"
+   },
+   {
+    "beat": 15,
+    "type": "build"
+   },
+   {
+    "beat": 16,
+    "type": "drop"
+   },
+   {
+    "beat": 30,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.286,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 8.571,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.071,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 4.5,
+   "host": "s1_a",
+   "text": "That",
+   "size": 150,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 4.5,
+   "host": "s1_a",
+   "text": "“whale”?",
+   "size": 150,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 1.7,
+   "t_out": 4.5,
+   "host": "s1_b",
+   "text": "Might be a",
+   "size": 118,
+   "y": 779,
+   "headline": true
+  },
+  {
+   "t_in": 1.7,
+   "t_out": 4.5,
+   "host": "s1_b",
+   "text": "market maker.",
+   "size": 118,
+   "y": 879,
+   "headline": true
+  },
+  {
+   "t_in": 2.3,
+   "t_out": 4.5,
+   "host": "s1_flow",
+   "text": "⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄ ⇄",
+   "size": 44,
+   "y": 1161,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 8.6,
+   "host": "s2_a",
+   "text": "Market makers move size",
+   "size": 110,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 4.4,
+   "t_out": 8.6,
+   "host": "s2_a",
+   "text": "all day.",
+   "size": 110,
+   "y": 649,
+   "headline": true
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 8.6,
+   "host": "s2_b",
+   "text": "It’s their job —",
+   "size": 110,
+   "y": 900,
+   "headline": true
+  },
+  {
+   "t_in": 6.0,
+   "t_out": 8.6,
+   "host": "s2_b",
+   "text": "not a conviction bet.",
+   "size": 110,
+   "y": 990,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 16.1,
+   "host": "s3_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 256,
+   "headline": false
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 16.1,
+   "host": "s3_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 261,
+   "headline": false
+  },
+  {
+   "t_in": 8.9,
+   "t_out": 16.1,
+   "host": "s3_h_w3",
+   "text": "Smart",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 9.0,
+   "t_out": 16.1,
+   "host": "s3_h_w4",
+   "text": "Money",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 9.0,
+   "t_out": 16.1,
+   "host": "s3_h_w5",
+   "text": "leaderboard",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 9.0,
+   "t_out": 16.1,
+   "host": "s3_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 23,
+   "y": 562,
+   "headline": false
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 16.1,
+   "host": "s3_h_w6",
+   "text": "Labelled",
+   "size": 92,
+   "y": 315,
+   "headline": true
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 16.1,
+   "host": "s3_h_w7",
+   "text": "by",
+   "size": 92,
+   "y": 321,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 16.1,
+   "host": "s3_h_w8",
+   "text": "what",
+   "size": 92,
+   "y": 403,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 16.1,
+   "host": "s3_h_w9",
+   "text": "they",
+   "size": 92,
+   "y": 409,
+   "headline": true
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 16.1,
+   "host": "s3_h_w10",
+   "text": "do.",
+   "size": 92,
+   "y": 403,
+   "headline": true
+  },
+  {
+   "t_in": 9.8,
+   "t_out": 16.1,
+   "host": "s3_cap",
+   "text": "Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 10.2,
+   "t_out": 11.8,
+   "host": "s3_card_co0",
+   "text": "Market maker",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 10.2,
+   "t_out": 11.8,
+   "host": "s3_card_co0",
+   "text": "WALLET #6",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 13.9,
+   "host": "s3_card_co1",
+   "text": "Whale accumulator",
+   "size": 44,
+   "y": 336,
+   "headline": true
+  },
+  {
+   "t_in": 12.3,
+   "t_out": 13.9,
+   "host": "s3_card_co1",
+   "text": "WALLET #8",
+   "size": 24,
+   "y": 355,
+   "headline": false
+  },
+  {
+   "t_in": 14.2,
+   "t_out": 16.1,
+   "host": "s3_sum",
+   "text": "Same leaderboard.",
+   "size": 70,
+   "y": 1302,
+   "headline": true
+  },
+  {
+   "t_in": 14.2,
+   "t_out": 16.1,
+   "host": "s3_sum",
+   "text": "Different behavior.",
+   "size": 70,
+   "y": 1364,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Know",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "who",
+   "size": 92,
+   "y": 303,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "you’re",
+   "size": 92,
+   "y": 310,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "watching.",
+   "size": 92,
+   "y": 393,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "Every",
+   "size": 44,
+   "y": 516,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "wallet",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 673,
+   "headline": false
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "with",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w8",
+   "text": "behavior",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w9",
+   "text": "label,",
+   "size": 44,
+   "y": 516,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1237,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_h_w11",
+   "text": "score",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_h_w12",
+   "text": "and",
+   "size": 44,
+   "y": 565,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_h_w14",
+   "text": "confidence",
+   "size": 44,
+   "y": 570,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · live data changes",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.4,
+   "host": "cta_h_w15",
+   "text": "badge.",
+   "size": 44,
+   "y": 562,
+   "headline": true
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s3_card",
+   "t0": 9.643,
+   "t1": 11.786,
+   "key": "WALLET #6",
+   "text": "Market maker"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 11.786,
+   "t1": 13.821,
+   "key": "WALLET #8",
+   "text": "Whale accumulator"
+  }
+ ],
+ "cta": 16.071,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 1.607,
+   "type": "hit"
+  },
+  {
+   "t": 4.286,
+   "type": "hit"
+  },
+  {
+   "t": 5.893,
+   "type": "hit"
+  },
+  {
+   "t": 8.571,
+   "type": "riser"
+  },
+  {
+   "t": 8.571,
+   "type": "impact"
+  },
+  {
+   "t": 8.621,
+   "type": "ding"
+  },
+  {
+   "t": 8.871,
+   "type": "scan"
+  },
+  {
+   "t": 9.643,
+   "type": "swish"
+  },
+  {
+   "t": 10.0,
+   "type": "click"
+  },
+  {
+   "t": 11.786,
+   "type": "swish"
+  },
+  {
+   "t": 12.143,
+   "type": "click"
+  },
+  {
+   "t": 14.036,
+   "type": "hit"
+  },
+  {
+   "t": 16.071,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.471,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.671,
+   "type": "pop"
+  },
+  {
+   "t": 20.089,
+   "type": "hit"
+  }
+ ]
+}

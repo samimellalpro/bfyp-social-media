@@ -1,0 +1,81 @@
+== v2_18_whose_trillion  dur 28.40s  bpm 120  CTA at 22.65
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-0.2] $0.00T
+  0.00  TXT [0.0-6.2] VOO:
+  0.00  sfx impact
+  0.20  TXT [0.2-0.3] $0.18T
+  0.30  TXT [0.3-0.4] $0.49T
+  0.40  TXT [0.4-0.5] $0.73T
+  0.50  TXT [0.5-0.6] $0.93T
+  0.60  TXT [0.6-0.7] $1.08T
+  0.70  TXT [0.7-0.8] $1.20T
+  0.80  TXT [0.8-0.9] $1.30T
+  0.90  TXT [0.9-1.0] $1.37T
+  1.00  TXT [1.0-1.1] $1.44T
+  1.10  TXT [1.1-1.2] $1.48T
+  1.20  TXT [1.2-1.3] $1.52T
+  1.30  TXT [1.3-1.4] $1.55T
+  1.40  TXT [1.4-1.5] $1.58T
+  1.50  TXT [1.5-1.6] $1.60T
+  1.60  TXT [1.6-1.7] $1.61T
+  1.70  TXT [1.7-1.8] $1.62T
+  1.80  TXT [1.8-1.9] $1.63T
+  1.90  TXT [1.9-2.0] $1.64T
+  2.00  TXT [2.0-2.2] $1.65T
+  2.20  TXT [2.2-2.7] $1.66T
+  2.70  TXT [2.7-6.2] $1.67T
+  4.30  TXT [4.3-6.2] Not
+  4.70  TXT [4.7-6.2] exactly.
+  5.90  --- CUT s2 (left)
+  6.10  TXT [6.1-14.1] VOO
+  6.40  TXT [6.4-14.1] is
+  6.60  TXT [6.6-14.1] one
+  6.70  txt [6.7-14.1] Vanguard 500 Index Fund semi-annual report (2026)
+  6.70  txt [6.7-14.1] Vanguard S&P 500 ETF prospectus
+  7.00  TXT [7.0-14.1] share
+  7.50  TXT [7.5-14.1] class
+  8.00  TXT [8.0-14.1] of
+  8.20  TXT [8.2-14.1] the
+  8.60  TXT [8.6-14.1] Vanguard
+  9.30  TXT [9.3-14.1] 500
+  9.60  TXT [9.6-14.1] Index
+ 10.10  TXT [10.1-14.1] Fund.
+ 11.40  TXT [11.4-14.1] Admiral
+ 11.40  TXT [11.4-14.1] ETF ·
+ 11.40  TXT [11.4-14.1] Institutional Select
+ 11.40  TXT [11.4-14.1] Investor
+ 11.40  TXT [11.4-14.1] VOO
+ 11.40  txt [11.4-14.1] Not to scale
+ 11.40  txt [11.4-14.1] Share classes per the fund’s 2026 semi-annual report
+ 11.40  txt [11.4-14.1] VANGUARD 500 INDEX FUND · ONE PORTFOLIO
+ 13.90  --- CUT s3 (zoomIn)
+ 14.00  TXT [14.0-18.1] The $1.67 trillion covers the
+ 14.00  TXT [14.0-18.1] whole fund.
+ 14.00  sfx impact
+ 14.05  sfx ding
+ 14.10  ZOOM [14.10-16.15] FUND NET ASSETS · $1,671.23B · 30 Jun 2026
+ 14.20  txt [14.2-22.7] Real BFYP screen · ETF · VOO · 23 SEP 2026 · 22:01 UTC
+ 14.60  TXT [14.6-16.2] $1,671.23B · 30 Jun 2026
+ 14.60  txt [14.6-16.2] FUND NET ASSETS
+ 16.15  ZOOM [16.15-18.45] WHAT IT COVERS · Whole fund, all share classes
+ 16.70  TXT [16.7-18.5] Whole fund, all share classes
+ 16.70  txt [16.7-18.5] WHAT IT COVERS
+ 18.45  ZOOM [18.45-22.55] ON BFYP · The scope, next to the number
+ 18.50  TXT [18.5-22.2] BFYP labels what
+ 18.50  TXT [18.5-22.2] every number covers.
+ 19.00  TXT [19.0-22.6] The scope, next to the number
+ 19.00  txt [19.0-22.6] ON BFYP
+ 22.65  --- CUT cta (zoom)
+ 22.65  sfx whoosh
+ 22.80  txt [22.8-28.4] ETTERFORYOURPOCKET
+ 22.90  TXT [22.9-28.4] Know
+ 22.90  TXT [22.9-28.4] what
+ 23.10  TXT [23.1-28.4] covers.
+ 23.10  TXT [23.1-28.4] number
+ 23.20  TXT [23.2-28.4] Free
+ 23.20  TXT [23.2-28.4] at
+ 23.20  txt [23.2-28.4] CAPTURED 23 SEP 2026 · 22:01 UTC
+ 23.30  TXT [23.3-28.4] betterforyourpocket.com
+ 23.30  TXT [23.3-28.4] betterforyourpocket.com
+ 23.60  txt [23.6-28.4] Educational market data. Not financial advice.
+ 23.70  txt [23.7-28.4] Screen from 23 Sep 2026 · AI voice

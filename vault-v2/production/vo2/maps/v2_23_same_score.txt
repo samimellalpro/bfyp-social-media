@@ -1,0 +1,51 @@
+== v2_23_same_score  dur 20.40s  bpm 106  CTA at 15.849
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-2.4] Same score?
+  0.00  sfx impact
+  0.05  sfx whoosh
+  0.10  TXT [0.1-2.4] /100
+  0.10  TXT [0.1-2.4] /100
+  0.10  TXT [0.1-2.4] 31
+  0.10  TXT [0.1-2.4] 31
+  0.10  txt [0.1-2.4] WALLET A
+  0.10  txt [0.1-2.4] WALLET B
+  1.80  TXT [1.8-2.4] Look closer.
+  2.26  --- CUT s2 (zoomIn)
+  2.38  sfx whoosh
+  2.40  txt [2.4-10.3] Two real rows · Smart Money
+  2.50  TXT [2.5-10.3] Wallet #6
+  2.83  sfx whoosh
+  2.90  TXT [2.9-10.3] Wallet #7
+  3.20  txt [3.2-10.3] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC
+  5.66  sfx impact
+  6.79  sfx ding
+  7.10  TXT [7.1-10.3] Estimated
+  7.10  TXT [7.1-10.3] high confidence.
+  7.10  TXT [7.1-10.3] vs
+ 10.19  --- CUT s3 (zoomIn)
+ 10.19  sfx hit
+ 10.30  TXT [10.3-15.9] Different confidence.
+ 10.30  TXT [10.3-15.9] Same number.
+ 12.60  TXT [12.6-15.9] Read the badge,
+ 12.60  TXT [12.6-15.9] not just the number.
+ 15.85  --- CUT cta (zoom)
+ 15.85  sfx whoosh
+ 16.00  txt [16.0-20.4] ETTERFORYOURPOCKET
+ 16.10  TXT [16.1-20.4] Scores
+ 16.10  TXT [16.1-20.4] with
+ 16.20  TXT [16.2-20.4] their
+ 16.30  TXT [16.3-20.4] Every
+ 16.30  TXT [16.3-20.4] confidence.
+ 16.40  TXT [16.4-20.4] Money
+ 16.40  TXT [16.4-20.4] Smart
+ 16.40  txt [16.4-20.4] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 16.50  TXT [16.5-20.4] betterforyourpocket.com
+ 16.50  TXT [16.5-20.4] score
+ 16.60  TXT [16.6-20.4] next
+ 16.60  TXT [16.6-20.4] sits
+ 16.70  TXT [16.7-20.4] its
+ 16.70  TXT [16.7-20.4] to
+ 16.80  TXT [16.8-20.4] badge.
+ 16.80  txt [16.8-20.4] Educational market data. Not financial advice.
+ 16.90  txt [16.9-20.4] Screen from 23 Sep 2026 · live data changes
+ 20.38  sfx hit

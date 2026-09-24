@@ -470,15 +470,17 @@ def master(x, target_lufs=-13.0, ceiling=-1.0, auto_eq=True):
         xs, info["eq"] = spectral_tilt_match(xs)
     xs = compress(xs, thresh_db=-16.0, ratio=1.8, attack=0.02, release=0.25, knee_db=8)
     # loudness normalise then limit, iterate to hit target within ceiling
-    for _ in range(4):
+    lim = ceiling - 0.6
+    for _ in range(6):
         L = lufs(xs)
         if not np.isfinite(L):
             break
         xs = xs * db(target_lufs - L)
-        xs = limiter(xs, ceiling_db=ceiling - 0.6, lookahead=0.004, release=0.08)
+        xs = limiter(xs, ceiling_db=lim, lookahead=0.004, release=0.08)
         tp = true_peak_db(xs)
         if tp > ceiling:
             xs = xs * db(ceiling - tp - 0.05)
+            lim -= min(1.5, tp - ceiling + 0.05)  # inter-sample overs the sample-peak limiter cannot see: clamp lower next pass
         if abs(lufs(xs) - target_lufs) < 0.3:
             break
     info["lufs"] = lufs(xs)

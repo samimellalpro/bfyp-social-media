@@ -1,0 +1,711 @@
+{
+ "reel": "v2_13_since_when",
+ "dur": 25.166666666666668,
+ "bpm": 130,
+ "music": {
+  "style": "garage",
+  "bpm": 130,
+  "key": "C",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "tension"
+   },
+   {
+    "beat": 14,
+    "type": "drop"
+   },
+   {
+    "beat": 36,
+    "type": "break"
+   },
+   {
+    "beat": 41,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.361,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 6.592,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "w0",
+   "t": 10.786,
+   "kind": "cut"
+  },
+  {
+   "shot": "w1",
+   "t": 11.898,
+   "kind": "cut"
+  },
+  {
+   "shot": "w2",
+   "t": 12.833,
+   "kind": "cut"
+  },
+  {
+   "shot": "w3",
+   "t": 14.248,
+   "kind": "cut"
+  },
+  {
+   "shot": "s5",
+   "t": 16.515,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 19.285,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_post",
+   "text": "Crypto Buzz",
+   "size": 38,
+   "y": 385,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_post",
+   "text": "@example · illustration",
+   "size": 30,
+   "y": 429,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_post",
+   "text": "🐋 Whales are",
+   "size": 96,
+   "y": 478,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_post",
+   "text": "🚀",
+   "size": 96,
+   "y": 478,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_post",
+   "text": "buying!",
+   "size": 96,
+   "y": 571,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_post",
+   "text": "TYPICAL POST · ILLUSTRATION · NOT A REAL ACCOUNT",
+   "size": 22,
+   "y": 696,
+   "headline": false
+  },
+  {
+   "t_in": 1.9,
+   "t_out": 3.5,
+   "host": "s1_q_w0",
+   "text": "Since",
+   "size": 118,
+   "y": 943,
+   "headline": true
+  },
+  {
+   "t_in": 2.4,
+   "t_out": 3.5,
+   "host": "s1_q_w1",
+   "text": "when?",
+   "size": 118,
+   "y": 1120,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 6.8,
+   "host": "s2_t_w1",
+   "text": "number",
+   "size": 118,
+   "y": 602,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 6.8,
+   "host": "s2_t_w2",
+   "text": "without",
+   "size": 118,
+   "y": 712,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.8,
+   "host": "s2_t_w4",
+   "text": "timeframe",
+   "size": 118,
+   "y": 822,
+   "headline": true
+  },
+  {
+   "t_in": 5.2,
+   "t_out": 6.8,
+   "host": "s2_t_w5",
+   "text": "is",
+   "size": 118,
+   "y": 822,
+   "headline": true
+  },
+  {
+   "t_in": 5.3,
+   "t_out": 6.8,
+   "host": "s2_t_w6",
+   "text": "just",
+   "size": 118,
+   "y": 823,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 6.8,
+   "host": "s2_t_w7",
+   "text": "noise.",
+   "size": 118,
+   "y": 933,
+   "headline": true
+  },
+  {
+   "t_in": 6.8,
+   "t_out": 10.8,
+   "host": "s3_t_w0",
+   "text": "On",
+   "size": 30,
+   "y": 263,
+   "headline": false
+  },
+  {
+   "t_in": 7.0,
+   "t_out": 10.8,
+   "host": "s3_t_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 261,
+   "headline": false
+  },
+  {
+   "t_in": 7.3,
+   "t_out": 10.8,
+   "host": "s3_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 23,
+   "y": 622,
+   "headline": false
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 10.8,
+   "host": "s3_t_w2",
+   "text": "Every",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 10.8,
+   "host": "s3_t_w3",
+   "text": "number",
+   "size": 92,
+   "y": 319,
+   "headline": true
+  },
+  {
+   "t_in": 8.5,
+   "t_out": 10.8,
+   "host": "s3_t_w4",
+   "text": "carries",
+   "size": 92,
+   "y": 319,
+   "headline": true
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 10.8,
+   "host": "s3_t_w5",
+   "text": "its",
+   "size": 92,
+   "y": 408,
+   "headline": true
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 10.8,
+   "host": "s3_t_w6",
+   "text": "window.",
+   "size": 92,
+   "y": 409,
+   "headline": true
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 11.9,
+   "host": "w0_big",
+   "text": "TODAY",
+   "size": 30,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 11.9,
+   "host": "w0_big",
+   "text": "24 HOURS",
+   "size": 150,
+   "y": 308,
+   "headline": true
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 11.9,
+   "host": "w0_cap",
+   "text": "Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 14.0,
+   "host": "sub_0",
+   "text": "Twenty-four hours. Seven days. Thirty days.",
+   "size": 46,
+   "y": 1280,
+   "headline": true
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.9,
+   "host": "w1_big",
+   "text": "SMART MONEY",
+   "size": 30,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.9,
+   "host": "w1_big",
+   "text": "7 DAYS",
+   "size": 150,
+   "y": 311,
+   "headline": true
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.9,
+   "host": "w1_cap",
+   "text": "Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 12.9,
+   "t_out": 14.3,
+   "host": "w2_big",
+   "text": "SMART MONEY",
+   "size": 30,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 12.9,
+   "t_out": 14.3,
+   "host": "w2_big",
+   "text": "30 DAYS",
+   "size": 150,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 12.9,
+   "t_out": 14.3,
+   "host": "w2_cap",
+   "text": "Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 14.3,
+   "t_out": 16.5,
+   "host": "w3_big",
+   "text": "WHALE ACTIVITY",
+   "size": 30,
+   "y": 250,
+   "headline": false
+  },
+  {
+   "t_in": 14.3,
+   "t_out": 16.5,
+   "host": "w3_big",
+   "text": "2 HOURS AGO",
+   "size": 150,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 14.3,
+   "t_out": 16.2,
+   "host": "sub_1",
+   "text": "Observed, two hours ago.",
+   "size": 46,
+   "y": 1280,
+   "headline": true
+  },
+  {
+   "t_in": 14.3,
+   "t_out": 16.5,
+   "host": "w3_cap",
+   "text": "Real BFYP screen · Whale Activity · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 19.5,
+   "host": "s5_t_w0",
+   "text": "If",
+   "size": 118,
+   "y": 652,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 19.5,
+   "host": "s5_t_w1",
+   "text": "it",
+   "size": 118,
+   "y": 649,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 19.5,
+   "host": "s5_t_w2",
+   "text": "has",
+   "size": 118,
+   "y": 651,
+   "headline": true
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 19.5,
+   "host": "s5_t_w3",
+   "text": "no",
+   "size": 118,
+   "y": 649,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 19.5,
+   "host": "s5_t_w4",
+   "text": "window,",
+   "size": 118,
+   "y": 769,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 19.5,
+   "host": "s5_t_w5",
+   "text": "it’s",
+   "size": 118,
+   "y": 769,
+   "headline": true
+  },
+  {
+   "t_in": 18.3,
+   "t_out": 19.5,
+   "host": "s5_t_w7",
+   "text": "vibe.",
+   "size": 118,
+   "y": 890,
+   "headline": true
+  },
+  {
+   "t_in": 19.5,
+   "t_out": 25.2,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 19.5,
+   "t_out": 25.2,
+   "host": "cta_h_w0",
+   "text": "Numbers",
+   "size": 92,
+   "y": 305,
+   "headline": true
+  },
+  {
+   "t_in": 19.6,
+   "t_out": 25.2,
+   "host": "cta_h_w1",
+   "text": "with",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 19.7,
+   "t_out": 25.2,
+   "host": "cta_h_w3",
+   "text": "timeframe.",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 19.7,
+   "t_out": 25.2,
+   "host": "cta_h_w4",
+   "text": "Free",
+   "size": 44,
+   "y": 519,
+   "headline": true
+  },
+  {
+   "t_in": 19.8,
+   "t_out": 25.2,
+   "host": "cta_h_w5",
+   "text": "at",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 19.9,
+   "t_out": 25.2,
+   "host": "cta_h_w6",
+   "text": "betterforyourpocket.com",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 19.9,
+   "t_out": 25.2,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 20.0,
+   "t_out": 25.2,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1237,
+   "headline": true
+  },
+  {
+   "t_in": 20.2,
+   "t_out": 25.2,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 20.3,
+   "t_out": 25.2,
+   "host": "cta_note",
+   "text": "Screens from 23 Sep 2026 · AI voice",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "w0_c",
+   "t0": 10.786,
+   "t1": 11.878,
+   "key": "",
+   "text": ""
+  },
+  {
+   "screen": "w1_c",
+   "t0": 11.898,
+   "t1": 12.813,
+   "key": "",
+   "text": ""
+  },
+  {
+   "screen": "w2_c",
+   "t0": 12.833,
+   "t1": 14.228,
+   "key": "",
+   "text": ""
+  },
+  {
+   "screen": "w3_c",
+   "t0": 14.248,
+   "t1": 16.475,
+   "key": "",
+   "text": ""
+  }
+ ],
+ "cta": 19.285,
+ "karaoke": [
+  {
+   "id": "s1_q",
+   "t0": 1.846,
+   "t1": 2.783
+  },
+  {
+   "id": "s2_t",
+   "t0": 3.462,
+   "t1": 6.128
+  },
+  {
+   "id": "s3_t",
+   "t0": 6.692,
+   "t1": 10.226
+  },
+  {
+   "id": "s5_t",
+   "t0": 16.615,
+   "t1": 18.685
+  }
+ ],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "notif"
+  },
+  {
+   "t": 1.846,
+   "type": "hit"
+  },
+  {
+   "t": 5.778,
+   "type": "glitch"
+  },
+  {
+   "t": 5.778,
+   "type": "glitch"
+  },
+  {
+   "t": 6.692,
+   "type": "impact"
+  },
+  {
+   "t": 6.742,
+   "type": "ding"
+  },
+  {
+   "t": 10.786,
+   "type": "swish"
+  },
+  {
+   "t": 10.786,
+   "type": "hit"
+  },
+  {
+   "t": 10.795,
+   "type": "click"
+  },
+  {
+   "t": 11.898,
+   "type": "swish"
+  },
+  {
+   "t": 11.898,
+   "type": "hit"
+  },
+  {
+   "t": 11.906,
+   "type": "click"
+  },
+  {
+   "t": 12.833,
+   "type": "swish"
+  },
+  {
+   "t": 12.833,
+   "type": "hit"
+  },
+  {
+   "t": 12.841,
+   "type": "click"
+  },
+  {
+   "t": 14.248,
+   "type": "swish"
+  },
+  {
+   "t": 14.248,
+   "type": "hit"
+  },
+  {
+   "t": 14.256,
+   "type": "click"
+  },
+  {
+   "t": 18.485,
+   "type": "hit"
+  },
+  {
+   "t": 19.285,
+   "type": "whoosh"
+  },
+  {
+   "t": 19.685,
+   "type": "sparkle"
+  },
+  {
+   "t": 19.885,
+   "type": "pop"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+== v2_21_big_not_smart  dur 20.00s  bpm 174  CTA at 16.207
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-5.0] $$$$$
+  0.00  TXT [0.0-5.0] smartest
+  0.00  TXT [0.0-5.1] The biggest wallet
+  0.00  TXT [0.0-5.1] isn’t the
+  0.00  TXT [0.0-5.1] one.
+  0.00  txt [0.0-5.0] BIGGEST
+  0.00  txt [0.0-5.1] SMARTEST?
+  0.00  sfx impact
+  0.80  txt [0.8-5.0] Illustration
+  1.50  txt [1.5-5.0] SIZE · OBVIOUS
+  2.50  txt [2.5-5.0] SKILL · ?
+  3.45  sfx ding
+  4.83  --- CUT s2 (left)
+  4.83  sfx hit
+  4.90  TXT [4.9-9.0] Size is easy
+  4.90  TXT [4.9-9.0] see.
+  4.90  TXT [4.9-9.0] to
+  6.21  sfx hit
+  6.30  TXT [6.3-9.0] Skill
+  6.30  TXT [6.3-9.0] isn’t.
+  8.97  --- CUT s3 (zoomIn)
+  8.97  sfx impact
+  8.97  sfx riser
+  9.02  sfx ding
+  9.20  txt [9.2-10.1] BFYP
+  9.20  txt [9.2-10.1] On
+  9.30  txt [9.3-10.1] Smart
+  9.40  TXT [9.4-10.1] Ranked
+  9.40  txt [9.4-10.1] Money
+  9.40  txt [9.4-10.1] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC
+  9.50  TXT [9.5-10.1] behavior.
+  9.50  TXT [9.5-10.1] on
+ 10.00  ZOOM [10.00-13.10] THE RULE · Never from size alone
+ 10.20  txt [10.2-16.2] Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC
+ 10.50  TXT [10.5-13.2] Never from size alone
+ 10.50  txt [10.5-13.2] THE RULE
+ 13.10  ZOOM [13.10-16.14] EACH WALLET · Category · score · confidence
+ 13.70  TXT [13.7-16.2] Category · score · confidence
+ 13.70  txt [13.7-16.2] EACH WALLET
+ 16.21  --- CUT cta (zoom)
+ 16.21  sfx whoosh
+ 16.40  TXT [16.4-20.0] Ranked
+ 16.40  txt [16.4-20.0] ETTERFORYOURPOCKET
+ 16.50  TXT [16.5-20.0] on
+ 16.50  TXT [16.5-20.0] what
+ 16.60  TXT [16.6-20.0] they
+ 16.70  TXT [16.7-20.0] The
+ 16.70  TXT [16.7-20.0] did.
+ 16.80  TXT [16.8-20.0] Money
+ 16.80  TXT [16.8-20.0] Smart
+ 16.80  txt [16.8-20.0] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 16.90  TXT [16.9-20.0] betterforyourpocket.com
+ 16.90  TXT [16.9-20.0] leaderboard
+ 17.00  TXT [17.0-20.0] is
+ 17.00  TXT [17.0-20.0] on
+ 17.10  TXT [17.1-20.0] free
+ 17.10  TXT [17.1-20.0] the
+ 17.10  txt [17.1-20.0] Educational market data. Not financial advice.
+ 17.20  TXT [17.2-20.0] plan.
+ 17.20  txt [17.2-20.0] Screen from 23 Sep 2026 · live data changes
+ 19.83  sfx hit

@@ -1,0 +1,576 @@
+{
+ "reel": "v2_21_big_not_smart",
+ "dur": 20,
+ "bpm": 174,
+ "music": {
+  "style": "dnb",
+  "bpm": 174,
+  "key": "F",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 14,
+    "type": "tension"
+   },
+   {
+    "beat": 25,
+    "type": "build"
+   },
+   {
+    "beat": 26,
+    "type": "drop"
+   },
+   {
+    "beat": 47,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.828,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 8.966,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.207,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 5.1,
+   "host": "s1_h",
+   "text": "The biggest wallet",
+   "size": 100,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 5.1,
+   "host": "s1_h",
+   "text": "isn’t the",
+   "size": 100,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 5.1,
+   "host": "s1_h",
+   "text": "one.",
+   "size": 100,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 5.0,
+   "host": "s1_h",
+   "text": "smartest",
+   "size": 100,
+   "y": 314,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 5.0,
+   "host": "s1_big",
+   "text": "BIGGEST",
+   "size": 30,
+   "y": 850,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 5.0,
+   "host": "s1_big",
+   "text": "$$$$$",
+   "size": 70,
+   "y": 882,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 5.1,
+   "host": "s1_sm",
+   "text": "SMARTEST?",
+   "size": 22,
+   "y": 1016,
+   "headline": false
+  },
+  {
+   "t_in": 0.8,
+   "t_out": 5.0,
+   "host": "s1_n",
+   "text": "Illustration",
+   "size": 22,
+   "y": 1402,
+   "headline": false
+  },
+  {
+   "t_in": 1.5,
+   "t_out": 5.0,
+   "host": "s1_l1",
+   "text": "SIZE · OBVIOUS",
+   "size": 26,
+   "y": 1212,
+   "headline": false
+  },
+  {
+   "t_in": 2.5,
+   "t_out": 5.0,
+   "host": "s1_l2",
+   "text": "SKILL · ?",
+   "size": 26,
+   "y": 1172,
+   "headline": false
+  },
+  {
+   "t_in": 4.9,
+   "t_out": 9.0,
+   "host": "s2_a",
+   "text": "Size is easy",
+   "size": 124,
+   "y": 600,
+   "headline": true
+  },
+  {
+   "t_in": 4.9,
+   "t_out": 9.0,
+   "host": "s2_a",
+   "text": "to",
+   "size": 124,
+   "y": 600,
+   "headline": true
+  },
+  {
+   "t_in": 4.9,
+   "t_out": 9.0,
+   "host": "s2_a",
+   "text": "see.",
+   "size": 124,
+   "y": 709,
+   "headline": true
+  },
+  {
+   "t_in": 6.3,
+   "t_out": 9.0,
+   "host": "s2_b",
+   "text": "isn’t.",
+   "size": 124,
+   "y": 912,
+   "headline": true
+  },
+  {
+   "t_in": 6.3,
+   "t_out": 9.0,
+   "host": "s2_b",
+   "text": "Skill",
+   "size": 124,
+   "y": 930,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 10.1,
+   "host": "s3_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 255,
+   "headline": false
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 10.1,
+   "host": "s3_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 260,
+   "headline": false
+  },
+  {
+   "t_in": 9.3,
+   "t_out": 10.1,
+   "host": "s3_h_w3",
+   "text": "Smart",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 10.1,
+   "host": "s3_h_w4",
+   "text": "Money",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 10.1,
+   "host": "s3_h_w5",
+   "text": "Ranked",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 10.1,
+   "host": "s3_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 23,
+   "y": 562,
+   "headline": false
+  },
+  {
+   "t_in": 9.5,
+   "t_out": 10.1,
+   "host": "s3_h_w6",
+   "text": "on",
+   "size": 92,
+   "y": 315,
+   "headline": true
+  },
+  {
+   "t_in": 9.5,
+   "t_out": 10.1,
+   "host": "s3_h_w7",
+   "text": "behavior.",
+   "size": 92,
+   "y": 408,
+   "headline": true
+  },
+  {
+   "t_in": 10.2,
+   "t_out": 16.2,
+   "host": "s3_cap",
+   "text": "Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 13.2,
+   "host": "s3_card_co0",
+   "text": "Never from size alone",
+   "size": 44,
+   "y": 338,
+   "headline": true
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 13.2,
+   "host": "s3_card_co0",
+   "text": "THE RULE",
+   "size": 24,
+   "y": 357,
+   "headline": false
+  },
+  {
+   "t_in": 13.7,
+   "t_out": 16.2,
+   "host": "s3_card_co1",
+   "text": "Category · score · confidence",
+   "size": 44,
+   "y": 328,
+   "headline": true
+  },
+  {
+   "t_in": 13.7,
+   "t_out": 16.2,
+   "host": "s3_card_co1",
+   "text": "EACH WALLET",
+   "size": 24,
+   "y": 350,
+   "headline": false
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.0,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.0,
+   "host": "cta_h_w0",
+   "text": "Ranked",
+   "size": 92,
+   "y": 308,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.0,
+   "host": "cta_h_w1",
+   "text": "on",
+   "size": 92,
+   "y": 306,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.0,
+   "host": "cta_h_w2",
+   "text": "what",
+   "size": 92,
+   "y": 318,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.0,
+   "host": "cta_h_w3",
+   "text": "they",
+   "size": 92,
+   "y": 398,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.0,
+   "host": "cta_h_w4",
+   "text": "did.",
+   "size": 92,
+   "y": 393,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.0,
+   "host": "cta_h_w5",
+   "text": "The",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.0,
+   "host": "cta_h_w6",
+   "text": "Smart",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.0,
+   "host": "cta_h_w7",
+   "text": "Money",
+   "size": 44,
+   "y": 521,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.0,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.0,
+   "host": "cta_h_w8",
+   "text": "leaderboard",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.0,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1239,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.0,
+   "host": "cta_h_w9",
+   "text": "is",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.0,
+   "host": "cta_h_w10",
+   "text": "on",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.0,
+   "host": "cta_h_w11",
+   "text": "the",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.0,
+   "host": "cta_h_w12",
+   "text": "free",
+   "size": 44,
+   "y": 574,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.0,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.0,
+   "host": "cta_h_w13",
+   "text": "plan.",
+   "size": 44,
+   "y": 564,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.0,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · live data changes",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s3_card",
+   "t0": 10.0,
+   "t1": 13.103,
+   "key": "THE RULE",
+   "text": "Never from size alone"
+  },
+  {
+   "screen": "s3_card",
+   "t0": 13.103,
+   "t1": 16.138,
+   "key": "EACH WALLET",
+   "text": "Category · score · confidence"
+  }
+ ],
+ "cta": 16.207,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.2,
+   "type": "pop"
+  },
+  {
+   "t": 1.379,
+   "type": "pop"
+  },
+  {
+   "t": 2.414,
+   "type": "pop"
+  },
+  {
+   "t": 3.448,
+   "type": "ding"
+  },
+  {
+   "t": 4.828,
+   "type": "hit"
+  },
+  {
+   "t": 6.207,
+   "type": "hit"
+  },
+  {
+   "t": 8.966,
+   "type": "riser"
+  },
+  {
+   "t": 8.966,
+   "type": "impact"
+  },
+  {
+   "t": 9.016,
+   "type": "ding"
+  },
+  {
+   "t": 9.266,
+   "type": "scan"
+  },
+  {
+   "t": 10,
+   "type": "swish"
+  },
+  {
+   "t": 10.357,
+   "type": "click"
+  },
+  {
+   "t": 13.103,
+   "type": "swish"
+  },
+  {
+   "t": 13.46,
+   "type": "click"
+  },
+  {
+   "t": 16.207,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.607,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.807,
+   "type": "pop"
+  },
+  {
+   "t": 19.828,
+   "type": "hit"
+  }
+ ]
+}

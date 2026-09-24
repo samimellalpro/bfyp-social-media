@@ -90,7 +90,9 @@ def asr(wav48):
 
 ALIAS = {"nvidea": "nvidia", "bfyp": "b f y p", "fyp": "f y p", "voo": "v o o", "spy": "s p y", "sec": "s e c", "etf": "e t f", "etfs": "e t f s",
          "timeframe": "time frame", "betterforyourpocket": "better for your pocket", "com": "dot com", "ai": "a i", "usdc": "u s d c",
-         "gov": "dot gov", "percent": "%"}
+         "gov": "dot gov", "percent": "%",
+         # spelling variants and exact homophones the recogniser cannot tell apart
+         "labelled": "labeled", "watchlist": "watch list", "wales": "whales"}
 ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
 
@@ -110,13 +112,15 @@ def num_words(n):
 
 def norm_words(t):
     t = t.lower().replace("’", "'").replace("—", " ").replace("–", " ").replace("-", " ").replace("/", " ")
+    t = t.replace("better4yourpocket", "betterforyourpocket")  # ASR spelling of the same URL
+    t = re.sub(r"(\d),(\d{3})\b", r"\1\2", t)  # thousands separators: $5,000 -> $5000
     t = re.sub(r"\.(com|gov)\b", r" \1", t)
     t = re.sub(r"\$([0-9]+(?:\.[0-9]+)?)\s*(trillion|billion|million)", r"\1 \2 dollars", t)
     t = re.sub(r"\$([0-9]+(?:\.[0-9]+)?)", r"\1 dollars", t)
     t = re.sub(r"([0-9]+)\.([0-9]+)", lambda m: m.group(1) + " point " + " ".join(m.group(2)), t)
     t = re.sub(r"[0-9]+", lambda m: " " + num_words(m.group(0)) + " ", t)
     t = re.sub(r"[^a-z%' ]", " ", t)
-    ws = [w.strip("'") for w in t.split() if w.strip("'")]
+    ws = [w.replace("'", "") for w in t.split() if w.replace("'", "")]  # insider's = insiders, it's = its (both sides alike)
     out = []
     for w in ws:
         out.extend(ALIAS.get(w, w).split())

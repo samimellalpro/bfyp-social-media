@@ -1,0 +1,720 @@
+{
+ "reel": "v2_16_cost_before",
+ "dur": 20.4,
+ "bpm": 110,
+ "music": {
+  "style": "synthwave",
+  "bpm": 110,
+  "key": "F",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 6,
+    "type": "tension"
+   },
+   {
+    "beat": 11,
+    "type": "build"
+   },
+   {
+    "beat": 12,
+    "type": "drop"
+   },
+   {
+    "beat": 30,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.273,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 6.545,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s4",
+   "t": 9.818,
+   "kind": "left"
+  },
+  {
+   "shot": "cta",
+   "t": 16.364,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_h",
+   "text": "What did that",
+   "size": 112,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_h",
+   "text": "AI answer",
+   "size": 112,
+   "y": 230,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_h",
+   "text": "actually cost?",
+   "size": 112,
+   "y": 434,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_rc",
+   "text": "RECEIPT · ILLUSTRATION",
+   "size": 26,
+   "y": 661,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_rc",
+   "text": "???",
+   "size": 30,
+   "y": 686,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_rc",
+   "text": "1 × AI answer",
+   "size": 30,
+   "y": 695,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_rc",
+   "text": "context",
+   "size": 30,
+   "y": 714,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_rc",
+   "text": "follow-ups",
+   "size": 30,
+   "y": 726,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.5,
+   "host": "s1_rc",
+   "text": "TOTAL",
+   "size": 40,
+   "y": 754,
+   "headline": true
+  },
+  {
+   "t_in": 3.4,
+   "t_out": 6.6,
+   "host": "s2_t",
+   "text": "You shouldn’t",
+   "size": 130,
+   "y": 720,
+   "headline": true
+  },
+  {
+   "t_in": 3.4,
+   "t_out": 6.6,
+   "host": "s2_t",
+   "text": "find out",
+   "size": 130,
+   "y": 720,
+   "headline": true
+  },
+  {
+   "t_in": 3.4,
+   "t_out": 6.6,
+   "host": "s2_t",
+   "text": "after.",
+   "size": 130,
+   "y": 826,
+   "headline": true
+  },
+  {
+   "t_in": 6.7,
+   "t_out": 7.5,
+   "host": "s3_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 271,
+   "headline": false
+  },
+  {
+   "t_in": 6.8,
+   "t_out": 7.5,
+   "host": "s3_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 257,
+   "headline": false
+  },
+  {
+   "t_in": 6.9,
+   "t_out": 7.5,
+   "host": "s3_h_w3",
+   "text": "AI",
+   "size": 30,
+   "y": 256,
+   "headline": false
+  },
+  {
+   "t_in": 6.9,
+   "t_out": 7.5,
+   "host": "s3_h_w4",
+   "text": "Research",
+   "size": 30,
+   "y": 265,
+   "headline": false
+  },
+  {
+   "t_in": 7.0,
+   "t_out": 7.5,
+   "host": "s3_h_w5",
+   "text": "The",
+   "size": 92,
+   "y": 317,
+   "headline": true
+  },
+  {
+   "t_in": 7.0,
+   "t_out": 7.5,
+   "host": "s3_h_w6",
+   "text": "cost",
+   "size": 92,
+   "y": 326,
+   "headline": true
+  },
+  {
+   "t_in": 7.0,
+   "t_out": 7.5,
+   "host": "s3_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:39 UTC",
+   "size": 23,
+   "y": 561,
+   "headline": false
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 7.5,
+   "host": "s3_h_w7",
+   "text": "is",
+   "size": 92,
+   "y": 317,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 7.5,
+   "host": "s3_h_w8",
+   "text": "on",
+   "size": 92,
+   "y": 326,
+   "headline": true
+  },
+  {
+   "t_in": 7.2,
+   "t_out": 7.5,
+   "host": "s3_h_w9",
+   "text": "screen",
+   "size": 92,
+   "y": 317,
+   "headline": true
+  },
+  {
+   "t_in": 7.2,
+   "t_out": 7.5,
+   "host": "s3_h_w10",
+   "text": "before",
+   "size": 92,
+   "y": 414,
+   "headline": true
+  },
+  {
+   "t_in": 7.3,
+   "t_out": 7.5,
+   "host": "s3_h_w11",
+   "text": "you",
+   "size": 92,
+   "y": 406,
+   "headline": true
+  },
+  {
+   "t_in": 7.3,
+   "t_out": 7.5,
+   "host": "s3_h_w12",
+   "text": "ask.",
+   "size": 92,
+   "y": 414,
+   "headline": true
+  },
+  {
+   "t_in": 7.5,
+   "t_out": 9.8,
+   "host": "s3_cap",
+   "text": "Real BFYP screen · AI Research · 23 SEP 2026 · 21:39 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 9.8,
+   "host": "s3_card_co0",
+   "text": "36 credits per question",
+   "size": 44,
+   "y": 333,
+   "headline": true
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 9.8,
+   "host": "s3_card_co0",
+   "text": "PRICE TAG",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 10.0,
+   "t_out": 16.4,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 10.1,
+   "t_out": 16.4,
+   "host": "s4_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 10.2,
+   "t_out": 16.4,
+   "host": "s4_h_w3",
+   "text": "pricing",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 10.2,
+   "t_out": 16.4,
+   "host": "s4_h_w4",
+   "text": "Free",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 10.2,
+   "t_out": 16.4,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 23,
+   "y": 524,
+   "headline": false
+  },
+  {
+   "t_in": 10.3,
+   "t_out": 16.4,
+   "host": "s4_h_w5",
+   "text": "plan:",
+   "size": 92,
+   "y": 315,
+   "headline": true
+  },
+  {
+   "t_in": 10.3,
+   "t_out": 16.4,
+   "host": "s4_h_w6",
+   "text": "52",
+   "size": 92,
+   "y": 409,
+   "headline": true
+  },
+  {
+   "t_in": 10.4,
+   "t_out": 16.4,
+   "host": "s4_h_w7",
+   "text": "AI",
+   "size": 92,
+   "y": 403,
+   "headline": true
+  },
+  {
+   "t_in": 10.4,
+   "t_out": 16.4,
+   "host": "s4_h_w8",
+   "text": "credits",
+   "size": 92,
+   "y": 409,
+   "headline": true
+  },
+  {
+   "t_in": 10.5,
+   "t_out": 16.4,
+   "host": "s4_h_w10",
+   "text": "month.",
+   "size": 92,
+   "y": 409,
+   "headline": true
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 16.3,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Pricing · 23 SEP 2026 · 22:09 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 12.6,
+   "host": "s4_card_co0",
+   "text": "≈ 7 reports a month",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 12.6,
+   "host": "s4_card_co0",
+   "text": "INCLUDED",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 13.1,
+   "t_out": 14.8,
+   "host": "s4_card_co1",
+   "text": "2 to 172 credits per question",
+   "size": 44,
+   "y": 331,
+   "headline": true
+  },
+  {
+   "t_in": 13.1,
+   "t_out": 14.8,
+   "host": "s4_card_co1",
+   "text": "BY DEPTH",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 220,
+   "headline": false
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "52",
+   "size": 92,
+   "y": 303,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "free",
+   "size": 92,
+   "y": 315,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "AI",
+   "size": 92,
+   "y": 309,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "credits",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "every",
+   "size": 92,
+   "y": 401,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "month.",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "And",
+   "size": 44,
+   "y": 519,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:09 UTC",
+   "size": 19,
+   "y": 764,
+   "headline": false
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "the",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_h_w8",
+   "text": "cost",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_h_w9",
+   "text": "is",
+   "size": 44,
+   "y": 514,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1236,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.4,
+   "host": "cta_h_w10",
+   "text": "on",
+   "size": 44,
+   "y": 507,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.4,
+   "host": "cta_h_w11",
+   "text": "screen",
+   "size": 44,
+   "y": 519,
+   "headline": true
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 20.4,
+   "host": "cta_h_w12",
+   "text": "before",
+   "size": 44,
+   "y": 510,
+   "headline": true
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.4,
+   "host": "cta_h_w13",
+   "text": "you",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.4,
+   "host": "cta_h_w14",
+   "text": "ask.",
+   "size": 44,
+   "y": 514,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Plan details as of 23 Sep 2026 · may change",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s3_card",
+   "t0": 7.364,
+   "t1": 9.709,
+   "key": "PRICE TAG",
+   "text": "36 credits per question"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 10.636,
+   "t1": 12.545,
+   "key": "INCLUDED",
+   "text": "≈ 7 reports a month"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 12.545,
+   "t1": 14.727,
+   "key": "BY DEPTH",
+   "text": "2 to 172 credits per question"
+  }
+ ],
+ "cta": 16.364,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "scan"
+  },
+  {
+   "t": 3.273,
+   "type": "hit"
+  },
+  {
+   "t": 6.545,
+   "type": "riser"
+  },
+  {
+   "t": 6.545,
+   "type": "impact"
+  },
+  {
+   "t": 6.595,
+   "type": "ding"
+  },
+  {
+   "t": 7.364,
+   "type": "swish"
+  },
+  {
+   "t": 7.721,
+   "type": "click"
+  },
+  {
+   "t": 10.636,
+   "type": "swish"
+  },
+  {
+   "t": 10.993,
+   "type": "click"
+  },
+  {
+   "t": 12.545,
+   "type": "swish"
+  },
+  {
+   "t": 12.902,
+   "type": "click"
+  },
+  {
+   "t": 16.364,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.764,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.964,
+   "type": "pop"
+  },
+  {
+   "t": 20.182,
+   "type": "hit"
+  }
+ ]
+}

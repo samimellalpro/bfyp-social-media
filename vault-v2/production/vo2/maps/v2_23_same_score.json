@@ -1,0 +1,443 @@
+{
+ "reel": "v2_23_same_score",
+ "dur": 20.4,
+ "bpm": 106,
+ "music": {
+  "style": "synthwave",
+  "bpm": 106,
+  "key": "C",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 4,
+    "type": "tension"
+   },
+   {
+    "beat": 9,
+    "type": "build"
+   },
+   {
+    "beat": 10,
+    "type": "drop"
+   },
+   {
+    "beat": 28,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 2.264,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 10.189,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 15.849,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 2.4,
+   "host": "s1_h",
+   "text": "Same score?",
+   "size": 150,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 2.4,
+   "host": "s1_L",
+   "text": "WALLET A",
+   "size": 28,
+   "y": 686,
+   "headline": false
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 2.4,
+   "host": "s1_R",
+   "text": "WALLET B",
+   "size": 28,
+   "y": 686,
+   "headline": false
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 2.4,
+   "host": "s1_L",
+   "text": "31",
+   "size": 190,
+   "y": 732,
+   "headline": true
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 2.4,
+   "host": "s1_R",
+   "text": "31",
+   "size": 190,
+   "y": 732,
+   "headline": true
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 2.4,
+   "host": "s1_L",
+   "text": "/100",
+   "size": 40,
+   "y": 903,
+   "headline": true
+  },
+  {
+   "t_in": 0.1,
+   "t_out": 2.4,
+   "host": "s1_R",
+   "text": "/100",
+   "size": 40,
+   "y": 903,
+   "headline": true
+  },
+  {
+   "t_in": 1.8,
+   "t_out": 2.4,
+   "host": "s1_q",
+   "text": "Look closer.",
+   "size": 70,
+   "y": 1154,
+   "headline": true
+  },
+  {
+   "t_in": 2.4,
+   "t_out": 10.3,
+   "host": "s2_eb",
+   "text": "Two real rows · Smart Money",
+   "size": 30,
+   "y": 256,
+   "headline": false
+  },
+  {
+   "t_in": 2.5,
+   "t_out": 10.3,
+   "host": "s2_la",
+   "text": "Wallet #6",
+   "size": 56,
+   "y": 334,
+   "headline": true
+  },
+  {
+   "t_in": 2.9,
+   "t_out": 10.3,
+   "host": "s2_lb",
+   "text": "Wallet #7",
+   "size": 56,
+   "y": 686,
+   "headline": true
+  },
+  {
+   "t_in": 3.2,
+   "t_out": 10.3,
+   "host": "s2_st",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 23,
+   "y": 992,
+   "headline": false
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 10.3,
+   "host": "s2_ka",
+   "text": "Estimated",
+   "size": 70,
+   "y": 1095,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 10.3,
+   "host": "s2_ka",
+   "text": "high confidence.",
+   "size": 70,
+   "y": 1095,
+   "headline": true
+  },
+  {
+   "t_in": 7.1,
+   "t_out": 10.3,
+   "host": "s2_ka",
+   "text": "vs",
+   "size": 70,
+   "y": 1103,
+   "headline": true
+  },
+  {
+   "t_in": 10.3,
+   "t_out": 15.9,
+   "host": "s3_a",
+   "text": "Same number.",
+   "size": 120,
+   "y": 575,
+   "headline": true
+  },
+  {
+   "t_in": 10.3,
+   "t_out": 15.9,
+   "host": "s3_a",
+   "text": "Different confidence.",
+   "size": 120,
+   "y": 676,
+   "headline": true
+  },
+  {
+   "t_in": 12.6,
+   "t_out": 15.9,
+   "host": "s3_b",
+   "text": "Read the badge,",
+   "size": 70,
+   "y": 1003,
+   "headline": true
+  },
+  {
+   "t_in": 12.6,
+   "t_out": 15.9,
+   "host": "s3_b",
+   "text": "not just the number.",
+   "size": 70,
+   "y": 1003,
+   "headline": true
+  },
+  {
+   "t_in": 16.0,
+   "t_out": 20.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 217,
+   "headline": false
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.4,
+   "host": "cta_h_w0",
+   "text": "Scores",
+   "size": 92,
+   "y": 303,
+   "headline": true
+  },
+  {
+   "t_in": 16.1,
+   "t_out": 20.4,
+   "host": "cta_h_w1",
+   "text": "with",
+   "size": 92,
+   "y": 312,
+   "headline": true
+  },
+  {
+   "t_in": 16.2,
+   "t_out": 20.4,
+   "host": "cta_h_w2",
+   "text": "their",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w3",
+   "text": "confidence.",
+   "size": 92,
+   "y": 392,
+   "headline": true
+  },
+  {
+   "t_in": 16.3,
+   "t_out": 20.4,
+   "host": "cta_h_w4",
+   "text": "Every",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w5",
+   "text": "Smart",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_h_w6",
+   "text": "Money",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 16.4,
+   "t_out": 20.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 672,
+   "headline": false
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_h_w7",
+   "text": "score",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 16.5,
+   "t_out": 20.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1244,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w8",
+   "text": "sits",
+   "size": 44,
+   "y": 504,
+   "headline": true
+  },
+  {
+   "t_in": 16.6,
+   "t_out": 20.4,
+   "host": "cta_h_w9",
+   "text": "next",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_h_w10",
+   "text": "to",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 16.7,
+   "t_out": 20.4,
+   "host": "cta_h_w11",
+   "text": "its",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_h_w12",
+   "text": "badge.",
+   "size": 44,
+   "y": 562,
+   "headline": true
+  },
+  {
+   "t_in": 16.8,
+   "t_out": 20.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.4,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · live data changes",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [],
+ "cta": 15.849,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "whoosh"
+  },
+  {
+   "t": 2.377,
+   "type": "whoosh"
+  },
+  {
+   "t": 2.83,
+   "type": "whoosh"
+  },
+  {
+   "t": 5.66,
+   "type": "impact"
+  },
+  {
+   "t": 6.792,
+   "type": "ding"
+  },
+  {
+   "t": 10.189,
+   "type": "hit"
+  },
+  {
+   "t": 12.453,
+   "type": "pop"
+  },
+  {
+   "t": 15.849,
+   "type": "whoosh"
+  },
+  {
+   "t": 16.249,
+   "type": "sparkle"
+  },
+  {
+   "t": 16.449,
+   "type": "pop"
+  },
+  {
+   "t": 20.377,
+   "type": "hit"
+  }
+ ]
+}

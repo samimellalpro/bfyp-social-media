@@ -1,0 +1,83 @@
+== v2_05_fake_reviews  dur 20.40s  bpm 113  CTA at 15.929
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.9] ★★★★★
+  0.00  TXT [0.0-4.0] Federal Trade Commission Announces Final Rule Banning Fake Reviews and Testimonials
+  0.00  TXT [0.0-4.0] The FTC
+  0.00  TXT [0.0-4.0] fake reviews.
+  0.00  TXT [0.0-4.0] had to ban
+  0.00  txt [0.0-4.0] 14 Aug 2024
+  0.00  txt [0.0-4.0] Federal Trade Commission · press release
+  0.00  txt [0.0-4.0] ftc.gov · rule effective 21 Oct 2024
+  0.00  sfx impact
+  3.72  --- CUT s2 (left)
+  3.90  TXT [3.9-6.5] “Fake
+  4.00  TXT [4.0-6.5] not
+  4.00  TXT [4.0-6.5] only
+  4.00  TXT [4.0-6.5] reviews
+  4.10  TXT [4.1-6.5] people’s
+  4.10  TXT [4.1-6.5] waste
+  4.20  TXT [4.2-6.5] and
+  4.20  TXT [4.2-6.5] money,
+  4.20  TXT [4.2-6.5] time
+  4.30  TXT [4.3-6.5] also
+  4.30  TXT [4.3-6.5] but
+  4.40  TXT [4.4-6.5] marketplace
+  4.40  TXT [4.4-6.5] pollute
+  4.40  TXT [4.4-6.5] the
+  4.50  TXT [4.5-6.5] …”
+  4.60  txt [4.6-6.5] FTC press release · 14 Aug 2024
+  4.60  txt [4.6-6.5] Lina M. Khan, FTC Chair
+  6.37  --- CUT s3 (zoomIn)
+  6.37  sfx hit
+  6.50  TXT [6.5-8.0] So here’s what
+  6.50  TXT [6.5-8.0] our
+  6.50  TXT [6.5-8.0] pricing page says.
+  7.96  --- CUT s4 (zoomIn)
+  7.96  sfx impact
+  7.96  sfx riser
+  8.02  sfx ding
+  8.20  txt [8.2-13.8] BFYP
+  8.20  txt [8.2-13.8] On
+  8.30  txt [8.3-13.8] pricing
+  8.40  TXT [8.4-13.8] No
+  8.40  txt [8.4-13.8] page
+  8.40  txt [8.4-16.0] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC
+  8.50  TXT [8.5-13.8] made-up
+  8.50  TXT [8.5-13.8] praise.
+  8.60  TXT [8.6-13.8] An
+  8.60  TXT [8.6-13.8] audit
+  8.70  TXT [8.7-13.8] invite.
+  8.70  txt [8.7-13.8] Real BFYP screen · Pricing · 23 SEP 2026 · 22:09 UTC
+  8.76  ZOOM [8.76-11.15] IN OUR OWN WORDS · Zero testimonials. None made up.
+  9.30  TXT [9.3-11.2] Zero testimonials. None made up.
+  9.30  txt [9.3-11.2] IN OUR OWN WORDS
+ 11.68  sfx hit
+ 11.80  TXT [11.8-13.8] Don’t trust us.
+ 12.48  sfx hit
+ 12.60  TXT [12.6-13.8] Audit us.
+ 13.90  TXT [13.9-16.0] $0.
+ 13.90  TXT [13.9-16.0] Start at
+ 13.91  sfx whoosh
+ 14.20  txt [14.2-16.0] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:09 UTC
+ 15.93  --- CUT cta (zoom)
+ 15.93  sfx whoosh
+ 16.10  txt [16.1-20.4] ETTERFORYOURPOCKET
+ 16.20  TXT [16.2-20.4] Don’t
+ 16.20  TXT [16.2-20.4] trust
+ 16.30  TXT [16.3-20.4] Audit
+ 16.30  TXT [16.3-20.4] us.
+ 16.40  TXT [16.4-20.4] us.
+ 16.50  TXT [16.5-20.4] Public
+ 16.50  TXT [16.5-20.4] pages
+ 16.50  txt [16.5-20.4] CAPTURED 23 SEP 2026 · 22:09 UTC
+ 16.60  TXT [16.6-20.4] betterforyourpocket.com
+ 16.60  TXT [16.6-20.4] have
+ 16.60  TXT [16.6-20.4] that
+ 16.70  TXT [16.7-20.4] to
+ 16.80  TXT [16.8-20.4] agree
+ 16.80  TXT [16.8-20.4] with
+ 16.80  txt [16.8-20.4] Educational market data. Not financial advice.
+ 16.90  TXT [16.9-20.4] each
+ 16.90  TXT [16.9-20.4] other.
+ 16.90  txt [16.9-20.4] Screen from 23 Sep 2026 · pricing may change
+ 20.18  sfx hit

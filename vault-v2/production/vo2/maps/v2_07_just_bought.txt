@@ -1,0 +1,73 @@
+== v2_07_just_bought  dur 20.80s  bpm 108  CTA at 16.667
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.0] $XYZ! 🚀
+  0.00  TXT [0.0-3.0] just bought
+  0.00  TXT [0.0-3.0] “Just”
+  0.00  TXT [0.0-3.0] 🚨 Big fund
+  0.00  txt [0.0-3.0] @example · illustration
+  0.00  txt [0.0-3.0] Market Buzz
+  0.00  txt [0.0-3.0] TYPICAL POST · ILLUSTRATION · NOT A REAL ACCOUNT
+  0.00  sfx impact
+  0.05  sfx notif
+  1.20  TXT [1.2-3.0] Check when it actually happened.
+  2.78  --- CUT s2 (left)
+  2.90  TXT [2.9-6.8] How
+  3.00  TXT [3.0-6.8] fund-holdings
+  3.10  TXT [3.1-6.9] really
+  3.10  TXT [3.1-6.9] report
+  3.10  TXT [3.1-6.9] works:
+  3.50  TXT [3.5-6.9] Quarter starts
+  3.50  txt [3.5-6.9] 1 APR
+  4.30  TXT [4.3-6.9] Holdings snapshot
+  4.30  txt [4.3-6.9] 30 JUN
+  4.60  txt [4.6-6.9] Form 13F: filed within 45 days after quarter end
+  4.60  txt [4.6-6.9] Investor.gov
+  5.10  TXT [5.1-6.9] 13F due (45 days)
+  5.10  txt [5.1-6.9] ~14 AUG
+  6.67  --- CUT s3 (up)
+  6.67  sfx hit
+  6.70  TXT [6.7-11.2] You see it
+  6.70  TXT [6.7-11.2] mid-August.
+  8.06  sfx hit
+  8.10  TXT [8.1-11.2] The trade could be
+  8.10  TXT [8.1-11.2] from April.
+ 11.11  --- CUT s4 (zoomIn)
+ 11.11  sfx impact
+ 11.11  sfx riser
+ 11.16  sfx ding
+ 11.30  txt [11.3-11.8] On
+ 11.40  txt [11.4-11.8] BFYP
+ 11.50  txt [11.5-11.8] ETF
+ 11.50  txt [11.5-11.8] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC
+ 11.60  TXT [11.6-11.8] Every
+ 11.60  txt [11.6-11.8] SPY
+ 11.67  ZOOM [11.67-13.33] PERIOD · What the holdings describe: 30 Jun
+ 11.70  TXT [11.7-11.8] fund
+ 11.70  TXT [11.7-11.8] page
+ 11.80  txt [11.8-16.7] Real BFYP screen · ETF · SPY · 23 SEP 2026 · 21:38 UTC
+ 12.20  TXT [12.2-13.4] What the holdings describe: 30 Jun
+ 12.20  txt [12.2-13.4] PERIOD
+ 13.33  ZOOM [13.33-15.00] FILED · When it went public: 28 Aug
+ 13.90  TXT [13.9-15.1] When it went public: 28 Aug
+ 13.90  txt [13.9-15.1] FILED
+ 15.00  ZOOM [15.00-16.56] THE GAP · Public with a statutory delay
+ 15.50  TXT [15.5-16.6] Public with a statutory delay
+ 15.50  txt [15.5-16.6] THE GAP
+ 16.67  --- CUT cta (zoom)
+ 16.67  sfx whoosh
+ 16.90  TXT [16.9-20.8] Check
+ 16.90  TXT [16.9-20.8] both
+ 16.90  txt [16.9-20.8] ETTERFORYOURPOCKET
+ 17.00  TXT [17.0-20.8] dates.
+ 17.10  TXT [17.1-20.8] Period
+ 17.20  TXT [17.2-20.8] date,
+ 17.20  TXT [17.2-20.8] filing
+ 17.20  txt [17.2-20.8] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 17.30  TXT [17.3-20.8] on
+ 17.40  TXT [17.4-20.8] betterforyourpocket.com
+ 17.40  TXT [17.4-20.8] every
+ 17.40  TXT [17.4-20.8] fund
+ 17.50  TXT [17.5-20.8] page.
+ 17.60  txt [17.6-20.8] Educational market data. Not financial advice.
+ 17.70  txt [17.7-20.8] Live data changes · screen from 23 Sep 2026
+ 20.56  sfx hit

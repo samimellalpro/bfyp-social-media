@@ -1,0 +1,69 @@
+== v2_30_no_source  dur 20.60s  bpm 148  CTA at 17.027
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-3.4] No
+  0.00  TXT [0.0-3.4] source?
+  0.00  sfx impact
+  1.22  sfx hit
+  1.30  TXT [1.3-3.5] It’s just
+  1.30  TXT [1.3-3.5] content.
+  3.24  --- CUT s2 (up)
+  3.30  TXT [3.3-10.6] From weakest to strongest:
+  3.30  txt [3.3-10.6] The evidence ladder
+  4.10  TXT [4.1-5.2] Rumor
+  4.10  txt [4.1-5.2] 01
+  5.30  TXT [5.3-6.5] Screenshot
+  5.30  txt [5.3-6.5] 02
+  6.50  TXT [6.5-7.7] Headline
+  6.50  txt [6.5-7.7] 03
+  7.70  sfx ding
+  7.80  TXT [7.8-10.6] Official filing,
+  7.80  TXT [7.8-10.6] dated and linked
+  7.80  txt [7.8-10.6] 04
+ 10.54  --- CUT s3 (zoomIn)
+ 10.54  sfx impact
+ 10.54  sfx riser
+ 10.59  sfx ding
+ 10.70  txt [10.7-11.5] BFYP
+ 10.80  txt [10.8-11.5] NVDA
+ 10.90  txt [10.9-11.5] as
+ 11.00  TXT [11.0-11.5] On
+ 11.00  txt [11.0-11.5] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC
+ 11.00  txt [11.0-11.5] filed
+ 11.10  TXT [11.1-11.5] BFYP,
+ 11.10  TXT [11.1-11.5] every
+ 11.20  TXT [11.2-11.5] has
+ 11.20  TXT [11.2-11.5] number
+ 11.30  TXT [11.3-11.5] its
+ 11.30  TXT [11.3-11.5] source.
+ 11.35  ZOOM [11.35-13.78] PERIOD + DOCUMENT · Fiscal year ended 2026-01-25 · 10-K · SEC
+ 11.90  TXT [11.9-13.8] Fiscal year ended 2026-01-25 · 10-K · SEC
+ 11.90  txt [11.9-13.8] PERIOD + DOCUMENT
+ 13.78  --- CUT s4 (left)
+ 14.00  txt [14.0-14.5] BFYP
+ 14.10  txt [14.1-14.5] ETF
+ 14.20  TXT [14.2-14.5] And
+ 14.20  txt [14.2-14.5] SPY
+ 14.30  TXT [14.3-14.5] link
+ 14.30  TXT [14.3-14.5] the
+ 14.39  ZOOM [14.39-16.95] ORIGINAL FILING · N-PORT filed with the SEC
+ 14.40  TXT [14.4-14.5] the
+ 14.40  TXT [14.4-14.5] to
+ 14.50  txt [14.5-17.0] Real BFYP screen · ETF · SPY · 23 SEP 2026 · 22:01 UTC
+ 14.90  TXT [14.9-17.0] N-PORT filed with the SEC
+ 14.90  txt [14.9-17.0] ORIGINAL FILING
+ 17.03  --- CUT cta (zoom)
+ 17.03  sfx whoosh
+ 17.20  txt [17.2-20.6] ETTERFORYOURPOCKET
+ 17.30  TXT [17.3-20.6] Go
+ 17.30  TXT [17.3-20.6] back
+ 17.40  TXT [17.4-20.6] the
+ 17.40  TXT [17.4-20.6] to
+ 17.50  TXT [17.5-20.6] Free
+ 17.50  TXT [17.5-20.6] source.
+ 17.60  TXT [17.6-20.6] at
+ 17.60  txt [17.6-20.6] CAPTURED 23 SEP 2026 · 22:01 UTC
+ 17.70  TXT [17.7-20.6] betterforyourpocket.com
+ 17.70  TXT [17.7-20.6] betterforyourpocket.com
+ 17.90  txt [17.9-20.6] Educational market data. Not financial advice.
+ 18.00  txt [18.0-20.6] Screens from 23 Sep 2026 · live data changes
+ 20.47  sfx hit

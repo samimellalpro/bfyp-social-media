@@ -1,0 +1,668 @@
+{
+ "reel": "v2_07_just_bought",
+ "dur": 20.8,
+ "bpm": 108,
+ "music": {
+  "style": "synthwave",
+  "bpm": 108,
+  "key": "E",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 5,
+    "type": "tension"
+   },
+   {
+    "beat": 18,
+    "type": "build"
+   },
+   {
+    "beat": 20,
+    "type": "drop"
+   },
+   {
+    "beat": 30,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 2.778,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 6.667,
+   "kind": "up"
+  },
+  {
+   "shot": "s4",
+   "t": 11.111,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.667,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 3.0,
+   "host": "s1_post",
+   "text": "Market Buzz",
+   "size": 38,
+   "y": 296,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.0,
+   "host": "s1_post",
+   "text": "@example · illustration",
+   "size": 30,
+   "y": 340,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.0,
+   "host": "s1_post",
+   "text": "just bought",
+   "size": 62,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.0,
+   "host": "s1_post",
+   "text": "🚨 Big fund",
+   "size": 62,
+   "y": 400,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.0,
+   "host": "s1_post",
+   "text": "$XYZ! 🚀",
+   "size": 62,
+   "y": 400,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.0,
+   "host": "s1_post",
+   "text": "TYPICAL POST · ILLUSTRATION · NOT A REAL ACCOUNT",
+   "size": 22,
+   "y": 556,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 3.0,
+   "host": "s1_q",
+   "text": "“Just”",
+   "size": 250,
+   "y": 760,
+   "headline": true
+  },
+  {
+   "t_in": 1.2,
+   "t_out": 3.0,
+   "host": "s1_sub",
+   "text": "Check when it actually happened.",
+   "size": 70,
+   "y": 1115,
+   "headline": true
+  },
+  {
+   "t_in": 2.9,
+   "t_out": 6.8,
+   "host": "s2_h_w0",
+   "text": "How",
+   "size": 92,
+   "y": 291,
+   "headline": true
+  },
+  {
+   "t_in": 3.0,
+   "t_out": 6.8,
+   "host": "s2_h_w2",
+   "text": "fund-holdings",
+   "size": 92,
+   "y": 288,
+   "headline": true
+  },
+  {
+   "t_in": 3.1,
+   "t_out": 6.9,
+   "host": "s2_h_w3",
+   "text": "report",
+   "size": 92,
+   "y": 371,
+   "headline": true
+  },
+  {
+   "t_in": 3.1,
+   "t_out": 6.9,
+   "host": "s2_h_w4",
+   "text": "really",
+   "size": 92,
+   "y": 374,
+   "headline": true
+  },
+  {
+   "t_in": 3.1,
+   "t_out": 6.9,
+   "host": "s2_h_w5",
+   "text": "works:",
+   "size": 92,
+   "y": 379,
+   "headline": true
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 6.9,
+   "host": "s2_tl_lab0",
+   "text": "1 APR",
+   "size": 30,
+   "y": 713,
+   "headline": false
+  },
+  {
+   "t_in": 3.5,
+   "t_out": 6.9,
+   "host": "s2_tl_lab0",
+   "text": "Quarter starts",
+   "size": 44,
+   "y": 760,
+   "headline": true
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.9,
+   "host": "s2_tl_lab1",
+   "text": "30 JUN",
+   "size": 30,
+   "y": 947,
+   "headline": false
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 6.9,
+   "host": "s2_tl_lab1",
+   "text": "Holdings snapshot",
+   "size": 44,
+   "y": 994,
+   "headline": true
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.9,
+   "host": "s2_src",
+   "text": "Form 13F: filed within 45 days after quarter end",
+   "size": 22,
+   "y": 1221,
+   "headline": false
+  },
+  {
+   "t_in": 4.6,
+   "t_out": 6.9,
+   "host": "s2_src",
+   "text": "Investor.gov",
+   "size": 22,
+   "y": 1221,
+   "headline": false
+  },
+  {
+   "t_in": 5.1,
+   "t_out": 6.9,
+   "host": "s2_tl_lab2",
+   "text": "~14 AUG",
+   "size": 30,
+   "y": 713,
+   "headline": false
+  },
+  {
+   "t_in": 5.1,
+   "t_out": 6.9,
+   "host": "s2_tl_lab2",
+   "text": "13F due (45 days)",
+   "size": 44,
+   "y": 760,
+   "headline": true
+  },
+  {
+   "t_in": 6.7,
+   "t_out": 11.2,
+   "host": "s3_a",
+   "text": "You see it",
+   "size": 112,
+   "y": 1449,
+   "headline": true
+  },
+  {
+   "t_in": 6.7,
+   "t_out": 11.2,
+   "host": "s3_a",
+   "text": "mid-August.",
+   "size": 112,
+   "y": 1559,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 11.2,
+   "host": "s3_b",
+   "text": "The trade could be",
+   "size": 112,
+   "y": 880,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 11.2,
+   "host": "s3_b",
+   "text": "from April.",
+   "size": 112,
+   "y": 1110,
+   "headline": true
+  },
+  {
+   "t_in": 11.3,
+   "t_out": 11.8,
+   "host": "s4_h_w0",
+   "text": "On",
+   "size": 30,
+   "y": 262,
+   "headline": false
+  },
+  {
+   "t_in": 11.4,
+   "t_out": 11.8,
+   "host": "s4_h_w1",
+   "text": "BFYP",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 11.8,
+   "host": "s4_h_w3",
+   "text": "ETF",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 11.8,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 23,
+   "y": 563,
+   "headline": false
+  },
+  {
+   "t_in": 11.6,
+   "t_out": 11.8,
+   "host": "s4_h_w5",
+   "text": "SPY",
+   "size": 30,
+   "y": 253,
+   "headline": false
+  },
+  {
+   "t_in": 11.6,
+   "t_out": 11.8,
+   "host": "s4_h_w6",
+   "text": "Every",
+   "size": 92,
+   "y": 319,
+   "headline": true
+  },
+  {
+   "t_in": 11.7,
+   "t_out": 11.8,
+   "host": "s4_h_w7",
+   "text": "fund",
+   "size": 92,
+   "y": 314,
+   "headline": true
+  },
+  {
+   "t_in": 11.7,
+   "t_out": 11.8,
+   "host": "s4_h_w8",
+   "text": "page",
+   "size": 92,
+   "y": 319,
+   "headline": true
+  },
+  {
+   "t_in": 11.8,
+   "t_out": 16.7,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · ETF · SPY · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 12.2,
+   "t_out": 13.4,
+   "host": "s4_card_co0",
+   "text": "What the holdings describe: 30 Jun",
+   "size": 44,
+   "y": 333,
+   "headline": true
+  },
+  {
+   "t_in": 12.2,
+   "t_out": 13.4,
+   "host": "s4_card_co0",
+   "text": "PERIOD",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 13.9,
+   "t_out": 15.1,
+   "host": "s4_card_co1",
+   "text": "When it went public: 28 Aug",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 13.9,
+   "t_out": 15.1,
+   "host": "s4_card_co1",
+   "text": "FILED",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 15.5,
+   "t_out": 16.6,
+   "host": "s4_card_co2",
+   "text": "Public with a statutory delay",
+   "size": 44,
+   "y": 338,
+   "headline": true
+  },
+  {
+   "t_in": 15.5,
+   "t_out": 16.6,
+   "host": "s4_card_co2",
+   "text": "THE GAP",
+   "size": 24,
+   "y": 357,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.8,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 220,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.8,
+   "host": "cta_h_w0",
+   "text": "Check",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 20.8,
+   "host": "cta_h_w1",
+   "text": "both",
+   "size": 92,
+   "y": 404,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 20.8,
+   "host": "cta_h_w2",
+   "text": "dates.",
+   "size": 92,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 20.8,
+   "host": "cta_h_w3",
+   "text": "Period",
+   "size": 44,
+   "y": 505,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.8,
+   "host": "cta_h_w5",
+   "text": "filing",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.8,
+   "host": "cta_h_w6",
+   "text": "date,",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 20.8,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 673,
+   "headline": false
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 20.8,
+   "host": "cta_h_w7",
+   "text": "on",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.8,
+   "host": "cta_h_w8",
+   "text": "every",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.8,
+   "host": "cta_h_w9",
+   "text": "fund",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 20.8,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1236,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 20.8,
+   "host": "cta_h_w10",
+   "text": "page.",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 20.8,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 20.8,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 11.667,
+   "t1": 13.333,
+   "key": "PERIOD",
+   "text": "What the holdings describe: 30 Jun"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 13.333,
+   "t1": 15.0,
+   "key": "FILED",
+   "text": "When it went public: 28 Aug"
+  },
+  {
+   "screen": "s4_card",
+   "t0": 15.0,
+   "t1": 16.556,
+   "key": "THE GAP",
+   "text": "Public with a statutory delay"
+  }
+ ],
+ "cta": 16.667,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "notif"
+  },
+  {
+   "t": 3.333,
+   "type": "tick"
+  },
+  {
+   "t": 4.133,
+   "type": "tick"
+  },
+  {
+   "t": 4.933,
+   "type": "tick"
+  },
+  {
+   "t": 6.667,
+   "type": "hit"
+  },
+  {
+   "t": 8.056,
+   "type": "hit"
+  },
+  {
+   "t": 11.111,
+   "type": "riser"
+  },
+  {
+   "t": 11.111,
+   "type": "impact"
+  },
+  {
+   "t": 11.161,
+   "type": "ding"
+  },
+  {
+   "t": 11.411,
+   "type": "scan"
+  },
+  {
+   "t": 11.667,
+   "type": "swish"
+  },
+  {
+   "t": 12.024,
+   "type": "click"
+  },
+  {
+   "t": 13.333,
+   "type": "swish"
+  },
+  {
+   "t": 13.69,
+   "type": "click"
+  },
+  {
+   "t": 15,
+   "type": "swish"
+  },
+  {
+   "t": 15.357,
+   "type": "click"
+  },
+  {
+   "t": 16.667,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.067,
+   "type": "sparkle"
+  },
+  {
+   "t": 17.267,
+   "type": "pop"
+  },
+  {
+   "t": 20.556,
+   "type": "hit"
+  }
+ ]
+}

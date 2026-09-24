@@ -1,0 +1,87 @@
+== v2_14_whale_alert  dur 20.00s  bpm 124  CTA at 15.484
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-4.1] $1.09M $LIT
+  0.00  TXT [0.0-4.1] This whale alert
+  0.00  TXT [0.0-4.1] just moved!
+  0.00  TXT [0.0-4.1] nothing.
+  0.00  TXT [0.0-4.1] tells you
+  0.00  TXT [0.0-4.1] 🚨🐋
+  0.00  txt [0.0-4.1] @example_alerts · illustration
+  0.00  txt [0.0-4.1] Alert Feed
+  0.00  txt [0.0-4.1] TYPICAL ALERT · ILLUSTRATION · NOT A REAL ACCOUNT
+  0.00  sfx impact
+  0.05  sfx notif
+  1.50  TXT [1.5-4.1] Who is the
+  1.50  TXT [1.5-4.1] wallet?
+  2.30  TXT [2.3-4.1] One transfer or
+  2.30  TXT [2.3-4.1] many?
+  3.00  TXT [3.0-4.1] Where is the
+  3.00  TXT [3.0-4.1] proof?
+  3.87  --- CUT s2 (zoomIn)
+  3.87  sfx hit
+  3.87  sfx whoosh
+  4.00  TXT [4.0-5.9] Size without
+  4.00  TXT [4.0-5.9] context is
+  4.00  TXT [4.0-5.9] just
+  4.00  TXT [4.0-5.9] noise.
+  5.00  TXT [5.0-5.9] Same move,
+  5.00  TXT [5.0-5.9] on BFYP
+  5.81  --- CUT s3 (zoomIn)
+  5.81  sfx impact
+  5.81  sfx riser
+  5.86  sfx ding
+  6.00  txt [6.0-15.5] Same
+  6.10  txt [6.1-15.5] move
+  6.20  txt [6.2-15.5] BFYP
+  6.20  txt [6.2-15.5] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC
+  6.20  txt [6.2-15.5] on
+  6.29  ZOOM [6.29-7.24] TYPED + SIZED · Large transfer · $1.09M LIT
+  6.30  TXT [6.3-15.5] Every
+  6.30  TXT [6.3-15.5] large
+  6.50  txt [6.5-15.4] Real BFYP screen · Whale Activity · 23 SEP 2026 · 21:38 UTC
+  6.80  TXT [6.8-7.3] Large transfer · $1.09M LIT
+  6.80  txt [6.8-7.3] TYPED + SIZED
+  7.26  ZOOM [7.26-8.21] GROUPED · 2 similar transfers
+  7.80  TXT [7.8-8.3] 2 similar transfers
+  7.80  txt [7.8-8.3] GROUPED
+  8.23  ZOOM [8.23-9.17] WHO + WHERE · The wallet + its chain
+  8.80  TXT [8.8-9.2] The wallet + its chain
+  8.80  txt [8.8-9.2] WHO + WHERE
+  9.19  ZOOM [9.19-10.14] TRACK RECORD · Wallet score · ROI
+  9.70  TXT [9.7-10.2] Wallet score · ROI
+  9.70  txt [9.7-10.2] TRACK RECORD
+ 10.16  ZOOM [10.16-11.11] PROOF · Raw transaction, 1 click
+ 10.70  TXT [10.7-11.2] Raw transaction, 1 click
+ 10.70  txt [10.7-11.2] PROOF
+ 11.13  ZOOM [11.13-12.08] WHEN + SOURCE · Observed · detected · via
+ 11.70  TXT [11.7-12.1] Observed · detected · via
+ 11.70  txt [11.7-12.1] WHEN + SOURCE
+ 12.30  TXT [12.3-15.5] and
+ 12.30  TXT [12.3-15.5] move,
+ 12.30  TXT [12.3-15.5] sourced.
+ 12.30  TXT [12.3-15.5] typed
+ 12.58  sfx hit
+ 12.70  TXT [12.7-15.5] Evidence.
+ 12.70  TXT [12.7-15.5] Not an alert.
+ 15.48  --- CUT cta (zoom)
+ 15.48  sfx whoosh
+ 15.70  TXT [15.7-20.0] Read
+ 15.70  txt [15.7-20.0] ETTERFORYOURPOCKET
+ 15.80  TXT [15.8-20.0] evidence,
+ 15.80  TXT [15.8-20.0] the
+ 15.90  TXT [15.9-20.0] not
+ 15.90  TXT [15.9-20.0] the
+ 16.00  TXT [16.0-20.0] alert.
+ 16.10  TXT [16.1-20.0] The
+ 16.10  TXT [16.1-20.0] whale
+ 16.10  txt [16.1-20.0] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 16.20  TXT [16.2-20.0] betterforyourpocket.com
+ 16.20  TXT [16.2-20.0] feed
+ 16.20  TXT [16.2-20.0] is
+ 16.30  TXT [16.3-20.0] on
+ 16.40  TXT [16.4-20.0] free
+ 16.40  TXT [16.4-20.0] the
+ 16.40  txt [16.4-20.0] Educational market data. Not financial advice.
+ 16.50  TXT [16.5-20.0] plan.
+ 16.50  txt [16.5-20.0] Live data changes · screen from 23 Sep 2026
+ 19.36  sfx hit

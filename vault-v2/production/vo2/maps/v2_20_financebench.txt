@@ -1,0 +1,75 @@
+== v2_20_financebench  dur 21.00s  bpm 170  CTA at 16.941
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-4.5] 81%
+  0.00  TXT [0.0-4.5] SEC filings:
+  0.00  TXT [0.0-4.5] of questions on
+  0.00  TXT [0.0-4.5] wrong or refused.
+  0.00  txt [0.0-4.4] FinanceBench · Patronus AI · Nov 2023
+  0.00  txt [0.0-4.4] GPT-4-Turbo + retrieval · one test setup
+  0.00  sfx glitch
+  0.00  sfx impact
+  0.02  sfx glitch
+  4.24  --- CUT s2 (left)
+  4.40  TXT [4.4-7.3] incorrectly answered or refused to answer 81% of questions.
+  4.40  TXT [4.4-7.3] “GPT-4-Turbo used with a retrieval system
+  4.40  txt [4.4-7.2] Nov 2023
+  4.40  txt [4.4-7.2] Research paper · arXiv 2311.11944
+  4.40  txt [4.4-7.3] FinanceBench · Patronus AI · 150-question sample
+  7.06  --- CUT s3 (up)
+  7.06  sfx hit
+  7.10  TXT [7.1-11.4] Fast.
+  7.76  sfx hit
+  7.90  TXT [7.9-11.4] Fluent.
+  8.47  sfx hit
+  8.60  TXT [8.6-11.4] Unchecked.
+  9.53  sfx ding
+  9.60  TXT [9.6-11.4] Finance needs
+  9.60  TXT [9.6-11.4] receipts.
+ 11.29  --- CUT s4 (zoomIn)
+ 11.29  sfx impact
+ 11.29  sfx riser
+ 11.34  sfx ding
+ 11.50  txt [11.5-12.1] BFYP
+ 11.50  txt [11.5-12.1] On
+ 11.60  txt [11.6-12.1] NVDA
+ 11.70  txt [11.7-12.1] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC
+ 11.70  txt [11.7-12.1] as
+ 11.80  TXT [11.8-12.1] Start
+ 11.80  txt [11.8-12.1] filed
+ 11.90  TXT [11.9-12.1] from
+ 11.90  TXT [11.9-12.1] the
+ 12.00  TXT [12.0-12.1] filing.
+ 12.00  ZOOM [12.00-12.97] REVENUE · FY2026 · $215.9B · 10-K ✓
+ 12.20  txt [12.2-16.9] Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC
+ 12.50  TXT [12.5-13.0] $215.9B · 10-K ✓
+ 12.50  txt [12.5-13.0] REVENUE · FY2026
+ 12.97  ZOOM [12.97-13.94] NET INCOME · FY2026 · $120.1B · 10-K ✓
+ 13.50  TXT [13.5-14.0] $120.1B · 10-K ✓
+ 13.50  txt [13.5-14.0] NET INCOME · FY2026
+ 13.94  ZOOM [13.94-14.91] TOTAL ASSETS · $206.8B · 10-K ✓
+ 14.50  TXT [14.5-15.0] $206.8B · 10-K ✓
+ 14.50  txt [14.5-15.0] TOTAL ASSETS
+ 14.91  ZOOM [14.91-15.88] TOTAL LIABILITIES · $49.5B · 10-K ✓
+ 15.50  TXT [15.5-15.9] $49.5B · 10-K ✓
+ 15.50  txt [15.5-15.9] TOTAL LIABILITIES
+ 15.99  sfx hit
+ 16.10  TXT [16.1-17.0] Four figures.
+ 16.10  TXT [16.1-17.0] Four receipts.
+ 16.94  --- CUT cta (zoom)
+ 16.94  sfx whoosh
+ 17.10  txt [17.1-21.0] ETTERFORYOURPOCKET
+ 17.20  TXT [17.2-21.0] Answers
+ 17.20  TXT [17.2-21.0] you
+ 17.30  TXT [17.3-21.0] audit.
+ 17.30  TXT [17.3-21.0] can
+ 17.40  TXT [17.4-21.0] Filings
+ 17.50  TXT [17.5-21.0] AI
+ 17.50  TXT [17.5-21.0] first.
+ 17.50  txt [17.5-21.0] CAPTURED 23 SEP 2026 · 22:01 UTC
+ 17.60  TXT [17.6-21.0] Receipts
+ 17.60  TXT [17.6-21.0] betterforyourpocket.com
+ 17.60  TXT [17.6-21.0] second.
+ 17.70  TXT [17.7-21.0] always.
+ 17.90  txt [17.9-21.0] Educational market data. Not financial advice.
+ 18.00  txt [18.0-21.0] Screens from 23 Sep 2026 · live data changes
+ 20.82  sfx hit

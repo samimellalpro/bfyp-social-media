@@ -1,0 +1,81 @@
+== v2_28_no_invented  dur 26.73s  bpm 88  CTA at 20.695
+  0.00  --- CUT s1 (cut)
+  0.00  txt [0.0-2.9] CONSENSUS
+  0.00  txt [0.0-2.9] no data · nothing to show
+  0.00  sfx impact
+  0.20  TXT [0.2-2.9] No
+  0.40  TXT [0.4-2.9] data?
+  0.70  TXT [0.7-2.9] Then
+  1.00  TXT [1.0-2.9] show
+  1.40  TXT [1.4-2.9] nothing.
+  2.63  --- CUT s2 (left)
+  2.90  TXT [2.9-6.5] guess
+  3.20  TXT [3.2-6.5] 87%
+  3.20  TXT [3.2-6.5] dressed
+  3.20  txt [3.2-6.5] "CONSENSUS"
+  3.20  txt [3.2-6.5] BULLISH · "HIGH CONVICTION"
+  3.40  txt [3.4-6.5] Invented number · illustration of what not to do
+  3.60  TXT [3.6-6.5] up
+  3.80  TXT [3.8-6.5] as
+  4.00  TXT [4.0-6.5] data
+  4.30  TXT [4.3-6.5] is
+  4.40  TXT [4.4-6.5] worse
+  4.80  TXT [4.8-6.5] than
+  5.20  TXT [5.2-6.5] blank.
+  5.29  sfx stamp
+  5.30  TXT [5.3-6.5] MADE UP
+  6.38  --- CUT s3 (zoomIn)
+  6.48  sfx ding
+  6.50  txt [6.5-9.6] On
+  6.60  txt [6.6-9.6] BFYP
+  6.90  txt [6.9-9.6] Smart
+  7.10  txt [7.1-9.6] Money
+  7.30  TXT [7.3-9.6] The
+  7.40  TXT [7.4-9.6] Smart
+  7.70  TXT [7.7-9.6] Money
+  7.90  TXT [7.9-9.6] page
+  8.00  TXT [8.0-9.6] puts
+  8.20  TXT [8.2-9.6] it
+  8.30  TXT [8.3-9.6] plainly:
+  9.49  ZOOM [9.49-14.86]  · 
+  9.60  TXT [9.6-15.0] “When
+  9.70  txt [9.7-15.0] Verbatim · REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC
+  9.90  TXT [9.9-15.0] no
+ 10.10  TXT [10.1-15.0] scored
+ 10.50  TXT [10.5-15.0] wallet
+ 10.90  TXT [10.9-15.0] was
+ 11.20  TXT [11.2-15.0] active,
+ 11.60  TXT [11.6-15.0] we
+ 11.80  TXT [11.8-15.0] say
+ 12.00  TXT [12.0-15.0] so
+ 12.20  TXT [12.2-15.0] instead
+ 12.70  TXT [12.7-15.0] of
+ 12.90  TXT [12.9-15.0] inventing
+ 13.60  TXT [13.6-15.0] consensus.
+ 15.24  --- CUT s4 (left)
+ 15.40  TXT [15.4-18.3] On Today, a group with none in it
+ 15.40  TXT [15.4-18.3] is not shown.
+ 15.44  ZOOM [15.44-18.38] ON BFYP · TODAY · Empty groups aren’t padded
+ 15.50  txt [15.5-18.7] BFYP Today data · 23 SEP 2026 · 22:14 UTC
+ 15.90  TXT [15.9-18.4] Empty groups aren’t padded
+ 15.90  txt [15.9-18.4] ON BFYP · TODAY
+ 18.65  --- CUT s5 (zoomIn)
+ 18.75  sfx hit
+ 18.80  TXT [18.8-20.9] Empty
+ 19.20  TXT [19.2-20.9] is
+ 19.40  TXT [19.4-20.9] an
+ 19.60  TXT [19.6-20.9] answer.
+ 20.70  --- CUT cta (zoom)
+ 20.70  sfx whoosh
+ 20.90  TXT [20.9-26.8] Data
+ 20.90  txt [20.9-26.8] ETTERFORYOURPOCKET
+ 21.00  TXT [21.0-26.8] doesn’t
+ 21.00  TXT [21.0-26.8] that
+ 21.10  TXT [21.1-26.8] pretend.
+ 21.20  TXT [21.2-26.8] Free
+ 21.20  TXT [21.2-26.8] at
+ 21.30  TXT [21.3-26.8] betterforyourpocket.com
+ 21.30  txt [21.3-26.8] CAPTURED 23 SEP 2026 · 22:14 UTC
+ 21.40  TXT [21.4-26.8] betterforyourpocket.com
+ 21.60  txt [21.6-26.8] Educational market data. Not financial advice.
+ 21.70  txt [21.7-26.8] Screens from 23 Sep 2026 · AI voice

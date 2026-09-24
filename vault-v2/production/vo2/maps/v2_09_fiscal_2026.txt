@@ -1,0 +1,68 @@
+== v2_09_fiscal_2026  dur 20.40s  bpm 126  CTA at 16.667
+  0.00  --- CUT s1 (cut)
+  0.00  TXT [0.0-2.0] Pick one.
+  0.00  TXT [0.0-5.9] fiscal 2026
+  0.00  TXT [0.0-6.0] When did NVIDIA’s
+  0.00  TXT [0.0-6.0] end?
+  0.00  txt [0.0-6.0] Quick quiz
+  0.00  sfx impact
+  0.10  TXT [0.1-4.1] Dec 31, 2025
+  0.10  TXT [0.1-4.1] Dec 31, 2026
+  0.20  TXT [0.2-5.9] Jan 25, 2026
+  2.00  TXT [2.0-2.6] Answer in 3…
+  2.60  TXT [2.6-3.2] Answer in 2…
+  3.20  TXT [3.2-3.9] Answer in 1…
+  4.00  TXT [4.0-6.0] C.
+  4.00  TXT [4.0-6.0] January 25, 2026.
+  5.71  --- CUT s2 (left)
+  6.00  TXT [6.0-8.8] “For fiscal 2026, revenue was $215.9 billion, up 65% from a year ago.”
+  6.00  txt [6.0-8.8] 25 Feb 2026
+  6.00  txt [6.0-8.8] Fiscal year ended January 25, 2026.
+  6.00  txt [6.0-8.8] NVIDIA · Q4 & fiscal 2026 results
+  6.00  txt [6.0-8.8] nvidianews.nvidia.com · Form 10-K on SEC EDGAR
+  8.57  --- CUT s3 (up)
+  8.57  sfx hit
+  8.70  TXT [8.7-12.5] Fiscal years don’t
+  8.70  TXT [8.7-12.5] follow
+  8.70  TXT [8.7-12.5] the calendar.
+ 10.00  sfx hit
+ 10.10  TXT [10.1-12.5] Compare the wrong
+ 10.10  TXT [10.1-12.5] periods, get the
+ 10.10  TXT [10.1-12.5] wrong story.
+ 12.38  --- CUT s4 (zoomIn)
+ 12.38  sfx impact
+ 12.38  sfx riser
+ 12.43  sfx ding
+ 12.60  txt [12.6-13.0] BFYP
+ 12.60  txt [12.6-13.0] On
+ 12.70  txt [12.7-13.0] NVDA
+ 12.80  txt [12.8-13.0] REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC
+ 12.80  txt [12.8-13.0] fundamentals
+ 12.86  ZOOM [12.86-14.76] AS FILED · Revenue $215.9B
+ 12.90  TXT [12.9-13.0] Every
+ 13.00  txt [13.0-16.7] Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC
+ 13.40  TXT [13.4-14.8] Revenue $215.9B
+ 13.40  txt [13.4-14.8] AS FILED
+ 14.76  ZOOM [14.76-16.57] THE PERIOD · FY2026 · ended 2026-01-25 · 10-K
+ 15.30  TXT [15.3-16.6] FY2026 · ended 2026-01-25 · 10-K
+ 15.30  txt [15.3-16.6] THE PERIOD
+ 16.67  --- CUT cta (zoom)
+ 16.67  sfx whoosh
+ 16.90  TXT [16.9-20.4] Every
+ 16.90  TXT [16.9-20.4] number
+ 16.90  txt [16.9-20.4] ETTERFORYOURPOCKET
+ 17.00  TXT [17.0-20.4] with
+ 17.10  TXT [17.1-20.4] its
+ 17.10  TXT [17.1-20.4] period.
+ 17.20  TXT [17.2-20.4] Straight
+ 17.20  TXT [17.2-20.4] from
+ 17.20  txt [17.2-20.4] CAPTURED 23 SEP 2026 · 22:01 UTC
+ 17.30  TXT [17.3-20.4] the
+ 17.40  TXT [17.4-20.4] 10-K
+ 17.40  TXT [17.4-20.4] betterforyourpocket.com
+ 17.40  TXT [17.4-20.4] on
+ 17.50  TXT [17.5-20.4] EDGAR.
+ 17.50  TXT [17.5-20.4] SEC
+ 17.60  txt [17.6-20.4] Educational market data. Not financial advice.
+ 17.70  txt [17.7-20.4] Live data changes · screen from 23 Sep 2026
+ 20.00  sfx hit

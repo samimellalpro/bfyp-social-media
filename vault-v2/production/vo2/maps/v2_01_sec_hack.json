@@ -1,0 +1,833 @@
+{
+ "reel": "v2_01_sec_hack",
+ "dur": 21.4,
+ "bpm": 90,
+ "music": {
+  "style": "cinematic",
+  "bpm": 90,
+  "key": "D",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 4,
+    "type": "tension"
+   },
+   {
+    "beat": 15,
+    "type": "build"
+   },
+   {
+    "beat": 16,
+    "type": "drop"
+   },
+   {
+    "beat": 25,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 2.667,
+   "kind": "left"
+  },
+  {
+   "shot": "s3",
+   "t": 5.333,
+   "kind": "up"
+  },
+  {
+   "shot": "s4",
+   "t": 7.667,
+   "kind": "zoom"
+  },
+  {
+   "shot": "s5",
+   "t": 9.333,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s6",
+   "t": 10.667,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 16.667,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.0,
+   "t_out": 2.9,
+   "host": "s1_h",
+   "text": "The SEC's own account",
+   "size": 92,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.9,
+   "host": "s1_h",
+   "text": "posted",
+   "size": 92,
+   "y": 250,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.9,
+   "host": "s1_h",
+   "text": "fake news.",
+   "size": 92,
+   "y": 423,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.9,
+   "host": "s1_card",
+   "text": "9 Jan 2024 · 4:11 pm ET",
+   "size": 25,
+   "y": 741,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.9,
+   "host": "s1_card",
+   "text": "X post · @SECGov · unauthorized",
+   "size": 25,
+   "y": 750,
+   "headline": false
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.9,
+   "host": "s1_card",
+   "text": "“Today the SEC grants approval for #Bitcoin ETFs for listing on all registered national se",
+   "size": 54,
+   "y": 826,
+   "headline": true
+  },
+  {
+   "t_in": 0.0,
+   "t_out": 2.9,
+   "host": "s1_card",
+   "text": "Source: sec.gov/secgov-x-account",
+   "size": 24,
+   "y": 1097,
+   "headline": false
+  },
+  {
+   "t_in": 1.1,
+   "t_out": 2.9,
+   "host": "s1_fake",
+   "text": "FAKE",
+   "size": 84,
+   "y": 604,
+   "headline": true
+  },
+  {
+   "t_in": 2.8,
+   "t_out": 5.5,
+   "host": "s2_a",
+   "text": "Bitcoin",
+   "size": 150,
+   "y": 575,
+   "headline": true
+  },
+  {
+   "t_in": 2.8,
+   "t_out": 5.5,
+   "host": "s2_a",
+   "text": "+$1,000",
+   "size": 190,
+   "y": 716,
+   "headline": true
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 5.6,
+   "host": "s2_b",
+   "text": "↓ −$2,000",
+   "size": 110,
+   "y": 986,
+   "headline": true
+  },
+  {
+   "t_in": 3.8,
+   "t_out": 5.6,
+   "host": "s2_b",
+   "text": "then",
+   "size": 110,
+   "y": 1002,
+   "headline": true
+  },
+  {
+   "t_in": 4.1,
+   "t_out": 5.6,
+   "host": "s2_src",
+   "text": "Per BTC · per U.S. Department of Justice",
+   "size": 24,
+   "y": 1292,
+   "headline": false
+  },
+  {
+   "t_in": 5.5,
+   "t_out": 7.8,
+   "host": "s3_eb",
+   "text": "15 minutes later…",
+   "size": 70,
+   "y": 456,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.8,
+   "host": "s3_card",
+   "text": "X post · SEC Chair Gary Gensler",
+   "size": 25,
+   "y": 623,
+   "headline": false
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.8,
+   "host": "s3_card",
+   "text": "9 Jan 2024 · 4:26 pm ET",
+   "size": 25,
+   "y": 623,
+   "headline": false
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.8,
+   "host": "s3_card",
+   "text": "“The @SECGov twitter account was compromised, and an unauthorized tweet was posted.",
+   "size": 52,
+   "y": 709,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.8,
+   "host": "s3_card",
+   "text": "the listing and trading of spot bitcoin exchange-traded products.”",
+   "size": 52,
+   "y": 709,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.8,
+   "host": "s3_card",
+   "text": "The SEC has not approved",
+   "size": 52,
+   "y": 897,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.8,
+   "host": "s3_card",
+   "text": "Source: x.com/GenslerArchive",
+   "size": 24,
+   "y": 1112,
+   "headline": false
+  },
+  {
+   "t_in": 7.8,
+   "t_out": 9.4,
+   "host": "s4_h_w0",
+   "text": "The",
+   "size": 92,
+   "y": 430,
+   "headline": true
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 9.4,
+   "host": "s4_h_w1",
+   "text": "real",
+   "size": 92,
+   "y": 433,
+   "headline": true
+  },
+  {
+   "t_in": 7.9,
+   "t_out": 9.4,
+   "host": "s4_h_w2",
+   "text": "approval",
+   "size": 92,
+   "y": 438,
+   "headline": true
+  },
+  {
+   "t_in": 8.0,
+   "t_out": 9.4,
+   "host": "s4_h_w3",
+   "text": "came",
+   "size": 92,
+   "y": 522,
+   "headline": true
+  },
+  {
+   "t_in": 8.0,
+   "t_out": 9.4,
+   "host": "s4_h_w4",
+   "text": "the",
+   "size": 92,
+   "y": 527,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 9.4,
+   "host": "s4_h_w5",
+   "text": "next",
+   "size": 92,
+   "y": 522,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 9.4,
+   "host": "s4_h_w6",
+   "text": "day.",
+   "size": 92,
+   "y": 527,
+   "headline": true
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 9.4,
+   "host": "s4_tl_lab0",
+   "text": "9 JAN 2024",
+   "size": 26,
+   "y": 948,
+   "headline": false
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 9.4,
+   "host": "s4_tl_lab0",
+   "text": "Fake post",
+   "size": 38,
+   "y": 990,
+   "headline": false
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 9.4,
+   "host": "s4_tl_lab1",
+   "text": "10 JAN 2024",
+   "size": 26,
+   "y": 945,
+   "headline": false
+  },
+  {
+   "t_in": 9.1,
+   "t_out": 9.4,
+   "host": "s4_tl_lab1",
+   "text": "Official SEC order",
+   "size": 38,
+   "y": 987,
+   "headline": false
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 10.8,
+   "host": "s5_t",
+   "text": "If an official account",
+   "size": 112,
+   "y": 688,
+   "headline": true
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 10.8,
+   "host": "s5_t",
+   "text": "can be faked,",
+   "size": 112,
+   "y": 688,
+   "headline": true
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 10.8,
+   "host": "s5_t",
+   "text": "any post can.",
+   "size": 112,
+   "y": 1045,
+   "headline": true
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 16.7,
+   "host": "s6_h_w0",
+   "text": "The",
+   "size": 30,
+   "y": 255,
+   "headline": false
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 16.7,
+   "host": "s6_h_w1",
+   "text": "source",
+   "size": 30,
+   "y": 261,
+   "headline": false
+  },
+  {
+   "t_in": 11.0,
+   "t_out": 16.7,
+   "host": "s6_h_w3",
+   "text": "on",
+   "size": 30,
+   "y": 259,
+   "headline": false
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 16.7,
+   "host": "s6_h_w4",
+   "text": "BFYP",
+   "size": 30,
+   "y": 254,
+   "headline": false
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 16.7,
+   "host": "s6_h_w5",
+   "text": "The",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 16.7,
+   "host": "s6_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 23,
+   "y": 564,
+   "headline": false
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 16.7,
+   "host": "s6_h_w6",
+   "text": "filing",
+   "size": 92,
+   "y": 315,
+   "headline": true
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 16.7,
+   "host": "s6_h_w7",
+   "text": "itself.",
+   "size": 92,
+   "y": 320,
+   "headline": true
+  },
+  {
+   "t_in": 11.3,
+   "t_out": 16.7,
+   "host": "s6_h_w8",
+   "text": "Dated.",
+   "size": 92,
+   "y": 403,
+   "headline": true
+  },
+  {
+   "t_in": 11.3,
+   "t_out": 16.7,
+   "host": "s6_h_w9",
+   "text": "Linked.",
+   "size": 92,
+   "y": 408,
+   "headline": true
+  },
+  {
+   "t_in": 11.5,
+   "t_out": 16.6,
+   "host": "s6_cap",
+   "text": "Real BFYP screen · Stocks · NVDA · 23 SEP 2026 · 22:01 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.7,
+   "host": "s6_card_co0",
+   "text": "Every filing shows its date",
+   "size": 44,
+   "y": 330,
+   "headline": true
+  },
+  {
+   "t_in": 11.9,
+   "t_out": 12.7,
+   "host": "s6_card_co0",
+   "text": "DATED",
+   "size": 24,
+   "y": 351,
+   "headline": false
+  },
+  {
+   "t_in": 13.2,
+   "t_out": 14.1,
+   "host": "s6_card_co1",
+   "text": "Opens the original on SEC.gov",
+   "size": 44,
+   "y": 333,
+   "headline": true
+  },
+  {
+   "t_in": 13.2,
+   "t_out": 14.1,
+   "host": "s6_card_co1",
+   "text": "LINKED",
+   "size": 24,
+   "y": 353,
+   "headline": false
+  },
+  {
+   "t_in": 14.5,
+   "t_out": 15.4,
+   "host": "s6_card_co2",
+   "text": "Event period + filing date",
+   "size": 44,
+   "y": 338,
+   "headline": true
+  },
+  {
+   "t_in": 14.5,
+   "t_out": 15.4,
+   "host": "s6_card_co2",
+   "text": "BOTH DATES",
+   "size": 24,
+   "y": 357,
+   "headline": false
+  },
+  {
+   "t_in": 15.6,
+   "t_out": 16.7,
+   "host": "s6_sum",
+   "text": "Posts can be faked.",
+   "size": 70,
+   "y": 1334,
+   "headline": true
+  },
+  {
+   "t_in": 15.6,
+   "t_out": 16.7,
+   "host": "s6_sum",
+   "text": "Filings are the record.",
+   "size": 70,
+   "y": 1396,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 21.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 220,
+   "headline": false
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 21.4,
+   "host": "cta_h_w0",
+   "text": "Read",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 16.9,
+   "t_out": 21.4,
+   "host": "cta_h_w1",
+   "text": "the",
+   "size": 92,
+   "y": 316,
+   "headline": true
+  },
+  {
+   "t_in": 17.0,
+   "t_out": 21.4,
+   "host": "cta_h_w2",
+   "text": "filing,",
+   "size": 92,
+   "y": 309,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 21.4,
+   "host": "cta_h_w3",
+   "text": "not",
+   "size": 92,
+   "y": 393,
+   "headline": true
+  },
+  {
+   "t_in": 17.1,
+   "t_out": 21.4,
+   "host": "cta_h_w4",
+   "text": "the",
+   "size": 92,
+   "y": 402,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 21.4,
+   "host": "cta_h_w5",
+   "text": "post.",
+   "size": 92,
+   "y": 395,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 21.4,
+   "host": "cta_h_w6",
+   "text": "Every",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 17.2,
+   "t_out": 21.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 22:01 UTC",
+   "size": 19,
+   "y": 673,
+   "headline": false
+  },
+  {
+   "t_in": 17.3,
+   "t_out": 21.4,
+   "host": "cta_h_w7",
+   "text": "NVIDIA",
+   "size": 44,
+   "y": 511,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 21.4,
+   "host": "cta_h_w8",
+   "text": "filing,",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 21.4,
+   "host": "cta_h_w9",
+   "text": "dated",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 17.4,
+   "t_out": 21.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1236,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 21.4,
+   "host": "cta_h_w10",
+   "text": "and",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 17.5,
+   "t_out": 21.4,
+   "host": "cta_h_w11",
+   "text": "linked.",
+   "size": 44,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 17.6,
+   "t_out": 21.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 21.4,
+   "host": "cta_note",
+   "text": "Live data changes · screen from 23 Sep 2026",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s6_card",
+   "t0": 11.333,
+   "t1": 12.667,
+   "key": "DATED",
+   "text": "Every filing shows its date"
+  },
+  {
+   "screen": "s6_card",
+   "t0": 12.667,
+   "t1": 14.0,
+   "key": "LINKED",
+   "text": "Opens the original on SEC.gov"
+  },
+  {
+   "screen": "s6_card",
+   "t0": 14.0,
+   "t1": 15.333,
+   "key": "BOTH DATES",
+   "text": "Event period + filing date"
+  }
+ ],
+ "cta": 16.667,
+ "karaoke": [],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "notif"
+  },
+  {
+   "t": 1.12,
+   "type": "stamp"
+  },
+  {
+   "t": 2.667,
+   "type": "whoosh"
+  },
+  {
+   "t": 3.733,
+   "type": "subdrop"
+  },
+  {
+   "t": 3.733,
+   "type": "hit"
+  },
+  {
+   "t": 5.483,
+   "type": "notif"
+  },
+  {
+   "t": 8.205,
+   "type": "tick"
+  },
+  {
+   "t": 8.733,
+   "type": "ding"
+  },
+  {
+   "t": 8.961,
+   "type": "tick"
+  },
+  {
+   "t": 9.333,
+   "type": "hit"
+  },
+  {
+   "t": 10.667,
+   "type": "riser"
+  },
+  {
+   "t": 10.667,
+   "type": "impact"
+  },
+  {
+   "t": 10.717,
+   "type": "ding"
+  },
+  {
+   "t": 10.967,
+   "type": "scan"
+  },
+  {
+   "t": 11.333,
+   "type": "swish"
+  },
+  {
+   "t": 11.69,
+   "type": "click"
+  },
+  {
+   "t": 12.667,
+   "type": "swish"
+  },
+  {
+   "t": 13.024,
+   "type": "click"
+  },
+  {
+   "t": 14,
+   "type": "swish"
+  },
+  {
+   "t": 14.357,
+   "type": "click"
+  },
+  {
+   "t": 15.467,
+   "type": "hit"
+  },
+  {
+   "t": 16.667,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.067,
+   "type": "sparkle"
+  },
+  {
+   "t": 17.267,
+   "type": "pop"
+  },
+  {
+   "t": 21.333,
+   "type": "hit"
+  }
+ ]
+}

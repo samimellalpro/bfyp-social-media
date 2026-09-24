@@ -1,0 +1,54 @@
+== v2_24_three_wins  dur 21.37s  bpm 134  CTA at 14.676
+  0.00  --- CUT s1 (cut)
+  0.00  sfx impact
+  0.20  TXT [0.2-4.3] Three
+  0.60  TXT [0.6-4.3] wins
+  0.90  TXT [0.9-4.3] in
+  1.20  TXT [1.2-4.3] row.
+  2.30  TXT [2.3-4.3] Genius,
+  2.80  TXT [2.8-4.3] or
+  3.10  TXT [3.1-4.3] luck?
+  4.15  --- CUT s2 (zoomIn)
+  4.30  TXT [4.3-7.6] Honestly?
+  4.90  TXT [4.9-7.6] short
+  5.20  TXT [5.2-7.6] track
+  5.60  TXT [5.6-7.6] record
+  5.90  TXT [5.9-7.6] can’t
+  6.20  TXT [6.2-7.6] tell
+  6.50  TXT [6.5-7.5] you.
+  7.29  --- CUT s3 (left)
+  7.40  TXT [7.4-10.8] Three
+  7.80  TXT [7.8-10.8] good
+  8.10  TXT [8.1-10.8] calls
+  8.40  TXT [8.4-10.8] is
+  8.80  TXT [8.8-10.8] sample,
+  9.20  TXT [9.2-10.8] not
+  9.50  TXT [9.5-10.8] style.
+  9.76  sfx hit
+ 10.65  --- CUT s4 (zoomIn)
+ 10.75  sfx impact
+ 10.80  sfx ding
+ 10.80  TXT [10.8-14.4] On BFYP, thin history reads
+ 10.80  TXT [10.8-14.4] unproven.
+ 10.80  txt [10.8-11.1] REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC
+ 10.95  ZOOM [10.95-14.63] ON BFYP · SMART MONEY · Thin history reads “Unproven”
+ 11.20  txt [11.2-14.7] Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC
+ 11.40  TXT [11.4-14.7] Thin history reads “Unproven”
+ 11.40  txt [11.4-14.7] ON BFYP · SMART MONEY
+ 14.68  --- CUT cta (zoom)
+ 14.68  sfx whoosh
+ 14.90  TXT [14.9-21.4] Scores
+ 14.90  txt [14.9-21.4] ETTERFORYOURPOCKET
+ 15.00  TXT [15.0-21.4] admit
+ 15.00  TXT [15.0-21.4] that
+ 15.10  TXT [15.1-21.4] they
+ 15.10  TXT [15.1-21.4] what
+ 15.20  TXT [15.2-21.4] don’t
+ 15.20  txt [15.2-21.4] CAPTURED 23 SEP 2026 · 21:38 UTC
+ 15.30  TXT [15.3-21.4] Free
+ 15.30  TXT [15.3-21.4] know.
+ 15.40  TXT [15.4-21.4] at
+ 15.40  TXT [15.4-21.4] betterforyourpocket.com
+ 15.40  TXT [15.4-21.4] betterforyourpocket.com
+ 15.60  txt [15.6-21.4] Educational market data. Not financial advice.
+ 15.70  txt [15.7-21.4] Screen from 23 Sep 2026 · AI voice

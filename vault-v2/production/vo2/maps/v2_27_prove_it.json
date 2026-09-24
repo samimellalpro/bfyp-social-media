@@ -1,0 +1,533 @@
+{
+ "reel": "v2_27_prove_it",
+ "dur": 23.6,
+ "bpm": 92,
+ "music": {
+  "style": "cinematic",
+  "bpm": 92,
+  "key": "E",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "tension"
+   },
+   {
+    "beat": 13,
+    "type": "build"
+   },
+   {
+    "beat": 20,
+    "type": "drop"
+   },
+   {
+    "beat": 27,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 3.487,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 9.03,
+   "kind": "left"
+  },
+  {
+   "shot": "s4",
+   "t": 12.944,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 17.509,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.2,
+   "t_out": 3.7,
+   "host": "s1_t_w0",
+   "text": "If",
+   "size": 118,
+   "y": 526,
+   "headline": true
+  },
+  {
+   "t_in": 0.4,
+   "t_out": 3.7,
+   "host": "s1_t_w1",
+   "text": "it",
+   "size": 118,
+   "y": 526,
+   "headline": true
+  },
+  {
+   "t_in": 0.5,
+   "t_out": 3.7,
+   "host": "s1_t_w2",
+   "text": "can’t",
+   "size": 118,
+   "y": 524,
+   "headline": true
+  },
+  {
+   "t_in": 0.8,
+   "t_out": 3.7,
+   "host": "s1_t_w3",
+   "text": "be",
+   "size": 118,
+   "y": 525,
+   "headline": true
+  },
+  {
+   "t_in": 1.0,
+   "t_out": 3.7,
+   "host": "s1_t_w4",
+   "text": "proven",
+   "size": 118,
+   "y": 642,
+   "headline": true
+  },
+  {
+   "t_in": 1.4,
+   "t_out": 3.7,
+   "host": "s1_t_w5",
+   "text": "wrong,",
+   "size": 118,
+   "y": 643,
+   "headline": true
+  },
+  {
+   "t_in": 1.7,
+   "t_out": 3.7,
+   "host": "s1_t_w6",
+   "text": "it’s",
+   "size": 118,
+   "y": 759,
+   "headline": true
+  },
+  {
+   "t_in": 1.9,
+   "t_out": 3.7,
+   "host": "s1_t_w7",
+   "text": "just",
+   "size": 118,
+   "y": 759,
+   "headline": true
+  },
+  {
+   "t_in": 2.3,
+   "t_out": 3.7,
+   "host": "s1_t_w9",
+   "text": "vibe.",
+   "size": 118,
+   "y": 759,
+   "headline": true
+  },
+  {
+   "t_in": 3.6,
+   "t_out": 5.3,
+   "host": "s2_q0",
+   "text": "“It’ll pump eventually.”",
+   "size": 100,
+   "y": 375,
+   "headline": true
+  },
+  {
+   "t_in": 4.0,
+   "t_out": 9.3,
+   "host": "s2_ill",
+   "text": "Typical claims · illustration",
+   "size": 21,
+   "y": 1361,
+   "headline": false
+  },
+  {
+   "t_in": 5.5,
+   "t_out": 7.0,
+   "host": "s2_q1",
+   "text": "“Smart money knows.”",
+   "size": 100,
+   "y": 696,
+   "headline": true
+  },
+  {
+   "t_in": 7.5,
+   "t_out": 8.7,
+   "host": "s2_q2",
+   "text": "“Trust me.”",
+   "size": 100,
+   "y": 1026,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 13.1,
+   "host": "s3_t_w0",
+   "text": "None",
+   "size": 118,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 9.4,
+   "t_out": 13.1,
+   "host": "s3_t_w1",
+   "text": "of",
+   "size": 118,
+   "y": 522,
+   "headline": true
+  },
+  {
+   "t_in": 9.6,
+   "t_out": 13.1,
+   "host": "s3_t_w2",
+   "text": "these",
+   "size": 118,
+   "y": 520,
+   "headline": true
+  },
+  {
+   "t_in": 9.9,
+   "t_out": 13.1,
+   "host": "s3_t_w3",
+   "text": "can",
+   "size": 118,
+   "y": 631,
+   "headline": true
+  },
+  {
+   "t_in": 10.1,
+   "t_out": 13.1,
+   "host": "s3_t_w4",
+   "text": "ever",
+   "size": 118,
+   "y": 633,
+   "headline": true
+  },
+  {
+   "t_in": 10.4,
+   "t_out": 13.1,
+   "host": "s3_t_w5",
+   "text": "be",
+   "size": 118,
+   "y": 631,
+   "headline": true
+  },
+  {
+   "t_in": 10.6,
+   "t_out": 13.1,
+   "host": "s3_t_w6",
+   "text": "wrong.",
+   "size": 118,
+   "y": 742,
+   "headline": true
+  },
+  {
+   "t_in": 10.9,
+   "t_out": 13.1,
+   "host": "s3_t_w7",
+   "text": "So",
+   "size": 118,
+   "y": 742,
+   "headline": true
+  },
+  {
+   "t_in": 11.1,
+   "t_out": 13.1,
+   "host": "s3_t_w8",
+   "text": "they",
+   "size": 118,
+   "y": 742,
+   "headline": true
+  },
+  {
+   "t_in": 11.3,
+   "t_out": 13.1,
+   "host": "s3_t_w9",
+   "text": "tell",
+   "size": 118,
+   "y": 853,
+   "headline": true
+  },
+  {
+   "t_in": 11.6,
+   "t_out": 13.1,
+   "host": "s3_t_w10",
+   "text": "you",
+   "size": 118,
+   "y": 853,
+   "headline": true
+  },
+  {
+   "t_in": 11.8,
+   "t_out": 13.1,
+   "host": "s3_t_w11",
+   "text": "nothing.",
+   "size": 118,
+   "y": 853,
+   "headline": true
+  },
+  {
+   "t_in": 13.1,
+   "t_out": 13.4,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 23,
+   "y": 593,
+   "headline": false
+  },
+  {
+   "t_in": 13.1,
+   "t_out": 17.0,
+   "host": "sub_0",
+   "text": "On BFYP, every line names",
+   "size": 48,
+   "y": 1290,
+   "headline": true
+  },
+  {
+   "t_in": 13.1,
+   "t_out": 17.0,
+   "host": "sub_0",
+   "text": "what would prove it.",
+   "size": 48,
+   "y": 1302,
+   "headline": true
+  },
+  {
+   "t_in": 13.5,
+   "t_out": 17.5,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Today · 23 SEP 2026 · 21:28 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 13.7,
+   "t_out": 17.5,
+   "host": "s4_card_co0",
+   "text": "Every line names what would prove it",
+   "size": 44,
+   "y": 336,
+   "headline": true
+  },
+  {
+   "t_in": 13.7,
+   "t_out": 17.5,
+   "host": "s4_card_co0",
+   "text": "ON BFYP · TODAY",
+   "size": 24,
+   "y": 355,
+   "headline": false
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 23.6,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 17.7,
+   "t_out": 23.6,
+   "host": "cta_h_w0",
+   "text": "Trade",
+   "size": 92,
+   "y": 308,
+   "headline": true
+  },
+  {
+   "t_in": 17.8,
+   "t_out": 23.6,
+   "host": "cta_h_w1",
+   "text": "vibes",
+   "size": 92,
+   "y": 306,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 23.6,
+   "host": "cta_h_w2",
+   "text": "for",
+   "size": 92,
+   "y": 391,
+   "headline": true
+  },
+  {
+   "t_in": 17.9,
+   "t_out": 23.6,
+   "host": "cta_h_w3",
+   "text": "evidence.",
+   "size": 92,
+   "y": 398,
+   "headline": true
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 23.6,
+   "host": "cta_h_w4",
+   "text": "Free",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 18.0,
+   "t_out": 23.6,
+   "host": "cta_h_w5",
+   "text": "at",
+   "size": 44,
+   "y": 515,
+   "headline": true
+  },
+  {
+   "t_in": 18.1,
+   "t_out": 23.6,
+   "host": "cta_h_w6",
+   "text": "betterforyourpocket.com",
+   "size": 44,
+   "y": 508,
+   "headline": true
+  },
+  {
+   "t_in": 18.1,
+   "t_out": 23.6,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:28 UTC",
+   "size": 19,
+   "y": 671,
+   "headline": false
+  },
+  {
+   "t_in": 18.2,
+   "t_out": 23.6,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1239,
+   "headline": true
+  },
+  {
+   "t_in": 18.4,
+   "t_out": 23.6,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1376,
+   "headline": false
+  },
+  {
+   "t_in": 18.5,
+   "t_out": 23.6,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · AI voice",
+   "size": 22,
+   "y": 1420,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 13.243,
+   "t1": 17.459,
+   "key": "ON BFYP · TODAY",
+   "text": "Every line names what would prove it"
+  }
+ ],
+ "cta": 17.509,
+ "karaoke": [
+  {
+   "id": "s1_t",
+   "t0": 0.15,
+   "t1": 2.769
+  },
+  {
+   "id": "s3_t",
+   "t0": 9.13,
+   "t1": 12.432
+  }
+ ],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 3.507,
+   "type": "pop"
+  },
+  {
+   "t": 5.029,
+   "type": "swish"
+  },
+  {
+   "t": 5.463,
+   "type": "pop"
+  },
+  {
+   "t": 6.777,
+   "type": "swish"
+  },
+  {
+   "t": 7.42,
+   "type": "pop"
+  },
+  {
+   "t": 8.447,
+   "type": "swish"
+  },
+  {
+   "t": 12.132,
+   "type": "hit"
+  },
+  {
+   "t": 13.043,
+   "type": "riser"
+  },
+  {
+   "t": 13.043,
+   "type": "impact"
+  },
+  {
+   "t": 13.094,
+   "type": "ding"
+  },
+  {
+   "t": 13.243,
+   "type": "swish"
+  },
+  {
+   "t": 13.541,
+   "type": "click"
+  },
+  {
+   "t": 17.509,
+   "type": "whoosh"
+  },
+  {
+   "t": 17.909,
+   "type": "sparkle"
+  },
+  {
+   "t": 18.109,
+   "type": "pop"
+  }
+ ]
+}

@@ -1,0 +1,534 @@
+{
+ "reel": "v2_24_three_wins",
+ "dur": 21.366666666666667,
+ "bpm": 134,
+ "music": {
+  "style": "garage",
+  "bpm": 134,
+  "key": "A",
+  "mode": "minor",
+  "sections": [
+   {
+    "beat": 0,
+    "type": "hook"
+   },
+   {
+    "beat": 9,
+    "type": "tension"
+   },
+   {
+    "beat": 24,
+    "type": "drop"
+   },
+   {
+    "beat": 32,
+    "type": "cta"
+   }
+  ]
+ },
+ "shots": [
+  {
+   "shot": "s1",
+   "t": 0.0,
+   "kind": "cut"
+  },
+  {
+   "shot": "s2",
+   "t": 4.154,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "s3",
+   "t": 7.288,
+   "kind": "left"
+  },
+  {
+   "shot": "s4",
+   "t": 10.646,
+   "kind": "zoomIn"
+  },
+  {
+   "shot": "cta",
+   "t": 14.676,
+   "kind": "zoom"
+  }
+ ],
+ "texts": [
+  {
+   "t_in": 0.2,
+   "t_out": 4.3,
+   "host": "s1_t_w0",
+   "text": "Three",
+   "size": 118,
+   "y": 722,
+   "headline": true
+  },
+  {
+   "t_in": 0.6,
+   "t_out": 4.3,
+   "host": "s1_t_w1",
+   "text": "wins",
+   "size": 118,
+   "y": 722,
+   "headline": true
+  },
+  {
+   "t_in": 0.9,
+   "t_out": 4.3,
+   "host": "s1_t_w2",
+   "text": "in",
+   "size": 118,
+   "y": 835,
+   "headline": true
+  },
+  {
+   "t_in": 1.2,
+   "t_out": 4.3,
+   "host": "s1_t_w4",
+   "text": "row.",
+   "size": 118,
+   "y": 833,
+   "headline": true
+  },
+  {
+   "t_in": 2.3,
+   "t_out": 4.3,
+   "host": "s1_q_w0",
+   "text": "Genius,",
+   "size": 118,
+   "y": 1070,
+   "headline": true
+  },
+  {
+   "t_in": 2.8,
+   "t_out": 4.3,
+   "host": "s1_q_w1",
+   "text": "or",
+   "size": 118,
+   "y": 1071,
+   "headline": true
+  },
+  {
+   "t_in": 3.1,
+   "t_out": 4.3,
+   "host": "s1_q_w2",
+   "text": "luck?",
+   "size": 118,
+   "y": 1070,
+   "headline": true
+  },
+  {
+   "t_in": 4.3,
+   "t_out": 7.6,
+   "host": "s2_t_w0",
+   "text": "Honestly?",
+   "size": 118,
+   "y": 567,
+   "headline": true
+  },
+  {
+   "t_in": 4.9,
+   "t_out": 7.6,
+   "host": "s2_t_w2",
+   "text": "short",
+   "size": 118,
+   "y": 671,
+   "headline": true
+  },
+  {
+   "t_in": 5.2,
+   "t_out": 7.6,
+   "host": "s2_t_w3",
+   "text": "track",
+   "size": 118,
+   "y": 672,
+   "headline": true
+  },
+  {
+   "t_in": 5.6,
+   "t_out": 7.6,
+   "host": "s2_t_w4",
+   "text": "record",
+   "size": 118,
+   "y": 782,
+   "headline": true
+  },
+  {
+   "t_in": 5.9,
+   "t_out": 7.6,
+   "host": "s2_t_w5",
+   "text": "can’t",
+   "size": 118,
+   "y": 783,
+   "headline": true
+  },
+  {
+   "t_in": 6.2,
+   "t_out": 7.6,
+   "host": "s2_t_w6",
+   "text": "tell",
+   "size": 118,
+   "y": 782,
+   "headline": true
+  },
+  {
+   "t_in": 6.5,
+   "t_out": 7.5,
+   "host": "s2_t_w7",
+   "text": "you.",
+   "size": 118,
+   "y": 893,
+   "headline": true
+  },
+  {
+   "t_in": 7.4,
+   "t_out": 10.8,
+   "host": "s3_t_w0",
+   "text": "Three",
+   "size": 118,
+   "y": 561,
+   "headline": true
+  },
+  {
+   "t_in": 7.8,
+   "t_out": 10.8,
+   "host": "s3_t_w1",
+   "text": "good",
+   "size": 118,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 8.1,
+   "t_out": 10.8,
+   "host": "s3_t_w2",
+   "text": "calls",
+   "size": 118,
+   "y": 560,
+   "headline": true
+  },
+  {
+   "t_in": 8.4,
+   "t_out": 10.8,
+   "host": "s3_t_w3",
+   "text": "is",
+   "size": 118,
+   "y": 672,
+   "headline": true
+  },
+  {
+   "t_in": 8.8,
+   "t_out": 10.8,
+   "host": "s3_t_w5",
+   "text": "sample,",
+   "size": 118,
+   "y": 671,
+   "headline": true
+  },
+  {
+   "t_in": 9.2,
+   "t_out": 10.8,
+   "host": "s3_t_w6",
+   "text": "not",
+   "size": 118,
+   "y": 671,
+   "headline": true
+  },
+  {
+   "t_in": 9.5,
+   "t_out": 10.8,
+   "host": "s3_t_w8",
+   "text": "style.",
+   "size": 118,
+   "y": 783,
+   "headline": true
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 11.1,
+   "host": "s4_stamp",
+   "text": "REAL SCREEN · CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 23,
+   "y": 594,
+   "headline": false
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 14.4,
+   "host": "sub_0",
+   "text": "On BFYP, thin history reads",
+   "size": 48,
+   "y": 1290,
+   "headline": true
+  },
+  {
+   "t_in": 10.8,
+   "t_out": 14.4,
+   "host": "sub_0",
+   "text": "unproven.",
+   "size": 48,
+   "y": 1358,
+   "headline": true
+  },
+  {
+   "t_in": 11.2,
+   "t_out": 14.7,
+   "host": "s4_cap",
+   "text": "Real BFYP screen · Smart Money · 23 SEP 2026 · 21:38 UTC",
+   "size": 20,
+   "y": 1478,
+   "headline": false
+  },
+  {
+   "t_in": 11.4,
+   "t_out": 14.7,
+   "host": "s4_card_co0",
+   "text": "Thin history reads “Unproven”",
+   "size": 44,
+   "y": 336,
+   "headline": true
+  },
+  {
+   "t_in": 11.4,
+   "t_out": 14.7,
+   "host": "s4_card_co0",
+   "text": "ON BFYP · SMART MONEY",
+   "size": 24,
+   "y": 355,
+   "headline": false
+  },
+  {
+   "t_in": 14.9,
+   "t_out": 21.4,
+   "host": "cta_brand",
+   "text": "ETTERFORYOURPOCKET",
+   "size": 30,
+   "y": 219,
+   "headline": false
+  },
+  {
+   "t_in": 14.9,
+   "t_out": 21.4,
+   "host": "cta_h_w0",
+   "text": "Scores",
+   "size": 92,
+   "y": 304,
+   "headline": true
+  },
+  {
+   "t_in": 15.0,
+   "t_out": 21.4,
+   "host": "cta_h_w1",
+   "text": "that",
+   "size": 92,
+   "y": 303,
+   "headline": true
+  },
+  {
+   "t_in": 15.0,
+   "t_out": 21.4,
+   "host": "cta_h_w2",
+   "text": "admit",
+   "size": 92,
+   "y": 311,
+   "headline": true
+  },
+  {
+   "t_in": 15.1,
+   "t_out": 21.4,
+   "host": "cta_h_w3",
+   "text": "what",
+   "size": 92,
+   "y": 394,
+   "headline": true
+  },
+  {
+   "t_in": 15.1,
+   "t_out": 21.4,
+   "host": "cta_h_w4",
+   "text": "they",
+   "size": 92,
+   "y": 405,
+   "headline": true
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 21.4,
+   "host": "cta_h_w5",
+   "text": "don’t",
+   "size": 92,
+   "y": 397,
+   "headline": true
+  },
+  {
+   "t_in": 15.2,
+   "t_out": 21.4,
+   "host": "cta_vstamp",
+   "text": "CAPTURED 23 SEP 2026 · 21:38 UTC",
+   "size": 19,
+   "y": 673,
+   "headline": false
+  },
+  {
+   "t_in": 15.3,
+   "t_out": 21.4,
+   "host": "cta_h_w6",
+   "text": "know.",
+   "size": 92,
+   "y": 392,
+   "headline": true
+  },
+  {
+   "t_in": 15.3,
+   "t_out": 21.4,
+   "host": "cta_h_w7",
+   "text": "Free",
+   "size": 44,
+   "y": 512,
+   "headline": true
+  },
+  {
+   "t_in": 15.4,
+   "t_out": 21.4,
+   "host": "cta_h_w8",
+   "text": "at",
+   "size": 44,
+   "y": 506,
+   "headline": true
+  },
+  {
+   "t_in": 15.4,
+   "t_out": 21.4,
+   "host": "cta_h_w9",
+   "text": "betterforyourpocket.com",
+   "size": 44,
+   "y": 517,
+   "headline": true
+  },
+  {
+   "t_in": 15.4,
+   "t_out": 21.4,
+   "host": "cta_btn",
+   "text": "betterforyourpocket.com",
+   "size": 40,
+   "y": 1237,
+   "headline": true
+  },
+  {
+   "t_in": 15.6,
+   "t_out": 21.4,
+   "host": "cta_disc",
+   "text": "Educational market data. Not financial advice.",
+   "size": 26,
+   "y": 1375,
+   "headline": false
+  },
+  {
+   "t_in": 15.7,
+   "t_out": 21.4,
+   "host": "cta_note",
+   "text": "Screen from 23 Sep 2026 · AI voice",
+   "size": 22,
+   "y": 1419,
+   "headline": false
+  }
+ ],
+ "tours": [
+  {
+   "screen": "s4_card",
+   "t0": 10.946,
+   "t1": 14.626,
+   "key": "ON BFYP · SMART MONEY",
+   "text": "Thin history reads “Unproven”"
+  }
+ ],
+ "cta": 14.676,
+ "karaoke": [
+  {
+   "id": "s1_t",
+   "t0": 0.15,
+   "t1": 1.57
+  },
+  {
+   "id": "s1_q",
+   "t0": 2.239,
+   "t1": 3.542
+  },
+  {
+   "id": "s2_t",
+   "t0": 4.254,
+   "t1": 6.886
+  },
+  {
+   "id": "s3_t",
+   "t0": 7.388,
+   "t1": 10.059
+  }
+ ],
+ "cues": [
+  {
+   "t": 0,
+   "type": "impact"
+  },
+  {
+   "t": 0.05,
+   "type": "pop"
+  },
+  {
+   "t": 0.05,
+   "type": "tick"
+  },
+  {
+   "t": 0.37,
+   "type": "pop"
+  },
+  {
+   "t": 0.37,
+   "type": "tick"
+  },
+  {
+   "t": 0.69,
+   "type": "pop"
+  },
+  {
+   "t": 0.69,
+   "type": "tick"
+  },
+  {
+   "t": 3.442,
+   "type": "swish"
+  },
+  {
+   "t": 9.758,
+   "type": "hit"
+  },
+  {
+   "t": 10.746,
+   "type": "impact"
+  },
+  {
+   "t": 10.796,
+   "type": "ding"
+  },
+  {
+   "t": 10.946,
+   "type": "swish"
+  },
+  {
+   "t": 11.244,
+   "type": "click"
+  },
+  {
+   "t": 14.676,
+   "type": "whoosh"
+  },
+  {
+   "t": 15.076,
+   "type": "sparkle"
+  },
+  {
+   "t": 15.276,
+   "type": "pop"
+  }
+ ]
+}
