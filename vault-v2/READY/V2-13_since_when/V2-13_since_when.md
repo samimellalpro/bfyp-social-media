@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-13_since_when-1a6649b072.mp4` — 25.17 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.47 MB |
+| Reel (final) | `V2-13_since_when-c98d824013.mp4` — 25.17 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.48 MB |
 | Cover | `V2-13_since_when_cover-0491d6e303.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Voice-led · Interrogation → windows montage |
+| Format | Voice-led, karaoke captions · Interrogation → windows montage |
 | Music | Original, synthesized for this reel: garage · 130 BPM · C minor (no samples, no licensed audio) |
-| Voice | Fallback synthetic voice **BFYP-K1** (Kokoro-82M, local, blend am_michael 0.60 + am_onyx 0.25 + am_puck 0.15, speed 0.92). Replace with ElevenLabs Adam when the account is back; timings in `production/reels/v2_13_since_when.vo.json`. |
+| Voice | **BFYP-K2 · K2-M1 · Peer** — male, native English (en-us) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `am_puck` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | Yes — kept from the validated karaoke edit |
 | Opening hook (from 0 s) | “Whales are buying!” Since when? |
 | CTA | Numbers with a timeframe. → betterforyourpocket.com |
 
@@ -23,19 +24,29 @@ A number without a time window is noise. Every BFYP figure carries its window.
 5. PAYOFF — 'If it has no window, it's a vibe.'
 6. CTA — 'Numbers with a timeframe.'
 
-## Voice-over (as rendered)
-| start | end | line |
-|---:|---:|---|
-| 0.15 s | 1.30 s | Whales are buying. |
-| 1.85 s | 2.78 s | Since when? |
-| 3.46 s | 6.13 s | A number without a timeframe is just noise. |
-| 6.69 s | 10.23 s | On BFYP, every number carries its window. |
-| 10.85 s | 13.77 s | Twenty-four hours. Seven days. Thirty days. |
-| 14.31 s | 15.97 s | Observed, two hours ago. |
-| 16.62 s | 18.68 s | If it has no window, it's a vibe. |
-| 19.38 s | 23.77 s | Numbers with a timeframe. Free, at BetterForYourPocket.com. |
+## Voice direction (FR)
+- **Intention** : Le pote sceptique qui demande « depuis quand ? » : sans fenêtre de temps, un chiffre ne dit rien.
+- **Interprétation** : Conversationnel et complice, sourcils levés sur « Since when? », net sur les trois fenêtres.
+- **Rythme** : Vif, calé sur les créneaux d'origine des sous-titres karaoké (mêmes mots, mêmes instants).
+- **Énergie** : Moyenne-haute, un sourire sur « it's a vibe ».
+- **Pauses** : Celles du montage d'origine ; micro-temps entre « Twenty-four hours. Seven days. Thirty days. »
+- **Accents** : « Since when », « noise », « window », « two hours ago », « vibe »
 
-Isolated-voice QC: word match 1.000 · 2.95 words/s · median F0 109.4 Hz · F0 spread 8.14 st · min pause 0.54 s · no clipping → **PASS**. VO file sha256 `e6d7c526b37c59b7…`
+## Voice-over (as rendered) — same words and same slots as the karaoke captions
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.15 s | 1.32 s | Whales are buying. | créneau karaoké d'origine 0.15–1.30 s |
+| 1.85 s | 2.77 s | Since when? | créneau karaoké d'origine 1.85–2.78 s |
+| 3.46 s | 6.08 s | A number without a timeframe is just noise. | créneau karaoké d'origine 3.46–6.13 s |
+| 6.69 s | 10.23 s | On BFYP, every number carries its window. | créneau karaoké d'origine 6.69–10.23 s |
+| 10.85 s | 13.82 s | Twenty-four hours. Seven days. Thirty days. | créneau karaoké d'origine 10.85–13.77 s |
+| 14.31 s | 15.97 s | Observed, two hours ago. | créneau karaoké d'origine 14.31–15.97 s |
+| 16.61 s | 18.69 s | If it has no window, it's a vibe. | créneau karaoké d'origine 16.62–18.68 s |
+| 19.39 s | 23.89 s | Numbers with a timeframe. Free, at BetterForYourPocket.com. | créneau karaoké d'origine 19.38–23.77 s |
+
+Isolated-voice QC: ASR word match 0.982 (gate ≥ 0.97) · naturalness UTMOS mean 4.41 / min 4.28 (gates ≥ 4.0 / ≥ 3.6) · 2.93 words/s while speaking · every line inside its window · every line within ±4 % of its karaoke slot → **PASS**. VO file sha256 `41b0feed42b70df3…`
+
+Mix: dynamic ducking (music −11.1 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −8.1 dB, only while the voice speaks) · voice 9.0 LU over the bed (gate ≥ 7) · ASR on the final mix 0.982 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -84,11 +95,13 @@ On BFYP every number carries its window: 24h, 7-day, 30D, observed time → bett
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 25.17 s |
-| Loudness | −14.8 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3327 kb/s · 10.47 MB |
-| Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Bitrate / size | 3330 kb/s · 10.48 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 0.982 (gate ≥ 0.95) |
+| Voice over the bed | 9.0 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -101,6 +114,7 @@ On BFYP every number carries its window: 24h, 7-day, 30D, observed time → bett
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (hit×6, swish×4, click×4, impact×2, glitch×2, notif×1, ding×1, whoosh×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (hit×6, swish×4, click×4, impact×2, glitch×2, notif×1, ding×1, whoosh×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, male)
+- [x] Karaoke captions unchanged: the voice keeps the same words in the same slots
 
 **Verdict: READY**

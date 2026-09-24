@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-17_free_speedrun-d7aa10ade3.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 7.99 MB |
+| Reel (final) | `V2-17_free_speedrun-441ab26ea0.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 8.12 MB |
 | Cover | `V2-17_free_speedrun_cover-6478c0f226.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · Speed-run checklist |
+| Format | Directed voice-over over the text-led edit · Speed-run checklist |
 | Music | Original, synthesized for this reel: futurebass · 150 BPM · E major (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-F3 · Host** — female, native English (en-us) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `af_sarah` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “$0. Here’s everything it gets you.” |
 | CTA | Create a free account. → betterforyourpocket.com |
 
@@ -20,6 +21,29 @@ The free plan, listed exactly as the pricing page lists it, in 15 seconds.
 2. LIST — dashboard & live market overview · whale activity feed · Smart Money leaderboard · token, stock & ETF research pages · 3 watchlist entries · 3 alert rules + 10 whale alerts/month · 52 AI credits/month · CSV export preview (100 rows) · community support
 3. BFYP — real pricing screens: Free $0/month + the free-plan list
 4. CTA — 'Create a free account.'
+
+## Voice direction (FR)
+- **Intention** : Un speedrun joyeux du plan gratuit : la voix commente la course sans lire la liste, puis renvoie à la page tarifs comme preuve.
+- **Interprétation** : Hôte énergique et souriante, façon commentatrice de speedrun.
+- **Rythme** : Rapide, calé sur le tempo 150 bpm ; les listes groupées en rafales.
+- **Énergie** : Haute tout du long, un sourire sur « Ten out of ten ».
+- **Pauses** : Micro-respirations entre les rafales, pas de silence long.
+- **Accents** : « Zero dollars », « every month », « Ten out of ten », « pricing page », « free »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.12 s | 2.09 s | Zero dollars. How far does it go? | hook : $0 · « Here's everything it gets you. » |
+| 2.72 s | 4.84 s | Markets, whales, smart money, research. | items 01–04 |
+| 6.25 s | 7.58 s | A watchlist and alerts. | items 05–06 |
+| 8.05 s | 9.66 s | AI credits, every month. | items 07–08 |
+| 9.82 s | 11.85 s | Exports, support. Ten out of ten. | items 09–10 |
+| 12.25 s | 15.18 s | Don't take my word for it. It's on the pricing page. | écran réel Pricing (23 Sep 2026) |
+| 16.25 s | 18.72 s | Start free, at BetterForYourPocket.com | carte CTA |
+
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.45 / min 4.4 (gates ≥ 4.0 / ≥ 3.6) · 3.39 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `714e2adae0d20e93…`
+
+Mix: dynamic ducking (music −8.6 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −6.6 dB, only while the voice speaks) · voice 8.5 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -75,10 +99,13 @@ $0/month on BFYP: whale feed, Smart Money leaderboard, token/stock/ETF pages, 52
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.40 s |
-| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.9 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.5 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3133 kb/s · 7.99 MB |
+| Bitrate / size | 3185 kb/s · 8.12 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 8.5 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -91,6 +118,7 @@ $0/month on BFYP: whale feed, Smart Money leaderboard, token/stock/ETF pages, 52
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (pop×11, tick×10, whoosh×4, sparkle×2, impact×1, riser×1, hit×1)
+- [x] Sound: original music + sound design (pop×11, tick×10, whoosh×4, sparkle×2, impact×1, riser×1, hit×1) + directed voice-over (BFYP-K2, female)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**

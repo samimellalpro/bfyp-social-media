@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-20_financebench-fb05ad708b.mp4` — 21.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.46 MB |
+| Reel (final) | `V2-20_financebench-76ac9a26de.mp4` — 21.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.46 MB |
 | Cover | `V2-20_financebench_cover-38ff566a8d.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · Stat hook → traced answers |
+| Format | Directed voice-over over the text-led edit · Stat hook → traced answers |
 | Music | Original, synthesized for this reel: dnb · 170 BPM · E minor (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-F2 · Correspondent** — female, native English (en-gb) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `bf_emma` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “81% wrong or refused.” |
 | CTA | Answers you can audit. → betterforyourpocket.com |
 
@@ -22,6 +23,29 @@ A benchmark on SEC filings found a top AI setup wrong or refusing 81% of the tim
 4. BFYP — 'Start from the filing': NVDA fundamentals as filed, swept card by card: Revenue $215.9B · Net income $120.1B · Total assets $206.8B · Total liabilities $49.5B — each 'FY2026 · period ended 2026-01-25 · 10-K · SEC EDGAR'
 5. PAYOFF — 'Four figures. Four receipts.'
 6. CTA — 'Answers you can audit.'
+
+## Voice direction (FR)
+- **Intention** : Rapporter une étude sérieuse avec un euphémisme britannique, puis montrer l'antidote : partir du dépôt officiel.
+- **Interprétation** : Correspondante crédible : factuelle, pince-sans-rire sur « It didn't go well ».
+- **Rythme** : Vif (montage à 170 bpm) mais articulé ; laisse les trois coups « Fast. Fluent. Unchecked. » sans voix.
+- **Énergie** : Moyenne, plus ferme sur « Sounding right isn't being right ».
+- **Pauses** : Silence sur les trois impacts, silence sur « Four figures. Four receipts. ».
+- **Accents** : « tested », « didn't go well », « four in five », « isn't », « ten-K », « source », « filing »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.12 s | 2.91 s | Researchers tested an AI on SEC filings. | hook : 81 % · FinanceBench, Patronus AI, nov. 2023 |
+| 3.08 s | 4.22 s | It didn't go well. | euphémisme avant la citation |
+| 4.45 s | 6.88 s | More than four in five: wrong, or refused. | citation verbatim de l'étude (81 %) |
+| 9.62 s | 11.39 s | Sounding right isn't being right. | « Finance needs receipts. » (silence avant, sous « Fast. Fluent. Unchecked. ») |
+| 11.50 s | 13.70 s | Here, every figure comes from the 10-K. | écran réel NVDA as filed · zooms REVENUE / NET INCOME |
+| 14.00 s | 15.35 s | Each one, with its source. | zooms TOTAL ASSETS / TOTAL LIABILITIES |
+| 17.15 s | 20.12 s | Start from the filing. BetterForYourPocket.com | carte CTA « Answers you can audit. » (silence avant, sous « Four figures. Four receipts. ») |
+
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.26 / min 4.05 (gates ≥ 4.0 / ≥ 3.6) · 3.48 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `ee57baebe01f1da4…`
+
+Mix: dynamic ducking (music −11.8 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −9.3 dB, only while the voice speaks) · voice 9.5 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - FinanceBench: A New Benchmark for Financial Question Answering (Patronus AI, arXiv 2311.11944) — 20 Nov 2023 — https://arxiv.org/abs/2311.11944
@@ -75,10 +99,13 @@ Sources: FinanceBench: A New Benchmark for Financial Question Answering (Patronu
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 21.00 s |
-| Loudness | −14.5 LUFS integrated (target −14) · true peak −1.1 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
+| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.5 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3986 kb/s · 10.46 MB |
+| Bitrate / size | 3984 kb/s · 10.46 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 9.5 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -91,6 +118,7 @@ Sources: FinanceBench: A New Benchmark for Financial Question Answering (Patronu
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (hit×5, swish×4, click×4, glitch×2, impact×2, pop×2, ding×2, riser×1, scan×1, whoosh×1, sparkle×1)
+- [x] Sound: original music + sound design (hit×5, swish×4, click×4, glitch×2, impact×2, pop×2, ding×2, riser×1, scan×1, whoosh×1, sparkle×1) + directed voice-over (BFYP-K2, female)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**

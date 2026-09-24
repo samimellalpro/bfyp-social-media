@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-15_context_paste-3ff82930eb.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.32 MB |
+| Reel (final) | `V2-15_context_paste-0047da52ec.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.47 MB |
 | Cover | `V2-15_context_paste_cover-0dec48ac91.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · Chat illustration → Ask BFYP about this |
+| Format | Directed voice-over over the text-led edit · Chat illustration → Ask BFYP about this |
 | Music | Original, synthesized for this reel: amapiano · 115 BPM · Eb minor (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-F3 · Host** — female, native English (en-us) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `af_sarah` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “Copy. Paste. Explain. Repeat.” |
 | CTA | The asset comes with you. → betterforyourpocket.com |
 
@@ -22,6 +23,30 @@ Generic chatbots lack context; you re-explain every time. On BFYP the asset come
 4. BFYP — suggested questions: 'What changed in SPY over the last 24 hours?' 'Which filings has SPY made recently?'
 5. BFYP — 'Nothing is sent and no credits are used until you ask.' (spotlight)
 6. CTA — 'The asset comes with you.'
+
+## Voice direction (FR)
+- **Intention** : La lassitude du copier-coller dans un chatbot, puis la simplicité : sur BFYP, la recherche IA s'ouvre avec l'actif déjà chargé.
+- **Interprétation** : Hôte complice, un soupir amusé sur le rituel, puis ton léger et rassurant.
+- **Rythme** : Un peu traînant sur « Explain it all. Again. », puis fluide.
+- **Énergie** : Moyenne, remonte doucement sur la solution.
+- **Pauses** : Un temps après « Again » avant le changement de plan.
+- **Accents** : « same ritual », « Again », « square one », « already loaded », « your question »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.12 s | 1.93 s | Every new chat, the same ritual. | hook : saisie du long prompt (illustration) |
+| 2.12 s | 3.76 s | Explain it all. Again. | le prompt continue de s'écrire |
+| 4.30 s | 5.50 s | It can't see your screen. | « Your chatbot doesn't know what you're looking at. » |
+| 5.95 s | 7.32 s | So it's back to square one. | « So you rebuild the context. Every time. » |
+| 8.55 s | 10.98 s | Here, it opens with the fund already loaded. | écran réel · zoom ALREADY IN CONTEXT (SPY) |
+| 11.25 s | 12.89 s | It even suggests questions. | zoom SUGGESTED |
+| 13.35 s | 14.64 s | Then it waits for yours. | zoom YOUR CALL · « Nothing sent, no credits, until you ask » |
+| 16.40 s | 19.45 s | Skip the copy-paste. BetterForYourPocket.com | carte CTA |
+
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.44 / min 4.4 (gates ≥ 4.0 / ≥ 3.6) · 3.4 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `a530dfe0fd856289…`
+
+Mix: dynamic ducking (music −10.0 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −7.0 dB, only while the voice speaks) · voice 8.9 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -68,10 +93,13 @@ On BFYP, AI Research opens with the asset already in context, and nothing is sen
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.60 s |
-| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.1 dBTP (≤ −1) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3618 kb/s · 9.32 MB |
+| Bitrate / size | 3678 kb/s · 9.47 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 8.9 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -84,6 +112,7 @@ On BFYP, AI Research opens with the asset already in context, and nothing is sen
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (key×40, swish×3, click×3, impact×2, hit×2, riser×1, ding×1, scan×1, whoosh×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (key×40, swish×3, click×3, impact×2, hit×2, riser×1, ding×1, scan×1, whoosh×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, female)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**
