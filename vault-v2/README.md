@@ -2,11 +2,11 @@
 
 New stock of 30 Instagram/TikTok-style Reels for BetterForYourPocket, to be published **after 30 Sep 2026**. Nothing here is scheduled: the Buffer queue, `public/social/buffer/` and any planned distribution were not touched.
 
-**Status: 30/30 READY** · 23 text-led · 7 voice-led (fallback voice, see below) · 29 EN + 1 FR · 20.0–28.4 s · −14.8 to −14.1 LUFS · true peak ≤ −1.06 dBTP · 293 MB total
+**Status: 30/30 READY** · 30/30 with a directed English voice-over (BFYP-K2: 15 female / 15 male, 6 voices, see below) · 30 EN · 20.0–28.4 s · −14.5 to −14.1 LUFS · true peak ≤ −1.30 dBTP · 293 MB total
 
 Every reel follows **problem → why it hurts → proof → BFYP solution → CTA**, uses only real BFYP screens (captured 23 Sep 2026, capture time stamped on screen), cites verifiable external sources where it uses any outside fact, and ends on the CTA plus “Educational market data. Not financial advice.”
 
-![All 30 covers, V2-01 to V2-30](covers_overview-86c322a641.jpg)
+![All 30 covers, V2-01 to V2-30](covers_overview-d2b0f4d8ce.jpg)
 
 ## How to use
 
@@ -14,50 +14,50 @@ Each folder in `READY/` contains:
 
 - `V2-XX_slug-<sha>.mp4`: the final Reel (1080×1920, 30 fps, H.264 High, AAC 48 kHz stereo, −14 LUFS, ≤ −1 dBTP)
 - `V2-XX_slug_cover-<sha>.png`: the cover (1080×1920; key text sits inside the 3:4 profile-grid area)
-- `V2-XX_slug.md`: the deliverable sheet with internal title, angle, beat-by-beat script and on-screen text, voice-over (if any), sources, BFYP assets with capture times, illustrations, Instagram caption, X caption, hashtags, CTA, optional sources comment, and the QC report
+- `V2-XX_slug.md`: the deliverable sheet with internal title, angle, beat-by-beat script and on-screen text, voice (gender, voice, direction) and voice-over lines, sources, BFYP assets with capture times, illustrations, Instagram caption, X caption, hashtags, CTA, optional sources comment, and the QC report
 
-File names are content-addressed (`-<first 10 hex of sha256>`), like the rest of this repo. `manifest.json` lists every file with its full sha256.
+File names are content-addressed (`-<first 10 hex of sha256>`), like the rest of this repo. `manifest.json` lists every file with its full sha256. `VO-QC.md` gives the voice, sync and mix figures of every reel. `archive/` keeps superseded versions (the French V2-30).
 
 ## Index
 
-| # | Reel | Lot | Format | Length | Opening hook (from 0 s) |
+| # | Reel | Lot | Voice | Length | Opening hook (from 0 s) |
 |---|---|---|---|---:|---|
-| V2-01 | [Even the SEC got faked](READY/V2-01_sec_hack/V2-01_sec_hack.md) | 1 | Text-led | 21.4 s | The SEC’s own account posted fake news. |
-| V2-02 | [Follow filings, not followers](READY/V2-02_gurus_100m/V2-02_gurus_100m.md) | 1 | Text-led | 20.6 s | 8 “trading gurus.” $100M. SEC charges. |
-| V2-03 | [Fluent isn't true](READY/V2-03_ai_fake_cases/V2-03_ai_fake_cases.md) | 1 | Text-led | 20.8 s | An AI invented 6 court cases. A lawyer filed them. |
-| V2-04 | [One fake tweet, $136.5B](READY/V2-04_fake_tweet/V2-04_fake_tweet.md) | 1 | Text-led | 22.0 s | One fake tweet erased $136.5B. |
-| V2-05 | [No testimonials. On purpose.](READY/V2-05_fake_reviews/V2-05_fake_reviews.md) | 1 | Text-led | 20.4 s | The FTC had to ban fake reviews. |
-| V2-06 | [48% learn investing on social](READY/V2-06_feed_48/V2-06_feed_48.md) | 1 | Text-led | 20.4 s | 48% of Gen Z investors learn investing on social media. |
-| V2-07 | [“Just bought” — just?](READY/V2-07_just_bought/V2-07_just_bought.md) | 1 | Text-led | 20.8 s | “Big fund just bought $XYZ!” “Just”? |
-| V2-08 | [Can’t trace it? Can’t trust it.](READY/V2-08_trace_it/V2-08_trace_it.md) | 1 | Text-led | 20.0 s | This is a screenshot. |
-| V2-09 | [NVIDIA’s 2026 ended in January](READY/V2-09_fiscal_2026/V2-09_fiscal_2026.md) | 1 | Text-led | 20.4 s | When did NVIDIA’s fiscal 2026 end? |
-| V2-10 | [500 companies. 36% in 10 lines.](READY/V2-10_top10_36/V2-10_top10_36.md) | 1 | Text-led | 21.0 s | You bought 500 companies. |
-| V2-11 | [POV: 11 tabs for one ticker](READY/V2-11_eleven_tabs/V2-11_eleven_tabs.md) | 2 | Text-led | 21.0 s | POV: 11 tabs to check one ticker. |
-| V2-12 | [Prices move. What changed?](READY/V2-12_what_changed/V2-12_what_changed.md) | 2 | Text-led | 20.4 s | Your dashboard, all day: GREEN. RED. It shows prices. Not what changed. |
-| V2-13 | [“Whales are buying.” Since when?](READY/V2-13_since_when/V2-13_since_when.md) | 2 | Voice (fallback) | 25.2 s | “Whales are buying!” Since when? |
-| V2-14 | [This whale alert tells you nothing](READY/V2-14_whale_alert/V2-14_whale_alert.md) | 2 | Text-led | 20.0 s | This whale alert tells you nothing. |
-| V2-15 | [Stop pasting tickers into chatbots](READY/V2-15_context_paste/V2-15_context_paste.md) | 2 | Text-led | 20.6 s | Copy. Paste. Explain. Repeat. |
-| V2-16 | [Know the cost before you ask](READY/V2-16_cost_before/V2-16_cost_before.md) | 2 | Text-led | 20.4 s | What did that AI answer actually cost you? |
-| V2-17 | [Everything $0 gets you](READY/V2-17_free_speedrun/V2-17_free_speedrun.md) | 2 | Text-led | 20.4 s | $0. Here’s everything it gets you. |
-| V2-18 | [$1.67 trillion. Whose?](READY/V2-18_whose_trillion/V2-18_whose_trillion.md) | 2 | Voice (fallback) | 28.4 s | VOO: $1.67 trillion? |
-| V2-19 | [A Form 144 isn't a sale](READY/V2-19_form_144/V2-19_form_144.md) | 2 | Voice (fallback) | 26.8 s | Three Form 144 filings on NVIDIA in September. Insiders dumping? |
-| V2-20 | [Fast doesn’t matter if it’s wrong](READY/V2-20_financebench/V2-20_financebench.md) | 2 | Text-led | 21.0 s | 81% wrong or refused. |
-| V2-21 | [Biggest wallet ≠ smartest wallet](READY/V2-21_big_not_smart/V2-21_big_not_smart.md) | 3 | Text-led | 20.0 s | The biggest wallet isn't the smartest one. |
-| V2-22 | [That whale might be a market maker](READY/V2-22_market_maker/V2-22_market_maker.md) | 3 | Text-led | 20.4 s | That “whale”? Might be a market maker. |
-| V2-23 | [Same score. Not the same thing.](READY/V2-23_same_score/V2-23_same_score.md) | 3 | Text-led | 20.4 s | 31/100 vs 31/100. Same score? |
-| V2-24 | [3 wins. Genius or luck?](READY/V2-24_three_wins/V2-24_three_wins.md) | 3 | Voice (fallback) | 21.4 s | Three wins in a row. Genius, or luck? |
-| V2-25 | [The data pointed both ways](READY/V2-25_both_ways/V2-25_both_ways.md) | 3 | Text-led | 20.4 s | On USDC, the data pointed both ways. |
-| V2-26 | [Alone it's noise](READY/V2-26_together/V2-26_together.md) | 3 | Text-led | 20.6 s | One signal alone? Noise. |
-| V2-27 | [If it can’t be proven wrong, it’s a vibe](READY/V2-27_prove_it/V2-27_prove_it.md) | 3 | Voice (fallback) | 23.6 s | If it can’t be proven wrong, it’s just a vibe. |
-| V2-28 | [We won’t invent a consensus](READY/V2-28_no_invented/V2-28_no_invented.md) | 3 | Voice (fallback) | 26.7 s | No data? Then show nothing. |
-| V2-29 | [Why every screen we post is timestamped](READY/V2-29_timestamps/V2-29_timestamps.md) | 3 | Voice (fallback) | 27.4 s | Every screenshot starts aging the second it’s taken. |
-| V2-30 | [Pas de source ? C’est du contenu.](READY/V2-30_fr_source/V2-30_fr_source.md) | 3 | Text-led · FR | 20.6 s | Pas de source ? C’est du contenu. |
+| V2-01 | [Even the SEC got faked](READY/V2-01_sec_hack/V2-01_sec_hack.md) | 1 | ♀ K2-F2 · Correspondent | 21.4 s | The SEC’s own account posted fake news. |
+| V2-02 | [Follow filings, not followers](READY/V2-02_gurus_100m/V2-02_gurus_100m.md) | 1 | ♂ K2-M3 · Brit | 20.6 s | 8 “trading gurus.” $100M. SEC charges. |
+| V2-03 | [Fluent isn't true](READY/V2-03_ai_fake_cases/V2-03_ai_fake_cases.md) | 1 | ♀ K2-F2 · Correspondent | 20.8 s | An AI invented 6 court cases. A lawyer filed them. |
+| V2-04 | [One fake tweet, $136.5B](READY/V2-04_fake_tweet/V2-04_fake_tweet.md) | 1 | ♂ K2-M3 · Brit | 22.0 s | One fake tweet erased $136.5B. |
+| V2-05 | [No testimonials. On purpose.](READY/V2-05_fake_reviews/V2-05_fake_reviews.md) | 1 | ♀ K2-F3 · Host | 20.4 s | The FTC had to ban fake reviews. |
+| V2-06 | [48% learn investing on social](READY/V2-06_feed_48/V2-06_feed_48.md) | 1 | ♀ K2-F2 · Correspondent | 20.4 s | 48% of Gen Z investors learn investing on social media. |
+| V2-07 | [“Just bought” — just?](READY/V2-07_just_bought/V2-07_just_bought.md) | 1 | ♂ K2-M3 · Brit | 20.8 s | “Big fund just bought $XYZ!” “Just”? |
+| V2-08 | [Can’t trace it? Can’t trust it.](READY/V2-08_trace_it/V2-08_trace_it.md) | 1 | ♂ K2-M1 · Peer | 20.0 s | This is a screenshot. |
+| V2-09 | [NVIDIA’s 2026 ended in January](READY/V2-09_fiscal_2026/V2-09_fiscal_2026.md) | 1 | ♀ K2-F1 · Analyst | 20.4 s | When did NVIDIA’s fiscal 2026 end? |
+| V2-10 | [500 companies. 36% in 10 lines.](READY/V2-10_top10_36/V2-10_top10_36.md) | 1 | ♀ K2-F1 · Analyst | 21.0 s | You bought 500 companies. |
+| V2-11 | [POV: 11 tabs for one ticker](READY/V2-11_eleven_tabs/V2-11_eleven_tabs.md) | 2 | ♂ K2-M1 · Peer | 21.0 s | POV: 11 tabs to check one ticker. |
+| V2-12 | [Prices move. What changed?](READY/V2-12_what_changed/V2-12_what_changed.md) | 2 | ♀ K2-F3 · Host | 20.4 s | Your dashboard, all day: GREEN. RED. It shows prices. Not what changed. |
+| V2-13 | [“Whales are buying.” Since when?](READY/V2-13_since_when/V2-13_since_when.md) | 2 | ♂ K2-M1 · Peer · karaoke | 25.2 s | “Whales are buying!” Since when? |
+| V2-14 | [This whale alert tells you nothing](READY/V2-14_whale_alert/V2-14_whale_alert.md) | 2 | ♂ K2-M2 · Signal | 20.0 s | This whale alert tells you nothing. |
+| V2-15 | [Stop pasting tickers into chatbots](READY/V2-15_context_paste/V2-15_context_paste.md) | 2 | ♀ K2-F3 · Host | 20.6 s | Copy. Paste. Explain. Repeat. |
+| V2-16 | [Know the cost before you ask](READY/V2-16_cost_before/V2-16_cost_before.md) | 2 | ♂ K2-M1 · Peer | 20.4 s | What did that AI answer actually cost you? |
+| V2-17 | [Everything $0 gets you](READY/V2-17_free_speedrun/V2-17_free_speedrun.md) | 2 | ♀ K2-F3 · Host | 20.4 s | $0. Here’s everything it gets you. |
+| V2-18 | [$1.67 trillion. Whose?](READY/V2-18_whose_trillion/V2-18_whose_trillion.md) | 2 | ♀ K2-F1 · Analyst · karaoke | 28.4 s | VOO: $1.67 trillion? |
+| V2-19 | [A Form 144 isn't a sale](READY/V2-19_form_144/V2-19_form_144.md) | 2 | ♂ K2-M3 · Brit · karaoke | 26.8 s | Three Form 144 filings on NVIDIA in September. Insiders dumping? |
+| V2-20 | [Fast doesn’t matter if it’s wrong](READY/V2-20_financebench/V2-20_financebench.md) | 2 | ♀ K2-F2 · Correspondent | 21.0 s | 81% wrong or refused. |
+| V2-21 | [Biggest wallet ≠ smartest wallet](READY/V2-21_big_not_smart/V2-21_big_not_smart.md) | 3 | ♂ K2-M2 · Signal | 20.0 s | The biggest wallet isn't the smartest one. |
+| V2-22 | [That whale might be a market maker](READY/V2-22_market_maker/V2-22_market_maker.md) | 3 | ♂ K2-M2 · Signal | 20.4 s | That “whale”? Might be a market maker. |
+| V2-23 | [Same score. Not the same thing.](READY/V2-23_same_score/V2-23_same_score.md) | 3 | ♀ K2-F1 · Analyst | 20.4 s | 31/100 vs 31/100. Same score? |
+| V2-24 | [3 wins. Genius or luck?](READY/V2-24_three_wins/V2-24_three_wins.md) | 3 | ♂ K2-M1 · Peer · karaoke | 21.4 s | Three wins in a row. Genius, or luck? |
+| V2-25 | [The data pointed both ways](READY/V2-25_both_ways/V2-25_both_ways.md) | 3 | ♀ K2-F1 · Analyst | 20.4 s | On USDC, the data pointed both ways. |
+| V2-26 | [Alone it's noise](READY/V2-26_together/V2-26_together.md) | 3 | ♂ K2-M2 · Signal | 20.6 s | One signal alone? Noise. |
+| V2-27 | [If it can’t be proven wrong, it’s a vibe](READY/V2-27_prove_it/V2-27_prove_it.md) | 3 | ♂ K2-M2 · Signal · karaoke | 23.6 s | If it can’t be proven wrong, it’s just a vibe. |
+| V2-28 | [We won’t invent a consensus](READY/V2-28_no_invented/V2-28_no_invented.md) | 3 | ♀ K2-F2 · Correspondent · karaoke | 26.7 s | No data? Then show nothing. |
+| V2-29 | [Why every screen we post is timestamped](READY/V2-29_timestamps/V2-29_timestamps.md) | 3 | ♀ K2-F1 · Analyst · karaoke | 27.4 s | Every screenshot starts aging the second it’s taken. |
+| V2-30 | [No source? It's just content.](READY/V2-30_no_source/V2-30_no_source.md) | 3 | ♂ K2-M3 · Brit | 20.6 s | No source? It's just content. |
 
 Lots: **1** Proof over posts · **2** Your research stack is broken · **3** Bad market habits.
 
 ## Review page
 
-`review.html` is a local review page. Each reel shows its video, cover, a one-line problem → solution, the voice (text-led or BFYP-K1), the CTA, a VALIDÉ / À CORRIGER verdict and a free note. Verdicts stay in the browser and export as a text recap or JSON. Open it from a local checkout of this branch, since videos and covers load from `READY/` next to it.
+The final review runs on a private claude.ai page that plays the 30 VO reels on a phone and records a VALIDÉ / À CORRIGER verdict and a note per reel (voice, gender and direction shown for each). `review.html` is the same review for a local checkout of this branch: it loads the videos and covers from `READY/` next to it, and its verdicts stay in the browser (text recap or JSON export).
 
 ## Production standard
 
@@ -65,21 +65,35 @@ Lots: **1** Proof over posts · **2** Your research stack is broken · **3** Bad
 - **External facts**: SEC, U.S. DOJ, FTC, FINRA Foundation/CFA Institute, NVIDIA investor relations, Vanguard, court records (Mata v. Avianca), Reuters/CNBC (AP hack, 2013) and the FinanceBench paper. Each claim is quoted or paraphrased with its source and date on screen, and listed in the reel sheet. Anything that is only alleged is labelled as such (V2-02).
 - **Illustrations** (typical posts, alerts, chats, receipts) use `@example` handles and say “ILLUSTRATION · NOT A REAL ACCOUNT”. They never imitate a real brand or person.
 - **Music and sound**: every track is original and synthesized for its reel (tech house, UK garage, trap, future bass, synthwave, minimal, amapiano-lite, drum & bass, cinematic). No samples and no licensed audio. The edit is cut to the beat, with sound design on the moments that matter (impacts, whooshes, risers, dings, clicks, stamps, glitches).
-- **Mix**: master at −14 LUFS integrated. True peak is ≤ −1 dBTP measured on the encoded AAC. Every reel has sound from frame 0 and ends on a clean fade for seamless loops.
+- **Mix**: master at −14 LUFS integrated. True peak is ≤ −1 dBTP measured on the encoded AAC. Every reel has sound from frame 0 and ends on a clean fade for seamless loops. Music and SFX duck dynamically under the voice only while it speaks (music −8 to −12 dB, an extra carve at 1–4.5 kHz, SFX −5 to −9 dB), so the voice sits 8.4–9.5 LU above the bed.
 - **Legibility**: large type (≥ 44 px body, 84–190 px headlines), short lines, and a spotlight + callout on every product detail. A browser-layout audit checks every text element every 0.1 s: nothing leaves the frame and nothing sits under the right-hand Reels buttons (x > 960 px, y 1100–1760 px).
 
-## Voice-over: ElevenLabs “Adam” was not available
+## Voice-over: BFYP-K2, a directed English voice on all 30 reels
 
-This environment could not reach `api.elevenlabs.io` (network policy), and the BFYP MARKETING session reported that the ElevenLabs subscription has a failed payment. As instructed for this case, **7 reels use the local fallback voice “BFYP-K1”** (Kokoro-82M v1.0, Apache-2.0, run offline; blend of stock voices am_michael 0.60 + am_onyx 0.25 + am_puck 0.15, speed 0.92; no voice cloning). The other 23 reels are text-led by design.
+Every reel now carries an English voice-over written and directed for that reel. It is not one uniform read: each reel has its own intent, delivery, pace, energy, pauses and emphasis (listed in its sheet, in French for the reviewer). The narration is anchored to the frozen edit: lines land on the cuts, zooms, reveals and the CTA card, and they complement the picture instead of reading the on-screen text.
 
-The end card of these reels says “AI voice” (honest disclosure, still accurate after a swap to Adam). Each fallback take passed objective QC gates: word match ≥ 0.97, 2.30–3.30 words/s, median F0 85–120 Hz, pitch spread ≥ 6.4 st, pauses at sentence ends, no clipping. Intelligibility was re-checked by speech recognition on the final mix with music (≥ 0.95).
+- **Local and free only**: Kokoro-82M v1.0 (Apache-2.0) run offline through kokoro-onnx. Stock native-English voices, one weighted blend of two stock voices, no cloning, no paid service.
+- **Palette of 6 recurring voices, 15 female / 15 male reels**, picked from a 34-voice casting scored for naturalness (UTMOS, out of 5):
 
-**To swap in Adam later:** generate the same lines with ElevenLabs Adam (Compelling), then fit them to the timings in `production/reels/<reel>.vo.json`. Re-run `production/engine/render_v2.py <reel>.js --out <mp4> --audio-only` to rebuild the audio. The video stays identical.
+| Voice | Gender | Accent | Kokoro | Register | Reels |
+|---|---|---|---|---|---|
+| K2-F1 · Analyst | female | US | `af_heart` | analytical, calm, precise | 09, 10, 18, 23, 25, 29 (6) |
+| K2-F2 · Correspondent | female | UK | `bf_emma` | correspondent, journalistic | 01, 03, 06, 20, 28 (5) |
+| K2-F3 · Host | female | US | `af_sarah` | host, bright and friendly | 05, 12, 15, 17 (4) |
+| K2-M1 · Peer | male | US | `am_puck` | peer, conversational / POV | 08, 11, 13, 16, 24 (5) |
+| K2-M2 · Signal | male | US | `am_fenrir` | signal, low and tense (data alerts) | 14, 21, 22, 26, 27 (5) |
+| K2-M3 · Brit | male | UK | `bm_george 0.6 + bm_fable 0.4` | British explainer, dry wit | 02, 04, 07, 19, 30 (5) |
+
+- **Karaoke reels (7)**: V2-13, 18, 19, 24, 27, 28 and 29 show their words on screen as they are spoken. They keep the same words in the same slots; only the voice, the delivery and the mix changed. Their end card already said “AI voice” and still does. The other reels were not given that mention: their visual edit is frozen.
+- **Frozen edits**: the video stream of every VO reel is bit-identical to the validated edit (stream MD5 compared). V2-30 is the one exception: it was converted to English (screens, cover, captions) before its voice was added.
+- **QC gates, per reel**: on the isolated voice, speech recognition (Whisper small.en) recovers ≥ 97 % of the script, naturalness UTMOS ≥ 4.0 on average and ≥ 3.6 on every line, every line fits its window (karaoke: within ±4 % of its slot), no overlaps. On the final file, speech recognition on the full mix ≥ 0.95, voice ≥ 7 LU over the bed, −14 ±1 LUFS, true peak ≤ −1 dBTP, video identical.
+- **QC report**: `VO-QC.md`, one row per reel: naturalness, speech recognition on the voice and on the final mix, voice over the bed, loudness, true peak, identical video, lines landing on the edit, CTA timing, karaoke slot error.
+- **Rebuild a voice**: edit `production/vo2/specs/<reel>.py`, then `engine/vo2.py build <reel>`, `engine/vo2.py mix <reel> <out.mp4>` and `engine/vo2.py qc <reel> <out.mp4>`.
 
 ## Blockers met, and what was done
 
 1. **Network policy** blocked betterforyourpocket.com, google.com, sec.gov, elevenlabs.io and image hosts. Workaround: the vault uses the real screens already captured on 23 Sep 2026, each stamped with its capture time. Facts were verified through web search against primary sources. Charts are built from verified numbers instead of downloading third-party images. To enable fresh captures or ElevenLabs next time, allow those domains in the cloud environment's network settings.
-2. **ElevenLabs unavailable**: fallback voice on 7 reels, as described above.
+2. **Voice**: ElevenLabs was out of reach (network policy and a failed subscription payment). By decision, every voice is now made with a local, free TTS (BFYP-K2, above).
 3. **No video toolchain in the image**: installed a static ffmpeg (x264/AAC) and headless Chromium rendering. The whole pipeline is in `production/`.
 
 ## Self-QC: what was rejected or reworked before READY
@@ -89,6 +103,8 @@ The end card of these reels says “AI voice” (honest disclosure, still accura
 - **Layout bugs fixed:** the FAKE stamp leaking into later scenes (V2-01); orphaned words in hooks (V2-11, V2-20); lines overflowing the safe edge (V2-11, V2-12, V2-15, V2-23, V2-29); an unreadable full-table zoom replaced by targeted zooms (V2-10); a checklist page not clearing (V2-17); strike-through that missed wrapped lines (V2-27); callouts colliding with capture stamps, fixed by rebuilding the split screen (V2-23); a coin covering text (V2-24).
 - **Engine bugs fixed before the final renders:** the spotlight ring snapped back to the first target between steps. In voice-led hooks, karaoke words not yet spoken were pre-scaled and ate the spaces between words (“ThreeForm144filings”); V2-19 and V2-24 were re-rendered with the fix.
 - **Voice-reel end card:** the small print said “voice: synthetic (fallback)”, which is internal jargon. It now reads “AI voice”; 6 reels were re-rendered.
+- **Voice-over pass:** 4 prototypes (2 female, 2 male) were validated before the other 26. The first builds were too dense for their windows: scripts were cut to about 3 words/s and re-timed to the edit. The British voice speaks slower, so its lines were rewritten shorter. “BFYP” was said as four stopped letters; it is now one quick acronym. Speech recognition caught lines a listener could mishear (“hype a stock” heard as “hyper stock”, “sends” heard as “send”); they were reworded. An old pronunciation rule made the voice spell “NVIDIA” as “en-V-I-D”; the engine's own reading is used now. Lines that only repeated the on-screen text were rewritten to add something the picture does not say.
+- **Audio encoding of the VO mixes:** ffmpeg's AAC encoder added short noise bursts (up to 8 dB above the source) to 3 mixes, and on V2-29 the limiter missed inter-sample peaks, so the master stopped at −15 LUFS. Each encode is now decoded and compared with its source, window by window. The encoder runs without noise substitution, and a 320 kb/s or 19.5 kHz setting is used when a burst remains. The master lowers its limiter when it detects inter-sample overs. All 26 new mixes were redone with this chain; the 4 validated prototypes were checked and have no burst.
 - **Hook clarity:** V2-26 opened on a lone small dot, the sparsest first second in the vault; it now has a heartbeat radar pulse. V2-12 relied on a GREEN/RED flicker for ~2 s before naming the problem. It now says “Your dashboard, all day:” from frame 0. The V2-18 cover crop clipped an in-screen capture pill and was tightened.
 - **Text-safety audit (added late, caught real defects):** the capture caption under product screens ran past the right edge in 20 reels (a third of it off-frame in V2-21 and V2-24). A few source lines ran long, including one in V2-18 by ~300 px. Subtitles and some source lines sat under the like/comment buttons. Fixes: shorter captions (“Real BFYP screen · page · date · time UTC”), long sources split onto two lines, and subtitles narrowed to 840 px. 28 reels were re-rendered, and the audit now reports nothing off-frame or under the buttons.
 - **Quote accuracy:** every BFYP sentence shown as text was checked word for word against its capture. V2-04 showed a shortened line labelled “Verbatim”. It now shows BFYP’s exact footer, “Observed activity, as counted by BFYP. Nothing here is a prediction.”, with more time on screen (the reel went from 20.6 to 22.0 s). Four sheets listed a screen the reel never shows; the lists now match what is on screen.
@@ -105,4 +121,4 @@ The end card of these reels says “AI voice” (honest disclosure, still accura
 
 ## Reproduce / edit
 
-`production/` contains the engine (`engine/`: renderer, motion + component library, synth/DSP music engine, fallback VO, QC, packaging), the 30 scene scripts (`reels/`), the voice-over timings (`reels/*.vo.json`), the slate with scripts and captions (`plan/plan.py`), the verified-facts log (`research/facts.md`) and the 1× crops of the real screens (`assets/screens/`). `engine/qc.py` (technical gates), `engine/audit_text.py` (text safety) and `engine/audit_k.py` (keyframe overlaps) re-check any edit. See `production/README.md`.
+`production/` contains the engine (`engine/`: renderer, motion + component library, synth/DSP music engine, directed VO `vo2.py`, QC, packaging), the 30 scene scripts (`reels/`), the karaoke caption timings (`reels/*.vo.json`), the directed voice-over scripts (`vo2/specs/`) and edit maps (`vo2/maps/`), the slate with scripts and captions (`plan/plan.py`), the verified-facts log (`research/facts.md`) and the 1× crops of the real screens (`assets/screens/`). `engine/qc.py` (technical gates), `engine/audit_text.py` (text safety) and `engine/audit_k.py` (keyframe overlaps) re-check any edit. See `production/README.md`.
