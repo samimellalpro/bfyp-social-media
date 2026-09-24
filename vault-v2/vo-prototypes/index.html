@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototypes VO V2</title>
+<style>
+:root { --bg:#080e0d; --panel:#0d1614; --panel2:#111c19; --line:#1d2b27; --line2:#2a3b36; --ink:#eef4f1; --sub:#a3b1ac; --dim:#6f7e79;
+  --green:#17b58a; --green2:#22d3a0; --red:#ff5d5d; --amber:#f0b44a; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+.wrap { max-width:1180px; margin:0 auto; padding:0 16px; }
+header { border-bottom:1px solid var(--line); padding:18px 0 14px; }
+h1 { margin:0; font-size:22px; letter-spacing:-0.01em; }
+.sub { color:var(--sub); font-size:14px; margin:6px 0 0; }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:18px; padding:16px; margin:16px 0; }
+.card[data-v="ok"] { border-color:rgba(23,181,138,.6); } .card[data-v="fix"] { border-color:rgba(255,93,93,.6); }
+.top { display:flex; flex-wrap:wrap; gap:8px 12px; align-items:baseline; }
+.id { color:var(--green2); font-weight:800; letter-spacing:.04em; font-size:13px; }
+.chip { font-size:12px; color:var(--amber); border:1px solid rgba(240,180,74,.45); border-radius:999px; padding:2px 9px; }
+h2 { margin:4px 0 0; font-size:20px; }
+.grid { display:grid; grid-template-columns: 260px 260px minmax(0,1fr); gap:16px; margin-top:12px; align-items:start; }
+.vid video { width:100%; aspect-ratio:9/16; background:#000; border-radius:12px; display:block; }
+.vid span { display:block; font-size:12px; color:var(--dim); margin-top:6px; text-align:center; }
+.lbl { font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--dim); margin:10px 0 2px; }
+.voice { font-weight:650; }
+dl { margin:0; } dt { font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--dim); margin-top:8px; } dd { margin:2px 0 0; color:var(--ink); }
+.tw { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+.tw table { min-width:560px; }
+table { width:100%; border-collapse:collapse; font-size:13px; margin-top:6px; }
+th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { color:var(--dim); font-weight:600; font-size:12px; }
+td.t { white-space:nowrap; color:var(--sub); font-variant-numeric:tabular-nums; }
+.metrics { color:var(--sub); font-size:13px; margin-top:8px; }
+.verdict { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
+.vb { flex:1 1 160px; border-radius:12px; padding:9px 12px; cursor:pointer; font-weight:800; background:transparent; border:2px solid var(--line2); color:var(--sub); font:inherit; font-weight:800; }
+.vb.ok[aria-pressed="true"] { background:var(--green); border-color:var(--green); color:#04110d; }
+.vb.fix[aria-pressed="true"] { background:var(--red); border-color:var(--red); color:#1a0505; }
+textarea { width:100%; min-height:70px; margin-top:8px; background:#070c0b; color:var(--ink); border:1px solid var(--line2); border-radius:12px; padding:10px 12px; font-family:inherit; font-size:14px; }
+.btn { background:var(--green); border:0; color:#04110d; font-weight:700; border-radius:10px; padding:9px 14px; cursor:pointer; font:inherit; font-weight:700; }
+.toast { color:var(--green2); font-size:13px; margin-left:10px; }
+.f { color:#f7a8c8; } .m { color:#9cc8ff; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } .info { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Vault V2 — prototypes voix off</h1>
+  <p class="sub">4 directions à valider avant les 26 autres reels. À gauche : la nouvelle VO. À droite : la version validée, sans VO, pour comparer. Montages gelés : même vidéo au bit près, même musique, mêmes SFX.</p>
+</div></header>
+<main class="wrap" id="list"></main>
+<section class="wrap">
+  <div class="card">
+    <div class="lbl">Ton retour</div>
+    <p class="sub">Choisis « Direction OK » ou « À ajuster » pour chaque prototype, note ce qui doit changer, puis copie le retour dans la conversation.</p>
+    <button class="btn" id="copy" type="button">Copier mon retour</button><span class="toast" id="toast" role="status"></span>
+    <textarea id="recap" readonly aria-label="Retour"></textarea>
+  </div>
+  <div class="card">
+    <div class="lbl">Palette BFYP-K2</div>
+    <div class="tw"><table id="pal"><thead><tr><th>Voix</th><th>Genre</th><th>Kokoro</th><th>Accent</th><th>Caractère</th></tr></thead><tbody></tbody></table></div>
+  </div>
+  <div class="card">
+    <div class="lbl">Casting proposé pour les 30 (15 F · 15 M)</div>
+    <div class="tw"><table id="cast"><thead><tr><th>Reel</th><th>Registre</th><th>Genre</th><th>Voix</th><th>Note</th></tr></thead><tbody></tbody></table></div>
+  </div>
+</section>
+<script>
+const P = [{"id": "V2-10", "title": "500 companies. 36% in 10 lines.", "style": "Analytique / chiffré", "video": "V2-10_top10_36_VO-proto-679f9df286.mp4", "original": "../READY/V2-10_top10_36/V2-10_top10_36-36d4f8597c.mp4", "voice": "K2-F1 · Analyst · féminine · anglais américain · Kokoro af_heart", "direction": {"intent": "Démonter calmement l'idée de fonds « diversifié » avec un seul chiffre, puis montrer où le vérifier.", "delivery": "Calme, précise, sûre d'elle. Une analyste qui commente un graphique, sans vendre.", "pace": "Sans hâte (environ 3 mots/s pendant la parole), plus lente sur les chiffres.", "energy": "Moyenne-basse et régulière. Légère remontée sur BFYP, chaleureuse sur le CTA.", "pauses": "Un temps avant chaque chiffre. Le détail Alphabet arrive une fois le graphique posé.", "emphasis": "« a third », « two hundred eighty-four billion », « twice », « as filed »"}, "lines": [{"t0": 0.12, "t1": 2.11, "text": "Five hundred companies, in one fund.", "note": "hook, over 'You bought 500 companies'"}, {"t0": 2.5, "t1": 4.26, "text": "Over a third sits in just ten.", "note": "lands on the 36% reveal"}, {"t0": 4.85, "t1": 7.25, "text": "That's two hundred eighty-four billion dollars.", "note": "figure lands with the $284.48B line"}, {"t0": 7.8, "t1": 9.11, "text": "One name appears twice.", "note": "ding + 'Alphabet shows up twice.'"}, {"t0": 9.4, "t1": 11.9, "text": "Alphabet. Two share classes, one company.", "note": "'10 lines. 9 companies.'"}, {"t0": 12.8, "t1": 15.54, "text": "On BFYP: the fund, as filed.", "note": "zooms THE FUND, AS FILED"}, {"t0": 15.85, "t1": 17.24, "text": "Top holdings, by weight.", "note": "zoom THE TOP LINES"}, {"t0": 17.55, "t1": 20.46, "text": "Know what you own. BetterForYourPocket.com", "note": "CTA"}], "ut": 4.46, "asr": 0.981, "vob": 9.5, "wps": 3.18, "cov": 0.81}, {"id": "V2-11", "title": "POV: 11 tabs for one ticker", "style": "POV / conversationnel", "video": "V2-11_eleven_tabs_VO-proto-726e64a0b7.mp4", "original": "../READY/V2-11_eleven_tabs/V2-11_eleven_tabs-99ffce1e24.mp4", "voice": "K2-M1 · Peer · masculine · anglais américain · Kokoro am_puck", "direction": {"intent": "Frustration familière, puis soulagement : un seul parcours au lieu de onze onglets.", "delivery": "Conversationnel, comme un ami qui est passé par là. Un peu agacé sur le hook, puis détendu et sûr de lui.", "pace": "Vif (environ 3,4 mots/s), phrases courtes calées sur les cuts du montage.", "energy": "Moyenne-haute sur le hook, détendue pendant le montage, enthousiaste sur le CTA.", "pauses": "Micro-pause après « Eleven tabs ». Chaque ligne du montage démarre sur son whoosh.", "emphasis": "« eleven tabs », « no clue », « one place », « receipts », « Keep one »"}, "lines": [{"t0": 0.1, "t1": 1.59, "text": "One ticker. Eleven tabs.", "note": "hook while the tabs pile up"}, {"t0": 1.86, "t1": 2.68, "text": "You know the drill.", "note": "tabs keep piling"}, {"t0": 3.08, "t1": 4.42, "text": "Still no clue what changed.", "note": "'...and you still don't know what changed.'"}, {"t0": 4.82, "t1": 5.56, "text": "One place.", "note": "'One workflow.'"}, {"t0": 5.74, "t1": 7.07, "text": "First: what changed today.", "note": "m0 Today"}, {"t0": 7.44, "t1": 8.38, "text": "Who moved the money.", "note": "m1 Whale Activity"}, {"t0": 9.12, "t1": 10.12, "text": "Any track record?", "note": "m2 Smart Money"}, {"t0": 10.82, "t1": 11.85, "text": "What was really filed.", "note": "m3 Stock pages"}, {"t0": 12.52, "t1": 13.92, "text": "Ask anything. Get receipts.", "note": "m4 AI Research"}, {"t0": 14.22, "t1": 15.35, "text": "Every step, sourced.", "note": "'Every step. Sources attached.'"}, {"t0": 16.15, "t1": 19.48, "text": "Close ten tabs. Keep one. BetterForYourPocket.com", "note": "CTA"}], "ut": 4.28, "asr": 0.979, "vob": 8.8, "wps": 3.37, "cov": 0.69}, {"id": "V2-14", "title": "This whale alert tells you nothing", "style": "Tension / data alert", "video": "V2-14_whale_alert_VO-proto-2a417572c6.mp4", "original": "../READY/V2-14_whale_alert/V2-14_whale_alert-ee41095ab5.mp4", "voice": "K2-M2 · Signal · masculine · anglais américain · Kokoro am_fenrir", "direction": {"intent": "Tension et curiosité face à une alerte brute, résolues par la preuve. Sans hype ni dramatisation.", "delivery": "Grave, contenue, un peu feutrée au début, comme en lisant un flux en direct. Plus nette et assurée quand BFYP apporte le contexte.", "pace": "Mesuré sur le hook, puis un rythme précis calé sur les six zooms.", "energy": "Tension contenue puis résolue : le payoff est plus calme, pas plus fort.", "pauses": "Un temps après « just moved » et avant « evidence ».", "emphasis": "« a million dollars », « who », « noise », « record », « raw transaction », « evidence »"}, "lines": [{"t0": 0.12, "t1": 1.53, "text": "A million dollars just moved.", "note": "alert card, notif"}, {"t0": 1.72, "t1": 3.38, "text": "Who's behind it? Where's the proof?", "note": "over the three questions"}, {"t0": 4.05, "t1": 4.91, "text": "Just noise.", "note": "'Size without context is just noise.'"}, {"t0": 6.34, "t1": 7.83, "text": "It's typed, sized, and grouped.", "note": "zooms 1-2"}, {"t0": 8.3, "t1": 9.53, "text": "The wallet, and its record.", "note": "zooms 3-4"}, {"t0": 10.24, "t1": 11.92, "text": "The raw transaction, and its source.", "note": "zooms 5-6 (PROOF, WHEN + SOURCE)"}, {"t0": 12.45, "t1": 14.33, "text": "That's not an alert. That's evidence.", "note": "payoff 'Evidence. Not an alert.'"}, {"t0": 15.7, "t1": 19.26, "text": "Read the evidence, not the alert. BetterForYourPocket.com", "note": "CTA"}], "ut": 4.38, "asr": 0.979, "vob": 8.4, "wps": 3.49, "cov": 0.69}, {"id": "V2-01", "title": "Even the SEC got faked", "style": "Éducatif / journalistique", "video": "V2-01_sec_hack_VO-proto-70e4d2b55a.mp4", "original": "../READY/V2-01_sec_hack/V2-01_sec_hack-14810da626.mp4", "voice": "K2-F2 · Correspondent · féminine · anglais britannique · Kokoro bf_emma", "direction": {"intent": "Raconter sobrement un fait réel et daté, puis en tirer la leçon : un post n'est pas une source, un dépôt officiel oui.", "delivery": "Sobre et crédible, presque un bulletin d'info : faits datés et attribués, pas d'adjectifs.", "pace": "Régulier (environ 3 mots/s), phrases courtes et affirmatives.", "energy": "Neutre et posée. Un peu plus chaleureuse sur la solution BFYP.", "pauses": "Silences volontaires sous « If an official account can be faked… » et sous « Posts can be faked. Filings are the record. », pour que ces phrases portent seules.", "emphasis": "« own account », « fifteen minutes », « hack », « next day », « dated », « original »"}, "lines": [{"t0": 0.1, "t1": 2.6, "text": "The SEC's own account posts this.", "note": "hook, fake post + FAKE stamp (date is on the card)"}, {"t0": 2.84, "t1": 5.07, "text": "Bitcoin jumps, then drops two thousand.", "note": "+$1,000 then −$2,000 (per U.S. DOJ); 'drops' lands near the 3.8 s reveal"}, {"t0": 5.54, "t1": 7.5, "text": "Fifteen minutes later: a hack.", "note": "Gensler correction"}, {"t0": 7.86, "t1": 9.37, "text": "Real approval? Next day.", "note": "timeline 9 → 10 Jan"}, {"t0": 10.9, "t1": 12.69, "text": "Here, each filing is dated,", "note": "BFYP, zoom DATED (silence under 'any post can' before it)"}, {"t0": 12.78, "t1": 14.23, "text": "and linked to the original.", "note": "zoom LINKED"}, {"t0": 16.95, "t1": 20.36, "text": "Read the filing, not the post. BetterForYourPocket.com", "note": "CTA (silence under 'Posts can be faked.')"}], "ut": 4.32, "asr": 0.977, "vob": 9.4, "wps": 3.17, "cov": 0.69}], CAST = [["V2-01", "Journalistique (hack du compte SEC)", "F", "K2-F2 Correspondent", "prototype"], ["V2-02", "Preuve SEC, sobre", "M", "K2-M3 Anchor", ""], ["V2-03", "Éducatif / révélation (IA et faux jugements)", "F", "K2-F3 Authority", ""], ["V2-04", "Révélation, rythme serré puis pause avant le payoff", "M", "K2-M4 Brit", ""], ["V2-05", "Produit / honnêteté", "F", "K2-F4 Host", ""], ["V2-06", "Éducatif (Gen Z)", "F", "K2-F5 Modern", ""], ["V2-07", "Éducatif / analytique (13F)", "M", "K2-M6 Explainer", ""], ["V2-08", "POV (capture vs lien)", "M", "K2-M5 Street", ""], ["V2-09", "Analytique / quiz (exercice NVIDIA)", "F", "K2-F7 Calm", ""], ["V2-10", "Analytique / chiffré", "F", "K2-F1 Analyst", "prototype"], ["V2-11", "POV / conversationnel", "M", "K2-M1 Peer", "prototype"], ["V2-12", "POV / frustration puis résolution", "F", "K2-F5 Modern", ""], ["V2-13", "Éducatif (reel voix, mots fixes)", "M", "K2-M1 Peer", "karaoké : mêmes mots, nouvelle voix"], ["V2-14", "Tension / data alert", "M", "K2-M2 Signal", "prototype"], ["V2-15", "POV produit (chatbots)", "F", "K2-F5 Modern", ""], ["V2-16", "Produit / analytique (coût IA)", "M", "K2-M4 Brit", ""], ["V2-17", "Produit, énergie positive", "F", "K2-F4 Host", ""], ["V2-18", "Analytique (reel voix, mots fixes)", "F", "K2-F3 Authority", "karaoké : mêmes mots, nouvelle voix"], ["V2-19", "Preuve SEC (reel voix, mots fixes)", "M", "K2-M3 Anchor", "karaoké : mêmes mots, nouvelle voix"], ["V2-20", "Révélation / data (81 %)", "F", "K2-F6 Brit Analyst", ""], ["V2-21", "Contradiction (taille ≠ talent)", "M", "K2-M2 Signal", ""], ["V2-22", "Tension / data (market maker)", "M", "K2-M6 Explainer", ""], ["V2-23", "Analytique / contradiction (même score)", "F", "K2-F6 Brit Analyst", ""], ["V2-24", "Conversationnel (reel voix, mots fixes)", "M", "K2-M1 Peer", "karaoké : mêmes mots, nouvelle voix"], ["V2-25", "Éducatif (données dans les deux sens)", "F", "K2-F7 Calm", ""], ["V2-26", "Tension / curiosité (signaux groupés)", "M", "K2-M2 Signal", ""], ["V2-27", "Contradiction (reel voix, mots fixes)", "M", "K2-M4 Brit", "karaoké : mêmes mots, nouvelle voix"], ["V2-28", "Sobre / crédible (reel voix, mots fixes)", "F", "K2-F2 Correspondent", "karaoké : mêmes mots, nouvelle voix"], ["V2-29", "Éducatif / produit (reel voix, mots fixes)", "F", "K2-F1 Analyst", "karaoké : mêmes mots, nouvelle voix"], ["V2-30", "Reel FR : question ouverte (voir plus bas)", "M", "K2-M5 Street", "à confirmer"]], PAL = [["K2-F1 · Analyst", "F", "af_heart", "US", "claire, chaleureuse, posée : chiffres et pédagogie"], ["K2-F2 · Correspondent", "F", "bf_emma", "UK", "sobre, crédible, ton de bulletin d'info"], ["K2-F3 · Authority", "F", "af_kore", "US", "timbre plus grave, assurée : révélations, preuves"], ["K2-F4 · Host", "F", "af_sarah", "US", "lumineuse, expressive : moments produit"], ["K2-F5 · Modern", "F", "af_nova", "US", "vive, moderne : POV et frustration"], ["K2-F6 · Brit Analyst", "F", "bf_isabella", "UK", "précise, premium : data et contradictions"], ["K2-F7 · Calm", "F", "af_aoede", "US", "douce, pédagogue : éducatif calme"], ["K2-M1 · Peer", "M", "am_puck", "US", "conversationnel, complice : POV"], ["K2-M2 · Signal", "M", "am_fenrir", "US", "grave et contenu : tension, anomalies"], ["K2-M3 · Anchor", "M", "mélange am_michael 0,5 + am_fenrir 0,5", "US", "posé, journalistique : preuves SEC"], ["K2-M4 · Brit", "M", "mélange bm_george 0,6 + bm_fable 0,4", "UK", "premium, mesuré : révélation puis payoff"], ["K2-M5 · Street", "M", "am_liam", "US", "rapide, direct : POV courts"], ["K2-M6 · Explainer", "M", "am_echo", "US", "clair, neutre : explications"]];
+const KEY = "bfyp-vault-v2-vo-protos";
+let st = {}; try { st = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} };
+const el = (t, c, txt) => { const e = document.createElement(t); if (c) e.className = c; if (txt != null) e.textContent = txt; return e; };
+const fr = (x, n=1) => Number(x).toFixed(n).replace(".", ",");
+const list = document.getElementById("list");
+for (const p of P) {
+  const card = el("article", "card"); card.id = p.id;
+  const top = el("div", "top"); top.append(el("span", "id", p.id), el("h2", null, p.title), el("span", "chip", p.style)); card.append(top);
+  const g = el("div", "grid");
+  const v1 = el("div", "vid"); const a = el("video"); a.controls = true; a.preload = "metadata"; a.playsInline = true; a.src = p.video + "#t=0.05"; v1.append(a, el("span", null, "Nouvelle VO"));
+  const v2 = el("div", "vid"); const b = el("video"); b.controls = true; b.preload = "metadata"; b.playsInline = true; b.src = p.original + "#t=0.05"; v2.append(b, el("span", null, "Version validée (sans VO)"));
+  [a, b].forEach(v => v.addEventListener("play", () => document.querySelectorAll("video").forEach(o => { if (o !== v) o.pause(); })));
+  const info = el("div", "info");
+  info.append(el("div", "lbl", "Voix"), el("div", "voice", p.voice));
+  const dl = el("dl");
+  for (const [k, lab] of [["intent", "Intention"], ["delivery", "Jeu"], ["pace", "Débit"], ["energy", "Énergie"], ["pauses", "Pauses"], ["emphasis", "Emphases"]]) {
+    if (p.direction[k]) dl.append(el("dt", null, lab), el("dd", null, p.direction[k]));
+  }
+  info.append(dl);
+  info.append(el("div", "metrics", `Naturel UTMOS ${fr(p.ut, 2)}/5 · reconnaissance vocale ${fr(p.asr, 3)} · ${fr(p.wps)} mots/s · voix ${Math.round(p.cov * 100)} % du temps · +${fr(p.vob)} LU devant la musique`));
+  g.append(v1, v2, info); card.append(g);
+  const tb = el("table"); const th = el("thead"); th.innerHTML = "<tr><th>Début</th><th>Fin</th><th>Texte dit</th><th>Ancrage</th></tr>"; tb.append(th);
+  const bd = el("tbody");
+  for (const ln of p.lines) { const tr = el("tr"); tr.append(el("td", "t", fr(ln.t0, 2) + " s"), el("td", "t", fr(ln.t1, 2) + " s"), el("td", null, ln.text), el("td", "t", ln.note)); bd.append(tr); }
+  tb.append(bd); const tw = el("div", "tw"); tw.append(tb); card.append(el("div", "lbl", "Script et synchro"), tw);
+  const vd = el("div", "verdict");
+  const ok = el("button", "vb ok", "✓ DIRECTION OK"), fix = el("button", "vb fix", "✕ À AJUSTER");
+  ok.type = fix.type = "button";
+  const ta = el("textarea"); ta.placeholder = "Note : voix, débit, énergie, texte, mix…"; ta.value = (st[p.id] || {}).note || "";
+  const set = v => { st[p.id] = st[p.id] || {}; st[p.id].v = st[p.id].v === v ? "" : v; save(); render(); };
+  ok.onclick = () => set("ok"); fix.onclick = () => set("fix");
+  ta.oninput = () => { st[p.id] = st[p.id] || {}; st[p.id].note = ta.value; save(); render(); };
+  vd.append(ok, fix); card.append(vd, ta);
+  list.append(card);
+}
+for (const r of PAL) { const tr = el("tr"); r.forEach((c, i) => { const td = el("td", i === 1 ? (c === "F" ? "f" : "m") : null, c); tr.append(td); }); document.querySelector("#pal tbody").append(tr); }
+for (const r of CAST) { const tr = el("tr"); r.forEach((c, i) => { const td = el("td", i === 2 ? (c === "F" ? "f" : "m") : null, c); tr.append(td); }); document.querySelector("#cast tbody").append(tr); }
+function render() {
+  const L = ["VAULT V2 — retour sur les prototypes VO"];
+  for (const p of P) {
+    const s = st[p.id] || {}; const card = document.getElementById(p.id);
+    card.dataset.v = s.v || "";
+    card.querySelector(".vb.ok").setAttribute("aria-pressed", String(s.v === "ok"));
+    card.querySelector(".vb.fix").setAttribute("aria-pressed", String(s.v === "fix"));
+    L.push(`- ${p.id} (${p.style}) : ${s.v === "ok" ? "DIRECTION OK" : s.v === "fix" ? "À AJUSTER" : "sans avis"}${(s.note || "").trim() ? " — " + s.note.trim().replace(/\n/g, " / ") : ""}`);
+  }
+  document.getElementById("recap").value = L.join("\n");
+}
+document.getElementById("copy").onclick = async () => {
+  const t = document.getElementById("recap").value;
+  try { await navigator.clipboard.writeText(t); } catch (e) { const r = document.getElementById("recap"); r.select(); try { document.execCommand("copy"); } catch (e2) {} }
+  const to = document.getElementById("toast"); to.textContent = "Copié"; setTimeout(() => to.textContent = "", 2500);
+};
+render();
+</script>
+</body>
+</html>
