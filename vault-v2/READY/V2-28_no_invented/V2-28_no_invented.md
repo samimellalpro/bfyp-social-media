@@ -84,8 +84,8 @@ Empty is an answer → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 26.73 s |
-| Loudness | -14.3 LUFS integrated (target −14) · true peak -1.8 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-9 dB RMS in the first 300 ms) |
+| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.8 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−9 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3510 kb/s · 11.73 MB |
 | Voice intelligibility on the final mix | ASR word match 0.984 (gate ≥ 0.95) |

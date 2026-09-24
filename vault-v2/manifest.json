@@ -1,0 +1,1024 @@
+{
+ "vault": "BFYP VAULT V2",
+ "created": "2026-09-24",
+ "count": 30,
+ "reels": [
+  {
+   "id": "V2-01",
+   "slug": "sec_hack",
+   "title": "Even the SEC got faked",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 21.4,
+   "lufs_i": -14.09,
+   "true_peak_dbtp": -1.4,
+   "size_mb": 11.4,
+   "video": "READY/V2-01_sec_hack/V2-01_sec_hack-14810da626.mp4",
+   "cover": "READY/V2-01_sec_hack/V2-01_sec_hack_cover-1642fba06e.png",
+   "sheet": "READY/V2-01_sec_hack/V2-01_sec_hack.md",
+   "sha256_video": "14810da626bb1f1a4d2e2098651c9eb5ae45f51f91f78d715e37697881884224",
+   "sha256_cover": "1642fba06ec4b909c991338a6c4d7da67758036364d35f8a3d25a829e8c27de0",
+   "hook": "The SEC’s own account posted fake news.",
+   "cta": "Read the filing, not the post.",
+   "music": {
+    "style": "cinematic",
+    "bpm": 90,
+    "key": "D",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://www.sec.gov/secgov-x-account",
+    "https://x.com/GenslerArchive/status/1744833049064288387",
+    "https://www.justice.gov/opa/pr/alabama-man-sentenced-14-months-connection-securities-and-exchange-commission-x-hack-spiked",
+    "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023"
+   ],
+   "bfyp_assets": {
+    "nvda_filings5": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-02",
+   "slug": "gurus_100m",
+   "title": "Follow filings, not followers",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.6,
+   "lufs_i": -14.27,
+   "true_peak_dbtp": -1.62,
+   "size_mb": 10.3,
+   "video": "READY/V2-02_gurus_100m/V2-02_gurus_100m-c856c5eae2.mp4",
+   "cover": "READY/V2-02_gurus_100m/V2-02_gurus_100m_cover-df207b7816.png",
+   "sheet": "READY/V2-02_gurus_100m/V2-02_gurus_100m.md",
+   "sha256_video": "c856c5eae2673b1ef59b7f0c785d4203a8fc4f8aace3c8cd8a866bd8178c7db0",
+   "sha256_cover": "df207b781644429b80cb4d7f8bff97213003cf879e1f93281a6278d3a0e13ae5",
+   "hook": "8 “trading gurus.” $100M. SEC charges.",
+   "cta": "Follow filings, not followers.",
+   "music": {
+    "style": "garage",
+    "bpm": 132,
+    "key": "F",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://www.sec.gov/newsroom/press-releases/2022-221",
+    "https://www.ca5.uscourts.gov/opinions/pub/24/24-20143-CV0.pdf",
+    "https://www.sec.gov/files/form4.pdf"
+   ],
+   "bfyp_assets": {
+    "nvda_insider": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-03",
+   "slug": "ai_fake_cases",
+   "title": "Fluent isn't true",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.8,
+   "lufs_i": -14.14,
+   "true_peak_dbtp": -1.84,
+   "size_mb": 9.54,
+   "video": "READY/V2-03_ai_fake_cases/V2-03_ai_fake_cases-9e82293471.mp4",
+   "cover": "READY/V2-03_ai_fake_cases/V2-03_ai_fake_cases_cover-141eb8e6d2.png",
+   "sheet": "READY/V2-03_ai_fake_cases/V2-03_ai_fake_cases.md",
+   "sha256_video": "9e822934713682b19e197baed61f9eab82832ca9ed4a228e1fca615a979b7938",
+   "sha256_cover": "141eb8e6d2650e189a23cfb318e0fdd8081fdbb27cd48200412a5dd2d7f999e3",
+   "hook": "An AI invented 6 court cases. A lawyer filed them.",
+   "cta": "Ask with receipts.",
+   "music": {
+    "style": "minimal",
+    "bpm": 120,
+    "key": "G",
+    "mode": "dorian"
+   },
+   "sources": [
+    "https://www.courtlistener.com/opinion/9885417/mata-v-avianca-inc/"
+   ],
+   "bfyp_assets": {
+    "ai_prompt": "2026-09-23 21:39 UTC",
+    "ai_label": "2026-09-23 22:09 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-04",
+   "slug": "fake_tweet",
+   "title": "One fake tweet, $136.5B",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 22.0,
+   "lufs_i": -14.26,
+   "true_peak_dbtp": -1.74,
+   "size_mb": 9.98,
+   "video": "READY/V2-04_fake_tweet/V2-04_fake_tweet-d25162ff4a.mp4",
+   "cover": "READY/V2-04_fake_tweet/V2-04_fake_tweet_cover-def5b94d9d.png",
+   "sheet": "READY/V2-04_fake_tweet/V2-04_fake_tweet.md",
+   "sha256_video": "d25162ff4a6376b0be777f0e8e33e6b69b62688923ca042692d17e480d08ce23",
+   "sha256_cover": "def5b94d9dbee912fc8cb7afb44b85c801b71aa7de735e74b64d658edddd84b1",
+   "hook": "One fake tweet erased $136.5B.",
+   "cta": "Check what actually happened.",
+   "music": {
+    "style": "dnb",
+    "bpm": 172,
+    "key": "A",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://www.cnbc.com/2013/04/23/false-rumor-of-explosion-at-white-house-causes-stocks-to-briefly-plunge-ap-confirms-its-twitter-feed-was-hacked.html",
+    "https://www.abc.net.au/news/2013-04-24/ap-twitter-feed-hacked/4647630"
+   ],
+   "bfyp_assets": {
+    "today_lines": "2026-09-23 21:28 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-05",
+   "slug": "fake_reviews",
+   "title": "No testimonials. On purpose.",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.1,
+   "true_peak_dbtp": -1.26,
+   "size_mb": 8.68,
+   "video": "READY/V2-05_fake_reviews/V2-05_fake_reviews-a8da605c2c.mp4",
+   "cover": "READY/V2-05_fake_reviews/V2-05_fake_reviews_cover-fef0d724f6.png",
+   "sheet": "READY/V2-05_fake_reviews/V2-05_fake_reviews.md",
+   "sha256_video": "a8da605c2cd8b659c90196e6c10d3c51b2cf0582b2beb9b53099b1a836fe104e",
+   "sha256_cover": "fef0d724f626f3cea295252a46a09a9fa0922e046109dc655e7d271547ad54aa",
+   "hook": "The FTC had to ban fake reviews.",
+   "cta": "Don't trust us. Audit us.",
+   "music": {
+    "style": "amapiano",
+    "bpm": 113,
+    "key": "Bb",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials"
+   ],
+   "bfyp_assets": {
+    "honesty": "2026-09-23 22:09 UTC",
+    "free_card": "2026-09-23 22:09 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-06",
+   "slug": "feed_48",
+   "title": "48% learn investing on social",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.33,
+   "true_peak_dbtp": -1.52,
+   "size_mb": 9.25,
+   "video": "READY/V2-06_feed_48/V2-06_feed_48-ad7e8a0ada.mp4",
+   "cover": "READY/V2-06_feed_48/V2-06_feed_48_cover-d6d52e6f51.png",
+   "sheet": "READY/V2-06_feed_48/V2-06_feed_48.md",
+   "sha256_video": "ad7e8a0ada10016c8b630d7e1e73e45fec7524f32d8955f18765fcf6c28387c9",
+   "sha256_cover": "d6d52e6f51c5c2b86ba249f91a653012851fb9bdf78566b790e689c25001fda0",
+   "hook": "48% of Gen Z investors learn investing on social media.",
+   "cta": "Learn from evidence.",
+   "music": {
+    "style": "futurebass",
+    "bpm": 150,
+    "key": "D",
+    "mode": "major"
+   },
+   "sources": [
+    "https://www.finra.org/media-center/newsreleases/2023/finra-foundation-cfa-institute-research-focuses-gen-z-investors"
+   ],
+   "bfyp_assets": {
+    "today_lines": "2026-09-23 21:28 UTC",
+    "whale_card": "2026-09-23 21:38 UTC",
+    "nvda_fund": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-07",
+   "slug": "just_bought",
+   "title": "“Just bought” — just?",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.8,
+   "lufs_i": -14.36,
+   "true_peak_dbtp": -1.87,
+   "size_mb": 9.31,
+   "video": "READY/V2-07_just_bought/V2-07_just_bought-c8ffb1c9ee.mp4",
+   "cover": "READY/V2-07_just_bought/V2-07_just_bought_cover-bcaa852730.png",
+   "sheet": "READY/V2-07_just_bought/V2-07_just_bought.md",
+   "sha256_video": "c8ffb1c9ee938e8101c71bbae697e01fd0d3d4c88c9dc3d5b6fb9d52228d36e6",
+   "sha256_cover": "bcaa852730034009d57e642442aad8301a5be34ff3212802455696dd4690745e",
+   "hook": "“Big fund just bought $XYZ!” “Just”?",
+   "cta": "Check both dates.",
+   "music": {
+    "style": "synthwave",
+    "bpm": 108,
+    "key": "E",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://www.investor.gov/introduction-investing/investing-basics/glossary/form-13f-reports-filed-institutional-investment"
+   ],
+   "bfyp_assets": {
+    "spy_cards": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-08",
+   "slug": "trace_it",
+   "title": "Can’t trace it? Can’t trust it.",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.0,
+   "lufs_i": -14.16,
+   "true_peak_dbtp": -1.16,
+   "size_mb": 10.12,
+   "video": "READY/V2-08_trace_it/V2-08_trace_it-1d682eb186.mp4",
+   "cover": "READY/V2-08_trace_it/V2-08_trace_it_cover-597976a729.png",
+   "sheet": "READY/V2-08_trace_it/V2-08_trace_it.md",
+   "sha256_video": "1d682eb186ed1c4a92589b45c3eed34ee6471580073e767f0afda24786ef5996",
+   "sha256_cover": "597976a729e030bb7d63b544c895c21965d63378e3fb7f344ad3c676c2202e27",
+   "hook": "This is a screenshot.",
+   "cta": "Don't trust. Click through.",
+   "music": {
+    "style": "trap",
+    "bpm": 140,
+    "key": "C",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "whale_card": "2026-09-23 21:38 UTC",
+    "nvda_filings4": "2026-09-23 21:39 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-09",
+   "slug": "fiscal_2026",
+   "title": "NVIDIA’s 2026 ended in January",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.11,
+   "true_peak_dbtp": -1.81,
+   "size_mb": 9.21,
+   "video": "READY/V2-09_fiscal_2026/V2-09_fiscal_2026-6234ed0e94.mp4",
+   "cover": "READY/V2-09_fiscal_2026/V2-09_fiscal_2026_cover-d742a5de3b.png",
+   "sheet": "READY/V2-09_fiscal_2026/V2-09_fiscal_2026.md",
+   "sha256_video": "6234ed0e9429fd5847cee65df57081378886a1bdd7154a014473c254f6c38975",
+   "sha256_cover": "d742a5de3bae835d7c563cdd807c93c9adceb57de7009bec1b4fe9c99c3c373d",
+   "hook": "When did NVIDIA’s fiscal 2026 end?",
+   "cta": "Every number with its period.",
+   "music": {
+    "style": "techhouse",
+    "bpm": 126,
+    "key": "B",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+   ],
+   "bfyp_assets": {
+    "nvda_fund": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-10",
+   "slug": "top10_36",
+   "title": "500 companies. 36% in 10 lines.",
+   "lot": 1,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 21.0,
+   "lufs_i": -14.2,
+   "true_peak_dbtp": -1.51,
+   "size_mb": 9.76,
+   "video": "READY/V2-10_top10_36/V2-10_top10_36-36d4f8597c.mp4",
+   "cover": "READY/V2-10_top10_36/V2-10_top10_36_cover-cdc6c772f0.png",
+   "sheet": "READY/V2-10_top10_36/V2-10_top10_36.md",
+   "sha256_video": "36d4f8597c3987b685abc91350ab0233ec8b78921a0f487240a746c2a373826c",
+   "sha256_cover": "cdc6c772f0a02c59c833ddc2376293ec4dac1a527ed2b09e0649282c716c5036",
+   "hook": "You bought 500 companies.",
+   "cta": "See what your fund actually holds.",
+   "music": {
+    "style": "minimal",
+    "bpm": 118,
+    "key": "E",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "spy_page": "2026-09-23 22:01 UTC",
+    "spy_cards": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-11",
+   "slug": "eleven_tabs",
+   "title": "POV: 11 tabs for one ticker",
+   "lot": 2,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 21.0,
+   "lufs_i": -14.63,
+   "true_peak_dbtp": -1.84,
+   "size_mb": 10.54,
+   "video": "READY/V2-11_eleven_tabs/V2-11_eleven_tabs-99ffce1e24.mp4",
+   "cover": "READY/V2-11_eleven_tabs/V2-11_eleven_tabs_cover-ee9419ff4f.png",
+   "sheet": "READY/V2-11_eleven_tabs/V2-11_eleven_tabs.md",
+   "sha256_video": "99ffce1e24577bb099c211b36edbbaaa7fc29046ea583605686f5d68f77e1f2d",
+   "sha256_cover": "ee9419ff4ffb1f5ea5c6a5c74da1e88b9a31779f181650085320cabf636de7f6",
+   "hook": "POV: 11 tabs to check one ticker.",
+   "cta": "Close 10 tabs.",
+   "music": {
+    "style": "techhouse",
+    "bpm": 128,
+    "key": "G",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "today_cats": "2026-09-23 22:14 UTC",
+    "whale_card": "2026-09-23 21:38 UTC",
+    "sm_rows_678": "2026-09-23 21:38 UTC",
+    "nvda_filings4": "2026-09-23 21:39 UTC",
+    "ai_prompt": "2026-09-23 21:39 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-12",
+   "slug": "what_changed",
+   "title": "Prices move. What changed?",
+   "lot": 2,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.2,
+   "true_peak_dbtp": -1.64,
+   "size_mb": 9.52,
+   "video": "READY/V2-12_what_changed/V2-12_what_changed-cffd1dc59e.mp4",
+   "cover": "READY/V2-12_what_changed/V2-12_what_changed_cover-81f83500b6.png",
+   "sheet": "READY/V2-12_what_changed/V2-12_what_changed.md",
+   "sha256_video": "cffd1dc59e3a98cab55f458cb6aa77df00d28f7469162559cd2a9331f0c92420",
+   "sha256_cover": "81f83500b6bf09cb844d1f77f3984ec785c3bb7399dbfdde8236c970071accfc",
+   "hook": "Your dashboard, all day: GREEN. RED. It shows prices. Not what changed.",
+   "cta": "Start with what changed.",
+   "music": {
+    "style": "minimal",
+    "bpm": 122,
+    "key": "F#",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "today_cats": "2026-09-23 22:14 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-13",
+   "slug": "since_when",
+   "title": "“Whales are buying.” Since when?",
+   "lot": 2,
+   "lang": "EN",
+   "format": "voice-led (fallback voice BFYP-K1)",
+   "duration_s": 25.17,
+   "lufs_i": -14.84,
+   "true_peak_dbtp": -1.62,
+   "size_mb": 10.47,
+   "video": "READY/V2-13_since_when/V2-13_since_when-1a6649b072.mp4",
+   "cover": "READY/V2-13_since_when/V2-13_since_when_cover-0491d6e303.png",
+   "sheet": "READY/V2-13_since_when/V2-13_since_when.md",
+   "sha256_video": "1a6649b072fcd18b92150ba717b71086c478fed6214073761a3dfe06974324b0",
+   "sha256_cover": "0491d6e3030a5dede9e404b3eaf5c919f9731263fd4fc94f62b71c921af6640b",
+   "hook": "“Whales are buying!” Since when?",
+   "cta": "Numbers with a timeframe.",
+   "music": {
+    "style": "garage",
+    "bpm": 130,
+    "key": "C",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "today_lines": "2026-09-23 21:28 UTC",
+    "sm_page": "2026-09-23 21:38 UTC",
+    "whale_card": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-14",
+   "slug": "whale_alert",
+   "title": "This whale alert tells you nothing",
+   "lot": 2,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.0,
+   "lufs_i": -14.12,
+   "true_peak_dbtp": -1.71,
+   "size_mb": 10.97,
+   "video": "READY/V2-14_whale_alert/V2-14_whale_alert-ee41095ab5.mp4",
+   "cover": "READY/V2-14_whale_alert/V2-14_whale_alert_cover-996496a3a3.png",
+   "sheet": "READY/V2-14_whale_alert/V2-14_whale_alert.md",
+   "sha256_video": "ee41095ab5c257eb353e736c73e9f6c9c60da07f4d55fecbee8f8e946a29f0b9",
+   "sha256_cover": "996496a3a3ff8004aa2c82b4d55488a4740e657d250fb8689ded7bebd77f23d3",
+   "hook": "This whale alert tells you nothing.",
+   "cta": "Read the evidence, not the alert.",
+   "music": {
+    "style": "techhouse",
+    "bpm": 124,
+    "key": "A",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "whale_card": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-15",
+   "slug": "context_paste",
+   "title": "Stop pasting tickers into chatbots",
+   "lot": 2,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.6,
+   "lufs_i": -14.3,
+   "true_peak_dbtp": -1.06,
+   "size_mb": 9.32,
+   "video": "READY/V2-15_context_paste/V2-15_context_paste-3ff82930eb.mp4",
+   "cover": "READY/V2-15_context_paste/V2-15_context_paste_cover-0dec48ac91.png",
+   "sheet": "READY/V2-15_context_paste/V2-15_context_paste.md",
+   "sha256_video": "3ff82930ebc4006f665463aa4e012ff05bcac633912a65536ff8c2e4e75c3c7b",
+   "sha256_cover": "0dec48ac91d6a83db42c2ac71de06ef8684d347886351db4c7b33803dc583dc2",
+   "hook": "Copy. Paste. Explain. Repeat.",
+   "cta": "The asset comes with you.",
+   "music": {
+    "style": "amapiano",
+    "bpm": 115,
+    "key": "Eb",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "ai_ask": "2026-09-23 22:09 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-16",
+   "slug": "cost_before",
+   "title": "Know the cost before you ask",
+   "lot": 2,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.19,
+   "true_peak_dbtp": -1.11,
+   "size_mb": 9.91,
+   "video": "READY/V2-16_cost_before/V2-16_cost_before-5c39e87909.mp4",
+   "cover": "READY/V2-16_cost_before/V2-16_cost_before_cover-fa36e501ea.png",
+   "sheet": "READY/V2-16_cost_before/V2-16_cost_before.md",
+   "sha256_video": "5c39e879092cf4f2e4eb45254fac9ca4994231ce7dac34d47a7ef7f749acbf08",
+   "sha256_cover": "fa36e501ea446f3d5b00f5900470f98b04d557a37e0792d3d6053dce96878dae",
+   "hook": "What did that AI answer actually cost you?",
+   "cta": "52 free AI credits every month.",
+   "music": {
+    "style": "synthwave",
+    "bpm": 110,
+    "key": "F",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "ai_prompt": "2026-09-23 21:39 UTC",
+    "free_list": "2026-09-23 22:09 UTC",
+    "free_card": "2026-09-23 22:09 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-17",
+   "slug": "free_speedrun",
+   "title": "Everything $0 gets you",
+   "lot": 2,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.22,
+   "true_peak_dbtp": -1.88,
+   "size_mb": 7.99,
+   "video": "READY/V2-17_free_speedrun/V2-17_free_speedrun-d7aa10ade3.mp4",
+   "cover": "READY/V2-17_free_speedrun/V2-17_free_speedrun_cover-6478c0f226.png",
+   "sheet": "READY/V2-17_free_speedrun/V2-17_free_speedrun.md",
+   "sha256_video": "d7aa10ade32dfc20376b843121e025f3c771a620ee27ad2d5b2a04f5cccfa1f3",
+   "sha256_cover": "6478c0f226173249ef1a85d9fa1e8b1cebb1ecf99af4fcb6c14a1fafe93dccbf",
+   "hook": "$0. Here’s everything it gets you.",
+   "cta": "Create a free account.",
+   "music": {
+    "style": "futurebass",
+    "bpm": 150,
+    "key": "E",
+    "mode": "major"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "free_card": "2026-09-23 22:09 UTC",
+    "free_list": "2026-09-23 22:09 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-18",
+   "slug": "whose_trillion",
+   "title": "$1.67 trillion. Whose?",
+   "lot": 2,
+   "lang": "EN",
+   "format": "voice-led (fallback voice BFYP-K1)",
+   "duration_s": 28.4,
+   "lufs_i": -14.33,
+   "true_peak_dbtp": -1.57,
+   "size_mb": 11.51,
+   "video": "READY/V2-18_whose_trillion/V2-18_whose_trillion-77b458a7f8.mp4",
+   "cover": "READY/V2-18_whose_trillion/V2-18_whose_trillion_cover-5552c8f363.png",
+   "sheet": "READY/V2-18_whose_trillion/V2-18_whose_trillion.md",
+   "sha256_video": "77b458a7f8dbd0cf5f3ac725639d613472115c69ec30e7ae02cbf34097f6d8bd",
+   "sha256_cover": "5552c8f36375b15dcb7a634eecfe8f2f2f6efb5d123f5fb8b7f7ffe18fa83a49",
+   "hook": "VOO: $1.67 trillion?",
+   "cta": "Know what a number covers.",
+   "music": {
+    "style": "minimal",
+    "bpm": 120,
+    "key": "D",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://fund-docs.vanguard.com/p968.pdf",
+    "https://www.sec.gov/Archives/edgar/data/0000036405/000110465926102240/tm2620528d8_ncsrs.htm"
+   ],
+   "bfyp_assets": {
+    "voo_cards": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-19",
+   "slug": "form_144",
+   "title": "A Form 144 isn't a sale",
+   "lot": 2,
+   "lang": "EN",
+   "format": "voice-led (fallback voice BFYP-K1)",
+   "duration_s": 26.77,
+   "lufs_i": -14.32,
+   "true_peak_dbtp": -1.58,
+   "size_mb": 10.92,
+   "video": "READY/V2-19_form_144/V2-19_form_144-e55a3a0488.mp4",
+   "cover": "READY/V2-19_form_144/V2-19_form_144_cover-fbb0124981.png",
+   "sheet": "READY/V2-19_form_144/V2-19_form_144.md",
+   "sha256_video": "e55a3a0488aa7d86cb083f3ab9242d064168e12e8e7858e1f6d26a6112fc2ada",
+   "sha256_cover": "fbb0124981bb896bd5540ea2b9126be6f7d3b140d7813f50552a8a5a8c048c92",
+   "hook": "Three Form 144 filings on NVIDIA in September. Insiders dumping?",
+   "cta": "Read what was filed.",
+   "music": {
+    "style": "trap",
+    "bpm": 140,
+    "key": "G",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://www.investor.gov/introduction-investing/investing-basics/glossary/form-144",
+    "https://www.sec.gov/reports/rule-144-selling-restricted-control-securities"
+   ],
+   "bfyp_assets": {
+    "nvda_filings5": "2026-09-23 22:01 UTC",
+    "nvda_insider": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-20",
+   "slug": "financebench",
+   "title": "Fast doesn’t matter if it’s wrong",
+   "lot": 2,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 21.0,
+   "lufs_i": -14.49,
+   "true_peak_dbtp": -1.12,
+   "size_mb": 10.46,
+   "video": "READY/V2-20_financebench/V2-20_financebench-fb05ad708b.mp4",
+   "cover": "READY/V2-20_financebench/V2-20_financebench_cover-38ff566a8d.png",
+   "sheet": "READY/V2-20_financebench/V2-20_financebench.md",
+   "sha256_video": "fb05ad708b3d9c4498548b5e177ad17f704c333a85d19a037904ae5c633044e9",
+   "sha256_cover": "38ff566a8d257246aaf2835e10bbdba575c7b4113604fae3c6cfe3551df732a7",
+   "hook": "81% wrong or refused.",
+   "cta": "Answers you can audit.",
+   "music": {
+    "style": "dnb",
+    "bpm": 170,
+    "key": "E",
+    "mode": "minor"
+   },
+   "sources": [
+    "https://arxiv.org/abs/2311.11944",
+    "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+    "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+   ],
+   "bfyp_assets": {
+    "nvda_fund": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-21",
+   "slug": "big_not_smart",
+   "title": "Biggest wallet ≠ smartest wallet",
+   "lot": 3,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.0,
+   "lufs_i": -14.18,
+   "true_peak_dbtp": -1.67,
+   "size_mb": 8.95,
+   "video": "READY/V2-21_big_not_smart/V2-21_big_not_smart-ae1161990c.mp4",
+   "cover": "READY/V2-21_big_not_smart/V2-21_big_not_smart_cover-4a3f79198c.png",
+   "sheet": "READY/V2-21_big_not_smart/V2-21_big_not_smart.md",
+   "sha256_video": "ae1161990ce27c89d05d656fe245b6dea3f089c9a2a2f3dc03b687e12ef5f57e",
+   "sha256_cover": "4a3f79198ca6a7a4d7e1f05f0e01b500f2fdfe94b0c5a1db65c6c8b6bc0a78de",
+   "hook": "The biggest wallet isn't the smartest one.",
+   "cta": "Ranked on what they did.",
+   "music": {
+    "style": "dnb",
+    "bpm": 174,
+    "key": "F",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "sm_rows_12": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-22",
+   "slug": "market_maker",
+   "title": "That whale might be a market maker",
+   "lot": 3,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.09,
+   "true_peak_dbtp": -1.64,
+   "size_mb": 9.04,
+   "video": "READY/V2-22_market_maker/V2-22_market_maker-2ad5bc5be7.mp4",
+   "cover": "READY/V2-22_market_maker/V2-22_market_maker_cover-bc47b9ca4c.png",
+   "sheet": "READY/V2-22_market_maker/V2-22_market_maker.md",
+   "sha256_video": "2ad5bc5be72150fbde873eef89e6aa64d39a7332cc8d20c2ad3eecf6ae1d1dc6",
+   "sha256_cover": "bc47b9ca4c6993550c34de446dae4c67bac10a1a378ae200771c1a95847b7199",
+   "hook": "That “whale”? Might be a market maker.",
+   "cta": "Know who you're watching.",
+   "music": {
+    "style": "amapiano",
+    "bpm": 112,
+    "key": "A",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "sm_rows_678": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-23",
+   "slug": "same_score",
+   "title": "Same score. Not the same thing.",
+   "lot": 3,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.52,
+   "true_peak_dbtp": -1.14,
+   "size_mb": 7.57,
+   "video": "READY/V2-23_same_score/V2-23_same_score-198ce15bdd.mp4",
+   "cover": "READY/V2-23_same_score/V2-23_same_score_cover-a54c4a3ee3.png",
+   "sheet": "READY/V2-23_same_score/V2-23_same_score.md",
+   "sha256_video": "198ce15bdde2f3f8a9cd9ec81f0a71eac8abe1cd8d6f776b390d8d97c5a4ae4b",
+   "sha256_cover": "a54c4a3ee3cdddf12165281e89b8a96cf84ff14d80a92ed453f2762a8570fcab",
+   "hook": "31/100 vs 31/100. Same score?",
+   "cta": "Scores with their confidence.",
+   "music": {
+    "style": "synthwave",
+    "bpm": 106,
+    "key": "C",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "sm_rows_678": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-24",
+   "slug": "three_wins",
+   "title": "3 wins. Genius or luck?",
+   "lot": 3,
+   "lang": "EN",
+   "format": "voice-led (fallback voice BFYP-K1)",
+   "duration_s": 21.37,
+   "lufs_i": -14.51,
+   "true_peak_dbtp": -1.57,
+   "size_mb": 8.88,
+   "video": "READY/V2-24_three_wins/V2-24_three_wins-c7fa95c4d3.mp4",
+   "cover": "READY/V2-24_three_wins/V2-24_three_wins_cover-58d984477e.png",
+   "sheet": "READY/V2-24_three_wins/V2-24_three_wins.md",
+   "sha256_video": "c7fa95c4d3cc6d6cd34758261690b5721049d710cc78af78e9b19b8473cbfdf8",
+   "sha256_cover": "58d984477e5d5885cc4a6df1ef2d03c1a239be1bac45948ff714a0f985ce83a8",
+   "hook": "Three wins in a row. Genius, or luck?",
+   "cta": "Scores that admit what they don't know.",
+   "music": {
+    "style": "garage",
+    "bpm": 134,
+    "key": "A",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "sm_rows_12": "2026-09-23 21:38 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-25",
+   "slug": "both_ways",
+   "title": "The data pointed both ways",
+   "lot": 3,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.4,
+   "lufs_i": -14.15,
+   "true_peak_dbtp": -1.94,
+   "size_mb": 8.92,
+   "video": "READY/V2-25_both_ways/V2-25_both_ways-8617aff578.mp4",
+   "cover": "READY/V2-25_both_ways/V2-25_both_ways_cover-c0bccaf143.png",
+   "sheet": "READY/V2-25_both_ways/V2-25_both_ways.md",
+   "sha256_video": "8617aff578c3f656649e875acf38e55cb69a5bcd85e6b0291297a729d43b9c1f",
+   "sha256_cover": "c0bccaf1431e43d0112b36d6e627058c7c3ab01c8878ba188d1dfbd0d500559b",
+   "hook": "On USDC, the data pointed both ways.",
+   "cta": "See both sides.",
+   "music": {
+    "style": "minimal",
+    "bpm": 118,
+    "key": "B",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "today_lines": "2026-09-23 21:28 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-26",
+   "slug": "together",
+   "title": "Alone it's noise",
+   "lot": 3,
+   "lang": "EN",
+   "format": "text-led",
+   "duration_s": 20.6,
+   "lufs_i": -14.27,
+   "true_peak_dbtp": -1.27,
+   "size_mb": 8.53,
+   "video": "READY/V2-26_together/V2-26_together-73daeeb53e.mp4",
+   "cover": "READY/V2-26_together/V2-26_together_cover-b51157caf0.png",
+   "sheet": "READY/V2-26_together/V2-26_together.md",
+   "sha256_video": "73daeeb53ec64849f292b43564afdf552b62b96eb440cead7bd649bcaad022a9",
+   "sha256_cover": "b51157caf0d96593ba2a0d37011c9c26f9accc10ff295d8151b32503fac7e758",
+   "hook": "One signal alone? Noise.",
+   "cta": "See what's happening together.",
+   "music": {
+    "style": "techhouse",
+    "bpm": 125,
+    "key": "D",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "today_lines": "2026-09-23 21:28 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-27",
+   "slug": "prove_it",
+   "title": "If it can’t be proven wrong, it’s a vibe",
+   "lot": 3,
+   "lang": "EN",
+   "format": "voice-led (fallback voice BFYP-K1)",
+   "duration_s": 23.6,
+   "lufs_i": -14.27,
+   "true_peak_dbtp": -1.6,
+   "size_mb": 9.64,
+   "video": "READY/V2-27_prove_it/V2-27_prove_it-358bb67750.mp4",
+   "cover": "READY/V2-27_prove_it/V2-27_prove_it_cover-2b6ac9b45b.png",
+   "sheet": "READY/V2-27_prove_it/V2-27_prove_it.md",
+   "sha256_video": "358bb677509e1db8b62c95c4793e3d89bf14ba916ec1925e637f48ee6f0a3880",
+   "sha256_cover": "2b6ac9b45b1788f6f9411bedb0e7f69c2e804b5bdb969cdefc81b4d76d22a084",
+   "hook": "If it can’t be proven wrong, it’s just a vibe.",
+   "cta": "Trade vibes for evidence.",
+   "music": {
+    "style": "cinematic",
+    "bpm": 92,
+    "key": "E",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "today_lines": "2026-09-23 21:28 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-28",
+   "slug": "no_invented",
+   "title": "We won’t invent a consensus",
+   "lot": 3,
+   "lang": "EN",
+   "format": "voice-led (fallback voice BFYP-K1)",
+   "duration_s": 26.73,
+   "lufs_i": -14.32,
+   "true_peak_dbtp": -1.83,
+   "size_mb": 11.73,
+   "video": "READY/V2-28_no_invented/V2-28_no_invented-9c65317ef6.mp4",
+   "cover": "READY/V2-28_no_invented/V2-28_no_invented_cover-a343f8fe82.png",
+   "sheet": "READY/V2-28_no_invented/V2-28_no_invented.md",
+   "sha256_video": "9c65317ef6479ea3a46fffae425492b1bc02598cacab33de8480b4ea5bbe4876",
+   "sha256_cover": "a343f8fe82313be7c80be4062f3c7f13209abc4b96f9733f17486c9a9f55972d",
+   "hook": "No data? Then show nothing.",
+   "cta": "Data that doesn't pretend.",
+   "music": {
+    "style": "cinematic",
+    "bpm": 88,
+    "key": "G",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "sm_page": "2026-09-23 21:38 UTC",
+    "today_cats": "2026-09-23 22:14 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-29",
+   "slug": "timestamps",
+   "title": "Why every screen we post is timestamped",
+   "lot": 3,
+   "lang": "EN",
+   "format": "voice-led (fallback voice BFYP-K1)",
+   "duration_s": 27.43,
+   "lufs_i": -14.35,
+   "true_peak_dbtp": -1.64,
+   "size_mb": 11.15,
+   "video": "READY/V2-29_timestamps/V2-29_timestamps-d24baad097.mp4",
+   "cover": "READY/V2-29_timestamps/V2-29_timestamps_cover-c9974d6b07.png",
+   "sheet": "READY/V2-29_timestamps/V2-29_timestamps.md",
+   "sha256_video": "d24baad097ee9e9557f5418bcc6e4e0d950ddc7d51c767488adde92de6c081f2",
+   "sha256_cover": "c9974d6b07d1a8ba151ef32b3d58511f819a05e94fc64ae92c2410f23f5f3b2a",
+   "hook": "Every screenshot starts aging the second it’s taken.",
+   "cta": "See today's version live.",
+   "music": {
+    "style": "trap",
+    "bpm": 144,
+    "key": "D",
+    "mode": "minor"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "today_lines": "2026-09-23 21:28 UTC",
+    "today_head": "2026-09-23 22:14 UTC",
+    "whale_card": "2026-09-23 21:38 UTC",
+    "nvda_filings4": "2026-09-23 21:39 UTC",
+    "spy_page": "2026-09-23 22:01 UTC",
+    "ai_ask": "2026-09-23 22:09 UTC",
+    "today_cats": "2026-09-23 22:14 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  },
+  {
+   "id": "V2-30",
+   "slug": "fr_source",
+   "title": "Pas de source ? C’est du contenu.",
+   "lot": 3,
+   "lang": "FR",
+   "format": "text-led",
+   "duration_s": 20.6,
+   "lufs_i": -14.11,
+   "true_peak_dbtp": -1.38,
+   "size_mb": 9.18,
+   "video": "READY/V2-30_fr_source/V2-30_fr_source-3d91186900.mp4",
+   "cover": "READY/V2-30_fr_source/V2-30_fr_source_cover-1f7ed3f150.png",
+   "sheet": "READY/V2-30_fr_source/V2-30_fr_source.md",
+   "sha256_video": "3d91186900cd8e309155c4a28023789d68a811fe89fe3e2e7de4b8a88a3583b8",
+   "sha256_cover": "1f7ed3f150d24464cfea5e3f68e32dc27ad338a9c1d2da18e88addceee5543f3",
+   "hook": "Pas de source ? C’est du contenu.",
+   "cta": "Remonte à la source. Gratuitement.",
+   "music": {
+    "style": "futurebass",
+    "bpm": 148,
+    "key": "A",
+    "mode": "major"
+   },
+   "sources": [],
+   "bfyp_assets": {
+    "nvda_fund": "2026-09-23 22:01 UTC",
+    "spy_note": "2026-09-23 22:01 UTC"
+   },
+   "qc_pass": true,
+   "status": "READY",
+   "publish_after": "2026-09-30"
+  }
+ ]
+}

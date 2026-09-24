@@ -70,8 +70,8 @@ Sur BFYP, chaque chiffre avec sa période, son dépôt et le lien vers l'origina
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.60 s |
-| Loudness | -14.1 LUFS integrated (target −14) · true peak -1.4 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-12 dB RMS in the first 300 ms) |
+| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.4 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3566 kb/s · 9.18 MB |
 | All gates | **PASS** |

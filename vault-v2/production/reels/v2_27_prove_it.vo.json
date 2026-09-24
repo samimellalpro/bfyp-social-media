@@ -1,0 +1,87 @@
+{
+ "name": "v2_27_prove_it",
+ "bpm": 92.0,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.15,
+   "t1": 2.7693,
+   "dur": 2.6193,
+   "text": "If it can't be proven wrong, it's just a vibe."
+  },
+  {
+   "i": 1,
+   "t0": 3.587,
+   "t1": 4.9795,
+   "dur": 1.3925,
+   "text": "It'll pump eventually."
+  },
+  {
+   "i": 2,
+   "t0": 5.5435,
+   "t1": 6.7273,
+   "dur": 1.1838,
+   "text": "Smart money knows."
+  },
+  {
+   "i": 3,
+   "t0": 7.5,
+   "t1": 8.397,
+   "dur": 0.897,
+   "text": "Trust me."
+  },
+  {
+   "i": 4,
+   "t0": 9.1304,
+   "t1": 12.4322,
+   "dur": 3.3018,
+   "text": "None of these can ever be wrong. So they tell you nothing."
+  },
+  {
+   "i": 5,
+   "t0": 13.0435,
+   "t1": 16.8216,
+   "dur": 3.7781,
+   "text": "On BFYP, every line names what would prove it."
+  },
+  {
+   "i": 6,
+   "t0": 17.6087,
+   "t1": 22.1807,
+   "dur": 4.572,
+   "text": "Trade vibes for evidence. Free, at BetterForYourPocket.com."
+  }
+ ],
+ "dur": 22.631,
+ "wav": "/opt/bfyp/vo/v2_27_prove_it.vo.wav",
+ "sha256": "2ba3fec0ce591f18c6025907f63df6af3bfdb5ca809e18fdee56d60bf2367a72",
+ "provenance": {
+  "provider": "Kokoro-82M v1.0 (local, kokoro-onnx, Apache-2.0)",
+  "voice": "BFYP-K1 blend {\"am_michael\": 0.6, \"am_onyx\": 0.25, \"am_puck\": 0.15}",
+  "speed": 0.92,
+  "lang": "en-us",
+  "status": "fallback \u2014 replace with ElevenLabs Adam when available",
+  "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+ },
+ "qc": {
+  "asr_text": "If it can't be proven wrong, it's just a vibe. It'll pump eventually. Smart money knows. Trust me. None of these can ever be wrong, so they tell you nothing. On BFYP, every line names what would prove it. Trade Vibes for Evidence. Free at BetterForYourPocket.com.",
+  "word_match": 1.0,
+  "word_match_script": 1.0,
+  "word_match_spoken": 0.982,
+  "words_per_s": 3.1,
+  "f0_median_hz": 110.7,
+  "f0_spread_st": 7.5,
+  "min_gap_s": 0.56,
+  "clipping": false,
+  "gates": {
+   "word_match>=0.97": true,
+   "2.30<=wps<=3.30": true,
+   "85<=F0<=120": true,
+   "F0 spread>=6.4st": true,
+   "pause at sentence ends": true,
+   "no clipping": true
+  },
+  "pass": true
+ }
+}

@@ -9,7 +9,7 @@
 | Format | Text-led · Court-record hook → AI Research honesty |
 | Music | Original, synthesized for this reel: minimal · 120 BPM · G dorian (no samples, no licensed audio) |
 | Voice | None (text-led; on-screen text + original music + sound design) |
-| Hook (≤ 1.5 s) | “An AI invented 6 court cases. A lawyer filed them.” |
+| Opening hook (from 0 s) | “An AI invented 6 court cases. A lawyer filed them.” |
 | CTA | Ask with receipts. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -76,14 +76,14 @@ Sources: Mata v. Avianca, No. 22-cv-1461 (PKC) (S.D.N.Y.), sanctions opinion (22
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.80 s |
-| Loudness | -14.1 LUFS integrated (target −14) · true peak -1.8 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-14 dB RMS in the first 300 ms) |
+| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.8 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−14 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3667 kb/s · 9.54 MB |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: “An AI invented 6 court cases. A lawyer filed them.”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “An AI invented 6 court cases. A lawyer filed them.”
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

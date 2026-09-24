@@ -9,7 +9,7 @@
 | Format | Text-led · POV tab chaos → one-flow montage |
 | Music | Original, synthesized for this reel: techhouse · 128 BPM · G minor (no samples, no licensed audio) |
 | Voice | None (text-led; on-screen text + original music + sound design) |
-| Hook (≤ 1.5 s) | “POV: 11 tabs to check one ticker.” |
+| Opening hook (from 0 s) | “POV: 11 tabs to check one ticker.” |
 | CTA | Close 10 tabs. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -73,14 +73,14 @@ One workflow, sources attached → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 21.00 s |
-| Loudness | -14.6 LUFS integrated (target −14) · true peak -1.8 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-13 dB RMS in the first 300 ms) |
+| Loudness | −14.6 LUFS integrated (target −14) · true peak −1.8 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 4015 kb/s · 10.54 MB |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: “POV: 11 tabs to check one ticker.”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “POV: 11 tabs to check one ticker.”
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

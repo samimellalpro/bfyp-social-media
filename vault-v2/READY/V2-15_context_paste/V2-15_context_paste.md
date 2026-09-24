@@ -9,7 +9,7 @@
 | Format | Text-led · Chat illustration → Ask BFYP about this |
 | Music | Original, synthesized for this reel: amapiano · 115 BPM · Eb minor (no samples, no licensed audio) |
 | Voice | None (text-led; on-screen text + original music + sound design) |
-| Hook (≤ 1.5 s) | “Copy. Paste. Explain. Repeat.” |
+| Opening hook (from 0 s) | “Copy. Paste. Explain. Repeat.” |
 | CTA | The asset comes with you. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -68,14 +68,14 @@ On BFYP, AI Research opens with the asset already in context, and nothing is sen
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.60 s |
-| Loudness | -14.3 LUFS integrated (target −14) · true peak -1.1 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-13 dB RMS in the first 300 ms) |
+| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.1 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3618 kb/s · 9.32 MB |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: “Copy. Paste. Explain. Repeat.”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “Copy. Paste. Explain. Repeat.”
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

@@ -9,7 +9,7 @@
 | Format | Text-led · Timeline explainer → two dates on a fund page |
 | Music | Original, synthesized for this reel: synthwave · 108 BPM · E minor (no samples, no licensed audio) |
 | Voice | None (text-led; on-screen text + original music + sound design) |
-| Hook (≤ 1.5 s) | ““This fund just bought it!” Just?” |
+| Opening hook (from 0 s) | “Big fund just bought $XYZ!” “Just”? |
 | CTA | Check both dates. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -34,7 +34,7 @@ Holdings disclosures are lagged. 'Just bought' can mean months ago. Check the pe
 - 13F timeline graphic (45-day rule)
 
 ## Cover
-`V2-07_just_bought_cover-bcaa852730.png` — cover line: ““Just bought it”? Check the date.”
+`V2-07_just_bought_cover-bcaa852730.png` — cover line: “Just bought it”? Check the date.
 
 ## Caption — Instagram
 ```text
@@ -74,14 +74,14 @@ Sources: Investor.gov — Form 13F (filed within 45 days of quarter end) (curren
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.80 s |
-| Loudness | -14.4 LUFS integrated (target −14) · true peak -1.9 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-11 dB RMS in the first 300 ms) |
+| Loudness | −14.4 LUFS integrated (target −14) · true peak −1.9 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3581 kb/s · 9.31 MB |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: ““This fund just bought it!” Just?”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “Big fund just bought $XYZ!” “Just”?
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

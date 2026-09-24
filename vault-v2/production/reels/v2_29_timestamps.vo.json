@@ -1,0 +1,80 @@
+{
+ "name": "v2_29_timestamps",
+ "bpm": 144.0,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.15,
+   "t1": 3.2648,
+   "dur": 3.1148,
+   "text": "Every screenshot starts aging the second it's taken."
+  },
+  {
+   "i": 1,
+   "t0": 3.9583,
+   "t1": 8.0838,
+   "dur": 4.1254,
+   "text": "Same BFYP Today page. Forty-six minutes apart."
+  },
+  {
+   "i": 2,
+   "t0": 8.75,
+   "t1": 13.2565,
+   "dur": 4.5065,
+   "text": "Three hundred thirty observations. Then three hundred fifty-four."
+  },
+  {
+   "i": 3,
+   "t0": 13.9583,
+   "t1": 17.1488,
+   "dur": 3.1905,
+   "text": "That's why every screen we post carries its capture time."
+  },
+  {
+   "i": 4,
+   "t0": 17.7083,
+   "t1": 21.0684,
+   "dur": 3.3601,
+   "text": "By the time you watch this, the live page has moved on."
+  },
+  {
+   "i": 5,
+   "t0": 21.6667,
+   "t1": 26.0199,
+   "dur": 4.3533,
+   "text": "So check the live page. Free, at BetterForYourPocket.com."
+  }
+ ],
+ "dur": 26.47,
+ "wav": "/opt/bfyp/vo/v2_29_timestamps.vo.wav",
+ "sha256": "2ada85099adad96f6a92719bb6f86f680406e04f33931874f18ad05a3e962c2f",
+ "provenance": {
+  "provider": "Kokoro-82M v1.0 (local, kokoro-onnx, Apache-2.0)",
+  "voice": "BFYP-K1 blend {\"am_michael\": 0.6, \"am_onyx\": 0.25, \"am_puck\": 0.15}",
+  "speed": 0.92,
+  "lang": "en-us",
+  "status": "fallback \u2014 replace with ElevenLabs Adam when available",
+  "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+ },
+ "qc": {
+  "asr_text": "Every screenshot starts aging the second it's taken. Same BFYP Today page, 46 minutes apart. 330 observations, then 354. That's why every screen we post carries its capture time. By the time you watch this, the live page has moved on. So check the live page, free at betterforyourpocket.com.",
+  "word_match": 1.0,
+  "word_match_script": 1.0,
+  "word_match_spoken": 0.984,
+  "words_per_s": 2.83,
+  "f0_median_hz": 109.4,
+  "f0_spread_st": 7.9,
+  "min_gap_s": 0.56,
+  "clipping": false,
+  "gates": {
+   "word_match>=0.97": true,
+   "2.30<=wps<=3.30": true,
+   "85<=F0<=120": true,
+   "F0 spread>=6.4st": true,
+   "pause at sentence ends": true,
+   "no clipping": true
+  },
+  "pass": true
+ }
+}

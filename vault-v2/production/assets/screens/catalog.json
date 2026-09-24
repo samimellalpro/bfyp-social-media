@@ -1,0 +1,362 @@
+{
+ "whale_card": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/s3_whales-1ae56a5c01.png",
+  "box": [
+   68,
+   620,
+   1012,
+   1240
+  ],
+  "w": 944,
+  "h": 620,
+  "captured": "2026-09-23 21:38 UTC",
+  "page": "Whale Activity",
+  "note": "LIT large transfer card"
+ },
+ "sm_rows_678": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/s4_smart-b1474793d1.png",
+  "box": [
+   104,
+   604,
+   976,
+   1219
+  ],
+  "w": 872,
+  "h": 615,
+  "captured": "2026-09-23 21:38 UTC",
+  "page": "Smart Money leaderboard",
+  "note": "rows 6-8"
+ },
+ "sm_rows_12": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/s1_cover-a18982697c.png",
+  "box": [
+   140,
+   672,
+   940,
+   1232
+  ],
+  "w": 800,
+  "h": 560,
+  "captured": "2026-09-23 21:38 UTC",
+  "page": "Smart Money \u00b7 Scored wallet universe",
+  "note": "rows 1-2 + header"
+ },
+ "today_lines": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/s2_today-560a5b13cf.png",
+  "box": [
+   68,
+   606,
+   1012,
+   1240
+  ],
+  "w": 944,
+  "h": 634,
+  "captured": "2026-09-23 21:28 UTC",
+  "page": "Today",
+  "note": "observed lines"
+ },
+ "today_cats": {
+  "kind": "data",
+  "src": "home/user/bfyp-social-media/public/social/buffer/fresh/today_story-68bc826c3a.png",
+  "box": [
+   108,
+   716,
+   972,
+   1458
+  ],
+  "w": 864,
+  "h": 742,
+  "captured": "2026-09-23 22:14 UTC",
+  "page": "Today",
+  "note": "category counts card"
+ },
+ "today_footer": {
+  "kind": "data",
+  "src": "home/user/bfyp-social-media/public/social/buffer/fresh/today_story-68bc826c3a.png",
+  "box": [
+   70,
+   1470,
+   1010,
+   1548
+  ],
+  "w": 940,
+  "h": 78,
+  "captured": "2026-09-23 22:14 UTC",
+  "page": "Today",
+  "note": "footer: observed activity, nothing is a prediction"
+ },
+ "today_head": {
+  "kind": "data",
+  "src": "home/user/bfyp-social-media/public/social/buffer/fresh/today_story-68bc826c3a.png",
+  "box": [
+   70,
+   330,
+   1010,
+   700
+  ],
+  "w": 940,
+  "h": 370,
+  "captured": "2026-09-23 22:14 UTC",
+  "page": "Today",
+  "note": "headline: 354 observations in the last 24h"
+ },
+ "spy_cards": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/s5_etf-2bb66040d5.png",
+  "box": [
+   144,
+   622,
+   936,
+   1192
+  ],
+  "w": 792,
+  "h": 570,
+  "captured": "2026-09-23 21:38 UTC",
+  "page": "ETF \u00b7 SPY",
+  "note": "net assets / holdings / filed"
+ },
+ "voo_cards": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/e3_voo-99fee83f3f.png",
+  "box": [
+   172,
+   576,
+   908,
+   1200
+  ],
+  "w": 736,
+  "h": 624,
+  "captured": "2026-09-23 22:01 UTC",
+  "page": "ETF \u00b7 VOO",
+  "note": "fund net assets / holdings / filed (incl. capture pill)"
+ },
+ "spy_note": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/e4_note-5474a28ad0.png",
+  "box": [
+   106,
+   534,
+   974,
+   818
+  ],
+  "w": 868,
+  "h": 284,
+  "captured": "2026-09-23 22:01 UTC",
+  "page": "ETF \u00b7 SPY",
+  "note": "as-filed note (incl. capture pill)"
+ },
+ "nvda_filings4": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/s6_stocks-3955eff09a.png",
+  "box": [
+   68,
+   604,
+   1012,
+   1212
+  ],
+  "w": 944,
+  "h": 608,
+  "captured": "2026-09-23 21:39 UTC",
+  "page": "Stocks \u00b7 NVDA",
+  "note": "recent filings (4 rows)"
+ },
+ "nvda_filings5": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/stories/st_n3_filings-9bd9209208.png",
+  "box": [
+   144,
+   790,
+   936,
+   1504
+  ],
+  "w": 792,
+  "h": 714,
+  "captured": "2026-09-23 22:01 UTC",
+  "page": "Stocks \u00b7 NVDA",
+  "note": "recent filings (5 rows incl. N-PX)"
+ },
+ "nvda_fund": {
+  "kind": "screen",
+  "src": "/tmp/claude-0/-home-user-bfyp-social-media/1f926514-02a2-525f-ad54-1d666f4fe0d6/scratchpad/study/frames/nvda_record_reel-3266dcd4d2/f_06.png",
+  "box": [
+   150,
+   885,
+   930,
+   1548
+  ],
+  "w": 780,
+  "h": 663,
+  "captured": "2026-09-23 22:01 UTC",
+  "page": "Stocks \u00b7 NVDA",
+  "note": "annual fundamentals as filed"
+ },
+ "nvda_insider": {
+  "kind": "screen",
+  "src": "/tmp/claude-0/-home-user-bfyp-social-media/1f926514-02a2-525f-ad54-1d666f4fe0d6/scratchpad/study/frames/nvda_record_reel-3266dcd4d2/f_13.png",
+  "box": [
+   106,
+   948,
+   976,
+   1538
+  ],
+  "w": 870,
+  "h": 590,
+  "captured": "2026-09-23 22:01 UTC",
+  "page": "Stocks \u00b7 NVDA",
+  "note": "insider forms 3/4/5"
+ },
+ "ai_prompt": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/s7_research-2b42816faa.png",
+  "box": [
+   146,
+   592,
+   934,
+   1222
+  ],
+  "w": 788,
+  "h": 630,
+  "captured": "2026-09-23 21:39 UTC",
+  "page": "AI Research",
+  "note": "prompt box"
+ },
+ "ai_ask": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/g3_context-f554c41ec8.png",
+  "box": [
+   176,
+   604,
+   904,
+   1200
+  ],
+  "w": 728,
+  "h": 596,
+  "captured": "2026-09-23 22:09 UTC",
+  "page": "ETF \u00b7 SPY",
+  "note": "Ask BFYP about this"
+ },
+ "ai_label": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/g4_label-48a97523b1.png",
+  "box": [
+   106,
+   620,
+   974,
+   876
+  ],
+  "w": 868,
+  "h": 256,
+  "captured": "2026-09-23 22:09 UTC",
+  "page": "AI Research",
+  "note": "AI label"
+ },
+ "free_card": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/f1_cover-42de585985.png",
+  "box": [
+   108,
+   562,
+   972,
+   1016
+  ],
+  "w": 864,
+  "h": 454,
+  "captured": "2026-09-23 22:09 UTC",
+  "page": "Pricing",
+  "note": "Free $0 card"
+ },
+ "free_list": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/f2_plan-2534ffbf44.png",
+  "box": [
+   226,
+   590,
+   854,
+   1220
+  ],
+  "w": 628,
+  "h": 630,
+  "captured": "2026-09-23 22:09 UTC",
+  "page": "Pricing",
+  "note": "free plan list"
+ },
+ "honesty": {
+  "kind": "screen",
+  "src": "home/user/bfyp-social-media/public/social/buffer/carousels/f3_honesty-4339204bc9.png",
+  "box": [
+   60,
+   640,
+   1020,
+   990
+  ],
+  "w": 960,
+  "h": 350,
+  "captured": "2026-09-23 22:09 UTC",
+  "page": "Pricing",
+  "note": "Don't take our word for it"
+ },
+ "sm_page": {
+  "kind": "screen",
+  "src": "/tmp/claude-0/-home-user-bfyp-social-media/1f926514-02a2-525f-ad54-1d666f4fe0d6/scratchpad/study/f10/BFYP_REEL_13_FINAL-f2d9cf7600/f_002.png",
+  "box": [
+   30,
+   462,
+   1050,
+   1545
+  ],
+  "w": 1020,
+  "h": 1083,
+  "captured": "2026-09-23 21:38 UTC",
+  "page": "Smart Money",
+  "note": "page top: disclaimer, asset consensus, wallet list"
+ },
+ "sm_scores": {
+  "kind": "screen",
+  "src": "/tmp/claude-0/-home-user-bfyp-social-media/1f926514-02a2-525f-ad54-1d666f4fe0d6/scratchpad/study/f10/BFYP_REEL_13_FINAL-f2d9cf7600/f_023.png",
+  "box": [
+   30,
+   600,
+   1050,
+   1215
+  ],
+  "w": 1020,
+  "h": 615,
+  "captured": "2026-09-23 21:38 UTC",
+  "page": "Smart Money leaderboard",
+  "note": "score + confidence column"
+ },
+ "spy_page": {
+  "kind": "screen",
+  "src": "/tmp/claude-0/-home-user-bfyp-social-media/1f926514-02a2-525f-ad54-1d666f4fe0d6/scratchpad/study/f10/BFYP_REEL_15_FINAL-9c99d7a370/f_001.png",
+  "box": [
+   30,
+   462,
+   1050,
+   1545
+  ],
+  "w": 1020,
+  "h": 1083,
+  "captured": "2026-09-23 22:01 UTC",
+  "page": "ETF \u00b7 SPY",
+  "note": "page top: cards, asset mix, top holdings 1-13"
+ },
+ "spy_bottom": {
+  "kind": "screen",
+  "src": "/tmp/claude-0/-home-user-bfyp-social-media/1f926514-02a2-525f-ad54-1d666f4fe0d6/scratchpad/study/f10/BFYP_REEL_15_FINAL-9c99d7a370/f_054.png",
+  "box": [
+   30,
+   622,
+   1050,
+   1215
+  ],
+  "w": 1020,
+  "h": 593,
+  "captured": "2026-09-23 22:01 UTC",
+  "page": "ETF \u00b7 SPY",
+  "note": "top holdings 8-15 + as-filed note"
+ }
+}

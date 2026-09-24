@@ -9,7 +9,7 @@
 | Format | Voice-led · Myth → fact |
 | Music | Original, synthesized for this reel: minimal · 120 BPM · D minor (no samples, no licensed audio) |
 | Voice | Fallback synthetic voice **BFYP-K1** (Kokoro-82M, local, blend am_michael 0.60 + am_onyx 0.25 + am_puck 0.15, speed 0.92). Replace with ElevenLabs Adam when the account is back; timings in `production/reels/v2_18_whose_trillion.vo.json`. |
-| Hook (≤ 1.5 s) | “VOO: $1.67 trillion?” |
+| Opening hook (from 0 s) | “VOO: $1.67 trillion?” |
 | CTA | Know what a number covers. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -88,15 +88,15 @@ Sources: Vanguard S&P 500 ETF prospectus (ETF share class of Vanguard 500 Index 
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 28.40 s |
-| Loudness | -14.3 LUFS integrated (target −14) · true peak -1.6 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-10 dB RMS in the first 300 ms) |
+| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−10 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3240 kb/s · 11.51 MB |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: “VOO: $1.67 trillion?”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “VOO: $1.67 trillion?”
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

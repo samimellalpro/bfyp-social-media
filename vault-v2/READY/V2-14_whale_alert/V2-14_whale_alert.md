@@ -9,7 +9,7 @@
 | Format | Text-led · Alert illustration → spotlight tour of the real whale card |
 | Music | Original, synthesized for this reel: techhouse · 124 BPM · A minor (no samples, no licensed audio) |
 | Voice | None (text-led; on-screen text + original music + sound design) |
-| Hook (≤ 1.5 s) | “This whale alert tells you nothing.” |
+| Opening hook (from 0 s) | “This whale alert tells you nothing.” |
 | CTA | Read the evidence, not the alert. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -68,14 +68,14 @@ On BFYP the same move is typed, grouped, scored and linked to the raw tx → bet
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.00 s |
-| Loudness | -14.1 LUFS integrated (target −14) · true peak -1.7 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-10 dB RMS in the first 300 ms) |
+| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.7 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−10 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 4388 kb/s · 10.97 MB |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: “This whale alert tells you nothing.”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “This whale alert tells you nothing.”
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

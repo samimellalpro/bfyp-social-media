@@ -65,8 +65,8 @@ BFYP labels wallets by behavior (market maker vs whale accumulator) → betterfo
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.40 s |
-| Loudness | -14.1 LUFS integrated (target −14) · true peak -1.6 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-13 dB RMS in the first 300 ms) |
+| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3545 kb/s · 9.04 MB |
 | All gates | **PASS** |

@@ -9,7 +9,7 @@
 | Format | Text-led · Screenshot glitch → links to raw sources |
 | Music | Original, synthesized for this reel: trap · 140 BPM · C minor (no samples, no licensed audio) |
 | Voice | None (text-led; on-screen text + original music + sound design) |
-| Hook (≤ 1.5 s) | “This is a screenshot.” |
+| Opening hook (from 0 s) | “This is a screenshot.” |
 | CTA | Don't trust. Click through. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -71,14 +71,14 @@ On BFYP every whale move links to the raw transaction and every filing links to 
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.00 s |
-| Loudness | -14.2 LUFS integrated (target −14) · true peak -1.2 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-14 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.2 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−14 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 4049 kb/s · 10.12 MB |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: “This is a screenshot.”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “This is a screenshot.”
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

@@ -9,7 +9,7 @@
 | Format | Text-led · Big-number hook → Today evidence |
 | Music | Original, synthesized for this reel: dnb · 172 BPM · A minor (no samples, no licensed audio) |
 | Voice | None (text-led; on-screen text + original music + sound design) |
-| Hook (≤ 1.5 s) | “One fake tweet erased $136.5B.” |
+| Opening hook (from 0 s) | “One fake tweet erased $136.5B.” |
 | CTA | Check what actually happened. → betterforyourpocket.com |
 
 ## Angle / problem
@@ -76,14 +76,14 @@ Sources: CNBC — False rumor of explosion at White House causes stocks to brief
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 22.00 s |
-| Loudness | -14.3 LUFS integrated (target −14) · true peak -1.7 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-13 dB RMS in the first 300 ms) |
+| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.7 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3629 kb/s · 9.98 MB |
 | All gates | **PASS** |
 
 ### Editorial
-- [x] Hook readable within 1.5 s: “One fake tweet erased $136.5B.”
+- [x] Hook on screen from frame 0, first line readable within 1.5 s: “One fake tweet erased $136.5B.”
 - [x] Structure: problem → why it hurts → proof / context → BFYP solution → CTA
 - [x] Every number and quote traced to a primary or reputable source (listed above), or shown on a real BFYP screen
 - [x] BFYP screens are real captures, each stamped on screen with its capture date and time (UTC)

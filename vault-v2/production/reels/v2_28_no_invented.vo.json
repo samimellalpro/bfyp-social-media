@@ -1,0 +1,87 @@
+{
+ "name": "v2_28_no_invented",
+ "bpm": 88.0,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.15,
+   "t1": 1.9628,
+   "dur": 1.8128,
+   "text": "No data? Then show nothing."
+  },
+  {
+   "i": 1,
+   "t0": 2.7273,
+   "t1": 5.6705,
+   "dur": 2.9432,
+   "text": "A guess dressed up as data is worse than a blank."
+  },
+  {
+   "i": 2,
+   "t0": 6.4773,
+   "t1": 8.7243,
+   "dur": 2.247,
+   "text": "The Smart Money page puts it plainly:"
+  },
+  {
+   "i": 3,
+   "t0": 9.5455,
+   "t1": 14.6605,
+   "dur": 5.115,
+   "text": "When no scored wallet was active, we say so instead of inventing a consensus."
+  },
+  {
+   "i": 4,
+   "t0": 15.3409,
+   "t1": 18.1273,
+   "dur": 2.7864,
+   "text": "On Today, a group with none in it is not shown."
+  },
+  {
+   "i": 5,
+   "t0": 18.75,
+   "t1": 20.1776,
+   "dur": 1.4276,
+   "text": "Empty is an answer."
+  },
+  {
+   "i": 6,
+   "t0": 20.7955,
+   "t1": 25.3137,
+   "dur": 4.5182,
+   "text": "Data that doesn't pretend. Free, at BetterForYourPocket.com."
+  }
+ ],
+ "dur": 25.764,
+ "wav": "/opt/bfyp/vo/v2_28_no_invented.vo.wav",
+ "sha256": "ad8fbc0143792abd8a23875f2f2cdc3ce76a01015f0161a179a23955b8326d98",
+ "provenance": {
+  "provider": "Kokoro-82M v1.0 (local, kokoro-onnx, Apache-2.0)",
+  "voice": "BFYP-K1 blend {\"am_michael\": 0.6, \"am_onyx\": 0.25, \"am_puck\": 0.15}",
+  "speed": 0.92,
+  "lang": "en-us",
+  "status": "fallback \u2014 replace with ElevenLabs Adam when available",
+  "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+ },
+ "qc": {
+  "asr_text": "No data then show nothing. A guest dressed up as data is worse than a blank. The smart money page puts it plainly. When no scored wallet was active, we say so instead of inventing a consensus. On today, a group with none in it is not shown. Empty is an answer. Data that doesn't pretend. Free at betterforyourpocket.com",
+  "word_match": 0.984,
+  "word_match_script": 0.984,
+  "word_match_spoken": 0.969,
+  "words_per_s": 3.12,
+  "f0_median_hz": 108.2,
+  "f0_spread_st": 7.8,
+  "min_gap_s": 0.62,
+  "clipping": false,
+  "gates": {
+   "word_match>=0.97": true,
+   "2.30<=wps<=3.30": true,
+   "85<=F0<=120": true,
+   "F0 spread>=6.4st": true,
+   "pause at sentence ends": true,
+   "no clipping": true
+  },
+  "pass": true
+ }
+}

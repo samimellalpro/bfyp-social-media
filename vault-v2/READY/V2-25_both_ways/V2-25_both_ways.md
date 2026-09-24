@@ -67,8 +67,8 @@ BFYP Today says so plainly, with the evidence → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.40 s |
-| Loudness | -14.2 LUFS integrated (target −14) · true peak -1.9 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (-14 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.9 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−14 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3499 kb/s · 8.92 MB |
 | All gates | **PASS** |

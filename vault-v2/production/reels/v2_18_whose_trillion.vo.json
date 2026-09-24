@@ -1,0 +1,87 @@
+{
+ "name": "v2_18_whose_trillion",
+ "bpm": 120.0,
+ "lines": [
+  {
+   "i": 0,
+   "t0": 0.15,
+   "t1": 3.5513,
+   "dur": 3.4013,
+   "text": "VOO: $1.67 trillion?"
+  },
+  {
+   "i": 1,
+   "t0": 4.25,
+   "t1": 5.3728,
+   "dur": 1.1228,
+   "text": "Not exactly."
+  },
+  {
+   "i": 2,
+   "t0": 6.0,
+   "t1": 10.8254,
+   "dur": 4.8254,
+   "text": "VOO is one share class of the Vanguard 500 Index Fund."
+  },
+  {
+   "i": 3,
+   "t0": 11.5,
+   "t1": 13.454,
+   "dur": 1.954,
+   "text": "That fund has four share classes."
+  },
+  {
+   "i": 4,
+   "t0": 14.0,
+   "t1": 17.9088,
+   "dur": 3.9088,
+   "text": "The $1.67 trillion covers the whole fund."
+  },
+  {
+   "i": 5,
+   "t0": 18.5,
+   "t1": 22.0445,
+   "dur": 3.5445,
+   "text": "BFYP labels what every number covers."
+  },
+  {
+   "i": 6,
+   "t0": 22.75,
+   "t1": 26.9725,
+   "dur": 4.2225,
+   "text": "Know what a number covers. Free, at BetterForYourPocket.com."
+  }
+ ],
+ "dur": 27.422,
+ "wav": "/opt/bfyp/vo/v2_18_whose_trillion.vo.wav",
+ "sha256": "c48aac823309e7b1501700601f14de593c510a729e3d794375570a9c266e6b23",
+ "provenance": {
+  "provider": "Kokoro-82M v1.0 (local, kokoro-onnx, Apache-2.0)",
+  "voice": "BFYP-K1 blend {\"am_michael\": 0.6, \"am_onyx\": 0.25, \"am_puck\": 0.15}",
+  "speed": 0.92,
+  "lang": "en-us",
+  "status": "fallback \u2014 replace with ElevenLabs Adam when available",
+  "model_sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+  "voices_sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+ },
+ "qc": {
+  "asr_text": "VOO, $1.67 trillion. Not exactly. VOO is one share class of the Vanguard 500 Index Fund. That fund has four share classes. The $1.67 trillion covers the whole fund. BFYP labels what every number covers. Know what a number covers. Free at BetterForYourPocket.com.",
+  "word_match": 1.0,
+  "word_match_script": 1.0,
+  "word_match_spoken": 0.985,
+  "words_per_s": 2.83,
+  "f0_median_hz": 110.7,
+  "f0_spread_st": 7.1,
+  "min_gap_s": 0.55,
+  "clipping": false,
+  "gates": {
+   "word_match>=0.97": true,
+   "2.30<=wps<=3.30": true,
+   "85<=F0<=120": true,
+   "F0 spread>=6.4st": true,
+   "pause at sentence ends": true,
+   "no clipping": true
+  },
+  "pass": true
+ }
+}
