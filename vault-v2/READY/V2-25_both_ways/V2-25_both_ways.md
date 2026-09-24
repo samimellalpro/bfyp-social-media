@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-25_both_ways-8617aff578.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 8.92 MB |
+| Reel (final) | `V2-25_both_ways-eca9dd2b57.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 8.93 MB |
 | Cover | `V2-25_both_ways_cover-c0bccaf143.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Text-led · Split arrows → Today line |
+| Format | Directed voice-over over the text-led edit · Split arrows → Today line |
 | Music | Original, synthesized for this reel: minimal · 118 BPM · B minor (no samples, no licensed audio) |
-| Voice | None (text-led; on-screen text + original music + sound design) |
+| Voice | **BFYP-K2 · K2-F1 · Analyst** — female, native English (en-us) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `af_heart` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | No — visual edit frozen, unchanged |
 | Opening hook (from 0 s) | “On USDC, the data pointed both ways.” |
 | CTA | See both sides. → betterforyourpocket.com |
 
@@ -21,6 +22,28 @@ Real data is often mixed. A feed that only shows one direction is telling a stor
 3. BFYP — Today: 'On USDC, observations point in both directions. · from one group' (spotlight)
 4. PAYOFF — 'Mixed is information too.'
 5. CTA — 'See both sides.'
+
+## Voice direction (FR)
+- **Intention** : Assumer une donnée partagée au lieu de raconter une histoire, puis montrer que BFYP l'affiche telle quelle.
+- **Interprétation** : Analyste posée et honnête, sans dramatiser.
+- **Rythme** : Calme (118 bpm), phrases en miroir (up / down, easy / full picture).
+- **Énergie** : Basse-moyenne, constante ; chaleur sur le CTA.
+- **Pauses** : Un temps entre « pointed up » et « Some pointed down ».
+- **Accents** : « up », « down », « easy », « full picture », « as it is », « No model »
+
+## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.12 s | 2.85 s | Some of the data pointed up. Some pointed down. | hook : ↑ ↓ « On USDC, the data pointed both ways. » |
+| 4.25 s | 5.56 s | Picking a side is easy. | « A feed that always picks a side… » |
+| 6.05 s | 7.75 s | It just isn't the full picture. | « …is telling you a story. » |
+| 9.25 s | 11.45 s | BFYP shows the split as it is. | écran réel Today · zoom MIXED, SAID PLAINLY |
+| 12.85 s | 14.90 s | No model deciding which way to lean. | zoom NO SPIN · « Computed from observations, not a model » |
+| 16.50 s | 19.46 s | Mixed? You should know. BetterForYourPocket.com | carte CTA « Mixed is information too. » |
+
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.47 / min 4.39 (gates ≥ 4.0 / ≥ 3.6) · 3.71 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `33d409f16fb1499f…`
+
+Mix: dynamic ducking (music −10.0 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −7.0 dB, only while the voice speaks) · voice 9.5 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -67,10 +90,13 @@ BFYP Today says so plainly, with the evidence → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.40 s |
-| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.9 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−14 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3499 kb/s · 8.92 MB |
+| Bitrate / size | 3500 kb/s · 8.93 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
+| Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 9.5 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -83,6 +109,7 @@ BFYP Today says so plainly, with the evidence → betterforyourpocket.com
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (impact×2, whoosh×2, hit×2, swish×2, click×2, riser×1, ding×1, scan×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (impact×2, whoosh×2, hit×2, swish×2, click×2, riser×1, ding×1, scan×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, female)
+- [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**

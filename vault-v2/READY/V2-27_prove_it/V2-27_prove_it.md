@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-27_prove_it-358bb67750.mp4` — 23.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.64 MB |
+| Reel (final) | `V2-27_prove_it-2dbd45ce60.mp4` — 23.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.65 MB |
 | Cover | `V2-27_prove_it_cover-2b6ac9b45b.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Voice-led · Manifesto with strike-throughs |
+| Format | Voice-led, karaoke captions · Manifesto with strike-throughs |
 | Music | Original, synthesized for this reel: cinematic · 92 BPM · E minor (no samples, no licensed audio) |
-| Voice | Fallback synthetic voice **BFYP-K1** (Kokoro-82M, local, blend am_michael 0.60 + am_onyx 0.25 + am_puck 0.15, speed 0.92). Replace with ElevenLabs Adam when the account is back; timings in `production/reels/v2_27_prove_it.vo.json`. |
+| Voice | **BFYP-K2 · K2-M2 · Signal** — male, native English (en-us) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `am_fenrir` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | Yes — kept from the validated karaoke edit |
 | Opening hook (from 0 s) | “If it can’t be proven wrong, it’s just a vibe.” |
 | CTA | Trade vibes for evidence. → betterforyourpocket.com |
 
@@ -22,18 +23,28 @@ Unfalsifiable takes are vibes. Every BFYP Today line names what would prove it.
 4. PAYOFF — 'Claims you can check.'
 5. CTA — 'Trade vibes for evidence.'
 
-## Voice-over (as rendered)
-| start | end | line |
-|---:|---:|---|
-| 0.15 s | 2.77 s | If it can't be proven wrong, it's just a vibe. |
-| 3.59 s | 4.98 s | It'll pump eventually. |
-| 5.54 s | 6.73 s | Smart money knows. |
-| 7.50 s | 8.40 s | Trust me. |
-| 9.13 s | 12.43 s | None of these can ever be wrong. So they tell you nothing. |
-| 13.04 s | 16.82 s | On BFYP, every line names what would prove it. |
-| 17.61 s | 22.18 s | Trade vibes for evidence. Free, at BetterForYourPocket.com. |
+## Voice direction (FR)
+- **Intention** : Une affirmation qui ne peut jamais être fausse ne vaut rien ; BFYP dit ce qui la prouverait.
+- **Interprétation** : Grave et sèche ; les trois phrases d'« influenceur » dites avec une ironie froide.
+- **Rythme** : Lent (92 bpm), calé sur les créneaux d'origine des sous-titres karaoké.
+- **Énergie** : Basse et tendue, assurance sur BFYP.
+- **Pauses** : Celles du montage d'origine ; « Trust me. » laissé seul.
+- **Accents** : « proven wrong », « vibe », « Trust me », « tell you nothing », « prove it »
 
-Isolated-voice QC: word match 1.000 · 3.1 words/s · median F0 110.7 Hz · F0 spread 7.5 st · min pause 0.56 s · no clipping → **PASS**. VO file sha256 `2ba3fec0ce591f18…`
+## Voice-over (as rendered) — same words and same slots as the karaoke captions
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.15 s | 2.67 s | If it can't be proven wrong, it's just a vibe. | créneau karaoké d'origine 0.15–2.77 s |
+| 3.59 s | 4.94 s | It'll pump eventually. | créneau karaoké d'origine 3.59–4.98 s |
+| 5.54 s | 6.69 s | Smart money knows. | créneau karaoké d'origine 5.54–6.73 s |
+| 7.50 s | 8.40 s | Trust me. | créneau karaoké d'origine 7.50–8.40 s |
+| 9.13 s | 12.33 s | None of these can ever be wrong. So they tell you nothing. | créneau karaoké d'origine 9.13–12.43 s |
+| 13.04 s | 16.84 s | On BFYP, every line names what would prove it. | créneau karaoké d'origine 13.04–16.82 s |
+| 17.61 s | 22.07 s | Trade vibes for evidence. Free, at BetterForYourPocket.com. | créneau karaoké d'origine 17.61–22.18 s |
+
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.39 / min 4.25 (gates ≥ 4.0 / ≥ 3.6) · 3.17 words/s while speaking · every line inside its window · every line within ±4 % of its karaoke slot → **PASS**. VO file sha256 `b69bc87af661880f…`
+
+Mix: dynamic ducking (music −9.6 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −6.6 dB, only while the voice speaks) · voice 9.0 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -80,11 +91,13 @@ Every BFYP Today line names what would prove it → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 23.60 s |
-| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−10 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.5 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3267 kb/s · 9.64 MB |
+| Bitrate / size | 3272 kb/s · 9.65 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 9.0 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -97,6 +110,7 @@ Every BFYP Today line names what would prove it → betterforyourpocket.com
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (pop×4, swish×4, impact×2, hit×1, riser×1, ding×1, click×1, whoosh×1, sparkle×1)
+- [x] Sound: original music + sound design (pop×4, swish×4, impact×2, hit×1, riser×1, ding×1, click×1, whoosh×1, sparkle×1) + directed voice-over (BFYP-K2, male)
+- [x] Karaoke captions unchanged: the voice keeps the same words in the same slots
 
 **Verdict: READY**

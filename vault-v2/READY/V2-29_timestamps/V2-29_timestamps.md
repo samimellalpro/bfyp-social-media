@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-29_timestamps-d24baad097.mp4` — 27.43 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 11.15 MB |
+| Reel (final) | `V2-29_timestamps-07942ec257.mp4` — 27.43 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 11.15 MB |
 | Cover | `V2-29_timestamps_cover-c9974d6b07.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Voice-led · Brand manifesto |
+| Format | Voice-led, karaoke captions · Brand manifesto |
 | Music | Original, synthesized for this reel: trap · 144 BPM · D minor (no samples, no licensed audio) |
-| Voice | Fallback synthetic voice **BFYP-K1** (Kokoro-82M, local, blend am_michael 0.60 + am_onyx 0.25 + am_puck 0.15, speed 0.92). Replace with ElevenLabs Adam when the account is back; timings in `production/reels/v2_29_timestamps.vo.json`. |
+| Voice | **BFYP-K2 · K2-F1 · Analyst** — female, native English (en-us) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `af_heart` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | Yes — kept from the validated karaoke edit |
 | Opening hook (from 0 s) | “Every screenshot starts aging the second it’s taken.” |
 | CTA | See today's version live. → betterforyourpocket.com |
 
@@ -23,17 +24,27 @@ Screenshots age instantly. We stamp ours so you know when, and check the live pa
 5. TRUTH — 'By the time you watch this, the live page has moved on.'
 6. CTA — 'Check the live page.'
 
-## Voice-over (as rendered)
-| start | end | line |
-|---:|---:|---|
-| 0.15 s | 3.26 s | Every screenshot starts aging the second it's taken. |
-| 3.96 s | 8.08 s | Same BFYP Today page. Forty-six minutes apart. |
-| 8.75 s | 13.26 s | Three hundred thirty observations. Then three hundred fifty-four. |
-| 13.96 s | 17.15 s | That's why every screen we post carries its capture time. |
-| 17.71 s | 21.07 s | By the time you watch this, the live page has moved on. |
-| 21.67 s | 26.02 s | So check the live page. Free, at BetterForYourPocket.com. |
+## Voice direction (FR)
+- **Intention** : Une capture vieillit dès qu'elle est prise : même page, 46 minutes d'écart, chiffres différents.
+- **Interprétation** : Analyste claire, un brin complice sur « By the time you watch this ».
+- **Rythme** : Vif (144 bpm), calé sur les créneaux d'origine des sous-titres karaoké.
+- **Énergie** : Moyenne, régulière.
+- **Pauses** : Celles du montage d'origine ; un temps entre les deux compteurs.
+- **Accents** : « aging », « Forty-six minutes », « Then », « capture time », « moved on »
 
-Isolated-voice QC: word match 1.000 · 2.83 words/s · median F0 109.4 Hz · F0 spread 7.9 st · min pause 0.56 s · no clipping → **PASS**. VO file sha256 `2ada85099adad96f…`
+## Voice-over (as rendered) — same words and same slots as the karaoke captions
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.15 s | 3.25 s | Every screenshot starts aging the second it's taken. | créneau karaoké d'origine 0.15–3.26 s |
+| 3.96 s | 8.07 s | Same BFYP Today page. Forty-six minutes apart. | créneau karaoké d'origine 3.96–8.08 s |
+| 8.75 s | 13.12 s | Three hundred thirty observations. Then three hundred fifty-four. | créneau karaoké d'origine 8.75–13.26 s |
+| 13.96 s | 17.10 s | That's why every screen we post carries its capture time. | créneau karaoké d'origine 13.96–17.15 s |
+| 17.71 s | 20.98 s | By the time you watch this, the live page has moved on. | créneau karaoké d'origine 17.71–21.07 s |
+| 21.67 s | 25.87 s | So check the live page. Free, at BetterForYourPocket.com. | créneau karaoké d'origine 21.67–26.02 s |
+
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.51 / min 4.49 (gates ≥ 4.0 / ≥ 3.6) · 2.88 words/s while speaking · every line inside its window · every line within ±4 % of its karaoke slot → **PASS**. VO file sha256 `e7030cdb0000ca3a…`
+
+Mix: dynamic ducking (music −8.2 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −5.199999999999999 dB, only while the voice speaks) · voice 9.1 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -85,11 +96,13 @@ Check the live page, not the screenshot → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 27.43 s |
-| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−16 dB RMS in the first 300 ms) |
+| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−18 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3250 kb/s · 11.15 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
+| Voice over the bed | 9.1 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -102,6 +115,7 @@ Check the live page, not the screenshot → betterforyourpocket.com
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (tick×6, click×6, whoosh×3, shutter×1, ding×1, ticks×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (tick×6, click×6, whoosh×3, shutter×1, ding×1, ticks×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, female)
+- [x] Karaoke captions unchanged: the voice keeps the same words in the same slots
 
 **Verdict: READY**

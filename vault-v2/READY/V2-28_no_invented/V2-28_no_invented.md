@@ -4,11 +4,12 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-28_no_invented-9c65317ef6.mp4` — 26.73 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 11.73 MB |
+| Reel (final) | `V2-28_no_invented-cc267ce528.mp4` — 26.73 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 11.73 MB |
 | Cover | `V2-28_no_invented_cover-a343f8fe82.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
-| Format | Voice-led · Empty-state manifesto |
+| Format | Voice-led, karaoke captions · Empty-state manifesto |
 | Music | Original, synthesized for this reel: cinematic · 88 BPM · G minor (no samples, no licensed audio) |
-| Voice | Fallback synthetic voice **BFYP-K1** (Kokoro-82M, local, blend am_michael 0.60 + am_onyx 0.25 + am_puck 0.15, speed 0.92). Replace with ElevenLabs Adam when the account is back; timings in `production/reels/v2_28_no_invented.vo.json`. |
+| Voice | **BFYP-K2 · K2-F2 · Correspondent** — female, native English (en-gb) · Kokoro-82M v1.0, local and free (Apache-2.0), stock voice `bf_emma` · no cloning · directed for this reel (see Voice direction) |
+| On-screen “AI voice” label | Yes — kept from the validated karaoke edit |
 | Opening hook (from 0 s) | “No data? Then show nothing.” |
 | CTA | Data that doesn't pretend. → betterforyourpocket.com |
 
@@ -23,18 +24,28 @@ When there's no data, the honest output is nothing. BFYP says so instead of inve
 5. PAYOFF — 'Empty is an answer.'
 6. CTA — 'Data that doesn't pretend.'
 
-## Voice-over (as rendered)
-| start | end | line |
-|---:|---:|---|
-| 0.15 s | 1.96 s | No data? Then show nothing. |
-| 2.73 s | 5.67 s | A guess dressed up as data is worse than a blank. |
-| 6.48 s | 8.72 s | The Smart Money page puts it plainly: |
-| 9.55 s | 14.66 s | When no scored wallet was active, we say so instead of inventing a consensus. |
-| 15.34 s | 18.13 s | On Today, a group with none in it is not shown. |
-| 18.75 s | 20.18 s | Empty is an answer. |
-| 20.80 s | 25.31 s | Data that doesn't pretend. Free, at BetterForYourPocket.com. |
+## Voice direction (FR)
+- **Intention** : Mieux vaut un vide qu'une donnée inventée ; citer BFYP mot pour mot pour le prouver.
+- **Interprétation** : Correspondante posée, qui cite un texte officiel ; sobre sur « Empty is an answer ».
+- **Rythme** : Lent (88 bpm), calé sur les créneaux d'origine des sous-titres karaoké.
+- **Énergie** : Basse-moyenne, crédible.
+- **Pauses** : Celles du montage d'origine ; un temps avant la citation.
+- **Accents** : « show nothing », « worse than a blank », « we say so », « not shown », « Empty »
 
-Isolated-voice QC: word match 0.984 · 3.12 words/s · median F0 108.2 Hz · F0 spread 7.8 st · min pause 0.62 s · no clipping → **PASS**. VO file sha256 `ad8fbc0143792abd…`
+## Voice-over (as rendered) — same words and same slots as the karaoke captions
+| start | end | line | lands on (note, FR) |
+|---:|---:|---|---|
+| 0.15 s | 1.90 s | No data? Then show nothing. | créneau karaoké d'origine 0.15–1.96 s |
+| 2.73 s | 5.63 s | A guess dressed up as data is worse than a blank. | créneau karaoké d'origine 2.73–5.67 s |
+| 6.48 s | 8.72 s | The Smart Money page puts it plainly: | créneau karaoké d'origine 6.48–8.72 s |
+| 9.55 s | 14.60 s | When no scored wallet was active, we say so instead of inventing a consensus. | créneau karaoké d'origine 9.55–14.66 s |
+| 15.34 s | 18.07 s | On Today, a group with none in it is not shown. | créneau karaoké d'origine 15.34–18.13 s |
+| 18.75 s | 20.14 s | Empty is an answer. | créneau karaoké d'origine 18.75–20.18 s |
+| 20.80 s | 25.18 s | Data that doesn't pretend. Free, at BetterForYourPocket.com. | créneau karaoké d'origine 20.80–25.31 s |
+
+Isolated-voice QC: ASR word match 0.984 (gate ≥ 0.97) · naturalness UTMOS mean 4.34 / min 4.15 (gates ≥ 4.0 / ≥ 3.6) · 3.18 words/s while speaking · every line inside its window · every line within ±4 % of its karaoke slot → **PASS**. VO file sha256 `4f7e500ef5404bed…`
+
+Mix: dynamic ducking (music −8.8 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −5.800000000000001 dB, only while the voice speaks) · voice 9.1 LU over the bed (gate ≥ 7) · ASR on the final mix 0.984 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -84,11 +95,13 @@ Empty is an answer → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 26.73 s |
-| Loudness | −14.3 LUFS integrated (target −14) · true peak −1.8 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−9 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.7 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−10 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3510 kb/s · 11.73 MB |
+| Bitrate / size | 3508 kb/s · 11.73 MB |
+| Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 0.984 (gate ≥ 0.95) |
+| Voice over the bed | 9.1 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -101,6 +114,7 @@ Empty is an answer → betterforyourpocket.com
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (swish×2, click×2, impact×1, stamp×1, ding×1, hit×1, whoosh×1, pop×1, sparkle×1)
+- [x] Sound: original music + sound design (swish×2, click×2, impact×1, stamp×1, ding×1, hit×1, whoosh×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, female)
+- [x] Karaoke captions unchanged: the voice keeps the same words in the same slots
 
 **Verdict: READY**
