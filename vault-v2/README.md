@@ -55,6 +55,10 @@ File names are content-addressed (`-<first 10 hex of sha256>`), like the rest of
 
 Lots: **1** Proof over posts · **2** Your research stack is broken · **3** Bad market habits.
 
+## Review page
+
+`review.html` is a local review page. Each reel shows its video, cover, a one-line problem → solution, the voice (text-led or BFYP-K1), the CTA, a VALIDÉ / À CORRIGER verdict and a free note. Verdicts stay in the browser and export as a text recap or JSON. Open it from a local checkout of this branch, since videos and covers load from `READY/` next to it.
+
 ## Production standard
 
 - **Real product only**: 21 BFYP assets. 19 are crops of real product screens (Today, Whale Activity, Smart Money, Stocks/NVDA, ETF/SPY and VOO, AI Research, Pricing). 2 are crops of BFYP’s own Today data card, labelled “BFYP Today data” on screen. All come from the captures of 23 Sep 2026 (21:28–22:14 UTC) already in this repo, and each is stamped on screen with its capture time. No mockups and no invented figures.

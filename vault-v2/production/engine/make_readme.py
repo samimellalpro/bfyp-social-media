@@ -43,6 +43,10 @@ for r in R:
     L.append(f"| {r['id']} | [{r['title']}]({r['sheet']}) | {r['lot']} | {fmt}{lang} | {r['duration_s']:.1f} s | {r['hook']} |")
 L.append("")
 L.append("Lots: " + " · ".join(f"**{k}** {v}" for k, v in lots.items()) + ".\n")
+L.append("## Review page\n")
+L.append("`review.html` is a local review page. Each reel shows its video, cover, a one-line problem → solution, the voice (text-led or BFYP-K1), the CTA, "
+         "a VALIDÉ / À CORRIGER verdict and a free note. Verdicts stay in the browser and export as a text recap or JSON. "
+         "Open it from a local checkout of this branch, since videos and covers load from `READY/` next to it.\n")
 L.append("## Production standard\n")
 L.append("- **Real product only**: 21 BFYP assets. 19 are crops of real product screens (Today, Whale Activity, Smart Money, Stocks/NVDA, ETF/SPY and VOO, AI Research, Pricing). "
          "2 are crops of BFYP’s own Today data card, labelled “BFYP Today data” on screen. All come from the captures of 23 Sep 2026 (21:28–22:14 UTC) already in this repo, "

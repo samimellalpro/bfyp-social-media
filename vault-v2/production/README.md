@@ -7,7 +7,7 @@ Everything needed to re-render or edit the 30 Reels in `../READY/`.
 - `engine/web/` — `brand.css` (BFYP tokens: #080e0d background, #17b58a green, Inter + Geist Mono), `motion.js` (deterministic keyframe engine), `components.js` (real-screen frames, capture stamps, spotlight tours, callouts, quote cards, CTA card, karaoke captions, covers).
 - `engine/music.py`, `engine/instruments.py`, `engine/dsp.py` — original music/SFX synthesis (no samples) and mastering chain.
 - `engine/vo.py` — fallback voice “BFYP-K1” (Kokoro-82M v1.0 via kokoro-onnx, offline) + objective voice QC (Whisper small.en via sherpa-onnx).
-- `engine/qc.py` — technical QC gates. `engine/audit_text.py` — text-safety audit: browser layout checked every 0.1 s, flags text off-frame or under the right-hand Reels buttons. `engine/audit_k.py` — lists opacity keyframes that overlap on one element (the engine merges them). `engine/package.py`, `engine/make_readme.py` and `engine/overview.py` — vault packaging, README and covers overview.
+- `engine/qc.py` — technical QC gates. `engine/audit_text.py` — text-safety audit: browser layout checked every 0.1 s, flags text off-frame or under the right-hand Reels buttons. `engine/audit_k.py` — lists opacity keyframes that overlap on one element (the engine merges them). `engine/package.py`, `engine/make_readme.py`, `engine/overview.py` and `engine/make_review.py` — vault packaging, README, covers overview and the local review page (`review.html`).
 - `reels/v2_XX_slug.js` — one scene script per Reel (timeline in beats); `reels/*.vo.json` — voice lines, timings, provenance and QC.
 - `plan/plan.py` — slate: angles, scripts, captions (IG/X), hashtags, CTA, sources.
 - `research/facts.md` — verified external facts with sources.
