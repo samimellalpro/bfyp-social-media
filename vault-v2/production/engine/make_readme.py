@@ -154,10 +154,13 @@ L.append("- **Fact precision:** the Dow drop is shown as “~140 points” becau
          "(one of the eight pleaded guilty in 2023; the indictment of the other seven was dismissed in March 2024, reinstated by the 5th Circuit in October 2025, trial set for May 2027). FinanceBench is labelled “one test setup, 2023 models”. Plan wording matches the pricing page verbatim, e.g. “(= 7 reports)”.\n")
 L.append("## Posting notes\n")
 L.append("- Publish from **1 Oct 2026** onward. The screens are dated 23 Sep 2026 and the stamp says so, which suits the V2-29 “timestamps” message.")
-ORDER = ["V2-14", "V2-01", "V2-11", "V2-21", "V2-12", "V2-02", "V2-23", "V2-04", "V2-15", "V2-26", "V2-10", "V2-22", "V2-18", "V2-03", "V2-07",
-         "V2-27", "V2-16", "V2-19", "V2-24", "V2-05", "V2-13", "V2-25", "V2-09", "V2-17", "V2-28", "V2-08", "V2-20", "V2-29", "V2-06", "V2-30"]
+ORDER = ["V2-17", "V2-14", "V2-01", "V2-11", "V2-21", "V2-12", "V2-02", "V2-23", "V2-04", "V2-15", "V2-26", "V2-10", "V2-22", "V2-18", "V2-03",
+         "V2-07", "V2-27", "V2-16", "V2-19", "V2-24", "V2-05", "V2-13", "V2-25", "V2-09", "V2-28", "V2-08", "V2-20", "V2-29", "V2-06", "V2-30"]
 L.append("- Suggested order, one per day. It mixes the lots and keeps similar reels at least two slots apart "
          "(Smart Money: 21/22/23/24 · Today: 04/12/25/26/27/29 · AI: 03/15/16/20 · pricing: 05/16/17 · ETF: 07/10/18): " + " → ".join(ORDER) + ".")
+L.append("- V2-17 opens the run: Sami marked it “à poster ASAP” on the review page.")
+L.append("- Hand-off to the Buffer session: `HANDOFF-BUFFER.md` (rules, traffic plan, order) and `posting_plan.json` (the 30 reels in order, with video, cover, "
+         "Instagram and X captions, hashtags and first comment copied verbatim from the sheets, plus an optional UTM link per reel to measure traffic).")
 L.append("- For reels that cite outside facts, the sheet has an optional first comment listing the sources.")
 L.append("- Pricing and plan details are as of 23 Sep 2026 (re-checked against the Pricing captures on 25 Sep 2026; a live check was not possible because the production environment cannot reach the site). "
          "Re-check `/pricing` before posting V2-05, V2-16 and V2-17.\n")
