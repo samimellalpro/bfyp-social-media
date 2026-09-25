@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-08_trace_it-66dc588e38.mp4` — 20.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.14 MB |
+| Reel (final) | `V2-08_trace_it-8463ea8b44.mp4` — 20.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.15 MB |
 | Cover | `V2-08_trace_it_cover-597976a729.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · Screenshot glitch → links to raw sources |
 | Music | Original, synthesized for this reel: trap · 140 BPM · C minor (no samples, no licensed audio) |
@@ -26,26 +26,26 @@ Screenshots can be cropped, old or edited. Links can be checked.
 
 ## Voice direction (FR)
 - **Intention** : Le réflexe sceptique face à une capture d'écran qui circule, puis le soulagement : sur BFYP, tout se vérifie en un clic.
-- **Interprétation** : Conversationnel et complice, un peu méfiant au début, puis détendu.
-- **Rythme** : Vif, questions rapides au hook.
-- **Énergie** : Moyenne-haute, puis confiante.
+- **Interprétation** : Conversationnel et complice, mais ambitieux et énergique (note de Sami, red team) : questions qui claquent au hook, puis une assurance qui monte jusqu'au CTA.
+- **Rythme** : Rapide et tonique, questions en rafale au hook.
+- **Énergie** : Haute tout du long, conquérante sur la solution et le CTA.
 - **Pauses** : Micro-pause après « Someone sends you this ».
 - **Accents** : « when », « cropped », « verify », « follow », « real », « source », « yourself »
 
 ## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
 | start | end | line | lands on (note, FR) |
 |---:|---:|---|---|
-| 0.12 s | 1.20 s | Someone sent you this. | hook : capture « Whale just moved $1.09M of LIT!! » |
-| 1.38 s | 2.86 s | But when's it from? Who cropped it? | « Cropped? Old? Edited? » |
-| 3.55 s | 6.17 s | You can't verify a picture. You can follow a link. | « You can't check a screenshot. You can check a link. » |
-| 6.92 s | 8.20 s | Here, you just click through. | zoom CLICK THROUGH |
-| 8.88 s | 10.35 s | And there's the real transaction. | zoom SOURCE (via etherscan) |
-| 11.62 s | 13.12 s | Filings? They open at the source. | zoom ORIGINAL |
-| 15.70 s | 18.25 s | Check it yourself. BetterForYourPocket.com | carte CTA |
+| 0.12 s | 1.15 s | Someone sent you this! | hook : capture « Whale just moved $1.09M of LIT!! » |
+| 1.38 s | 2.80 s | But when's it from? Who cropped it? | « Cropped? Old? Edited? » |
+| 3.55 s | 6.07 s | You can't verify a picture. You can follow a link! | « You can't check a screenshot. You can check a link. » |
+| 6.92 s | 8.09 s | Here, you just click through! | zoom CLICK THROUGH |
+| 8.88 s | 10.21 s | And there's the real transaction! | zoom SOURCE (via etherscan) |
+| 11.62 s | 13.09 s | Filings? They open at the source! | zoom ORIGINAL |
+| 15.70 s | 18.14 s | Check it yourself! BetterForYourPocket.com | carte CTA |
 
-Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.3 / min 4.19 (gates ≥ 4.0 / ≥ 3.6) · 3.92 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `bb79138223c77d96…`
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.3 / min 4.13 (gates ≥ 4.0 / ≥ 3.6) · 4.13 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `d47481a8de0b5f38…`
 
-Mix: dynamic ducking (music −11.2 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −8.7 dB, only while the voice speaks) · voice 8.9 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
+Mix: dynamic ducking (music −11.2 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −8.7 dB, only while the voice speaks) · voice 8.8 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -95,13 +95,13 @@ On BFYP every whale move links to the raw transaction and every filing links to 
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.00 s |
-| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.5 dBTP (≤ −1) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 4057 kb/s · 10.14 MB |
+| Bitrate / size | 4058 kb/s · 10.15 MB |
 | Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
-| Voice over the bed | 8.9 LU (gate ≥ 7) |
+| Voice over the bed | 8.8 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial

@@ -42,7 +42,7 @@ ILLUS = {
     "V2-16": ["Receipt labelled “RECEIPT · ILLUSTRATION” with unknown (???) amounts"],
     "V2-17": ["Checklist reproducing the free-plan list verbatim from the pricing page"],
     "V2-18": ["Share-class diagram labelled “not to scale”, per the fund’s 2026 semi-annual report", "Animated counter to $1.67T"],
-    "V2-19": ["Quote card reproducing SEC staff guidance verbatim (C&DI 131)", "Amber highlight boxes on the real filings list"],
+    "V2-19": ["Quote card reproducing SEC staff guidance verbatim (Securities Act Forms C&DI 131.01)", "Amber highlight boxes on the real filings list"],
     "V2-20": ["Quote card reproducing the FinanceBench abstract sentence verbatim (dated, attributed)"],
     "V2-21": ["Bubble graphic (BIGGEST vs SMARTEST?) labelled “Illustration”"],
     "V2-22": ["Abstract two-way flow arrows"],
@@ -88,6 +88,9 @@ TAPE = {"V2-12": "the decorative ▲▼ tape in the hook", "V2-22": "the decorat
 
 
 def main(lots=None):
+    if os.path.exists(os.path.join(VAULT, "LOCK.md")) and os.environ.get("BFYP_UNLOCK_V2") != "1":
+        sys.exit("Vault V2 is LOCKED (V2 CLOSED, see vault-v2/LOCK.md): no repackaging without Sami's explicit request. "
+                 "Set BFYP_UNLOCK_V2=1 only on that request.")
     os.makedirs(READY, exist_ok=True)
     manifest = []
     for r in P.REELS:

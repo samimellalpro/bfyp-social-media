@@ -2,6 +2,39 @@
  "vault": "BFYP VAULT V2",
  "created": "2026-09-24",
  "count": 30,
+ "status": "LOCKED",
+ "closed": true,
+ "locked": "2026-09-25",
+ "rule": "V2 CLOSED — no new render, re-mix or repackaging without Sami's explicit request.",
+ "lock_file": "LOCK.md",
+ "red_team": {
+  "date": "2026-09-25",
+  "report": "RED-TEAM.md",
+  "aesthetic_fail": [
+   "V2-08",
+   "V2-11",
+   "V2-19",
+   "V2-23",
+   "V2-30"
+  ],
+  "data_fail": [
+   "V2-02",
+   "V2-15",
+   "V2-17",
+   "V2-22"
+  ],
+  "fixed_and_rechecked": [
+   "V2-02",
+   "V2-08",
+   "V2-11",
+   "V2-15",
+   "V2-17",
+   "V2-19",
+   "V2-22",
+   "V2-23",
+   "V2-30"
+  ]
+ },
  "reels": [
   {
    "id": "V2-01",
@@ -61,8 +94,16 @@
     "nvda_filings5": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "d663bad540142b3f3143bfbb21a1ae539d0e9ac2b1e8a504deebc42fcc142745"
   },
   {
    "id": "V2-02",
@@ -101,11 +142,11 @@
    "duration_s": 20.6,
    "lufs_i": -14.25,
    "true_peak_dbtp": -1.64,
-   "size_mb": 10.3,
-   "video": "READY/V2-02_gurus_100m/V2-02_gurus_100m-1926f2e1fe.mp4",
+   "size_mb": 10.27,
+   "video": "READY/V2-02_gurus_100m/V2-02_gurus_100m-51aeb17b31.mp4",
    "cover": "READY/V2-02_gurus_100m/V2-02_gurus_100m_cover-df207b7816.png",
    "sheet": "READY/V2-02_gurus_100m/V2-02_gurus_100m.md",
-   "sha256_video": "1926f2e1fe831b17e7e62cf42df0ae3e1e872c65536fe591c89d229273292968",
+   "sha256_video": "51aeb17b31c34a0f9ff7076e19753bffb4bd0e7a038397869af51f9235302c40",
    "sha256_cover": "df207b781644429b80cb4d7f8bff97213003cf879e1f93281a6278d3a0e13ae5",
    "hook": "8 “trading gurus.” $100M. SEC charges.",
    "cta": "Follow filings, not followers.",
@@ -118,14 +159,23 @@
    "sources": [
     "https://www.sec.gov/newsroom/press-releases/2022-221",
     "https://www.ca5.uscourts.gov/opinions/pub/24/24-20143-CV0.pdf",
+    "https://www.justice.gov/criminal/criminal-vns/case/united-states-v-constantinescu-et-al",
     "https://www.sec.gov/files/form4.pdf"
    ],
    "bfyp_assets": {
     "nvda_insider": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "FAIL",
+    "fixed": true,
+    "fix": "On-screen note said “Allegations are unproven”; one of the eight (Daniel Knight) pleaded guilty on 27 Mar 2023. Now: “As alleged by the SEC. The related criminal case is pending.” (trial of the other seven set for 3 May 2027). Re-rendered.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "f2b3b6c6443a7e3c180fffc63f2caed38a818b49185ec526531f175a65c3ca76"
   },
   {
    "id": "V2-03",
@@ -183,8 +233,16 @@
     "ai_label": "2026-09-23 22:09 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "77d41d9b9ac418a917e5be30e168f01f3ac159a2c5e548111b57f44207566615"
   },
   {
    "id": "V2-04",
@@ -245,8 +303,16 @@
     "today_lines": "2026-09-23 21:28 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "8ca237276b088871436596226d177338727b01adb97685730765b9d94add69c2"
   },
   {
    "id": "V2-05",
@@ -304,8 +370,16 @@
     "free_card": "2026-09-23 22:09 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "4fc126196fe9d09586b9840200dbc73d3bacd305224d71d5cf7c9da9a585cea8"
   },
   {
    "id": "V2-06",
@@ -364,8 +438,16 @@
     "nvda_fund": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "cd4ed7cfd518a27f22f1dc8e6d0433a827f18a95354feac7b4ce9485fa864346"
   },
   {
    "id": "V2-07",
@@ -425,8 +507,16 @@
     "spy_cards": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "7c6dea0aecc3dd9ca8677e45482c06f71629b93c17a818081c46c21945b342c7"
   },
   {
    "id": "V2-08",
@@ -441,32 +531,32 @@
     "gender": "M",
     "kokoro": "am_puck",
     "lang": "en-us",
-    "speed": 1.06,
+    "speed": 1.14,
     "engine": "Kokoro-82M v1.0 (local, kokoro-onnx, Apache-2.0)",
     "direction": {
      "intent": "Le réflexe sceptique face à une capture d'écran qui circule, puis le soulagement : sur BFYP, tout se vérifie en un clic.",
-     "delivery": "Conversationnel et complice, un peu méfiant au début, puis détendu.",
-     "pace": "Vif, questions rapides au hook.",
-     "energy": "Moyenne-haute, puis confiante.",
+     "delivery": "Conversationnel et complice, mais ambitieux et énergique (note de Sami, red team) : questions qui claquent au hook, puis une assurance qui monte jusqu'au CTA.",
+     "pace": "Rapide et tonique, questions en rafale au hook.",
+     "energy": "Haute tout du long, conquérante sur la solution et le CTA.",
      "pauses": "Micro-pause après « Someone sends you this ».",
      "emphasis": "« when », « cropped », « verify », « follow », « real », « source », « yourself »"
     },
-    "vo_sha256": "bb79138223c77d964f9bd623eb039f56e6a8127318e113220c0853065f83b99c",
+    "vo_sha256": "d47481a8de0b5f38bb9f1b72003d8b39e1be60bb23dd0fb2c602ca1a1f809776",
     "utmos_mean": 4.3,
     "asr_final_mix": 1.0,
-    "vo_over_bed_lu": 8.9
+    "vo_over_bed_lu": 8.8
    },
    "karaoke": false,
    "ai_voice_label_on_screen": false,
    "video_identical_to_validated_edit": true,
    "duration_s": 20.0,
-   "lufs_i": -14.18,
-   "true_peak_dbtp": -1.5,
-   "size_mb": 10.14,
-   "video": "READY/V2-08_trace_it/V2-08_trace_it-66dc588e38.mp4",
+   "lufs_i": -14.21,
+   "true_peak_dbtp": -1.55,
+   "size_mb": 10.15,
+   "video": "READY/V2-08_trace_it/V2-08_trace_it-8463ea8b44.mp4",
    "cover": "READY/V2-08_trace_it/V2-08_trace_it_cover-597976a729.png",
    "sheet": "READY/V2-08_trace_it/V2-08_trace_it.md",
-   "sha256_video": "66dc588e383033f0f89f0316c6fd7519afba9c11a7f08a3165da11ba05d8da7e",
+   "sha256_video": "8463ea8b44a39f51ed9518efd8179799e73f2012c802b22c9c237f4822bd86cc",
    "sha256_cover": "597976a729e030bb7d63b544c895c21965d63378e3fb7f344ad3c676c2202e27",
    "hook": "This is a screenshot.",
    "cta": "Don't trust. Click through.",
@@ -482,8 +572,16 @@
     "nvda_filings4": "2026-09-23 21:39 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "FAIL",
+    "data": "PASS",
+    "fixed": true,
+    "fix": "Sami: the voice must be more ambitious and energetic. Same voice (K2-M1), faster delivery (×1.14) with exclamations; words unchanged. VO rebuilt and remixed; video identical.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "a4205a7360114fdecfa8b804a2b68fb7ad9228d6a0625c53f2d84e5517cb707b"
   },
   {
    "id": "V2-09",
@@ -541,8 +639,16 @@
     "nvda_fund": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "1c949ef830d01de3d26ea787d39f14e0e680aba093334722c199dacb43144686"
   },
   {
    "id": "V2-10",
@@ -598,8 +704,16 @@
     "spy_cards": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "905163c011d9c3a11d5704097563c1a88781dfa15bdcc8735d756af4e3e7ed01"
   },
   {
    "id": "V2-11",
@@ -614,32 +728,32 @@
     "gender": "M",
     "kokoro": "am_puck",
     "lang": "en-us",
-    "speed": 1.06,
+    "speed": 1.14,
     "engine": "Kokoro-82M v1.0 (local, kokoro-onnx, Apache-2.0)",
     "direction": {
-     "intent": "Frustration familière, puis soulagement : un seul parcours au lieu de onze onglets.",
-     "delivery": "Conversationnel, comme un ami qui est passé par là. Un peu agacé sur le hook, puis détendu et sûr de lui.",
-     "pace": "Vif (environ 3,4 mots/s), phrases courtes calées sur les cuts du montage.",
-     "energy": "Moyenne-haute sur le hook, détendue pendant le montage, enthousiaste sur le CTA.",
-     "pauses": "Micro-pause après « Eleven tabs ». Chaque ligne du montage démarre sur son whoosh.",
-     "emphasis": "« eleven tabs », « no clue », « one place », « receipts », « Keep one »"
+     "intent": "Frustration familière, puis la bascule « You know what? » et l'enthousiasme : un seul parcours au lieu de onze onglets.",
+     "delivery": "Le Reel le plus énergique du lot (verdict de Sami, red team) : conversationnel mais survolté, un « You know what? » complice juste avant le drop, puis chaque étape annoncée comme une victoire, sur son ding.",
+     "pace": "Très vif, phrases courtes calées sur les cuts du montage.",
+     "energy": "Maximale : agacée sur le hook, explosive sur « One place! », triomphante sur le CTA.",
+     "pauses": "Un temps après « Still no clue what changed! » (buzzer), « You know what? » juste avant la coupure de la musique, puis le drop sur « One place! ».",
+     "emphasis": "« eleven tabs », « no clue », « You know what », « one place », « receipts », « Keep one »"
     },
-    "vo_sha256": "c5f46abe3f156bdee2318a6310050157b5d7b568386811969065f563f9db45db",
-    "utmos_mean": 4.28,
+    "vo_sha256": "e3c50438f8e8ee2f9a4fabc62903ed395c2fe4f24c7391d8eff6e684d1f5ebe4",
+    "utmos_mean": 4.27,
     "asr_final_mix": 0.979,
-    "vo_over_bed_lu": 8.8
+    "vo_over_bed_lu": 8.3
    },
    "karaoke": false,
    "ai_voice_label_on_screen": false,
    "video_identical_to_validated_edit": true,
    "duration_s": 21.0,
-   "lufs_i": -14.37,
-   "true_peak_dbtp": -1.48,
+   "lufs_i": -14.21,
+   "true_peak_dbtp": -1.58,
    "size_mb": 10.57,
-   "video": "READY/V2-11_eleven_tabs/V2-11_eleven_tabs-726e64a0b7.mp4",
+   "video": "READY/V2-11_eleven_tabs/V2-11_eleven_tabs-6d954d573c.mp4",
    "cover": "READY/V2-11_eleven_tabs/V2-11_eleven_tabs_cover-ee9419ff4f.png",
    "sheet": "READY/V2-11_eleven_tabs/V2-11_eleven_tabs.md",
-   "sha256_video": "726e64a0b704aa3bc5a3e26434c03d30c3d8a3bbbb4371586895b00d0dfd4ca1",
+   "sha256_video": "6d954d573cf7dca1d036a07193bfb798df700f30aca78294e344c93c8ebea7c2",
    "sha256_cover": "ee9419ff4ffb1f5ea5c6a5c74da1e88b9a31779f181650085320cabf636de7f6",
    "hook": "POV: 11 tabs to check one ticker.",
    "cta": "Close 10 tabs.",
@@ -658,8 +772,16 @@
     "ai_prompt": "2026-09-23 21:39 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "FAIL",
+    "data": "PASS",
+    "fixed": true,
+    "fix": "Sami: the reel that needs the most energy, dings, solution and a “You know what?”. VO rewritten around a “You know what?” pivot before the drop, faster (×1.14) and exclamatory; 6 new dings (rising on the 5 steps) + a chime on “Sources attached”. Audio-only; video identical.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "09260faf2c77ed258a1a93fe17779e15eb67ee22897ed660d451a1e7876d7594"
   },
   {
    "id": "V2-12",
@@ -714,8 +836,16 @@
     "today_cats": "2026-09-23 22:14 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "fd518c0ebd96e6e47a804723bf4788aca2a5971f1d647e19e60c34f09e05387c"
   },
   {
    "id": "V2-13",
@@ -772,8 +902,16 @@
     "whale_card": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "800f7fc17fe9a9314e2bfe31eb690e28fb504c68985a0bd1d3d6a7c0adfeec45"
   },
   {
    "id": "V2-14",
@@ -828,8 +966,16 @@
     "whale_card": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "4051c6850d6096654e54107fccbaef57fec7ad05196d5a54f2e3864e787b4d55"
   },
   {
    "id": "V2-15",
@@ -854,8 +1000,8 @@
      "pauses": "Un temps après « Again » avant le changement de plan.",
      "emphasis": "« same ritual », « Again », « square one », « already loaded », « your question »"
     },
-    "vo_sha256": "a530dfe0fd856289d6d1509e727772105ef499277371f2836336475991cf678f",
-    "utmos_mean": 4.44,
+    "vo_sha256": "5d549f666e3f2d91eb795de9796b0e8a02a165c0f11f1dfff5f2ef4e610a1b2e",
+    "utmos_mean": 4.45,
     "asr_final_mix": 1.0,
     "vo_over_bed_lu": 8.9
    },
@@ -864,12 +1010,12 @@
    "video_identical_to_validated_edit": true,
    "duration_s": 20.6,
    "lufs_i": -14.16,
-   "true_peak_dbtp": -1.6,
+   "true_peak_dbtp": -1.56,
    "size_mb": 9.47,
-   "video": "READY/V2-15_context_paste/V2-15_context_paste-0047da52ec.mp4",
+   "video": "READY/V2-15_context_paste/V2-15_context_paste-07a26a4e61.mp4",
    "cover": "READY/V2-15_context_paste/V2-15_context_paste_cover-0dec48ac91.png",
    "sheet": "READY/V2-15_context_paste/V2-15_context_paste.md",
-   "sha256_video": "0047da52ec783830f9801b77f019e1dd9647b42a7b353953ec5da684b908609f",
+   "sha256_video": "07a26a4e614f039f3ed2d043d1bad53b49f0937ca6944e638718466c8492ceea",
    "sha256_cover": "0dec48ac91d6a83db42c2ac71de06ef8684d347886351db4c7b33803dc583dc2",
    "hook": "Copy. Paste. Explain. Repeat.",
    "cta": "The asset comes with you.",
@@ -884,8 +1030,16 @@
     "ai_ask": "2026-09-23 22:09 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "FAIL",
+    "fixed": true,
+    "fix": "VO “It can't see your screen.” overstated what chatbots cannot do (some can see a shared screen). Now: “It has no context.” VO rebuilt and remixed; video identical.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "2014e215deedebd3c2d20151c4e4ab8782759457b260dfd9d51f82da21939b78"
   },
   {
    "id": "V2-16",
@@ -942,8 +1096,16 @@
     "free_card": "2026-09-23 22:09 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "03cd2fe56975c0e083cea668d4a0693ba7dd4f17862eac86dff678491cc8de6a"
   },
   {
    "id": "V2-17",
@@ -968,8 +1130,8 @@
      "pauses": "Micro-respirations entre les rafales, pas de silence long.",
      "emphasis": "« Zero dollars », « every month », « Ten out of ten », « pricing page », « free »"
     },
-    "vo_sha256": "714e2adae0d20e93d48cc90792b0a502307865dd3dff6423746ff54fc1072c7b",
-    "utmos_mean": 4.45,
+    "vo_sha256": "2eeba68192388c5c0ccb03d524bb6192560c1b8610da3c4d8c778a52470c0a08",
+    "utmos_mean": 4.44,
     "asr_final_mix": 1.0,
     "vo_over_bed_lu": 8.5
    },
@@ -977,13 +1139,13 @@
    "ai_voice_label_on_screen": false,
    "video_identical_to_validated_edit": true,
    "duration_s": 20.4,
-   "lufs_i": -14.22,
-   "true_peak_dbtp": -1.54,
+   "lufs_i": -14.21,
+   "true_peak_dbtp": -1.57,
    "size_mb": 8.12,
-   "video": "READY/V2-17_free_speedrun/V2-17_free_speedrun-441ab26ea0.mp4",
+   "video": "READY/V2-17_free_speedrun/V2-17_free_speedrun-4460acddce.mp4",
    "cover": "READY/V2-17_free_speedrun/V2-17_free_speedrun_cover-6478c0f226.png",
    "sheet": "READY/V2-17_free_speedrun/V2-17_free_speedrun.md",
-   "sha256_video": "441ab26ea09b057bfbad61cd814148db34ae7c2a9f1519f2341c194671b7e725",
+   "sha256_video": "4460acddceb354c22f4ef1ae4a66f5de2133a7c53d3d1831a9b24872b69e0c91",
    "sha256_cover": "6478c0f226173249ef1a85d9fa1e8b1cebb1ecf99af4fcb6c14a1fafe93dccbf",
    "hook": "$0. Here’s everything it gets you.",
    "cta": "Create a free account.",
@@ -999,8 +1161,16 @@
     "free_list": "2026-09-23 22:09 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "FAIL",
+    "fixed": true,
+    "fix": "VO “Exports” overstated the free plan, which lists “CSV export preview (100 rows)”. Now: “Export preview, support. Ten out of ten.” VO rebuilt and remixed; video identical.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "da12fc57a6ad15ba9016246585ced5f81e47e091ad2198c437fdf8f0d1138159"
   },
   {
    "id": "V2-18",
@@ -1058,8 +1228,16 @@
     "voo_cards": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "bafbf48f304409701b3c5415edca22907048f7ad5260fc909976bd28c1b6902d"
   },
   {
    "id": "V2-19",
@@ -1098,11 +1276,11 @@
    "duration_s": 26.77,
    "lufs_i": -14.25,
    "true_peak_dbtp": -1.58,
-   "size_mb": 10.94,
-   "video": "READY/V2-19_form_144/V2-19_form_144-ad372c13b7.mp4",
+   "size_mb": 10.96,
+   "video": "READY/V2-19_form_144/V2-19_form_144-e994ca66f6.mp4",
    "cover": "READY/V2-19_form_144/V2-19_form_144_cover-fbb0124981.png",
    "sheet": "READY/V2-19_form_144/V2-19_form_144.md",
-   "sha256_video": "ad372c13b794a6517e1cd4ecb78e1d50dbc73aa65d3979b2d785402ebe45248e",
+   "sha256_video": "e994ca66f660ef798f7c5d945dc014250c2ebe29e02c85bdc9c0aa39da7f6b49",
    "sha256_cover": "fbb0124981bb896bd5540ea2b9126be6f7d3b140d7813f50552a8a5a8c048c92",
    "hook": "Three Form 144 filings on NVIDIA in September. Insiders dumping?",
    "cta": "Read what was filed.",
@@ -1114,6 +1292,7 @@
    },
    "sources": [
     "https://www.investor.gov/introduction-investing/investing-basics/glossary/form-144",
+    "https://www.sec.gov/rules-regulations/staff-guidance/compliance-disclosure-interpretations/securities-act-forms",
     "https://www.sec.gov/reports/rule-144-selling-restricted-control-securities"
    ],
    "bfyp_assets": {
@@ -1121,8 +1300,16 @@
     "nvda_insider": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "FAIL",
+    "data": "PASS",
+    "fixed": true,
+    "fix": "Sami: calibration error from the start. The 3rd Form 144 box sat under its row, the boxes cut through the dates, and “Insiders dumping?” landed on the list during the camera punch. Region recalibrated on the capture, boxes widened to clear the dates, question moved under the card. Quote source (C&DI 131.01) re-verified and added to the sheet. Re-rendered.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "4e21aad6b9df436e115908a0fa4a2f5954c3619dece44f67a6e19b9a69913eb0"
   },
   {
    "id": "V2-20",
@@ -1181,8 +1368,16 @@
     "nvda_fund": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "9bf722f4bfcf462cc55bb2ba1e895251bb8fb48de02e29337f2d82850188d5da"
   },
   {
    "id": "V2-21",
@@ -1237,8 +1432,16 @@
     "sm_rows_12": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "d45cfe91b5d6b8bdee6dbfb114beed0425b5290ae89a6e0180ee17a78cc09d95"
   },
   {
    "id": "V2-22",
@@ -1261,9 +1464,9 @@
      "pace": "Posé (112 bpm), chaque étiquette annoncée sur son zoom.",
      "energy": "Moyenne, légère tension au début.",
      "pauses": "Un temps avant « Or just someone doing their job? ».",
-     "emphasis": "« Big move », « job », « liquidity », « makes markets », « accumulates », « story »"
+     "emphasis": "« Big move », « job », « liquidity », « makes markets », « accumulates », « board », « game »"
     },
-    "vo_sha256": "796d8e486bc5c409392af64555ff8b8ab0670de728be52437bbf3090777dc931",
+    "vo_sha256": "85e1f34149cb2c3abbc77f3cf51b4f9db6857d526c45230809b0a47a6012a6f0",
     "utmos_mean": 4.38,
     "asr_final_mix": 1.0,
     "vo_over_bed_lu": 9.4
@@ -1272,13 +1475,13 @@
    "ai_voice_label_on_screen": false,
    "video_identical_to_validated_edit": true,
    "duration_s": 20.4,
-   "lufs_i": -14.17,
-   "true_peak_dbtp": -1.72,
+   "lufs_i": -14.2,
+   "true_peak_dbtp": -1.81,
    "size_mb": 9.04,
-   "video": "READY/V2-22_market_maker/V2-22_market_maker-f5f0a39c01.mp4",
+   "video": "READY/V2-22_market_maker/V2-22_market_maker-c104a13bfb.mp4",
    "cover": "READY/V2-22_market_maker/V2-22_market_maker_cover-bc47b9ca4c.png",
    "sheet": "READY/V2-22_market_maker/V2-22_market_maker.md",
-   "sha256_video": "f5f0a39c017d534f7059fa6cfad5df83b10097f8582b541d2702f294e6d731af",
+   "sha256_video": "c104a13bfb0e7b789bb480a77d6619d6a4fbc6789afb01a64b446ef68e2d2e64",
    "sha256_cover": "bc47b9ca4c6993550c34de446dae4c67bac10a1a378ae200771c1a95847b7199",
    "hook": "That “whale”? Might be a market maker.",
    "cta": "Know who you're watching.",
@@ -1293,8 +1496,16 @@
     "sm_rows_678": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "FAIL",
+    "fixed": true,
+    "fix": "VO “Both big.” claimed both wallets are large; nothing on screen shows their size. Now: “Same board. Different game.” VO rebuilt and remixed; video identical.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "f5e74489e9892dcafdca822d265fa73a90d66119fafb93f7e98fbbb7c0e5b41c"
   },
   {
    "id": "V2-23",
@@ -1328,13 +1539,13 @@
    "ai_voice_label_on_screen": false,
    "video_identical_to_validated_edit": true,
    "duration_s": 20.4,
-   "lufs_i": -14.14,
-   "true_peak_dbtp": -1.57,
-   "size_mb": 7.57,
-   "video": "READY/V2-23_same_score/V2-23_same_score-6affc62dc1.mp4",
+   "lufs_i": -14.13,
+   "true_peak_dbtp": -1.52,
+   "size_mb": 7.72,
+   "video": "READY/V2-23_same_score/V2-23_same_score-0932e99823.mp4",
    "cover": "READY/V2-23_same_score/V2-23_same_score_cover-a54c4a3ee3.png",
    "sheet": "READY/V2-23_same_score/V2-23_same_score.md",
-   "sha256_video": "6affc62dc16992fae8f429dc9ffb77b83aeea2914f2d96fc73f81eb2fd815239",
+   "sha256_video": "0932e99823d09b4d3ca2bf34b7215f37b79e6e1585f68ee4a28bfd9bf1b25526",
    "sha256_cover": "a54c4a3ee3cdddf12165281e89b8a96cf84ff14d80a92ed453f2762a8570fcab",
    "hook": "31/100 vs 31/100. Same score?",
    "cta": "Scores with their confidence.",
@@ -1349,8 +1560,16 @@
     "sm_rows_678": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "FAIL",
+    "data": "PASS",
+    "fixed": true,
+    "fix": "Wallet #6 pane showed a cut “)%” at its left edge and the source card's border plus an empty strip at its right edge. Both edges masked with the card's own colour (#0d1714). Re-rendered.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "bbc20333e888a2a0e8ceda4587ec95e29099a9e2cf272742be2874d4f1539bef"
   },
   {
    "id": "V2-24",
@@ -1405,8 +1624,16 @@
     "sm_rows_12": "2026-09-23 21:38 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "c14584f1fb8849609b6257f3492a66092f48cade5d56d0a213fead0641dceba2"
   },
   {
    "id": "V2-25",
@@ -1461,8 +1688,16 @@
     "today_lines": "2026-09-23 21:28 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "bbbbfb5343b6cf7aa7315f7a1e3bd85130b8e722d6e30de4a8bd6cd79e4738d2"
   },
   {
    "id": "V2-26",
@@ -1517,8 +1752,16 @@
     "today_lines": "2026-09-23 21:28 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "b82a666942c56d390954a3614aefa02fb605e365e3c597e3cc1fae3e92961aa2"
   },
   {
    "id": "V2-27",
@@ -1573,8 +1816,16 @@
     "today_lines": "2026-09-23 21:28 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "3b5aa6efcf9459aaec0f1b0f2f4e754804eebb7d84b44fd363bef0d33c1fa0ed"
   },
   {
    "id": "V2-28",
@@ -1630,8 +1881,16 @@
     "today_cats": "2026-09-23 22:14 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "181b7684da1e4d1867710e46d4f266ca15fd989ae42aa21c09426beaffbd59fd"
   },
   {
    "id": "V2-29",
@@ -1692,8 +1951,16 @@
     "today_cats": "2026-09-23 22:14 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "PASS",
+    "data": "PASS",
+    "fixed": false,
+    "fix": null,
+    "recheck": null
+   },
+   "sha256_sheet": "df4f1b1fe508c88e696934ebda0ba424de4a40ff2541a11576c00d2e5250da91"
   },
   {
    "id": "V2-30",
@@ -1732,11 +1999,11 @@
    "duration_s": 20.6,
    "lufs_i": -14.21,
    "true_peak_dbtp": -1.31,
-   "size_mb": 9.13,
-   "video": "READY/V2-30_no_source/V2-30_no_source-9b0fcff07d.mp4",
+   "size_mb": 9.18,
+   "video": "READY/V2-30_no_source/V2-30_no_source-7611cfc534.mp4",
    "cover": "READY/V2-30_no_source/V2-30_no_source_cover-3206568be3.png",
    "sheet": "READY/V2-30_no_source/V2-30_no_source.md",
-   "sha256_video": "9b0fcff07d9f27be9f81a789c4f7738f9aa5f0bc59d0ab287ab13bdfa87b436e",
+   "sha256_video": "7611cfc53455b966ce214231a36efd95627decb82f20bf233efdecde7c41295f",
    "sha256_cover": "3206568be303dd2e0c175ce0c4e582253e1a3bfec6e28d582cf8a7fa1c5f4ed2",
    "hook": "No source? It's just content.",
    "cta": "Go back to the source.",
@@ -1752,8 +2019,16 @@
     "spy_note": "2026-09-23 22:01 UTC"
    },
    "qc_pass": true,
-   "status": "READY",
-   "publish_after": "2026-09-30"
+   "status": "LOCKED",
+   "publish_after": "2026-09-30",
+   "red_team": {
+    "aesthetic": "FAIL",
+    "data": "PASS",
+    "fixed": true,
+    "fix": "The “ORIGINAL FILING” spotlight ran on into “Holdings reflect…”. Region recalibrated to end after “filing).” with a tighter ring. Re-rendered.",
+    "recheck": "PASS"
+   },
+   "sha256_sheet": "8339642fa3446ceabee04174b2ac976ad34771bacf12a248716b35bbbd89474c"
   }
  ]
 }

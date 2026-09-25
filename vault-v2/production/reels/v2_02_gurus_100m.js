@@ -34,7 +34,7 @@ shot('s3'); shotIn('s3', b(14), 'up', 0.35);
 statement('s3_t', '…then sold.<br><span class="red">Without telling<br>their followers.</span>', { parent: 's3', y: 600, cls: 'h1', css: 'font-size:112px' });
 slam('s3_t', b(14));
 cue(b(14), 'hit'); cue(b(14), 'subdrop');
-mk('s3_n', { parent: 's3', x: 76, y: 1010 + 60, o: 0, html: '<div class="small" style="color:#9aa7a2">As alleged by the SEC. Allegations are unproven; the criminal case is pending.</div>' });
+mk('s3_n', { parent: 's3', x: 76, y: 1010 + 60, o: 0, html: '<div class="small" style="color:#9aa7a2">As alleged by the SEC. The related criminal case is pending.</div>' });
 appear('s3_n', b(15), { dy: 10, blur: 0 });
 shotOut('s3', b(18) - 0.1, 'zoom', 0.25);
 

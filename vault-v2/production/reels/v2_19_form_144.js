@@ -17,13 +17,13 @@ K('s1_card', 's', [[0, 0.96, 'linear'], [0.5, 1, 'outExpo']]);
 cue(0, 'impact', { size: 0.9 });
 ['r1', 'r2', 'r4'].forEach((r, i) => {
   const rg = REG.nvda_filings5[r];
-  glowBox(`s1_g${i}`, "s1_card", [rg[0], rg[1], 380, rg[3]], { color: 'rgba(240,180,74,0.14)', border: '#f0b44a' });
+  glowBox(`s1_g${i}`, "s1_card", [rg[0], rg[1], 410, rg[3]], { color: 'rgba(240,180,74,0.14)', border: '#f0b44a' });
   const t = VT(0) + 1.2 + i * 0.45;
   K(`s1_g${i}`, 'o', [[t - 0.001, 0, 'linear'], [t + 0.1, 1, 'linear']]);
   K(`s1_g${i}`, 's', [[t, 1.2, 'linear'], [t + 0.3, 1, 'outBack']]);
   cue(t, 'click');
 });
-mk('s1_q', { parent: 's1', x: 72, y: 1210, w: 936, o: 0, html: '<div class="h1 red" style="font-size:104px">Insiders dumping?</div>' });
+mk('s1_q', { parent: 's1', x: 72, y: 1446, w: 936, o: 0, html: '<div class="h1 red" style="font-size:104px">Insiders dumping?</div>' });
 slam('s1_q', VT(1) - 0.05); cue(VT(1), 'hit'); camPunch(VT(1), 0.03);
 shotOut('s1', VT(2) - 0.12, 'left', 0.3);
 

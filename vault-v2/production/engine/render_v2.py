@@ -474,6 +474,7 @@ def main():
         lj = outp + ".log.json"
         if os.path.exists(lj):
             L = json.load(open(lj)); L["log"]["audio"] = log["audio"]
+            L["cues"] = meta.get("cues")  # the sound cues actually rendered (the page may have gained SFX since the edit)
             if "vo" in log: L["log"]["vo"] = log["vo"]
             if "vo2" in log: L["log"]["vo2"] = log["vo2"]
             json.dump(L, open(lj, "w"), indent=1)

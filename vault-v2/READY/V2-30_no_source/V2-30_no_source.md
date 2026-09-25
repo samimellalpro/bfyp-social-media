@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-30_no_source-9b0fcff07d.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.13 MB |
+| Reel (final) | `V2-30_no_source-7611cfc534.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.18 MB |
 | Cover | `V2-30_no_source_cover-3206568be3.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · Evidence ladder |
 | Music | Original, synthesized for this reel: futurebass · 148 BPM · A major (no samples, no licensed audio) |
@@ -96,7 +96,7 @@ On BFYP, every number comes with its period, its filing and a link to the origin
 | Loudness | −14.2 LUFS integrated (target −14) · true peak −1.3 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−10 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3546 kb/s · 9.13 MB |
+| Bitrate / size | 3564 kb/s · 9.18 MB |
 | Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
 | Voice over the bed | 8.9 LU (gate ≥ 7) |

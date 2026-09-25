@@ -8,7 +8,7 @@ SPEC = {
         "pace": "Posé (112 bpm), chaque étiquette annoncée sur son zoom.",
         "energy": "Moyenne, légère tension au début.",
         "pauses": "Un temps avant « Or just someone doing their job? ».",
-        "emphasis": "« Big move », « job », « liquidity », « makes markets », « accumulates », « story »",
+        "emphasis": "« Big move », « job », « liquidity », « makes markets », « accumulates », « board », « game »",
     },
     "mix": {"music_duck_db": 10.0, "carve_db": 4.0, "sfx_duck_db": 7.0, "vo_over_bed_target": 9.5},
     "lines": [
@@ -18,7 +18,7 @@ SPEC = {
         {"at": 6.00, "until": 8.42, "text": "That's liquidity. Not a bet on the price.", "note": "« It's their job — not a conviction bet. »"},
         {"at": 9.70, "until": 11.72, "text": "This one makes markets.", "note": "zoom WALLET #6 · Market maker"},
         {"at": 11.85, "until": 13.82, "text": "This one accumulates.", "note": "zoom WALLET #8 · Whale accumulator"},
-        {"at": 14.22, "until": 16.00, "text": "Both big. Not the same story.", "note": "« Different behavior. Same leaderboard. »"},
+        {"at": 14.22, "until": 16.00, "text": "Same board. Different game.", "note": "« Different behavior. Same leaderboard. »"},
         {"at": 16.30, "until": 20.10, "text": "Check the label first. BetterForYourPocket.com", "note": "carte CTA « Know who you're watching. »"},
     ],
 }

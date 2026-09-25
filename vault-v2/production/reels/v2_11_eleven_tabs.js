@@ -39,7 +39,7 @@ shotOut('s1', b(10), 'cut');
 // S2 ONE WORKFLOW ----------------------------------------------------
 shot('s2'); shotIn('s2', b(10), 'zoomIn', 0.3);
 statement('s2_t', 'One<br><span class="g">workflow.</span>', { parent: 's2', y: 700, cls: 'h1', css: 'font-size:170px' });
-slam('s2_t', b(10)); cue(b(10), 'impact', { size: 1.0 }); flash(b(10), { peak: 0.25, dur: 0.2, color: '#22d3a0' });
+slam('s2_t', b(10)); cue(b(10), 'impact', { size: 1.0 }); cue(b(10) + 0.02, 'ding', { note: 86 }); flash(b(10), { peak: 0.25, dur: 0.2, color: '#22d3a0' });
 shotOut('s2', b(12) - 0.08, 'zoom', 0.2);
 
 // S3 MONTAGE ---------------------------------------------------------
@@ -62,7 +62,7 @@ STEPS.forEach((st, i) => {
   realScreen(`${sid}_c`, st.a, { parent: sid, w, x: (1080 - w) / 2, y: 600 });
   stamp(`${sid}_s`, st.a, { parent: sid, x: (1080 - w) / 2, y: 530, size: 20, pad: '8px 16px', text: capText(st.a, false) });
   K(`${sid}_c`, 's', [[t0, 0.96, 'linear'], [t1, 1.03, 'linear']]);
-  cue(t0, 'whoosh', { dur: 0.3 }); cue(t0 + 0.05, 'hit');
+  cue(t0, 'whoosh', { dur: 0.3 }); cue(t0 + 0.05, 'hit'); cue(t0 + 0.02, 'ding', { note: [79, 82, 84, 86, 89][i], db: -2 });
   if (i < STEPS.length - 1) shotOut(sid, t1 - 0.02, i % 2 ? 'left' : 'right', 0.3);
   else shotOut(sid, t1 - 0.02, 'zoom', 0.25);
 });
@@ -70,7 +70,7 @@ STEPS.forEach((st, i) => {
 // S4 SOURCES ATTACHED ------------------------------------------------
 shot('s4'); shotIn('s4', b(30), 'zoomIn', 0.3);
 statement('s4_t', 'Sources attached.<br><span class="g">Every step.</span>', { parent: 's4', y: 740, cls: 'h1', css: 'font-size:118px' });
-slam('s4_t', b(30)); cue(b(30), 'hit');
+slam('s4_t', b(30)); cue(b(30), 'hit'); cue(b(30) + 0.05, 'chime', { notes: [86, 91] });
 shotOut('s4', b(34) - 0.1, 'zoom', 0.22);
 
 // CTA -----------------------------------------------------------------

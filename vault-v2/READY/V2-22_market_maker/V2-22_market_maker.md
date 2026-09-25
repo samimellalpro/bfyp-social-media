@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-22_market_maker-f5f0a39c01.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.04 MB |
+| Reel (final) | `V2-22_market_maker-c104a13bfb.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.04 MB |
 | Cover | `V2-22_market_maker_cover-bc47b9ca4c.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · Reveal |
 | Music | Original, synthesized for this reel: amapiano · 112 BPM · A minor (no samples, no licensed audio) |
@@ -29,7 +29,7 @@ Not every big wallet is a conviction buyer; some make markets. Label wallets by 
 - **Rythme** : Posé (112 bpm), chaque étiquette annoncée sur son zoom.
 - **Énergie** : Moyenne, légère tension au début.
 - **Pauses** : Un temps avant « Or just someone doing their job? ».
-- **Accents** : « Big move », « job », « liquidity », « makes markets », « accumulates », « story »
+- **Accents** : « Big move », « job », « liquidity », « makes markets », « accumulates », « board », « game »
 
 ## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
 | start | end | line | lands on (note, FR) |
@@ -40,12 +40,12 @@ Not every big wallet is a conviction buyer; some make markets. Label wallets by 
 | 6.00 s | 8.02 s | That's liquidity. Not a bet on the price. | « It's their job — not a conviction bet. » |
 | 9.70 s | 10.84 s | This one makes markets. | zoom WALLET #6 · Market maker |
 | 11.85 s | 12.93 s | This one accumulates. | zoom WALLET #8 · Whale accumulator |
-| 14.22 s | 15.80 s | Both big. Not the same story. | « Different behavior. Same leaderboard. » |
+| 14.22 s | 15.68 s | Same board. Different game. | « Different behavior. Same leaderboard. » |
 | 16.30 s | 19.25 s | Check the label first. BetterForYourPocket.com | carte CTA « Know who you're watching. » |
 
-Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.38 / min 4.34 (gates ≥ 4.0 / ≥ 3.6) · 3.57 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `796d8e486bc5c409…`
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.38 / min 4.34 (gates ≥ 4.0 / ≥ 3.6) · 3.45 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `85e1f34149cb2c3a…`
 
-Mix: dynamic ducking (music −11.0 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −8.0 dB, only while the voice speaks) · voice 9.4 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
+Mix: dynamic ducking (music −10.9 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −7.9 dB, only while the voice speaks) · voice 9.4 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -90,8 +90,8 @@ BFYP labels wallets by behavior (market maker vs whale accumulator) → betterfo
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.40 s |
-| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.7 dBTP (≤ −1) |
-| Hook audio | sound from frame 0 (−13 dB RMS in the first 300 ms) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.8 dBTP (≤ −1) |
+| Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
 | Bitrate / size | 3546 kb/s · 9.04 MB |
 | Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |

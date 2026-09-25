@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-02_gurus_100m-1926f2e1fe.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.3 MB |
+| Reel (final) | `V2-02_gurus_100m-51aeb17b31.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.27 MB |
 | Cover | `V2-02_gurus_100m_cover-df207b7816.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · Press-release hook → insider forms |
 | Music | Original, synthesized for this reel: garage · 132 BPM · F minor (no samples, no licensed audio) |
@@ -51,6 +51,7 @@ Mix: dynamic ducking (music −11.4 dB, extra −4.0 dB carve at 1–4.5 kHz, SF
 ## Sources used (external, verified)
 - SEC press release 2022-221 — 14 Dec 2022 — https://www.sec.gov/newsroom/press-releases/2022-221
 - U.S. Court of Appeals, 5th Cir., No. 24-20143 (indictment reinstated) — 2 Oct 2025 — https://www.ca5.uscourts.gov/opinions/pub/24/24-20143-CV0.pdf
+- U.S. DOJ — case page, United States v. Constantinescu et al. (S.D. Tex.): trial of the seven remaining defendants set for 3 May 2027; the eighth, Daniel Knight, pleaded guilty in 2023 — status checked 25 Sep 2026 — https://www.justice.gov/criminal/criminal-vns/case/united-states-v-constantinescu-et-al
 - SEC Form 4 — General Instructions (filing deadline) — current — https://www.sec.gov/files/form4.pdf
 
 ## BFYP assets used (real product, no mockups)
@@ -90,7 +91,7 @@ A post can say “buying.” A Form 4 shows it. Follow filings, not followers �
 
 ## First comment (sources, optional)
 ```text
-Sources: SEC press release 2022-221 (14 Dec 2022) · U.S. Court of Appeals, 5th Cir., No. 24-20143 (indictment reinstated) (2 Oct 2025) · SEC Form 4 — General Instructions (filing deadline) (current)
+Sources: SEC press release 2022-221 (14 Dec 2022) · U.S. Court of Appeals, 5th Cir., No. 24-20143 (indictment reinstated) (2 Oct 2025) · U.S. DOJ — case page, United States v. Constantinescu et al. (S.D. Tex.): trial of the seven remaining defendants set for 3 May 2027; the eighth, Daniel Knight, pleaded guilty in 2023 (status checked 25 Sep 2026) · SEC Form 4 — General Instructions (filing deadline) (current)
 ```
 
 ## QC report
@@ -103,7 +104,7 @@ Sources: SEC press release 2022-221 (14 Dec 2022) · U.S. Court of Appeals, 5th 
 | Loudness | −14.2 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 4000 kb/s · 10.3 MB |
+| Bitrate / size | 3987 kb/s · 10.27 MB |
 | Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
 | Voice over the bed | 9.4 LU (gate ≥ 7) |

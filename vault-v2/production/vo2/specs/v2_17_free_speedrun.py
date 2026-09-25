@@ -16,7 +16,7 @@ SPEC = {
         {"at": 2.72, "until": 5.25, "text": "Markets, whales, smart money, research.", "cp": 0.08, "note": "items 01–04"},
         {"at": 6.25, "until": 7.95, "text": "A watchlist and alerts.", "note": "items 05–06"},
         {"at": 8.05, "until": 9.70, "text": "AI credits, every month.", "note": "items 07–08"},
-        {"at": 9.82, "until": 11.95, "text": "Exports, support. Ten out of ten.", "note": "items 09–10"},
+        {"at": 9.82, "until": 12.15, "text": "Export preview, support. Ten out of ten.", "note": "items 09–10"},
         {"at": 12.25, "until": 15.80, "text": "Don't take my word for it. It's on the pricing page.", "note": "écran réel Pricing (23 Sep 2026)"},
         {"at": 16.25, "until": 20.30, "text": "Start free, at BetterForYourPocket.com", "note": "carte CTA"},
     ],

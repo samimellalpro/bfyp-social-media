@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-23_same_score-6affc62dc1.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 7.57 MB |
+| Reel (final) | `V2-23_same_score-0932e99823.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 7.72 MB |
 | Cover | `V2-23_same_score_cover-a54c4a3ee3.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · Spot the difference (split screen) |
 | Music | Original, synthesized for this reel: synthwave · 106 BPM · C minor (no samples, no licensed audio) |
@@ -89,10 +89,10 @@ Read the badge, not just the number → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.40 s |
-| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
+| Loudness | −14.1 LUFS integrated (target −14) · true peak −1.5 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 2969 kb/s · 7.57 MB |
+| Bitrate / size | 3027 kb/s · 7.72 MB |
 | Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
 | Voice over the bed | 9.4 LU (gate ≥ 7) |

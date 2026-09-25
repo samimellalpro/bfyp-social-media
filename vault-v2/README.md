@@ -1,8 +1,10 @@
-# BFYP VAULT V2 — 30 Reels, READY
+# BFYP VAULT V2 — 30 Reels, LOCKED · V2 CLOSED 🔒
 
 New stock of 30 Instagram/TikTok-style Reels for BetterForYourPocket, to be published **after 30 Sep 2026**. Nothing here is scheduled: the Buffer queue, `public/social/buffer/` and any planned distribution were not touched.
 
-**Status: 30/30 READY** · 30/30 with a directed English voice-over (BFYP-K2: 15 female / 15 male, 6 voices, see below) · 30 EN · 20.0–28.4 s · −14.5 to −14.1 LUFS · true peak ≤ −1.30 dBTP · 293 MB total
+**Status: 🔒 LOCKED — V2 CLOSED on 2026-09-25.** No new render, re-mix or repackaging without Sami's explicit request. The final double red team (aesthetic + accuracy) is in [`RED-TEAM.md`](RED-TEAM.md); every file's sha256 is in [`LOCK.md`](LOCK.md) and `manifest.json`.
+
+**30/30 LOCKED** · 30/30 with a directed English voice-over (BFYP-K2: 15 female / 15 male, 6 voices, see below) · 30 EN · 20.0–28.4 s · −14.5 to −14.1 LUFS · true peak ≤ −1.30 dBTP · 294 MB total
 
 Every reel follows **problem → why it hurts → proof → BFYP solution → CTA**, uses only real BFYP screens (captured 23 Sep 2026, capture time stamped on screen), cites verifiable external sources where it uses any outside fact, and ends on the CTA plus “Educational market data. Not financial advice.”
 
@@ -55,6 +57,24 @@ File names are content-addressed (`-<first 10 hex of sha256>`), like the rest of
 
 Lots: **1** Proof over posts · **2** Your research stack is broken · **3** Bad market habits.
 
+## Final red team and lock (2026-09-25)
+
+Before the lock, all 30 reels went through a last double red team: **RT1 aesthetic calibration** (contact sheets, full-size zooms on every product screen and spotlight, voice naturalness/intelligibility/sync, text-safety audit) and **RT2 accuracy** (every figure, date, quote, filing and outside claim re-checked; time-sensitive facts re-verified online on 2026-09-25; every BFYP demo checked against its capture; plan claims against the Pricing captures). Only real defects were fixed; a reel that passed both was not touched.
+
+- **21 reels PASS/PASS**, untouched: video, cover and sheet are byte-identical to before the red team.
+- **9 reels fixed, then re-checked (all PASS)**:
+  - V2-02 (data): On-screen note said “Allegations are unproven”; one of the eight (Daniel Knight) pleaded guilty on 27 Mar 2023. Now: “As alleged by the SEC. The related criminal case is pending.” (trial of the other seven set for 3 May 2027). Re-rendered.
+  - V2-08 (aesthetic): Sami: the voice must be more ambitious and energetic. Same voice (K2-M1), faster delivery (×1.14) with exclamations; words unchanged. VO rebuilt and remixed; video identical.
+  - V2-11 (aesthetic): Sami: the reel that needs the most energy, dings, solution and a “You know what?”. VO rewritten around a “You know what?” pivot before the drop, faster (×1.14) and exclamatory; 6 new dings (rising on the 5 steps) + a chime on “Sources attached”. Audio-only; video identical.
+  - V2-15 (data): VO “It can't see your screen.” overstated what chatbots cannot do (some can see a shared screen). Now: “It has no context.” VO rebuilt and remixed; video identical.
+  - V2-17 (data): VO “Exports” overstated the free plan, which lists “CSV export preview (100 rows)”. Now: “Export preview, support. Ten out of ten.” VO rebuilt and remixed; video identical.
+  - V2-19 (aesthetic): Sami: calibration error from the start. The 3rd Form 144 box sat under its row, the boxes cut through the dates, and “Insiders dumping?” landed on the list during the camera punch. Region recalibrated on the capture, boxes widened to clear the dates, question moved under the card. Quote source (C&DI 131.01) re-verified and added to the sheet. Re-rendered.
+  - V2-22 (data): VO “Both big.” claimed both wallets are large; nothing on screen shows their size. Now: “Same board. Different game.” VO rebuilt and remixed; video identical.
+  - V2-23 (aesthetic): Wallet #6 pane showed a cut “)%” at its left edge and the source card's border plus an empty strip at its right edge. Both edges masked with the card's own colour (#0d1714). Re-rendered.
+  - V2-30 (aesthetic): The “ORIGINAL FILING” spotlight ran on into “Holdings reflect…”. Region recalibrated to end after “filing).” with a tighter ring. Re-rendered.
+- **Sami's review-page notes**: V2-11 and V2-19 (À CORRIGER) and the V2-08 voice note were fixed as above. The V2-06 note came with a VALIDÉ verdict and was kept. “À poster ASAP” on V2-17 was not acted on: nothing is published from this vault before 30 Sep 2026.
+- **SHA-256**: the 30 videos and 30 covers were re-hashed and match `manifest.json`; 21 videos and all 30 covers are unchanged since the pre-red-team package. `python3 production/engine/lock_vault.py verify` re-checks them, and `production/engine/package.py` refuses to repackage the locked vault.
+
 ## Review page
 
 The final review runs on a private claude.ai page that plays the 30 VO reels on a phone and records a VALIDÉ / À CORRIGER verdict and a note per reel (voice, gender and direction shown for each). `review.html` is the same review for a local checkout of this branch: it loads the videos and covers from `READY/` next to it, and its verdicts stay in the browser (text recap or JSON export).
@@ -85,7 +105,7 @@ Every reel now carries an English voice-over written and directed for that reel.
 | K2-M3 · Brit | male | UK | `bm_george 0.6 + bm_fable 0.4` | British explainer, dry wit | 02, 04, 07, 19, 30 (5) |
 
 - **Karaoke reels (7)**: V2-13, 18, 19, 24, 27, 28 and 29 show their words on screen as they are spoken. They keep the same words in the same slots; only the voice, the delivery and the mix changed. Their end card already said “AI voice” and still does. The other reels were not given that mention: their visual edit is frozen.
-- **Frozen edits**: the video stream of every VO reel is bit-identical to the validated edit (stream MD5 compared). V2-30 is the one exception: it was converted to English (screens, cover, captions) before its voice was added.
+- **Frozen edits**: the video stream of every VO reel is bit-identical to its validated edit (stream MD5 compared). V2-30 was converted to English (screens, cover, captions) before its voice was added. The final red team re-rendered the edits of V2-02, V2-19, V2-23 and V2-30 to fix real defects (see RED-TEAM.md); their mixes copy the new edits bit for bit.
 - **QC gates, per reel**: on the isolated voice, speech recognition (Whisper small.en) recovers ≥ 97 % of the script, naturalness UTMOS ≥ 4.0 on average and ≥ 3.6 on every line, every line fits its window (karaoke: within ±4 % of its slot), no overlaps. On the final file, speech recognition on the full mix ≥ 0.95, voice ≥ 7 LU over the bed, −14 ±1 LUFS, true peak ≤ −1 dBTP, video identical.
 - **QC report**: `VO-QC.md`, one row per reel: naturalness, speech recognition on the voice and on the final mix, voice over the bed, loudness, true peak, identical video, lines landing on the edit, CTA timing, karaoke slot error.
 - **Rebuild a voice**: edit `production/vo2/specs/<reel>.py`, then `engine/vo2.py build <reel>`, `engine/vo2.py mix <reel> <out.mp4>` and `engine/vo2.py qc <reel> <out.mp4>`.
@@ -110,14 +130,14 @@ Every reel now carries an English voice-over written and directed for that reel.
 - **Quote accuracy:** every BFYP sentence shown as text was checked word for word against its capture. V2-04 showed a shortened line labelled “Verbatim”. It now shows BFYP’s exact footer, “Observed activity, as counted by BFYP. Nothing here is a prediction.”, with more time on screen (the reel went from 20.6 to 22.0 s). Four sheets listed a screen the reel never shows; the lists now match what is on screen.
 - **Keyframe audit:** repeated opacity keyframes on the same element are merged by the engine. In V2-04 and V2-05 this made a screen caption fade back in after its screen had left. Both were fixed. A new check (`engine/audit_k.py`) lists every such overlap, and the rest are intentional.
 - **Audio:** after AAC encoding, 4 reels had a true peak above −1 dBTP, and `-shortest` muxing clipped the tail on 3. The mux was rebuilt (exact duration + encoded-peak guard) and all 30 reels were remastered and re-verified.
-- **Fact precision:** the Dow drop is shown as “~140 points” because sources give 130–145. V2-02 says “allegations · criminal case pending” (dismissed in March 2024, reinstated by the 5th Circuit in October 2025). FinanceBench is labelled “one test setup, 2023 models”. Plan wording matches the pricing page verbatim, e.g. “(= 7 reports)”.
+- **Fact precision:** the Dow drop is shown as “~140 points” because sources give 130–145. V2-02 says “allegations · criminal case pending” and “As alleged by the SEC. The related criminal case is pending.” (one of the eight pleaded guilty in 2023; the indictment of the other seven was dismissed in March 2024, reinstated by the 5th Circuit in October 2025, trial set for May 2027). FinanceBench is labelled “one test setup, 2023 models”. Plan wording matches the pricing page verbatim, e.g. “(= 7 reports)”.
 
 ## Posting notes
 
 - Publish from **1 Oct 2026** onward. The screens are dated 23 Sep 2026 and the stamp says so, which suits the V2-29 “timestamps” message.
 - Suggested order, one per day. It mixes the lots and keeps similar reels at least two slots apart (Smart Money: 21/22/23/24 · Today: 04/12/25/26/27/29 · AI: 03/15/16/20 · pricing: 05/16/17 · ETF: 07/10/18): V2-14 → V2-01 → V2-11 → V2-21 → V2-12 → V2-02 → V2-23 → V2-04 → V2-15 → V2-26 → V2-10 → V2-22 → V2-18 → V2-03 → V2-07 → V2-27 → V2-16 → V2-19 → V2-24 → V2-05 → V2-13 → V2-25 → V2-09 → V2-17 → V2-28 → V2-08 → V2-20 → V2-29 → V2-06 → V2-30.
 - For reels that cite outside facts, the sheet has an optional first comment listing the sources.
-- Pricing and plan details are as of 23 Sep 2026. Re-check `/pricing` before posting V2-05, V2-16 and V2-17.
+- Pricing and plan details are as of 23 Sep 2026 (re-checked against the Pricing captures on 25 Sep 2026; a live check was not possible because the production environment cannot reach the site). Re-check `/pricing` before posting V2-05, V2-16 and V2-17.
 
 ## Reproduce / edit
 

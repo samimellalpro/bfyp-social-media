@@ -63,7 +63,7 @@ realScreen('s4_card', 'spy_note', { parent: 's4', w: 940, x: 70, y: 700 });
 K('s4_h', 'o', [[b(35.5), 1, 'linear'], [b(35.5) + 0.2, 0, 'linear']]);
 tour('s4_card', [
   { r: REG.spy_note.asfiled, key: 'ORIGINAL FILING', text: 'N-PORT filed with the SEC', t0: b(35.5), t1: b(41.8), s: 1.45 },
-], { cy: 1000, fit: 900, maxS: 1.5, callY: 330 });
+], { cy: 1000, fit: 900, maxS: 1.5, callY: 330, pad: 9.5 });
 screenCaption('s4_cap', 'spy_note');
 K('s4_cap', 'o', [[b(35.5), 0, 'linear'], [b(35.7), 1, 'linear'], [b(41.8), 1, 'linear'], [b(42), 0, 'linear']]);
 shotOut('s4', b(42) - 0.12, 'zoom', 0.22);

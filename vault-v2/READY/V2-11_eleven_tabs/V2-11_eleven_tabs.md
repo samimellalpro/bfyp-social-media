@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-11_eleven_tabs-726e64a0b7.mp4` — 21.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.57 MB |
+| Reel (final) | `V2-11_eleven_tabs-6d954d573c.mp4` — 21.00 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 10.57 MB |
 | Cover | `V2-11_eleven_tabs_cover-ee9419ff4f.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · POV tab chaos → one-flow montage |
 | Music | Original, synthesized for this reel: techhouse · 128 BPM · G minor (no samples, no licensed audio) |
@@ -25,31 +25,31 @@ Fragmented research wastes time and still misses what changed. One workflow, sou
 6. CTA — 'Close 10 tabs.'
 
 ## Voice direction (FR)
-- **Intention** : Frustration familière, puis soulagement : un seul parcours au lieu de onze onglets.
-- **Interprétation** : Conversationnel, comme un ami qui est passé par là. Un peu agacé sur le hook, puis détendu et sûr de lui.
-- **Rythme** : Vif (environ 3,4 mots/s), phrases courtes calées sur les cuts du montage.
-- **Énergie** : Moyenne-haute sur le hook, détendue pendant le montage, enthousiaste sur le CTA.
-- **Pauses** : Micro-pause après « Eleven tabs ». Chaque ligne du montage démarre sur son whoosh.
-- **Accents** : « eleven tabs », « no clue », « one place », « receipts », « Keep one »
+- **Intention** : Frustration familière, puis la bascule « You know what? » et l'enthousiasme : un seul parcours au lieu de onze onglets.
+- **Interprétation** : Le Reel le plus énergique du lot (verdict de Sami, red team) : conversationnel mais survolté, un « You know what? » complice juste avant le drop, puis chaque étape annoncée comme une victoire, sur son ding.
+- **Rythme** : Très vif, phrases courtes calées sur les cuts du montage.
+- **Énergie** : Maximale : agacée sur le hook, explosive sur « One place! », triomphante sur le CTA.
+- **Pauses** : Un temps après « Still no clue what changed! » (buzzer), « You know what? » juste avant la coupure de la musique, puis le drop sur « One place! ».
+- **Accents** : « eleven tabs », « no clue », « You know what », « one place », « receipts », « Keep one »
 
 ## Voice-over (as rendered) — narration anchored to the edit (cuts, zooms, reveals, CTA)
 | start | end | line | lands on (note, FR) |
 |---:|---:|---|---|
-| 0.10 s | 1.59 s | One ticker. Eleven tabs. | hook while the tabs pile up |
-| 1.86 s | 2.68 s | You know the drill. | tabs keep piling |
-| 3.08 s | 4.42 s | Still no clue what changed. | '...and you still don't know what changed.' |
-| 4.82 s | 5.56 s | One place. | 'One workflow.' |
-| 5.74 s | 7.07 s | First: what changed today. | m0 Today |
-| 7.44 s | 8.38 s | Who moved the money. | m1 Whale Activity |
-| 9.12 s | 10.12 s | Any track record? | m2 Smart Money |
-| 10.82 s | 11.85 s | What was really filed. | m3 Stock pages |
-| 12.52 s | 13.92 s | Ask anything. Get receipts. | m4 AI Research |
-| 14.22 s | 15.35 s | Every step, sourced. | 'Every step. Sources attached.' |
-| 16.15 s | 19.48 s | Close ten tabs. Keep one. BetterForYourPocket.com | CTA |
+| 0.10 s | 1.54 s | One ticker. Eleven tabs! | hook while the tabs pile up |
+| 1.64 s | 2.86 s | Still no clue what changed! | tabs keep piling; ends as '...and you still don't know what changed.' lands (2.91 s) |
+| 3.60 s | 4.25 s | You know what? | pivot, just before the music stop (4.45-4.69 s) |
+| 4.80 s | 5.54 s | One place! | 'One workflow.' slam + ding |
+| 5.74 s | 6.95 s | First: what changed today! | m0 Today + ding |
+| 7.44 s | 8.35 s | Who moved the money! | m1 Whale Activity + ding |
+| 9.12 s | 10.12 s | Any track record? | m2 Smart Money + ding |
+| 10.82 s | 11.85 s | What was really filed! | m3 Stock pages + ding |
+| 12.52 s | 13.83 s | Ask anything. Get receipts! | m4 AI Research + ding |
+| 14.22 s | 15.32 s | Every step, sourced! | 'Sources attached. Every step.' + chime |
+| 16.15 s | 19.33 s | Close ten tabs. Keep one! BetterForYourPocket.com | CTA |
 
-Isolated-voice QC: ASR word match 0.979 (gate ≥ 0.97) · naturalness UTMOS mean 4.28 / min 4.07 (gates ≥ 4.0 / ≥ 3.6) · 3.37 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `c5f46abe3f156bde…`
+Isolated-voice QC: ASR word match 0.979 (gate ≥ 0.97) · naturalness UTMOS mean 4.27 / min 4.06 (gates ≥ 4.0 / ≥ 3.6) · 3.48 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `e3c50438f8e8ee2f…`
 
-Mix: dynamic ducking (music −10.8 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −8.8 dB, only while the voice speaks) · voice 8.8 LU over the bed (gate ≥ 7) · ASR on the final mix 0.979 (gate ≥ 0.95)
+Mix: dynamic ducking (music −11.7 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −9.7 dB, only while the voice speaks) · voice 8.3 LU over the bed (gate ≥ 7) · ASR on the final mix 0.979 (gate ≥ 0.95)
 
 ## Sources used (external, verified)
 - None needed: every claim in this reel is shown on the real BFYP screens below.
@@ -101,13 +101,13 @@ One workflow, sources attached → betterforyourpocket.com
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 21.00 s |
-| Loudness | −14.4 LUFS integrated (target −14) · true peak −1.5 dBTP (≤ −1) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−12 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 4025 kb/s · 10.57 MB |
+| Bitrate / size | 4024 kb/s · 10.57 MB |
 | Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 0.979 (gate ≥ 0.95) |
-| Voice over the bed | 8.8 LU (gate ≥ 7) |
+| Voice over the bed | 8.3 LU (gate ≥ 7) |
 | All gates | **PASS** |
 
 ### Editorial
@@ -120,7 +120,7 @@ One workflow, sources attached → betterforyourpocket.com
 - [x] Text-safety audit (browser layout checked every 0.1 s): no text leaves the frame and none sits under the right-hand Reels buttons
 - [x] Distinct angle and distinct BFYP payoff within the vault
 - [x] End card: CTA + “Educational market data. Not financial advice.”
-- [x] Sound: original music + sound design (click×10, hit×7, whoosh×6, impact×2, wrong×1, riser×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, male)
+- [x] Sound: original music + sound design (click×10, hit×7, ding×6, whoosh×6, impact×2, wrong×1, riser×1, chime×1, pop×1, sparkle×1) + directed voice-over (BFYP-K2, male)
 - [x] Voice-over complements the picture instead of reading the on-screen text
 
 **Verdict: READY**

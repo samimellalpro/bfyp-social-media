@@ -4,7 +4,7 @@ import json
 import os
 
 VAULT = "/home/user/bfyp-social-media/vault-v2"
-M = json.load(open(os.path.join(VAULT, "manifest.json")))
+MAN = M = json.load(open(os.path.join(VAULT, "manifest.json")))
 R = M["reels"]
 
 lots = {1: "Proof over posts", 2: "Your research stack is broken", 3: "Bad market habits"}
@@ -21,10 +21,14 @@ size = sum(r["size_mb"] for r in R)
 M = lambda v, f: format(v, f).replace("-", "−")  # true minus sign
 
 L = []
-L.append("# BFYP VAULT V2 — 30 Reels, READY\n")
+LOCKED = MAN.get("status") == "LOCKED"
+L.append("# BFYP VAULT V2 — 30 Reels, " + ("LOCKED · V2 CLOSED 🔒\n" if LOCKED else "READY\n"))
 L.append("New stock of 30 Instagram/TikTok-style Reels for BetterForYourPocket, to be published **after 30 Sep 2026**. "
          "Nothing here is scheduled: the Buffer queue, `public/social/buffer/` and any planned distribution were not touched.\n")
-L.append(f"**Status: {sum(1 for r in R if r['status'] == 'READY')}/30 READY** · 30/30 with a directed English voice-over (BFYP-K2: {n_f} female / {30 - n_f} male, {len(voices)} voices, see below) · "
+if LOCKED:
+    L.append(f"**Status: 🔒 LOCKED — V2 CLOSED on {MAN['locked']}.** No new render, re-mix or repackaging without Sami's explicit request. "
+             "The final double red team (aesthetic + accuracy) is in [`RED-TEAM.md`](RED-TEAM.md); every file's sha256 is in [`LOCK.md`](LOCK.md) and `manifest.json`.\n")
+L.append(f"**{sum(1 for r in R if r['status'] in ('READY', 'LOCKED'))}/30 {'LOCKED' if LOCKED else 'READY'}** · 30/30 with a directed English voice-over (BFYP-K2: {n_f} female / {30 - n_f} male, {len(voices)} voices, see below) · "
          f"30 EN · {min(dur):.1f}–{max(dur):.1f} s · {M(min(lu), '.1f')} to {M(max(lu), '.1f')} LUFS · true peak ≤ {M(max(tp), '.2f')} dBTP · {size:.0f} MB total\n")
 L.append("Every reel follows **problem → why it hurts → proof → BFYP solution → CTA**, uses only real BFYP screens "
          "(captured 23 Sep 2026, capture time stamped on screen), cites verifiable external sources where it uses any outside fact, "
@@ -48,6 +52,22 @@ for r in R:
     L.append(f"| {r['id']} | [{r['title']}]({r['sheet']}) | {r['lot']} | {fmt} | {r['duration_s']:.1f} s | {r['hook']} |")
 L.append("")
 L.append("Lots: " + " · ".join(f"**{k}** {v}" for k, v in lots.items()) + ".\n")
+if LOCKED:
+    RTM = MAN["red_team"]
+    L.append(f"## Final red team and lock ({RTM['date']})\n")
+    L.append("Before the lock, all 30 reels went through a last double red team: **RT1 aesthetic calibration** (contact sheets, full-size zooms on every product screen and spotlight, "
+             "voice naturalness/intelligibility/sync, text-safety audit) and **RT2 accuracy** (every figure, date, quote, filing and outside claim re-checked; time-sensitive facts re-verified online on "
+             f"{RTM['date']}; every BFYP demo checked against its capture; plan claims against the Pricing captures). Only real defects were fixed; a reel that passed both was not touched.\n")
+    L.append(f"- **{30 - len(RTM['fixed_and_rechecked'])} reels PASS/PASS**, untouched: video, cover and sheet are byte-identical to before the red team.")
+    L.append(f"- **{len(RTM['fixed_and_rechecked'])} reels fixed, then re-checked (all PASS)**:")
+    for r in R:
+        if r["red_team"]["fixed"]:
+            what = "aesthetic" if r["red_team"]["aesthetic"] == "FAIL" else "data"
+            L.append(f"  - {r['id']} ({what}): {r['red_team']['fix']}")
+    L.append("- **Sami's review-page notes**: V2-11 and V2-19 (À CORRIGER) and the V2-08 voice note were fixed as above. The V2-06 note came with a VALIDÉ verdict and was kept. "
+             "“À poster ASAP” on V2-17 was not acted on: nothing is published from this vault before 30 Sep 2026.")
+    L.append("- **SHA-256**: the 30 videos and 30 covers were re-hashed and match `manifest.json`; 21 videos and all 30 covers are unchanged since the pre-red-team package. "
+             "`python3 production/engine/lock_vault.py verify` re-checks them, and `production/engine/package.py` refuses to repackage the locked vault.\n")
 L.append("## Review page\n")
 L.append("The final review runs on a private claude.ai page that plays the 30 VO reels on a phone and records a VALIDÉ / À CORRIGER verdict and a note per reel "
          "(voice, gender and direction shown for each). `review.html` is the same review for a local checkout of this branch: it loads the videos and covers from `READY/` next to it, "
@@ -84,7 +104,8 @@ for vid, v in sorted(seen.items()):
 L.append("")
 L.append(f"- **Karaoke reels ({n_k})**: V2-13, 18, 19, 24, 27, 28 and 29 show their words on screen as they are spoken. They keep the same words in the same slots; only the voice, the delivery and the mix changed. "
          "Their end card already said “AI voice” and still does. The other reels were not given that mention: their visual edit is frozen.")
-L.append("- **Frozen edits**: the video stream of every VO reel is bit-identical to the validated edit (stream MD5 compared). V2-30 is the one exception: it was converted to English (screens, cover, captions) before its voice was added.")
+L.append("- **Frozen edits**: the video stream of every VO reel is bit-identical to its validated edit (stream MD5 compared). V2-30 was converted to English (screens, cover, captions) before its voice was added. "
+         "The final red team re-rendered the edits of V2-02, V2-19, V2-23 and V2-30 to fix real defects (see RED-TEAM.md); their mixes copy the new edits bit for bit.")
 L.append("- **QC gates, per reel**: on the isolated voice, speech recognition (Whisper small.en) recovers ≥ 97 % of the script, naturalness UTMOS ≥ 4.0 on average and ≥ 3.6 on every line, every line fits its window "
          "(karaoke: within ±4 % of its slot), no overlaps. On the final file, speech recognition on the full mix ≥ 0.95, voice ≥ 7 LU over the bed, −14 ±1 LUFS, true peak ≤ −1 dBTP, video identical.")
 L.append("- **QC report**: `VO-QC.md`, one row per reel: naturalness, speech recognition on the voice and on the final mix, voice over the bed, loudness, true peak, identical video, lines landing on the edit, CTA timing, karaoke slot error.")
@@ -129,8 +150,8 @@ L.append("- **Keyframe audit:** repeated opacity keyframes on the same element a
          "Both were fixed. A new check (`engine/audit_k.py`) lists every such overlap, and the rest are intentional.")
 L.append("- **Audio:** after AAC encoding, 4 reels had a true peak above −1 dBTP, and `-shortest` muxing clipped the tail on 3. "
          "The mux was rebuilt (exact duration + encoded-peak guard) and all 30 reels were remastered and re-verified.")
-L.append("- **Fact precision:** the Dow drop is shown as “~140 points” because sources give 130–145. V2-02 says “allegations · criminal case pending” "
-         "(dismissed in March 2024, reinstated by the 5th Circuit in October 2025). FinanceBench is labelled “one test setup, 2023 models”. Plan wording matches the pricing page verbatim, e.g. “(= 7 reports)”.\n")
+L.append("- **Fact precision:** the Dow drop is shown as “~140 points” because sources give 130–145. V2-02 says “allegations · criminal case pending” and “As alleged by the SEC. The related criminal case is pending.” "
+         "(one of the eight pleaded guilty in 2023; the indictment of the other seven was dismissed in March 2024, reinstated by the 5th Circuit in October 2025, trial set for May 2027). FinanceBench is labelled “one test setup, 2023 models”. Plan wording matches the pricing page verbatim, e.g. “(= 7 reports)”.\n")
 L.append("## Posting notes\n")
 L.append("- Publish from **1 Oct 2026** onward. The screens are dated 23 Sep 2026 and the stamp says so, which suits the V2-29 “timestamps” message.")
 ORDER = ["V2-14", "V2-01", "V2-11", "V2-21", "V2-12", "V2-02", "V2-23", "V2-04", "V2-15", "V2-26", "V2-10", "V2-22", "V2-18", "V2-03", "V2-07",
@@ -138,7 +159,8 @@ ORDER = ["V2-14", "V2-01", "V2-11", "V2-21", "V2-12", "V2-02", "V2-23", "V2-04",
 L.append("- Suggested order, one per day. It mixes the lots and keeps similar reels at least two slots apart "
          "(Smart Money: 21/22/23/24 · Today: 04/12/25/26/27/29 · AI: 03/15/16/20 · pricing: 05/16/17 · ETF: 07/10/18): " + " → ".join(ORDER) + ".")
 L.append("- For reels that cite outside facts, the sheet has an optional first comment listing the sources.")
-L.append("- Pricing and plan details are as of 23 Sep 2026. Re-check `/pricing` before posting V2-05, V2-16 and V2-17.\n")
+L.append("- Pricing and plan details are as of 23 Sep 2026 (re-checked against the Pricing captures on 25 Sep 2026; a live check was not possible because the production environment cannot reach the site). "
+         "Re-check `/pricing` before posting V2-05, V2-16 and V2-17.\n")
 L.append("## Reproduce / edit\n")
 L.append("`production/` contains the engine (`engine/`: renderer, motion + component library, synth/DSP music engine, directed VO `vo2.py`, QC, packaging), "
          "the 30 scene scripts (`reels/`), the karaoke caption timings (`reels/*.vo.json`), the directed voice-over scripts (`vo2/specs/`) and edit maps (`vo2/maps/`), the slate with scripts and captions (`plan/plan.py`), "

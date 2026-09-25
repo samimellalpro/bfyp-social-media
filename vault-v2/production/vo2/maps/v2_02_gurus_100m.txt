@@ -34,7 +34,7 @@
   6.40  TXT [6.4-8.3] Without telling
   6.40  TXT [6.4-8.3] their followers.
   6.40  TXT [6.4-8.3] …then sold.
-  6.90  txt [6.9-8.3] As alleged by the SEC. Allegations are unproven; the criminal case is pending.
+  6.90  txt [6.9-8.3] As alleged by the SEC. The related criminal case is pending.
   8.18  --- CUT s4 (zoomIn)
   8.18  sfx hit
   8.30  TXT [8.3-10.5] A post can say

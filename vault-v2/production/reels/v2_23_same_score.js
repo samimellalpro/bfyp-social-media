@@ -27,6 +27,7 @@ shot('s2'); shotIn('s2', b(4), 'zoomIn', 0.35);
 mk('s2_eb', { parent: 's2', x: 72, y: 250, o: 1, html: '<div class="eyebrow">Two real rows · Smart Money</div>' });
 mk('s2_la', { parent: 's2', x: 72, y: 330, o: 1, html: '<div class="h4">Wallet #6</div>' });
 paneCrop('s2_A', 'sm_rows_678', [435, 100, 450, 88], 60, 410, 960, 190, { parent: 's2', scale: 2.13 });
+mk('s2_Am', { parent: 's2_A', x: 0, y: 0, w: 960, h: 190, o: 1, style: { borderRadius: '28px', background: 'linear-gradient(90deg,#0d1714 0,#0d1714 64px,rgba(13,23,20,0) 88px,rgba(13,23,20,0) 884px,#0d1714 904px,#0d1714 100%)' } });  // hide the cut '0%' (left) and the card edge (right)
 mk('s2_lb', { parent: 's2', x: 72, y: 680, o: 1, html: '<div class="h4">Wallet #7</div>' });
 paneCrop('s2_B', 'sm_rows_678', [380, 296, 450, 89], 60, 760, 960, 190, { parent: 's2', scale: 2.13 });
 appear('s2_A', b(4.2), { dy: 60 }); appear('s2_B', b(5), { dy: 60 });

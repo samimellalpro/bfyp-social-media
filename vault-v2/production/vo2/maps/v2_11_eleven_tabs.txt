@@ -20,10 +20,12 @@
   4.69  --- CUT s2 (zoomIn)
   4.69  sfx impact
   4.69  sfx riser
+  4.71  sfx ding
   4.80  TXT [4.8-5.7] One
   4.80  TXT [4.8-5.7] workflow.
   5.62  --- CUT m0 (right)
   5.62  sfx whoosh
+  5.64  sfx ding
   5.67  sfx hit
   5.70  TXT [5.7-7.6] Today
   5.70  TXT [5.7-7.6] What changed
@@ -31,6 +33,7 @@
   5.70  txt [5.7-7.6] CAPTURED 23 SEP 2026 · 22:14 UTC
   7.31  --- CUT m1 (left)
   7.31  sfx whoosh
+  7.33  sfx ding
   7.36  sfx hit
   7.40  TXT [7.4-9.3] Whale Activity
   7.40  TXT [7.4-9.3] Who moved
@@ -38,6 +41,7 @@
   7.40  txt [7.4-9.3] CAPTURED 23 SEP 2026 · 21:38 UTC
   9.00  --- CUT m2 (right)
   9.00  sfx whoosh
+  9.02  sfx ding
   9.05  sfx hit
   9.10  TXT [9.1-11.0] Smart Money
   9.10  TXT [9.1-11.0] Who has a record
@@ -49,9 +53,11 @@
  10.70  TXT [10.7-12.7] What was filed
  10.70  txt [10.7-12.6] 04 / 05
  10.70  txt [10.7-12.7] CAPTURED 23 SEP 2026 · 21:39 UTC
+ 10.71  sfx ding
  10.74  sfx hit
  12.38  --- CUT m4 (right)
  12.38  sfx whoosh
+ 12.39  sfx ding
  12.40  TXT [12.4-14.3] Ask, with receipts
  12.40  txt [12.4-14.3] CAPTURED 23 SEP 2026 · 21:39 UTC
  12.43  sfx hit

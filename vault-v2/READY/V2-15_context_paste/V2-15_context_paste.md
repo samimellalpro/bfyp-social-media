@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-15_context_paste-0047da52ec.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.47 MB |
+| Reel (final) | `V2-15_context_paste-07a26a4e61.mp4` — 20.60 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 9.47 MB |
 | Cover | `V2-15_context_paste_cover-0dec48ac91.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · Chat illustration → Ask BFYP about this |
 | Music | Original, synthesized for this reel: amapiano · 115 BPM · Eb minor (no samples, no licensed audio) |
@@ -37,14 +37,14 @@ Generic chatbots lack context; you re-explain every time. On BFYP the asset come
 |---:|---:|---|---|
 | 0.12 s | 1.93 s | Every new chat, the same ritual. | hook : saisie du long prompt (illustration) |
 | 2.12 s | 3.76 s | Explain it all. Again. | le prompt continue de s'écrire |
-| 4.30 s | 5.50 s | It can't see your screen. | « Your chatbot doesn't know what you're looking at. » |
+| 4.30 s | 5.58 s | It has no context. | « Your chatbot doesn't know what you're looking at. » |
 | 5.95 s | 7.32 s | So it's back to square one. | « So you rebuild the context. Every time. » |
 | 8.55 s | 10.98 s | Here, it opens with the fund already loaded. | écran réel · zoom ALREADY IN CONTEXT (SPY) |
 | 11.25 s | 12.89 s | It even suggests questions. | zoom SUGGESTED |
 | 13.35 s | 14.64 s | Then it waits for yours. | zoom YOUR CALL · « Nothing sent, no credits, until you ask » |
 | 16.40 s | 19.45 s | Skip the copy-paste. BetterForYourPocket.com | carte CTA |
 
-Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.44 / min 4.4 (gates ≥ 4.0 / ≥ 3.6) · 3.4 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `a530dfe0fd856289…`
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.45 / min 4.42 (gates ≥ 4.0 / ≥ 3.6) · 3.31 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `5d549f666e3f2d91…`
 
 Mix: dynamic ducking (music −10.0 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −7.0 dB, only while the voice speaks) · voice 8.9 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 

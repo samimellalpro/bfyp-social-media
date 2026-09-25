@@ -14,7 +14,7 @@ SPEC = {
     "lines": [
         {"at": 0.12, "until": 1.95, "text": "Every new chat, the same ritual.", "note": "hook : saisie du long prompt (illustration)"},
         {"at": 2.12, "until": 3.98, "text": "Explain it all. Again.", "speed": 0.94, "note": "le prompt continue de s'écrire"},
-        {"at": 4.30, "until": 5.78, "text": "It can't see your screen.", "note": "« Your chatbot doesn't know what you're looking at. »"},
+        {"at": 4.30, "until": 5.78, "text": "It has no context.", "note": "« Your chatbot doesn't know what you're looking at. »"},
         {"at": 5.95, "until": 8.15, "text": "So it's back to square one.", "note": "« So you rebuild the context. Every time. »"},
         {"at": 8.55, "until": 11.05, "text": "Here, it opens with the fund already loaded.", "note": "écran réel · zoom ALREADY IN CONTEXT (SPY)"},
         {"at": 11.25, "until": 13.15, "text": "It even suggests questions.", "note": "zoom SUGGESTED"},

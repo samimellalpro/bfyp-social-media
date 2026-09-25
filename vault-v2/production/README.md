@@ -2,6 +2,8 @@
 
 Everything needed to re-render or edit the 30 Reels in `../READY/`.
 
+**Vault V2 is LOCKED (V2 CLOSED, 25 Sep 2026): no new render, re-mix or repackaging without Sami's explicit request.** `engine/package.py` refuses to repackage while `../LOCK.md` exists (override `BFYP_UNLOCK_V2=1`, only on that request). `python3 engine/lock_vault.py verify` re-hashes the 30 videos and 30 covers against `../manifest.json`.
+
 ## Layout
 - `engine/render_v2.py` — renderer: scene script (`reels/*.js`) → frames (headless Chromium, 30 fps, adaptive motion blur, dither) → H.264; audio (music + SFX + optional VO) → master (−14 LUFS, encoded true peak ≤ −1 dBTP) → MP4 + cover PNG.
 - `engine/web/` — `brand.css` (BFYP tokens: #080e0d background, #17b58a green, Inter + Geist Mono), `motion.js` (deterministic keyframe engine), `components.js` (real-screen frames, capture stamps, spotlight tours, callouts, quote cards, CTA card, karaoke captions, covers).
@@ -10,6 +12,7 @@ Everything needed to re-render or edit the 30 Reels in `../READY/`.
 - `engine/edit_map.py` — edit map of a reel (cuts, text reveals, zooms, sound cues, CTA) → `vo2/maps/<reel>.txt`, used to anchor each voice line. `engine/make_karaoke_specs.py` — specs of the 7 karaoke reels from their caption timings (same words, same slots). `engine/vo_cast.py` — the voice casting (UTMOS).
 - `engine/vo.py` — voice QC helpers (pronunciation map, Whisper small.en word match via sherpa-onnx, F0) and the original “BFYP-K1” builder that set the karaoke caption timings (`reels/*.vo.json`).
 - `engine/qc.py` — technical QC gates. `engine/audit_text.py` — text-safety audit: browser layout checked every 0.1 s, flags text off-frame or under the right-hand Reels buttons. `engine/audit_k.py` — lists opacity keyframes that overlap on one element (the engine merges them). `engine/package.py`, `engine/make_readme.py`, `engine/overview.py` and `engine/make_review.py` — vault packaging, README, covers overview and the local review page (`review.html`).
+- `engine/lock_vault.py` — verifies every deliverable against `manifest.json` and writes the lock (`LOCK.md` + lock and red-team fields in the manifest). `plan/redteam.py` — the final red-team verdict of each reel (aesthetic / data) and the fix applied; the report is `../RED-TEAM.md`.
 - `reels/v2_XX_slug.js` — one scene script per Reel (timeline in beats); `reels/*.vo.json` — caption timings of the 7 karaoke reels (the words and slots the voice keeps).
 - `vo2/specs/*.py` — the 30 voice-over scripts and directions; `vo2/maps/*.txt` — the 30 edit maps; `vo2/SpeechMOS/speechmos_utmos.py` — loader for the UTMOS22 strong naturalness model (MIT; code from tarepan/SpeechMOS, weights `utmos22_strong_step7459_v1.pt` from its v1.0.0 GitHub release).
 - `plan/plan.py` — slate: angles, scripts, captions (IG/X), hashtags, CTA, sources.

@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Reel (final) | `V2-17_free_speedrun-441ab26ea0.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 8.12 MB |
+| Reel (final) | `V2-17_free_speedrun-4460acddce.mp4` — 20.40 s · 1080×1920 · 30 fps · H.264 High · AAC 48 kHz stereo · 8.12 MB |
 | Cover | `V2-17_free_speedrun_cover-6478c0f226.png` — 1080×1920 (key text inside the 3:4 grid-safe area) |
 | Format | Directed voice-over over the text-led edit · Speed-run checklist |
 | Music | Original, synthesized for this reel: futurebass · 150 BPM · E major (no samples, no licensed audio) |
@@ -37,11 +37,11 @@ The free plan, listed exactly as the pricing page lists it, in 15 seconds.
 | 2.72 s | 4.84 s | Markets, whales, smart money, research. | items 01–04 |
 | 6.25 s | 7.58 s | A watchlist and alerts. | items 05–06 |
 | 8.05 s | 9.66 s | AI credits, every month. | items 07–08 |
-| 9.82 s | 11.85 s | Exports, support. Ten out of ten. | items 09–10 |
+| 9.82 s | 12.14 s | Export preview, support. Ten out of ten. | items 09–10 |
 | 12.25 s | 15.18 s | Don't take my word for it. It's on the pricing page. | écran réel Pricing (23 Sep 2026) |
 | 16.25 s | 18.72 s | Start free, at BetterForYourPocket.com | carte CTA |
 
-Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.45 / min 4.4 (gates ≥ 4.0 / ≥ 3.6) · 3.39 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `714e2adae0d20e93…`
+Isolated-voice QC: ASR word match 1.000 (gate ≥ 0.97) · naturalness UTMOS mean 4.44 / min 4.37 (gates ≥ 4.0 / ≥ 3.6) · 3.39 words/s while speaking · every line inside its window → **PASS**. VO file sha256 `2eeba68192388c5c…`
 
 Mix: dynamic ducking (music −8.6 dB, extra −4.0 dB carve at 1–4.5 kHz, SFX −6.6 dB, only while the voice speaks) · voice 8.5 LU over the bed (gate ≥ 7) · ASR on the final mix 1.000 (gate ≥ 0.95)
 
@@ -99,10 +99,10 @@ $0/month on BFYP: whale feed, Smart Money leaderboard, token/stock/ETF pages, 52
 | Container / codecs | MP4 (faststart) · h264 High · yuv420p · aac 48000 Hz stereo |
 | Resolution / fps | 1080×1920 · 30 fps |
 | Duration | 20.40 s |
-| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.5 dBTP (≤ −1) |
+| Loudness | −14.2 LUFS integrated (target −14) · true peak −1.6 dBTP (≤ −1) |
 | Hook audio | sound from frame 0 (−11 dB RMS in the first 300 ms) |
 | Tail | clean fade (last sample 0.0) |
-| Bitrate / size | 3185 kb/s · 8.12 MB |
+| Bitrate / size | 3184 kb/s · 8.12 MB |
 | Video stream | bit-identical to the validated edit (stream MD5 compared) — yes |
 | Voice intelligibility on the final mix | ASR word match 1.000 (gate ≥ 0.95) |
 | Voice over the bed | 8.5 LU (gate ≥ 7) |
